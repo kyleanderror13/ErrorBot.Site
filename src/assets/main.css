@@ -86,3 +86,12 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: var(--brand-purple);
 }
+
+.p-datatable-column-resizer {
+  border-right: 2px solid transparent;
+  cursor: col-resize;
+}
+
+.p-datatable-resizable-column:hover .p-datatable-column-resizer {
+  background-color: var(--brand-purple);
+}

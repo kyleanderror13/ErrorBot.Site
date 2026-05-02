@@ -1,16 +1,6219 @@
 {
   "games": [
-    { "id": "g001", "title": "Elden Ring", "platform": "PC", "completionStatus": "completed", "genre": "Action RPG", "releaseYear": 2022, "hoursPlayed": 240, "rating": 10 },
-    { "id": "g002", "title": "Dark Souls III", "platform": "PC", "completionStatus": "completed", "genre": "Action RPG", "releaseYear": 2016, "hoursPlayed": 180, "rating": 9 },
-    { "id": "g003", "title": "Sekiro: Shadows Die Twice", "platform": "PC", "completionStatus": "in-progress", "genre": "Action", "releaseYear": 2019, "hoursPlayed": 95, "rating": 9 },
-    { "id": "g004", "title": "Baldur's Gate 3", "platform": "PC", "completionStatus": "in-progress", "genre": "RPG", "releaseYear": 2023, "hoursPlayed": 60, "rating": 9 },
-    { "id": "g005", "title": "Hollow Knight", "platform": "Nintendo Switch", "completionStatus": "completed", "genre": "Metroidvania", "releaseYear": 2017, "hoursPlayed": 55, "rating": 10 },
-    { "id": "g006", "title": "God of War Ragnarök", "platform": "PlayStation 5", "completionStatus": "completed", "genre": "Action Adventure", "releaseYear": 2022, "hoursPlayed": 40, "rating": 9 },
-    { "id": "g007", "title": "Hades", "platform": "PC", "completionStatus": "completed", "genre": "Roguelike", "releaseYear": 2020, "hoursPlayed": 120, "rating": 10 },
-    { "id": "g008", "title": "Cyberpunk 2077", "platform": "PC", "completionStatus": "abandoned", "genre": "Action RPG", "releaseYear": 2020, "hoursPlayed": 30, "rating": 6, "notes": "Might revisit after more patches" },
-    { "id": "g009", "title": "The Legend of Zelda: Tears of the Kingdom", "platform": "Nintendo Switch", "completionStatus": "not-started", "genre": "Action Adventure", "releaseYear": 2023, "hoursPlayed": 0 },
-    { "id": "g010", "title": "Bloodborne", "platform": "PlayStation 4", "completionStatus": "completed", "genre": "Action RPG", "releaseYear": 2015, "hoursPlayed": 90, "rating": 10 },
-    { "id": "g011", "title": "Hades II", "platform": "PC", "completionStatus": "in-progress", "genre": "Roguelike", "releaseYear": 2024, "hoursPlayed": 45, "rating": 8 },
-    { "id": "g012", "title": "Metaphor: ReFantazio", "platform": "PC", "completionStatus": "not-started", "genre": "JRPG", "releaseYear": 2024, "hoursPlayed": 0 }
+    {
+      "Title": 140,
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": ">observer_",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "▲V: Rings of Saturn",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "1000xRESIST",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "112 Operator",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "1954 Alcatraz",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "20 Minutes Till Dawn",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "20 Small Mazes",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "20XX",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "3 out of 10, EP 1: \"Welcome to Shovelworks",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "60 Parsecs!",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "7 Billion Humans",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "7 Days to Die",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "80 Days",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "9 Years of Shadows",
+      "Platform": "GOG",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "911 Operator",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "A New Beginning - Final Cut",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "A Way Out",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Absolute Drift",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "ABZU",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Achromatic",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Adios",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "ADOM (Ancient Domains of Mystery)",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Adventure Time: Pirates of the Enchiridion",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Aegis Defenders",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "AER Memories of Old",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Afterimage",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Agatha Christie - Hercule Poirot: The First Cases",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Agatha Christie - The ABC Murders",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Age of Decadence, The",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Age of Wonders III",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Alan Wake",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Alan Wake 2",
+      "Platform": "Epic",
+      "Completed": "InProgress"
+    },
+    {
+      "Title": "Alan Wake's American Nightmare",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Alder's Blood: Prologue",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Alien: Isolation",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "All You Can Eat",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Almost Gone, The",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Alpha Protocol",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Alt254",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Alto Collection, The",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "American Arcadia",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "American Fugitive",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Amerzone: The Explorer's Legacy (1999)",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Amnesia: A Machine for Pigs",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Amnesia: Rebirth",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Amnesia: The Dark Descent",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Among the Sleep",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Ancestors Legacy",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "and Roger",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "Animal Planner",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "ANIMAL WELL",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "Anna's Quest",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Anodyne 2: Return to Dust",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Another Lost Phone: Laura's Story",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "Another World",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "Antichamber",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "APE OUT",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Aperture Desk Job",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Apex Legends",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "AR-K",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Aragami",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Arcade Paradise",
+      "Platform": "GOG",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Arcanum: Of Steamworks and Magick Obscura",
+      "Platform": "GOG",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Arco",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Are You Smarter than a 5th Grader",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Arise: A Simple Story",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Armello",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "art of rally",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "As Far As The Eye",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Ascent, The",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Ashes of the Singularity: Escalation",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Assassin's Creed",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Assassin's Creed II",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Assassin's Creed Syndicate",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Astral Ascent",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Atomicrops",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Automachef",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Autonauts",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Aven Colony",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Aztez",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Baba Is You",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "Back 4 Blood",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Back to the Future: The Game",
+      "Platform": "GOG",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Bad North Jotunn Edition",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Balatro",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Baldur's Gate 2: Enhanced Edition",
+      "Platform": "GOG",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Baldur's Gate 3",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Baldur's Gate: Enhanced Edition",
+      "Platform": "GOG",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Bard's Tale IV: Director's Cut",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Bard's Tale Trilogy",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Barony",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Bastion",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Batman - The Telltale Series",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Batman: Arkham Asylum GOTY Edition",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Batman: Arkham City GOTY",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Batman: Arkham Knight",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Batman: Arkham Origins",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Batman: The Enemy Within - The Telltale Series",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "BattleBlock Theater",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Bayonetta",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Beast Inside, The",
+      "Platform": "GOG",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Bee Simulator",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Before We Leave",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Beginner's Guide, The",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "Behind the Frame: The Finest Scenery",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Beholder",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Ben 10",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Ben 10: Power Trip",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Beneath a Steel Sky",
+      "Platform": "GOG",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Beyond Blue",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "Beyond Divinity",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Binding of Isaac, The",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Bionic Commando Rearmed",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "BioShock 2 Remastered",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "BioShock Infinite",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "BioShock Remastered",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Biped",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Black Book",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Black Cauldron, The",
+      "Platform": "Abandonware",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Black Skylands",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Blacksad",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "BLACKTAIL",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Blackwell Convergence",
+      "Platform": "GOG",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Blackwell Deception",
+      "Platform": "GOG",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Blackwell Epiphany",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Blackwell Legacy",
+      "Platform": "GOG",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Blackwell Unbound",
+      "Platform": "GOG",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Blade of Darkness",
+      "Platform": "GOG",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Blasphemous",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Blood: Fresh Supply",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Blood West",
+      "Platform": "GOG",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Bloodstained: Ritual of the Night",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Blue Fire",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Blue Prince",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "BOKURA",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Bonfire Peaks",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Book of Demons",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Borderlands 2",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Borderlands 3",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Borderlands GOTY Enhanced",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Borderlands: The Pre-Sequel",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Botany Manor",
+      "Platform": "Epic",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Boundless",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Boxes: Lost Fragments",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "BPM: BULLETS PER MINUTE",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Braid",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Bridge, The",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Broken Age",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Broken Sword 2: Remastered",
+      "Platform": "GOG",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Broken Sword 3: The Sleeping Dragon",
+      "Platform": "GOG",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Broken Sword 4: The Angel of Death (Secrets of the Ark)",
+      "Platform": "GOG",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Broken Sword 5 - The Serpent's Curse",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Broken Sword: Director's Cut",
+      "Platform": "GOG",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Brothers - A Tale of Two Sons",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Brutal Legend",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Bugsnax",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "Calico",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Call of Cthulhu",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Call of Cthulhu: Shadow of the Comet",
+      "Platform": "GOG",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Call of Juarez: Gunslinger",
+      "Platform": "GOG",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Call of the Sea",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "Candle",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Captain, The",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Car Mechanic Simulator 2018",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Card Hunter",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Carto",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Case of Distrust, A",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "Case of the Golden Idol, The",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "Cassette Beasts",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Castle Crashers",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Cat Box Paradox",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Cat Quest",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Cat Quest II",
+      "Platform": "GOG",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Cats Hidden in Paris",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "Cats Organized Neatly",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Cave Story+",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Cave, The",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Caveblazers",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Celeste",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Cepheus Protocol",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Chants of Senaar",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "Chaos on Deponia",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Chaos Reborn",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Chasm",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Chicken Police",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Child of Light",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Chivalry 2",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Chris Sawyer's Locomotion",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Cities Skylines",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Citizen Sleeper",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "Citizen Sleeper 2: Starward Vector",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Clair Obscur: Expedition 33",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "CLICKOLDING",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Close to the Sun",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Cobalt Core",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Cognition: An Erica Reed Thriller",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Colt Canyon",
+      "Platform": "GOG",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Coma 2, The: Vicious Sisters",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Company of Heroes 2",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Conan Chop Chop",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Conarium",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Constance",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Contrast",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Control Ultimate Edition",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "Cook, Serve, Delicious! 3?!",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Cosmic Express",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "Cosmic Osmo: And the Worlds Beyond the Mackerel",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Cosmic Wheel Sisterhood, The",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Costume Quest",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Cracks Where the Light Gets In",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Crayola Scoot",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Creature in the Well",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "CrossCells",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "Crowntakers",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Crying Suns",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Crypt of the NecroDancer",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Cube Escape Collection",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Cube Escape: Paradox",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Cultist Simulator",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Cuphead",
+      "Platform": "Steam",
+      "Completed": "InProgress"
+    },
+    {
+      "Title": "Curse of Monkey Island, The",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Curse of the Dead Gods",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Cursed to Golf",
+      "Platform": "GOG",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Cyber Hook",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Cyberpunk 2077",
+      "Platform": "Steam",
+      "Completed": "InProgress"
+    },
+    {
+      "Title": "Cypher",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "DAEMON X MACHINA",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Dagon",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Dakar Desert Rally",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Dandara: Trials of Fear Edition",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Danganronpa 2: Goodbye Despair",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Danganronpa V3: Killing Harmony",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Danganronpa: Trigger Happy Havoc",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Dark Deity: Complete Edition",
+      "Platform": "GOG",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Dark Eye, The: Chains of Satinav",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Dark Pictures Anthology, The: Man of Medan",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Dark Sky",
+      "Platform": "GOG",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "DARK SOULS II: Scholar of the First Sin",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "DARK SOULS III",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "DARK SOULS: Prepare to Die Edition",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "DARK SOULS: REMASTERED",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Darkest Dungeon",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Darkness II, The",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Darksburg",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Darkside Detective, The",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Darksiders Genesis",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Darksiders II Deathinitive Edition",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Darksiders III",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Darksiders Warmastered Edition",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Darkwood",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "DAVE THE DIVER",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Day of the Tentacle Remastered",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Dead by Daylight",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Dead Cells",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Dead In Vinland",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Dead Secret",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Dead Space (2008)",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Dead Synchronicity: Tomorrow Comes Today",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "Deadlight Director's Cut",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Deadly Days",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Dear Esther: Landmark Edition",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Death Coming",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "DEATH STRANDING",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Death's Door",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Death's Gambit",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "DEATHLOOP",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Defense Grid: The Awakening",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Delores: A Thimbleweed Park Mini-Adventure",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Deponia",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "Deponia Doomsday",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Depression Quest",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Descendant, The",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Desktop Dungeons",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Desperados III",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Destiny 2",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Destiny or Fate",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Destroy All Humans!",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Detective Di: The Silk Rose Murders",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "Detective Grimoire",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "Deus Ex",
+      "Platform": "GOG",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Deus Ex: Human Revolution - Director's Cut",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Deus Ex: Mankind Divided",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Deus Ex 2: Invisible War",
+      "Platform": "GOG",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Devil Daggers",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Devil's Kiss",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Dicey Dungeons",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Dig, The",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Diluvian Ultra",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "DiRT 4",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "DIRT 5",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "DiRT Rally 2.0",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Disc Room",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Disciples: Liberation",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Disco Elysium",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Dishonored",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Dishonored 2",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Dishonored: Death of the Outsider",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Dissembler",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Divine Divinity",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Divinity: Original Sin Enhanced Edition",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Do Not Feed the Monkeys",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Dogs Organised Neatly",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Doki Doki Literature Club",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Don't Starve",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "DOOM",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "DOOM Eternal",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Doors - Paradox",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Dot's Home",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Dr Langeskov, The Tiger, and The Terribly Cursed Emerald: A Whirlwind Heist",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Dragon Age: Origins - Ultimate Edition",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Dragon's Dogma: Dark Arisen",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Dragonsphere",
+      "Platform": "GOG",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Drake Hollow",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Draugen",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Drawful 2",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Dream Team Basketball",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Dreamfall Chapters",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "DreamWorks Dragons: Dawn of the New Riders",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "DREDGE",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Driftland: The Magic Revival",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "DUCATI - 90th Anniversary",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Duck Detective: The Secret Salami",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "Duck Detective: The Ghost of Glamping",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "Duck Paradox",
+      "Platform": "GOG",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Due Process",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Dungeons of Dredmor",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Dust: An Elysian Tail",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "EarthX",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Edna & Harvey: Harvey's New Eyes",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "Edna & Harvey: The Breakout",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "El Hijo - A Wild West Tale",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "ELDEN RING",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Elden Scrolls V, The: Skyrim Special Edition",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "ELDERBORN",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "ELEX",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Elite Dangerous",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Eliza",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "Embr",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Emily is Away",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "En Garde!",
+      "Platform": "GOG",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Encased",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "ENDER LILIES: Quietus of the Knights",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "End is Nigh, The",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "ENDLESS Space - Definitive Edition",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "ENDLESS Space 2",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "English Country Tune",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Enter the Gungeon",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Environmental Station Alpha",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Epigraph",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Escape Academy",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Escape from Monkey Island",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Escape Goat 2",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Eternal Threads",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Eternights",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Ether One Redux",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "ETHEREAL",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Europa Universalis IV",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Evan's Remains",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Everhood",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Everything",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Eximius: Seize the Frontline",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Expeditions: Viking",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Expelled!",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "F.I.S.T.: Forged In Shadow Torch",
+      "Platform": "",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "F1 2018",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Fable Anniversary",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Fae Tactics",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Faeria",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Fahrenheit: Indigo Prophecy Remastered",
+      "Platform": "GOG",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Falconeer",
+      "Platform": "GOG",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Fall, The",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Fallout",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Fallout 3 - Game of the Year Edition",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Fallout 4",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Fallout 76",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Fallout: New Vegas",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Far Cry 2",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Felix the Reaper",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Figment",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Figment 2: Creed Valley",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "FINAL FANTASY VI",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "FINAL FANTASY VII",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "FINAL FANTASY X/X-2 HD Remaster",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "FINAL FANTASY XV WINDOWS EDITION",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Final Station, The",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Finding Paradise",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "Firewatch",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "First Tree, The",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Five Dates",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Flame in the Flood, The",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Flashback",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Fluffy Horde",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Football Manager 2020",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "For The King",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Forager",
+      "Platform": "GOG",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Forgotten City, The",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "Fort Triumph",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Fortified",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Four Last Things",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "FRAMED Collection",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "Free Ones, The",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Freespace 2",
+      "Platform": "GOG",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Frog Detective 1: The Haunted Island",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Frog Detective 2: The Case of the Invisible Wizard",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Frog Detective 3: Corruption at Cowboy County",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Frog Fractions: Game of the Decade Edition",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "From Space",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Frostpunk",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "FTL: Faster Than Light",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Full Throttle Remastered",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Fury Unleashed",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Gabriel Knight 2: The Beast Within",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Gabriel Knight 3: Blood of the Sacred, Blood of the Damned",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Gabriel Knight: Sins of the Fathers",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "Galactic Civilizations III",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Gamedec - Definitive Edition",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Gang Beasts",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Gas Station Simulator",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Gato Roboto",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Gauntlet",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Gears Tactics",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Gemini Rue",
+      "Platform": "GOG",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Genesis Alpha One Deluxe Edition",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Genesis Noir",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Get In The Car, Loser!",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Ghost Song",
+      "Platform": "GOG",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Ghostbusters: Spirits Unleashed Ecto Edition",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Ghostrunner",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Ghostrunner 2",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Ghostwire: Tokyo",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "GNOG",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "God's Trigger",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Godfall",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Gods Will Fall",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Going Under",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Gold Club Nostalgia",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Gone Home",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "GoNNER",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Good Snowman Is Hard To Build, A",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "Goodbye Deponia",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Gorogoa",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Gotham Knights",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Grand Theft Auto V",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Graveyard Keeper",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "GreedFall - Gold Edition",
+      "Platform": "GOG",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "GRID (2019)",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Grim Dawn",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Grim Fandango Remastered",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "GRIME",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "GRIP",
+      "Platform": "GOG",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "GRIS",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "Grow Home",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Grow: Song of the Evertree",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Guacamelee! Super Turbo Championship Edition",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Gunk, The",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Gunpoint",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Guns, Gore & Cannoli",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "GWENT: The Witcher Card Game",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Hack 'n' Slash",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Hacknet",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Hades",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "Hades 2",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Haiku, the Robot",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Halcyon 6",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Half-Life",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Half-Life 2",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Half-Life 2: Episode One",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Half-Life 2: Episode Two",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Halo: The Master Chief Collection",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Hand of Fate 2",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Hard West",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Hard West 2",
+      "Platform": "GOG",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Hardspace: Shipbreaker",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Headlander",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Heat Signature",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Heaven's Vault",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Hell is Other Demons",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Hell Pie",
+      "Platform": "GOG",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Hellblade: Senua's Sacrifice",
+      "Platform": "Steam",
+      "Completed": "InProgress"
+    },
+    {
+      "Title": "Hello Neighbor",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Hello Neightbor: Hide and Seek",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Hellpoint",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Her Story",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "Heretic's Fork",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Hero's Hour",
+      "Platform": "GOG",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Heroine's Quest: The Herald of Ragnarok",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Hex, The",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Hexcells",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "Hexcells Infinite",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Hexcells Plus",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "Hexologic",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Hidden Folks",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Hiding Spot",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "High On Life",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "HITMAN",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "HITMAN 2",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Hitman: Blood Money",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "HIVESWAP: ACT 1",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Hob",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Hollow Knight",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "Home",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Homebody",
+      "Platform": "Steam",
+      "Completed": "GYGO"
+    },
+    {
+      "Title": "Honey, I Joined a Cult",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Hook",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "Hook 2",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "Horace",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Horizon Zero Dawn Complete Edition",
+      "Platform": "Steam",
+      "Completed": "InProgress"
+    },
+    {
+      "Title": "HOT WHEELS UNLEASHED",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Hotline Miami",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Hotshot Racing",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "House Flipper",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Hue",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Human Resource Machine",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Hyper Light Drifter",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "I Am Fish",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "I Was A Teenage Exocolonist",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "I'm not a Monster",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "ibb & obb",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Iconoclasts",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "If Found",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "If On A Winter's Night, Four Travelers",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "IMMORTALITY",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Imperator: Rome",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Impostor Factory",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "In Between",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "In Other Waters",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "In Sound Mind",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Incredible Adventures of Van Helsing, The: Final Cut",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Incredible Adventures of Van Helsing, The: II",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Indivisible",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Induction",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Industria",
+      "Platform": "GOG",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Infinifactory",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "INMOST",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "InnerSpace",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Inscryption",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "INSIDE",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Into the Breach",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Invisible, Inc.",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Iratus",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Iron Brigade",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Iron Danger",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Is This Seat Taken?",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "Islands of Insight",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Isles of Sea and Sky",
+      "Platform": "Steam",
+      "Completed": "InProgress"
+    },
+    {
+      "Title": "Islets",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Jackbox Party Pack 2, The",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Jackbox Party Pack 3, The",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Jackbox Party Pack 4, The",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Jackbox Party Pack 5, The",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "John Wick Hex",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Jotun: Valhalla Edition",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Journey",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Journey Down, The: Chapter Three",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Journey to the Savage Planet",
+      "Platform": "GOG",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Jumanji: The Video Game",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Juno: New Origins",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Jurassic World Evolution",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Just Cause 4",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Kalimba",
+      "Platform": "Steam",
+      "Completed": "InProgress"
+    },
+    {
+      "Title": "Katana ZERO",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Kathy Rain",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "Keep Talking and Nobody Explodes",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Ken Follett's The Pillars of the Earth",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Kentucky Route Zero",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Kerbal Space Program",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "KIDS",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Killer Frequency",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Killing Floor 2",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Killsquad",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "King of Dragon Pass",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "King's Bird, The",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "King's Quest 1: Quest for the Crown",
+      "Platform": "GOG",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "King's Quest 2: Romancing the Throne",
+      "Platform": "GOG",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "King's Quest 3: To Heir Is Human",
+      "Platform": "GOG",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "King's Quest 4: The Perils of Rosella",
+      "Platform": "GOG",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "King's Quest 5: Absence Makes the Heart Go Yonder",
+      "Platform": "GOG",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "King's Quest 6: Heir Today, Gone Tomorrow",
+      "Platform": "GOG",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "King's Quest 7: The Princeless Bride",
+      "Platform": "GOG",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "King's Quest 8: Mask of Eternity",
+      "Platform": "GOG",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Kingdom Come Deliverance",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Kingdom New Lands",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Kingdom Two Crowns",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Kingdom: Classic",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Knights of Pen and Paper 2",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Knotwords",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Kyle is Famous",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "La-Mulana",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Lair of the Clockwork God",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Lara Croft and the Temple of Osiris",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Last Call BBS",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Last Campfire, The",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Last Day of June",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Last Oasis",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Layers of Fear",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Leap Year",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Legacy of Kain: Defiance",
+      "Platform": "GOG",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "LEGO Batman 2: DC Super Heroes",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "LEGO Batman 3: Beyond Gotham",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "LEGO Batman The Videogame",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "LEGO Builder's Journey",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "LEGO MARVEL Super Heroes",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "LEGO MARVEL's Avengers",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "LEGO Movie, The - Videogame",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "LEGO NINJAGO Movie Video Game",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "LEGO The Hobbit",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "LEGO The Lord of the Rings",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Lemon Cake",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Let's Build a Zoo",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Levelhead",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Life and Suffering of Sir Brante, The",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Life is Strange",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Life is Strange 2",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Lifeless Planet: Premier Edition",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Lightmatter",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "LIMBO",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Linelight",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Linelith",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "Lion's Song, The",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Little Big Workshop",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Little Golf Journey, A",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Little Inferno",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Little Misfortune",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Little Nightmares",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Little Problems",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "LOK Digital",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Lone Fungus",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Long Dark, The",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Longest Journey, The",
+      "Platform": "GOG",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Loom",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Loop Hero",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Lord of the Rings, The: Return to Moria",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Lords of the Fallen",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Lorelei and the Laser Eyes",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Lost Ark",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Lost Castle",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Lost Ember",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Lost Planet 3",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "LOVE",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Love is Dead",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Lovers in a Dangerous Spacetime",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Lure of the Temptress",
+      "Platform": "GOG",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "LYNE",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "Lysfanga: The Time Shift Warrior",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Mable & The Wood",
+      "Platform": "GOG",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Machinarium Collector's Edition",
+      "Platform": "GOG",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Mafia: Definitive Edition",
+      "Platform": "GOG",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Mafia II: Definitive Edition",
+      "Platform": "GOG",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Mafia III: Definitive Edition",
+      "Platform": "GOG",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Mages of Mystralia",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Magicka",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Magicka 2",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Magrunner: Dark Pulse",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Manhole, The",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Manhunter 2: San Francisco",
+      "Platform": "Abandonware",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Manhunter: New York",
+      "Platform": "Abandonware",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Manual Samuel - Anniversary Edition",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Mark of the Ninja",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Marvel Heroes Omega",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "MARVEL SNAP",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Marvel's Avengers - The Definitive Edition",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Marvel's Guardians of the Galaxy",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Marvel's Midnight Suns",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Mass Effect (2007)",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Mass Effect 2 (2010) Edition",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "MASSIVE CHALICE",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Mega Man 11",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Mega Man Legacy Collection",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Mega Man Legacy Collection 2",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Memoria",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Messenger, The",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Metro 2033 Redux",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Metro Exodus Enhanced Edition",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Metro: Last Light Redux",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Middle-earth: Shadow of Mordor",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Middle-earth: Shadow of War",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Midnight Fight Express",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Mind Scanners",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Minecraft",
+      "Platform": "Xbox",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Minecraft Legends",
+      "Platform": "Xbox",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "MineSweeper Tetris",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Minit",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "MIO: Memories in Orbit",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "MirrorMoon EP",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Mixed Up Mother Goose",
+      "Platform": "Abandonware",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Mobius Front '83",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "MOLEK-SYNTEZ",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Monaco",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Monkey Island 2: Special Edition",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Monster Hunter: World",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Monster Prom",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Monster Sanctuary",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Monster Train",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Monster's Expedition, A",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Moon Hunters",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Moonlighter",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Moonring",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Moonscars",
+      "Platform": "GOG",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Morbid: The Seven Acolytes",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Morkredd",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Morphblade",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Mortal Shell",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Mortician's Tale, A",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "Mothergunship",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Motorcycle Mechanic Simulator",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Mount Your Friends",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Mountain",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Move or Die",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Moving Out",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Mr. Saitou",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "Murder by Numbers",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "Murder Mystery Machine",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Mutant Year Zero Road to Eden",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Mutazione",
+      "Platform": "GOG",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "My Friend Peppa Pig",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "My Memory of Us",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "My Time at Portia",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Myst III: Exile",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Myst IV: Revelation",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Myst V",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "NAIRI: Tower of Shirin",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "NARUTO TO BORUTO: SHINOBI STRIKER",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "NBA 2K20",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "NBA 2K21",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Nebuchadnezzar",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Necromunda: Hired Gun",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Neo Cab",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Neon Abyss",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Never Alone (Kisima Ingitchuna)",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Neverout",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Neverwinter Nights: Enhanced Edition",
+      "Platform": "GOG",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Nex Machina",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Nickelodeon All-Star Brawl",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "NieR: Automata",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "Night Call",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Night in the Woods",
+      "Platform": "Epic",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Night of the Rabbit, The",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Nine Sols",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "Nioh 2 - The Complete Edition",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Nioh: Complete Edition",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "No Case Should Remain Unsolved",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "No Rest for the Wicked",
+      "Platform": "Steam",
+      "Completed": "EA"
+    },
+    {
+      "Title": "No Time To Explain Remastered",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Nobody Saves the World",
+      "Platform": "Steam",
+      "Completed": "InProgress"
+    },
+    {
+      "Title": "Nobody Wants to Die",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Normal Lost Phone, A",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "Not For Broadcast",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Nowhere Prophet",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "NSR: No Straight Roads",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Nuclear Throne",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Obduction",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Oddworld: New 'n' Tasty",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Offworld Trading Company",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Okami HD",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "OlliOlli World",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Omno",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "One Finger Death Punch",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "OneShot",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Operator, The",
+      "Platform": "Epic",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Opus Magnum",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Ori and the Blind Forest: Definitive Edition",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Ori and the Will of the Wisps",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Orwell",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Orwell: Ignorance is Strength",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Othercide",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Out of Space",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Outer Wilds",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Outer Worlds, The",
+      "Platform": "GOG",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Outer Worlds, The: Spacer's Choice Edition",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Overboard!",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Overcooked",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "Overcooked! 2",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Overcooked! All You Can Eat",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Overgrowth",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Owlboy",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Oxenfree",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Pacific Drive",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Pale Beyond, The",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Papers, Please",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Paquerette Down the Bunburrows",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Paradise Killer",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Paradise Lost",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Parallel Experiment",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "PARANORMASIGHT: The Seven Mysteries of Honjo",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "Party Hard",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Past Within, The",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Path of Exile",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Pathfinder: Kingmaker",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Pathfinder: Wrath of the Righteous - Enhanced Edition",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Pathway",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Patrick's Parabox",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "PAW Patrol Mighty Pups Save Adventure Bay",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Paw Patrol: On A Roll",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Pawnbarian",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "PC Building Simulator",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Peaky Blinders: Mastermind",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Pedestrian, The",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "Pentiment",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Per Aspera",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Pesterquest",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "PGA TOUR 2K21",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Phantom Doctrine",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Phoenix Point",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Phoenix Wright: Ace Attorney Trilogy",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Pikuniku",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Pillars of Eternity",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Pipe Push Paradise",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "Plague Tale, A: Innocence",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Plague Tale, A: Requiem",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Planescape: Torment",
+      "Platform": "GOG",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Planet of Lana",
+      "Platform": "GOG",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Planet Zoo",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "PlateUp!",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Plunge",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Police Stories",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Polimines",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "Pony Island",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Popup Dungeon",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Portal",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Portal 2",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Post Void",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Preposterous Awesomeness of Everything, The",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "Prey",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Prey: Typhon Hunter",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Procession to Calvary, The",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Project CARS",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Project Warlock",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Project Wingman",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Prophecy I - The Viking Child",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Psychonauts",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Psychonauts in the Rhombus of Ruin",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "PUBG: BATTLEGROUNDS",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Pumpkin Jack",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Pyre",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Q.U.B.E: Director's Cut",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Q.U.B.E. 2",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Quake II",
+      "Platform": "GOG",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Quantum Break",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Quarantine Circular",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "Queer Man Peering Into A Rock Pool.jpg",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Quern - Undying Thoughts",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Quest for Glory Collection",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "RAD",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "RAGE",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "RAGE 2",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Rain World",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Rayman Legends",
+      "Platform": "Epic",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "realMyst: Masterpiece Edition",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "Rebel Galaxy",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Rebuild 3: Gangs of Deadsville",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Rec Center Tycoon",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Red Planet Farming",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Red Solstice 2: Survivors",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Redeemer",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Redemption Reapers",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Red Pearls of Borneo, The",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "Regular Human Basketball",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Reigns",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Relicta",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Remember Me",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Remnant: From the Ashes",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Remnants of Naezith",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Resident Evil",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Resident Evil 0",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Resident Evil 2",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Resident Evil 3",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Resident Evil 4 (2005)",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Resident Evil 5",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Resident Evil 6",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Resident Evil 7 Biohazard",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "RESIDENT EVIL RESISTANCE",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Resident Evil Revelations",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Resident Evil Revelations 2",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Resonance",
+      "Platform": "GOG",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Retimed",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Return of the Obra Dinn",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Return of the Phantom",
+      "Platform": "GOG",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Return to Monkey Island",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Returnal",
+      "Platform": "Steam",
+      "Completed": "InProgress"
+    },
+    {
+      "Title": "Richard & Alice",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "RiME",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Ring of Pain",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Rise of the Tomb Raider",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Risk of Rain (2013)",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Riven (1997)",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Road Redemption",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Roadwarden",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Rogue",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Rogue Heroes: Ruins of Tasos",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Roki",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "RollerCoaster Tycoon: Deluxe",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Room 4, The: Old Sins",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "Room Three, The",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "Room Two, The",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "Room, The",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "Roottrees are Dead, The",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "Rover Mechanic Simulator",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "RUINER",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "RuneScape",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Rusty Lake Hotel",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Rusty Lake Paradise",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Rusty Lake: Roots",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Ruya",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "Ryse: Son of Rome",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "S.T.A.L.K.E.R.: Call of Pripyat",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "S.T.A.L.K.E.R.: Clear Sky",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "S.T.A.L.K.E.R.: Shadow of Chernobyl",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Sable",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Sail Forth",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Saints Row",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Saints Row: The Third Remastered",
+      "Platform": "GOG",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Salt and Sanctuary",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Samsara Room",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "SAMURAI SHODOWN NEOGEO COLLECTION",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Satisfactory",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Say No! More",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Scorn",
+      "Platform": "GOG",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "ScourgeBringer",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Screaming Chicken: Ultimate Showdown",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Seance of Blake Manor, The",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "Search, The",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "Secret of Monkey Island: Special Edition, The",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Sekiro: Shadows Die Twice",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "Serial Cleaner",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Serpent Rogue, The",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Session: Skate Sim",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Seven: Enhanced Edition",
+      "Platform": "GOG",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Sexy Brutale, The",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Shadow of the Tomb Raider",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Shadow Tactics: Blades of the Shogun",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Shadowrun Returns",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Shadowrun: Dragonfall - Director's Cut",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Shadowrun: Hong Kong - Extended Edition",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Shadows on the Vatican - Act I: Greed",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Shadows: Awakening",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Shady Part of Me",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "She Remembered Caterpillars",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Sheltered",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "SHENZHEN I/O",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Sherlock Holmes: Crimes and Punishments",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Sherlock Holmes: Nemesis",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Sherlock Holmes: The Awakened (2008)",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Sherlock Holmes: The Secret of the Silver Earring",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Sherlock Holmes: The Devil's Daughter",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Sherlock Holmes versus Jack the Ripper",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Shivah, The",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Shogun Showdown",
+      "Platform": "GOG",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Short Hike, A",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Showgunners",
+      "Platform": "GOG",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Sid Meier's Civilization V",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Sid Meier's Civilization VI",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Sid Meier's Pirates!",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Siege Survival: Gloria Victis",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Sifu",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Signal From Tolva, The",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Signs of the Sojourner",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Silence",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Silent Age, The",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "Size Matters",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Skullgirls 2nd Encore",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Sky Break",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Slay the Princess",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Slay the Spire",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Slime-san",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Smile For Me",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Smurfs 2, The - The Prisoner of the Green Stone",
+      "Platform": "GOG",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Snake Pass",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Snakebird",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Snakebird Primer",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "Sniper Elite 3",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Sokobond",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Solitaire Conspiracy, The",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "Solitairica",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "SOMA",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Songbringer",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Sonic and SEGA All Stars Racing",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Sorry We're Closed",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "SOULCALIBUR VI",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "South of the Circle",
+      "Platform": "GOG",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Space for the Unbound, A",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "Space Hulk: Deathwing - Enhanced Edition",
+      "Platform": "GOG",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "SpaceChem",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Spec Ops: The Line",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Spectrum Retreat, The",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Speed Brawl",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Spellcaster University",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Spelunky",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Spelunx",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Spirit of the North",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Spiritfarer: Farewell Edition",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "SpongeBob SquarePants: Battle for Bikini Bottom - Rehydrated",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Spyro Reignited Trilogy",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "SquareCells",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "Stacking",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Stanley Parable, The",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Star Stuf",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "STAR WARS Battlefront II: Celebration Edition",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "STAR WARS Jedi: Fallen Order",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "STAR WARS Knights of the Old Republic II: The Sith Lords",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "STAR WARS: Bounty Hunter",
+      "Platform": "GOG",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "STAR WARS: Squadrons",
+      "Platform": "Origin",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Starbound",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Stardew Valley",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "STASIS: BONE TOTEM",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "SteamWorld Heist",
+      "Platform": "GOG",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "SteamWorld Quest: Hand of Gilgamech",
+      "Platform": "GOG",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Steep",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Stephen's Sausage Roll",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Stick Fight: The Game",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Stick it to the Man",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Still Life",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Still Life 2",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Still There",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Stillness of the Wind, The",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Stone of Madness, The",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Stories: The Path of Destinies",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Story About My Uncle, A",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Storyteller",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Stranded Deep",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Strange Horticulture",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Strange Jigsaws",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "Strangers Things 3: The Game",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Stray Gods",
+      "Platform": "GOG",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Streets of Rogue",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Strider",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Stygian: Reign of the Old Ones",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Styx: Master of Shadows",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Subnautica",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "Subnautica: Below Zero",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "Subsurface Circular",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "Suicide of Rachel Foster, The",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Sundered Eldtrich Edition",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Sunless Sea",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Sunless Skies",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Sunset Overdrive",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Super Hexagon",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Super Meat Boy",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Super Meat Boy Forever",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Super Time Force Ultra",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Superbrothers: Sword & Sorcery EP",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "SUPERHOT",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "SUPERHOT: MIND CONTROL DELETE",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Superliminal",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Supraland",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Surge 2, The",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Surviving Mars",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Surviving the Aftermath",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Suzerain",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Swapper, The",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "Sword Legacy Omen",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Syberia",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Syberia 2",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Syberia 3",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Syberia: The World Before",
+      "Platform": "GOG",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "SYMMETRY",
+      "Platform": "GOG",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "System Shock 2",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "System Shock: Enhanced Edition",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Table Manners",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Tacoma",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Tales of Monkey Island: Complete Season",
+      "Platform": "GOG",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Tales of the Neon Sea",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Talisman: Origins",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Talos Principle 2, The",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Talos Principle, The",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Tangledeep",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Tangle Tower",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Teacup",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Teenagent",
+      "Platform": "GOG",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Technobabylon",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Tell Me Why",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Telling Lies",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Telsagrad",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Terra Nil",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Terraria",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Tex Murphy: Martian Memorandum",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Tex Murphy: Mean Streets",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Tex Murphy: Overseer",
+      "Platform": "GOG",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Tex Murphy: The Pandora Directive",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Tex Murphy: Under a Killing Moon",
+      "Platform": "GOG",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Textorcist, The: The Story of Ray Bibbia",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Tharsis",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "There Came an Echo",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Thief Gold",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Thief II: The Metal Age",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Thimbleweed Park",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "This Is the Police",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "This Is the Police 2",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "This Means Warp",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "This War of Mine",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Thomas Was Alone",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "THOTH",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Thronebreaker: The Witcher Tales",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Through the Darkest of Times",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Tick Tock: A Tale for Two",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Timelie",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Tiny Tina's Assault on Dragon Keep: A Wonderlands One-shot Adventure",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Tiny Tina's Wonderlands",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "TIS-100",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Titan Quest: Anniversary Edition",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "To the Moon",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "To The Rescue!",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "ToeJam & Earl: Back in the Groove",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Toki Tori",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Toki Tori 2+",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Tomb Raider",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Tomb Raider: Anniversary",
+      "Platform": "GOG",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Tomb Raider: Legend",
+      "Platform": "GOG",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Tomb Raider: Underworld",
+      "Platform": "GOG",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Tools Up!",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Toonstruck",
+      "Platform": "GOG",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Tooth and Tail",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Torchlight",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Torchlight II",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Torment: Tides of Numenera",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Tormentor X Punisher",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Total War Saga: TROY",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Total War: SHOGUN 2",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Totally Accurate Battle Simulator",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Totally Reliable Delivery Service",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Tower of Time",
+      "Platform": "GOG",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Towerfall Ascension",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Townsmen - A Kingdom Rebuilt",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "TR-49",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Train Sim World 2",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "TRANSFORMERS: BATTLEGROUNDS",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Transistor",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Tribes of Midgard",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Trine 2",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Trine Enhanced Edition",
+      "Platform": "GOG",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Tropico 4",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Tropico 5",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Tropico 6",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Truberbrook",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "True Fear: Forsaken Souls Part 1",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "TSIOQUE",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Turing Test, The",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "Turnip Boy Commits Tax Evasion",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Two Point Hospital",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "TYPECAST",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Tyranny - Gold Edition",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Tyrian 2000",
+      "Platform": "GOG",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Unavowed",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Unboxing the Cryptic Killer",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Uncertain, The: Last Quiet Day",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Underhero",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Understand",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Undertale",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Unheard - Voices of Crime",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "Universe For Sale",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "UNLOVED",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Unrailed!",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Unravel",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Unravel Two",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Unsolved Case",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Untitled Goose Game",
+      "Platform": "Epic",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Unworthy",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Uru: Complete Chronicles",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Utter a Name",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "Vagante",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Valiant Hearts: The Great War",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Vampire Survivors",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Vampyr",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "Vane",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Victor Vran",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Viewfinder",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "Vikings - Wolves of Midgard",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Void Stranger",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Volume",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "VVVVVV",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Walking Dead, The",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Walking Dead, The: A New Frontier",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "Walking Dead, The: Michonne",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "Walking Dead, The: Season Two",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "Walking Dead, The: The Final Season",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Wandersong",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Wargame: Red Dragon",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Wargroove",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Warhammer 40,000: Gladius - Relics of War",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Warhammer 40,000: Mechanicus",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Warhammer 40,000: Sanctus Reach",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Warhammer 40,000: Space Marine - Anniversary Edition",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Warhammer 40,000: Space Wolf",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Warhammer: Vermintide 2",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "WARSAW RISING: City of Heroes",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Wasteland 1 - The Original Classic",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Wasteland 2: Director's Cut",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Watch Dogs",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Watch Dogs 2",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "WayOut",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "WayOut 2: Hex",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "We Are The Dwarves",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "We Need To Go Deeper",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "We Were Here",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "We Were Here Expeditions: The Friendship",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "We Were Here Forever",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "We Were Here Together",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "We Were Here Too",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "Weird West",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "West of Dead",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "What Remains of Edith Finch",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "Wheels of Aurelia",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "When Ski Lifts Go Wrong",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Whispered World Special Edition, The",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "Whispers of a Machine",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "White Door, The",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Wildfire",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Wilmot's Warehouse",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Windblown",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Windbound",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Wingspan",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Witcher 2, The: Assassins of Kings Enhanced Edition",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Witcher 3, The: Wild Hunt",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Witcher, The: Enhanced Edition",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Witness, The",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "Wizard of Legend",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Wolf Among Us, The",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "Wolfenstein II: The New Colossus",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Wolfenstein: The New Order",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Wolfenstein: The Old Blood",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Wolfenstein: Youngblood",
+      "Platform": "Microsoft",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Wonder Boy The Dragons Trap",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "World of Goo",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "World War Z",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "WRATH: Aeon of Ruin",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "WWE 2K BATTLEGROUNDS",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "X-Morph: Defense",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "XCOM 2",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "XCOM: Chimera Squad",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "XCOM: Enemy Unknown",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Yakuza 0",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Yakuza 3 Remastered",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Yakuza Kiwami",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Yakuza Kiwami 2",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "YANKAI'S PEAK",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Yes, Your Grace",
+      "Platform": "GOG",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Yoku's Island Express",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    },
+    {
+      "Title": "Youropa",
+      "Platform": "Steam",
+      "Completed": "CompletedAny"
+    },
+    {
+      "Title": "ZACH-LIKE",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Zero Escape: The Nonary Games",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Zero Escape: Zero Time Dilemma",
+      "Platform": "Steam",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Zombie Army 4: Dead War",
+      "Platform": "Epic",
+      "Completed": "NotStarted"
+    },
+    {
+      "Title": "Zombotron",
+      "Platform": "Steam",
+      "Completed": "Completed100"
+    }
   ]
 }

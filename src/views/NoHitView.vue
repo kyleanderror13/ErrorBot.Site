@@ -130,6 +130,8 @@
             size="small"
             class="bosses-table"
             striped-rows
+            resizable-columns
+            column-resize-mode="fit"
           >
             <Column field="date" header="Date">
               <template #body="{ data }">

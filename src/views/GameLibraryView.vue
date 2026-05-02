@@ -3,7 +3,7 @@
     <PageHeader
       title="Game Library"
       icon="pi-th-large"
-      :subtitle="`${games.length} games · ${completedCount} completed`"
+      :subtitle="`${games.length} games · ${platinumCount + completedCount} completed`"
     >
       <template #actions>
         <Select
@@ -41,7 +41,7 @@
         class="summary-stat"
       >
         <span class="summary-value" :style="{ color: stat.color }">{{ stat.value }}</span>
-        <span class="summary-label">{{ stat.label }}</span>
+        <span class="summary-label">{{ stat.label }} ({{ Math.round(stat.value / games.length * 100) }}%)</span>
       </div>
     </div>
 
@@ -58,6 +58,8 @@
         :loading="loading"
         striped-rows
         removable-sort
+        resizable-columns
+        column-resize-mode="fit"
       >
         <template #empty>
           <div class="empty-state">
@@ -66,55 +68,21 @@
           </div>
         </template>
 
-        <Column field="title" header="Title" :sortable="true">
+        <Column field="title" header="Title" :sortable="true" style="width: 300px">
           <template #body="{ data }">
-            <span class="game-title">{{ data.title }}</span>
+            <span class="game-title">{{ data.Title }}</span>
           </template>
         </Column>
 
         <Column field="platform" header="Platform" :sortable="true" style="width: 180px">
           <template #body="{ data }">
-            <PlatformBadge :platform="data.platform" />
-          </template>
-        </Column>
-
-        <Column field="genre" header="Genre" :sortable="true" style="width: 160px">
-          <template #body="{ data }">
-            <span class="genre-text">{{ data.genre ?? '–' }}</span>
+            <PlatformBadge :platform="data.Platform" />
           </template>
         </Column>
 
         <Column field="completionStatus" header="Status" :sortable="true" style="width: 150px">
           <template #body="{ data }">
-            <CompletionBadge :status="data.completionStatus" />
-          </template>
-        </Column>
-
-        <Column field="hoursPlayed" header="Hours" :sortable="true" style="width: 90px">
-          <template #body="{ data }">
-            <span class="mono-text">{{ data.hoursPlayed != null ? `${data.hoursPlayed}h` : '–' }}</span>
-          </template>
-        </Column>
-
-        <Column field="rating" header="Rating" :sortable="true" style="width: 90px">
-          <template #body="{ data }">
-            <span v-if="data.rating" class="rating">
-              <i class="pi pi-star-fill" style="font-size:10px; color: var(--brand-accent-gold)" />
-              {{ data.rating }}/10
-            </span>
-            <span v-else class="mono-text muted">–</span>
-          </template>
-        </Column>
-
-        <Column field="releaseYear" header="Year" :sortable="true" style="width: 80px">
-          <template #body="{ data }">
-            <span class="mono-text muted">{{ data.releaseYear ?? '–' }}</span>
-          </template>
-        </Column>
-
-        <Column field="notes" header="Notes" style="width: 220px">
-          <template #body="{ data }">
-            <span class="notes-text" :title="data.notes">{{ data.notes ?? '' }}</span>
+            <CompletionBadge :status="data.Completed" />
           </template>
         </Column>
       </DataTable>
@@ -131,13 +99,13 @@ import Select from 'primevue/select'
 import PageHeader from '@/components/PageHeader.vue'
 import PlatformBadge from '@/components/PlatformBadge.vue'
 import CompletionBadge from '@/components/CompletionBadge.vue'
-import type { Game, CompletionStatus } from '@/types'
+import type { LibraryGame, LibraryCompletionStatus } from '@/types'
 
-const games = ref<Game[]>([])
+const games = ref<LibraryGame[]>([])
 const loading = ref(true)
 const globalFilter = ref('')
 const selectedPlatform = ref<string | null>(null)
-const selectedStatus = ref<CompletionStatus | null>(null)
+const selectedStatus = ref<LibraryCompletionStatus | null>(null)
 
 onMounted(async () => {
   await loadData()
@@ -158,40 +126,42 @@ async function loadData() {
 }
 
 const platformOptions = computed(() => {
-  const set = new Set(games.value.map((g) => g.platform))
+  const set = new Set(games.value.map((g) => g.Platform))
   return Array.from(set).sort()
 })
 
 const statusOptions = [
-  { label: 'Completed', value: 'completed' },
-  { label: 'In Progress', value: 'in-progress' },
-  { label: 'Not Started', value: 'not-started' },
-  { label: 'Abandoned', value: 'abandoned' }
+  { label: '100%', value: 'Completed100' },
+  { label: 'Any%', value: 'CompletedAny' },
+  { label: 'In Progress', value: 'InProgress' },
+  { label: 'Not Started', value: 'NotStarted' },
 ]
 
 const filteredGames = computed(() => {
   return games.value.filter((g) => {
-    const matchPlatform = !selectedPlatform.value || g.platform === selectedPlatform.value
-    const matchStatus = !selectedStatus.value || g.completionStatus === selectedStatus.value
+    const matchPlatform = !selectedPlatform.value || g.Platform === selectedPlatform.value
+    const matchStatus = !selectedStatus.value || g.Completed === selectedStatus.value
     const matchSearch =
       !globalFilter.value ||
-      g.title.toLowerCase().includes(globalFilter.value.toLowerCase()) ||
-      (g.genre?.toLowerCase().includes(globalFilter.value.toLowerCase()) ?? false)
+      g.Title.toLowerCase().includes(globalFilter.value.toLowerCase())
     return matchPlatform && matchStatus && matchSearch
   })
 })
 
+const platinumCount = computed(() =>
+  games.value.filter((g) => g.Completed === 'Completed100').length
+)
+
 const completedCount = computed(() =>
-  games.value.filter((g) => g.completionStatus === 'completed').length
+  games.value.filter((g) => g.Completed === 'CompletedAny').length
 )
 
 const summaryStats = computed(() => [
   { label: 'Total', value: games.value.length, color: 'var(--brand-text)' },
-  { label: 'Completed', value: games.value.filter((g) => g.completionStatus === 'completed').length, color: 'var(--brand-accent-green)' },
-  { label: 'In Progress', value: games.value.filter((g) => g.completionStatus === 'in-progress').length, color: 'var(--brand-purple-light)' },
-  { label: 'Not Started', value: games.value.filter((g) => g.completionStatus === 'not-started').length, color: 'var(--brand-text-muted)' },
-  { label: 'Abandoned', value: games.value.filter((g) => g.completionStatus === 'abandoned').length, color: 'var(--brand-accent-red)' },
-  { label: 'Total Hours', value: `${games.value.reduce((a, g) => a + (g.hoursPlayed ?? 0), 0)}h`, color: 'var(--brand-accent-gold)' }
+  { label: '100%', value: games.value.filter((g) => g.Completed === 'Completed100').length, color: 'var(--brand-purple-light)' },
+  { label: 'Completed', value: games.value.filter((g) => g.Completed === 'CompletedAny').length, color: 'var(--brand-accent-green)' },
+  { label: 'In Progress', value: games.value.filter((g) => g.Completed === 'InProgress').length, color: 'var(--brand-accent-red)' },
+  { label: 'Not Started', value: games.value.filter((g) => g.Completed === 'NotStarted').length, color: 'var(--brand-text-muted)' },
 ])
 </script>
 

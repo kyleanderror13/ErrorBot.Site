@@ -7,22 +7,27 @@
 
 <script setup lang="ts">
 import { computed } from 'vue'
-import type { Platform } from '@/types'
+import { siSteam, siEpicgames, siGogdotcom, siEa } from 'simple-icons'
+import { mdiMicrosoftXbox, mdiMicrosoftWindows } from '@mdi/js'
+import type { LibraryPlatform } from '@/types'
 
-const props = defineProps<{ platform: Platform }>()
+const props = defineProps<{ platform: LibraryPlatform }>()
 
 const platformKey = computed(() =>
   props.platform.toLowerCase().replace(/[\s:]/g, '-')
 )
 
-const icon = computed(() => {
-  const p = props.platform
-  if (p === 'PC') return 'pi-desktop'
-  if (p.startsWith('PlayStation')) return 'pi-playstation'
-  if (p.startsWith('Xbox')) return 'pi-xbox'
-  if (p === 'Nintendo Switch') return 'pi-gamepad'
-  return 'pi-box'
-})
+const iconMap: Record<string, { path: string; color: string, viewBox?: string }> = {
+  'Steam': { path: siSteam.path, color: '#1b2838', viewBox: '0 0 24 24' },
+  'Epic Games': { path: siEpicgames.path, color: '#313131', viewBox: '0 0 24 24' },
+  'GOG': { path: siGogdotcom.path, color: '#86328A', viewBox: '0 0 24 24' },
+  'Xbox': { path: mdiMicrosoftXbox, color: '#00ADEF', viewBox: '0 0 24 24' },
+  'Microsoft': { path: mdiMicrosoftWindows, color: '#107C10', viewBox: '0 0 24 24' },
+  'EA': { path: siEa.path, color: '#0078D4', viewBox: '0 0 24 24' },
+}
+
+const icon = computed(() => iconMap[props.platform])
+  
 </script>
 
 <style scoped>

@@ -44,31 +44,27 @@ export interface NoHitData {
 }
 
 // Game Library types
-export type Platform =
-  | 'PC'
-  | 'PlayStation 5'
-  | 'PlayStation 4'
-  | 'Xbox Series X'
-  | 'Xbox One'
-  | 'Nintendo Switch'
-  | 'Game Boy'
-  | 'Other'
+export type LibraryPlatform =
+  | 'Abandonware'
+  | 'Epic'
+  | 'GOG'
+  | 'Microsoft'
+  | 'Origin'
+  | 'Steam'
+  | 'Xbox'
+  
+export type LibraryCompletionStatus = 'Completed100' | 'CompletedAny' | 'InProgress' | 'NotStarted'
 
-export type CompletionStatus = 'completed' | 'in-progress' | 'not-started' | 'abandoned'
-
-export interface Game {
-  id: string
-  title: string
-  platform: Platform
-  completionStatus: CompletionStatus
-  genre?: string
-  releaseYear?: number
-  hoursPlayed?: number
-  rating?: number       // 1–10
-  notes?: string
-  coverImage?: string
+export interface LibraryGame {
+  //id: string
+  Title: string
+  Platform: LibraryPlatform
+  Completed: LibraryCompletionStatus
+  //hoursPlayed?: number
+  //lastPlayed?: Date
+  //coverImage?: string
 }
 
-export interface GameLibraryData {
-  games: Game[]
+export interface LibraryCatalog {
+  games: LibraryGame[]
 }

@@ -29,6 +29,8 @@
         size="small"
         :loading="loading"
         striped-rows
+        resizable-columns
+        column-resize-mode="fit"
       >
         <template #empty>
           <div class="empty-state">

@@ -7,25 +7,25 @@
 
 <script setup lang="ts">
 import { computed } from 'vue'
-import type { CompletionStatus } from '@/types'
+import type { LibraryCompletionStatus } from '@/types'
 
-const props = defineProps<{ status: CompletionStatus }>()
+const props = defineProps<{ status: LibraryCompletionStatus }>()
 
 const icon = computed(() => {
   switch (props.status) {
-    case 'completed': return 'pi-check-circle'
-    case 'in-progress': return 'pi-spinner'
-    case 'not-started': return 'pi-circle'
-    case 'abandoned': return 'pi-ban'
+    case 'Completed100': return 'pi-trophy'
+    case 'CompletedAny': return 'pi-check-circle'
+    case 'InProgress': return 'pi-spinner-dotted'
+    case 'NotStarted': return 'pi-circle'
   }
 })
 
 const label = computed(() => {
   switch (props.status) {
-    case 'completed': return 'Completed'
-    case 'in-progress': return 'In Progress'
-    case 'not-started': return 'Not Started'
-    case 'abandoned': return 'Abandoned'
+    case 'Completed100': return '100%'
+    case 'CompletedAny': return 'Any%'
+    case 'InProgress': return 'In Progress'
+    case 'NotStarted': return 'Not Started'
   }
 })
 </script>
@@ -45,27 +45,28 @@ const label = computed(() => {
   white-space: nowrap;
 }
 
-.completed {
-  background: color-mix(in srgb, #00fa9a 15%, transparent);
-  color: #00fa9a;
-  border: 1px solid color-mix(in srgb, #00fa9a 35%, transparent);
+.Completed100 {
+  background: color-mix(in srgb, #7830ec, transparent);
+  color: #ccc6d3;
+  border: 1px solid color-mix(in srgb, #7830ec 35%, transparent);
 }
 
-.in-progress {
+.CompletedAny {
+  background: color-mix(in srgb, #248a29 15%, transparent);
+  color: #00fa9a;
+  border: 1px solid color-mix(in srgb, #248a29 35%, transparent);
+}
+
+.InProgress {
   background: color-mix(in srgb, #9146ff 15%, transparent);
   color: #bf94ff;
   border: 1px solid color-mix(in srgb, #9146ff 35%, transparent);
 }
 
-.not-started {
+.NotStarted {
   background: var(--brand-surface-2);
   color: var(--brand-text-muted);
   border: 1px solid var(--brand-border);
 }
 
-.abandoned {
-  background: color-mix(in srgb, #ff4444 15%, transparent);
-  color: #ff6b6b;
-  border: 1px solid color-mix(in srgb, #ff4444 35%, transparent);
-}
 </style>
