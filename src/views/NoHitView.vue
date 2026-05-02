@@ -249,7 +249,7 @@ const deathsChartData = computed(() => {
   if (!selectedRun.value) return {}
   const sessions = selectedRun.value.sessions
   return {
-    labels: sessions.map((s, i) => `S${i + 1}`),
+    labels: sessions.map((_s, i) => `S${i + 1}`),
     datasets: [
       {
         label: 'Deaths',
