@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Nunito:wght@300;400;500;600&display=swap');
+
+:root {
+  --brand-purple: #9146ff;
+  --brand-purple-dark: #772ce8;
+  --brand-purple-light: #bf94ff;
+  --brand-bg: #0e0e10;
+  --brand-surface: #18181b;
+  --brand-surface-2: #1f1f23;
+  --brand-surface-3: #26262c;
+  --brand-border: #2d2d35;
+  --brand-text: #efeff1;
+  --brand-text-muted: #adadb8;
+  --brand-accent-green: #00fa9a;
+  --brand-accent-red: #ff4444;
+  --brand-accent-gold: #ffd700;
+
+  --font-display: 'Rajdhani', sans-serif;
+  --font-body: 'Nunito', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background-color: var(--brand-bg);
+  color: var(--brand-text);
+  font-family: var(--font-body);
+}
+
+#app {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  overflow: hidden;
+}
+
+/* PrimeVue dark mode overrides */
+.dark-mode .p-datatable-header,
+.dark-mode .p-datatable .p-datatable-thead > tr > th {
+  background: var(--brand-surface-2) !important;
+  color: var(--brand-text) !important;
+  border-color: var(--brand-border) !important;
+}
+
+.dark-mode .p-datatable .p-datatable-tbody > tr {
+  background: var(--brand-surface) !important;
+  color: var(--brand-text) !important;
+}
+
+.dark-mode .p-datatable .p-datatable-tbody > tr:hover {
+  background: var(--brand-surface-3) !important;
+}
+
+.dark-mode .p-datatable .p-datatable-tbody > tr > td {
+  border-color: var(--brand-border) !important;
+}
+
+.dark-mode .p-paginator {
+  background: var(--brand-surface-2) !important;
+  border-color: var(--brand-border) !important;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--brand-surface);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--brand-purple-dark);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--brand-purple);
+}

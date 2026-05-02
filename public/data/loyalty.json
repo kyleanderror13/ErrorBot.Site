@@ -1,0 +1,14 @@
+{
+  "chatters": [
+    { "username": "StreamFan42", "points": 15200, "watchTime": 3400, "lastSeen": "2025-04-30T18:22:00Z", "rank": 1 },
+    { "username": "NightOwlViewer", "points": 12850, "watchTime": 2900, "lastSeen": "2025-04-29T22:10:00Z", "rank": 2 },
+    { "username": "GamingPro99", "points": 11400, "watchTime": 2600, "lastSeen": "2025-04-30T20:05:00Z", "rank": 3 },
+    { "username": "ChillVibes", "points": 9870, "watchTime": 2200, "lastSeen": "2025-04-28T16:30:00Z", "rank": 4 },
+    { "username": "TwitchLurker", "points": 8500, "watchTime": 1900, "lastSeen": "2025-04-30T21:00:00Z", "rank": 5 },
+    { "username": "DailyWatcher", "points": 7200, "watchTime": 1650, "lastSeen": "2025-04-27T14:00:00Z", "rank": 6 },
+    { "username": "CasualGamer", "points": 6600, "watchTime": 1500, "lastSeen": "2025-04-25T19:45:00Z", "rank": 7 },
+    { "username": "SupporterOne", "points": 5400, "watchTime": 1200, "lastSeen": "2025-04-30T17:15:00Z", "rank": 8 },
+    { "username": "HypeTrainRider", "points": 4800, "watchTime": 1100, "lastSeen": "2025-04-29T23:00:00Z", "rank": 9 },
+    { "username": "LateNightCrew", "points": 3950, "watchTime": 900, "lastSeen": "2025-04-26T02:30:00Z", "rank": 10 }
+  ]
+}

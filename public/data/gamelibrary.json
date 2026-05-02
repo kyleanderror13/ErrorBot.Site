@@ -1,0 +1,16 @@
+{
+  "games": [
+    { "id": "g001", "title": "Elden Ring", "platform": "PC", "completionStatus": "completed", "genre": "Action RPG", "releaseYear": 2022, "hoursPlayed": 240, "rating": 10 },
+    { "id": "g002", "title": "Dark Souls III", "platform": "PC", "completionStatus": "completed", "genre": "Action RPG", "releaseYear": 2016, "hoursPlayed": 180, "rating": 9 },
+    { "id": "g003", "title": "Sekiro: Shadows Die Twice", "platform": "PC", "completionStatus": "in-progress", "genre": "Action", "releaseYear": 2019, "hoursPlayed": 95, "rating": 9 },
+    { "id": "g004", "title": "Baldur's Gate 3", "platform": "PC", "completionStatus": "in-progress", "genre": "RPG", "releaseYear": 2023, "hoursPlayed": 60, "rating": 9 },
+    { "id": "g005", "title": "Hollow Knight", "platform": "Nintendo Switch", "completionStatus": "completed", "genre": "Metroidvania", "releaseYear": 2017, "hoursPlayed": 55, "rating": 10 },
+    { "id": "g006", "title": "God of War Ragnarök", "platform": "PlayStation 5", "completionStatus": "completed", "genre": "Action Adventure", "releaseYear": 2022, "hoursPlayed": 40, "rating": 9 },
+    { "id": "g007", "title": "Hades", "platform": "PC", "completionStatus": "completed", "genre": "Roguelike", "releaseYear": 2020, "hoursPlayed": 120, "rating": 10 },
+    { "id": "g008", "title": "Cyberpunk 2077", "platform": "PC", "completionStatus": "abandoned", "genre": "Action RPG", "releaseYear": 2020, "hoursPlayed": 30, "rating": 6, "notes": "Might revisit after more patches" },
+    { "id": "g009", "title": "The Legend of Zelda: Tears of the Kingdom", "platform": "Nintendo Switch", "completionStatus": "not-started", "genre": "Action Adventure", "releaseYear": 2023, "hoursPlayed": 0 },
+    { "id": "g010", "title": "Bloodborne", "platform": "PlayStation 4", "completionStatus": "completed", "genre": "Action RPG", "releaseYear": 2015, "hoursPlayed": 90, "rating": 10 },
+    { "id": "g011", "title": "Hades II", "platform": "PC", "completionStatus": "in-progress", "genre": "Roguelike", "releaseYear": 2024, "hoursPlayed": 45, "rating": 8 },
+    { "id": "g012", "title": "Metaphor: ReFantazio", "platform": "PC", "completionStatus": "not-started", "genre": "JRPG", "releaseYear": 2024, "hoursPlayed": 0 }
+  ]
+}
