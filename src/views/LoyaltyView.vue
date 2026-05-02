@@ -12,10 +12,6 @@
           class="search-input"
           size="small"
         />
-        <label class="upload-btn" v-tooltip="'Upload loyalty.json'">
-          <i class="pi pi-upload" />
-          <input type="file" accept=".json" @change="onFileUpload" hidden />
-        </label>
       </template>
     </PageHeader>
 
@@ -38,7 +34,6 @@
           <div class="empty-state">
             <i class="pi pi-star-fill empty-icon" />
             <p>No loyalty data found.</p>
-            <small>Upload a <code>loyalty.json</code> file to get started.</small>
           </div>
         </template>
 
@@ -125,21 +120,6 @@ async function loadData() {
   }
 }
 
-function onFileUpload(e: Event) {
-  const file = (e.target as HTMLInputElement).files?.[0]
-  if (!file) return
-  const reader = new FileReader()
-  reader.onload = (ev) => {
-    try {
-      const json = JSON.parse(ev.target?.result as string)
-      chatters.value = json.chatters ?? []
-    } catch {
-      alert('Invalid JSON file.')
-    }
-  }
-  reader.readAsText(file)
-}
-
 function formatWatchTime(minutes?: number): string {
   if (minutes == null) return '–'
   const h = Math.floor(minutes / 60)
@@ -190,26 +170,6 @@ function rankClass(rank?: number): string {
   border-color: var(--brand-border) !important;
   color: var(--brand-text) !important;
   font-size: 13px !important;
-}
-
-.upload-btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 32px;
-  height: 32px;
-  background: var(--brand-surface-2);
-  border: 1px solid var(--brand-border);
-  border-radius: 6px;
-  color: var(--brand-text-muted);
-  cursor: pointer;
-  transition: all 0.15s;
-}
-
-.upload-btn:hover {
-  background: var(--brand-surface-3);
-  color: var(--brand-purple-light);
-  border-color: var(--brand-purple);
 }
 
 /* Rank badge */

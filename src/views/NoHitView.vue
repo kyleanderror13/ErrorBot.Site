@@ -5,12 +5,6 @@
       icon="pi-shield"
       :subtitle="`${runs.length} challenge runs`"
     >
-      <template #actions>
-        <label class="upload-btn" v-tooltip="'Upload nohit.json'">
-          <i class="pi pi-upload" />
-          <input type="file" accept=".json" @change="onFileUpload" hidden />
-        </label>
-      </template>
     </PageHeader>
 
     <div class="content-area">
@@ -36,7 +30,7 @@
 
         <div v-if="!runs.length" class="empty-list">
           <i class="pi pi-shield" />
-          <p>No runs yet. Upload <code>nohit.json</code>.</p>
+          <p>No runs yet.</p>
         </div>
       </aside>
 
@@ -205,22 +199,6 @@ async function loadData() {
   } finally {
     loading.value = false
   }
-}
-
-function onFileUpload(e: Event) {
-  const file = (e.target as HTMLInputElement).files?.[0]
-  if (!file) return
-  const reader = new FileReader()
-  reader.onload = (ev) => {
-    try {
-      const json = JSON.parse(ev.target?.result as string)
-      runs.value = json.runs ?? []
-      selectedRun.value = runs.value[0] ?? null
-    } catch {
-      alert('Invalid JSON file.')
-    }
-  }
-  reader.readAsText(file)
 }
 
 function formatDate(iso: string): string {
@@ -585,23 +563,4 @@ const horizontalBarOptions = {
   font-size: 11px;
 }
 
-.upload-btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 32px;
-  height: 32px;
-  background: var(--brand-surface-2);
-  border: 1px solid var(--brand-border);
-  border-radius: 6px;
-  color: var(--brand-text-muted);
-  cursor: pointer;
-  transition: all 0.15s;
-}
-
-.upload-btn:hover {
-  background: var(--brand-surface-3);
-  color: var(--brand-purple-light);
-  border-color: var(--brand-purple);
-}
 </style>
