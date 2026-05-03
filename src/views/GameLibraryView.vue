@@ -49,7 +49,7 @@
           </div>
         </template>
 
-        <Column field="platform" header="" style="width: 32px">
+        <Column field="platform" header="" style="width: 24px">
           <template #body="{ data }">
             <PlatformBadge :platform="data.platform" />
           </template>
@@ -179,14 +179,14 @@ const summaryStats = computed(() => [
 
 .summary-value {
   font-family: var(--font-display);
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 700;
   line-height: 1;
 }
 
 .summary-label {
   text-align: center;
-  font-size: 12px;
+  font-size: 10px;
   text-transform: uppercase;
   letter-spacing: 0.02em;
   color: var(--brand-text-muted);
@@ -208,7 +208,7 @@ const summaryStats = computed(() => [
 
 .game-title {
   font-weight: 600;
-  font-size: 18px;
+  font-size: 15px;
 }
 
 .muted {

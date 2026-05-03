@@ -1,6 +1,6 @@
 <template>
   <span class="completion-badge" :class="status" v-tooltip.bottom="label">
-    <i :class="`pi ${icon}`" style="font-size: 20px;" />
+    <i :class="`pi ${icon}`" style="font-size: 18px;" />
   </span>
 </template>
 
