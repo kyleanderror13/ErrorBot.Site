@@ -1,14 +1,22 @@
 // Loyalty types
-export interface LoyaltyChatter {
-  username: string
-  points: number
-  watchTime?: number  // in minutes
-  lastSeen?: string   // ISO date string
-  rank?: number
+export interface LoyaltyCatalog {
+  currentPeriodName: string
+  users: LoyaltyUser[]
 }
 
-export interface LoyaltyData {
-  chatters: LoyaltyChatter[]
+export interface LoyaltyUser {
+  userName: string
+  totalPeriod: LoyaltyPeriod
+  currentPeriod: LoyaltyPeriod
+}
+
+export interface LoyaltyPeriod {
+  rank: number
+  tie: boolean
+  firsts: number
+  seconds: number
+  checkIns: number
+  points: number
 }
 
 // No-Hit Run types
@@ -56,13 +64,9 @@ export type LibraryPlatform =
 export type LibraryCompletionStatus = 'completed-100' | 'completed-any' | 'in-progress' | 'not-started'
 
 export interface LibraryGame {
-  //id: string
   title: string
   platform: LibraryPlatform
   completed: LibraryCompletionStatus
-  //hoursPlayed?: number
-  //lastPlayed?: Date
-  //coverImage?: string
 }
 
 export interface LibraryCatalog {

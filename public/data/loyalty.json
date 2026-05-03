@@ -1,14 +1,1487 @@
 {
-  "chatters": [
-    { "username": "StreamFan42", "points": 15200, "watchTime": 3400, "lastSeen": "2025-04-30T18:22:00Z", "rank": 1 },
-    { "username": "NightOwlViewer", "points": 12850, "watchTime": 2900, "lastSeen": "2025-04-29T22:10:00Z", "rank": 2 },
-    { "username": "GamingPro99", "points": 11400, "watchTime": 2600, "lastSeen": "2025-04-30T20:05:00Z", "rank": 3 },
-    { "username": "ChillVibes", "points": 9870, "watchTime": 2200, "lastSeen": "2025-04-28T16:30:00Z", "rank": 4 },
-    { "username": "TwitchLurker", "points": 8500, "watchTime": 1900, "lastSeen": "2025-04-30T21:00:00Z", "rank": 5 },
-    { "username": "DailyWatcher", "points": 7200, "watchTime": 1650, "lastSeen": "2025-04-27T14:00:00Z", "rank": 6 },
-    { "username": "CasualGamer", "points": 6600, "watchTime": 1500, "lastSeen": "2025-04-25T19:45:00Z", "rank": 7 },
-    { "username": "SupporterOne", "points": 5400, "watchTime": 1200, "lastSeen": "2025-04-30T17:15:00Z", "rank": 8 },
-    { "username": "HypeTrainRider", "points": 4800, "watchTime": 1100, "lastSeen": "2025-04-29T23:00:00Z", "rank": 9 },
-    { "username": "LateNightCrew", "points": 3950, "watchTime": 900, "lastSeen": "2025-04-26T02:30:00Z", "rank": 10 }
+  "currentPeriodName": "May 2026",
+  "users": [
+    {
+      "userName": "Kaeon",
+      "totalPeriod": {
+        "rank": 1,
+        "tie": false,
+        "firsts": 34,
+        "seconds": 42,
+        "checkIns": 108,
+        "points": 404
+      },
+      "currentPeriod": {
+        "rank": 0,
+        "tie": false,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 0,
+        "points": 0
+      }
+    },
+    {
+      "userName": "getyourgloveson",
+      "totalPeriod": {
+        "rank": 2,
+        "tie": false,
+        "firsts": 33,
+        "seconds": 33,
+        "checkIns": 93,
+        "points": 357
+      },
+      "currentPeriod": {
+        "rank": 0,
+        "tie": false,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 0,
+        "points": 0
+      }
+    },
+    {
+      "userName": "CheyCheyKitty",
+      "totalPeriod": {
+        "rank": 3,
+        "tie": false,
+        "firsts": 46,
+        "seconds": 32,
+        "checkIns": 21,
+        "points": 347
+      },
+      "currentPeriod": {
+        "rank": 0,
+        "tie": false,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 0,
+        "points": 0
+      }
+    },
+    {
+      "userName": "melomayhem",
+      "totalPeriod": {
+        "rank": 4,
+        "tie": false,
+        "firsts": 17,
+        "seconds": 20,
+        "checkIns": 44,
+        "points": 189
+      },
+      "currentPeriod": {
+        "rank": 0,
+        "tie": false,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 0,
+        "points": 0
+      }
+    },
+    {
+      "userName": "Artimage84",
+      "totalPeriod": {
+        "rank": 5,
+        "tie": false,
+        "firsts": 22,
+        "seconds": 10,
+        "checkIns": 31,
+        "points": 171
+      },
+      "currentPeriod": {
+        "rank": 0,
+        "tie": false,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 0,
+        "points": 0
+      }
+    },
+    {
+      "userName": "Doc0713",
+      "totalPeriod": {
+        "rank": 6,
+        "tie": false,
+        "firsts": 3,
+        "seconds": 16,
+        "checkIns": 95,
+        "points": 158
+      },
+      "currentPeriod": {
+        "rank": 0,
+        "tie": false,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 0,
+        "points": 0
+      }
+    },
+    {
+      "userName": "nitrosovibrio",
+      "totalPeriod": {
+        "rank": 7,
+        "tie": false,
+        "firsts": 9,
+        "seconds": 6,
+        "checkIns": 83,
+        "points": 146
+      },
+      "currentPeriod": {
+        "rank": 0,
+        "tie": false,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 0,
+        "points": 0
+      }
+    },
+    {
+      "userName": "greyfirey",
+      "totalPeriod": {
+        "rank": 8,
+        "tie": false,
+        "firsts": 15,
+        "seconds": 13,
+        "checkIns": 0,
+        "points": 114
+      },
+      "currentPeriod": {
+        "rank": 0,
+        "tie": false,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 0,
+        "points": 0
+      }
+    },
+    {
+      "userName": "richelle_png",
+      "totalPeriod": {
+        "rank": 9,
+        "tie": false,
+        "firsts": 7,
+        "seconds": 2,
+        "checkIns": 11,
+        "points": 52
+      },
+      "currentPeriod": {
+        "rank": 0,
+        "tie": false,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 0,
+        "points": 0
+      }
+    },
+    {
+      "userName": "TwitchTeppi",
+      "totalPeriod": {
+        "rank": 10,
+        "tie": false,
+        "firsts": 2,
+        "seconds": 4,
+        "checkIns": 12,
+        "points": 34
+      },
+      "currentPeriod": {
+        "rank": 0,
+        "tie": false,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 0,
+        "points": 0
+      }
+    },
+    {
+      "userName": "adeeduhs",
+      "totalPeriod": {
+        "rank": 11,
+        "tie": false,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 24,
+        "points": 24
+      },
+      "currentPeriod": {
+        "rank": 0,
+        "tie": false,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 0,
+        "points": 0
+      }
+    },
+    {
+      "userName": "Coldhockeyboy",
+      "totalPeriod": {
+        "rank": 12,
+        "tie": false,
+        "firsts": 1,
+        "seconds": 0,
+        "checkIns": 15,
+        "points": 20
+      },
+      "currentPeriod": {
+        "rank": 0,
+        "tie": false,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 0,
+        "points": 0
+      }
+    },
+    {
+      "userName": "Navi_33623",
+      "totalPeriod": {
+        "rank": 13,
+        "tie": false,
+        "firsts": 2,
+        "seconds": 1,
+        "checkIns": 6,
+        "points": 19
+      },
+      "currentPeriod": {
+        "rank": 0,
+        "tie": false,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 0,
+        "points": 0
+      }
+    },
+    {
+      "userName": "ghitaoo",
+      "totalPeriod": {
+        "rank": 14,
+        "tie": false,
+        "firsts": 2,
+        "seconds": 1,
+        "checkIns": 5,
+        "points": 18
+      },
+      "currentPeriod": {
+        "rank": 0,
+        "tie": false,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 0,
+        "points": 0
+      }
+    },
+    {
+      "userName": "hfdfa",
+      "totalPeriod": {
+        "rank": 15,
+        "tie": false,
+        "firsts": 1,
+        "seconds": 1,
+        "checkIns": 9,
+        "points": 17
+      },
+      "currentPeriod": {
+        "rank": 0,
+        "tie": false,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 0,
+        "points": 0
+      }
+    },
+    {
+      "userName": "DhufishHunter",
+      "totalPeriod": {
+        "rank": 16,
+        "tie": true,
+        "firsts": 2,
+        "seconds": 2,
+        "checkIns": 0,
+        "points": 16
+      },
+      "currentPeriod": {
+        "rank": 0,
+        "tie": false,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 0,
+        "points": 0
+      }
+    },
+    {
+      "userName": "shrimplet23",
+      "totalPeriod": {
+        "rank": 16,
+        "tie": true,
+        "firsts": 1,
+        "seconds": 3,
+        "checkIns": 2,
+        "points": 16
+      },
+      "currentPeriod": {
+        "rank": 0,
+        "tie": false,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 0,
+        "points": 0
+      }
+    },
+    {
+      "userName": "snowy1876",
+      "totalPeriod": {
+        "rank": 18,
+        "tie": false,
+        "firsts": 2,
+        "seconds": 1,
+        "checkIns": 2,
+        "points": 15
+      },
+      "currentPeriod": {
+        "rank": 0,
+        "tie": false,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 0,
+        "points": 0
+      }
+    },
+    {
+      "userName": "notonlyaghost",
+      "totalPeriod": {
+        "rank": 19,
+        "tie": false,
+        "firsts": 0,
+        "seconds": 1,
+        "checkIns": 11,
+        "points": 14
+      },
+      "currentPeriod": {
+        "rank": 0,
+        "tie": false,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 0,
+        "points": 0
+      }
+    },
+    {
+      "userName": "cheesy_tuna_pasta119",
+      "totalPeriod": {
+        "rank": 20,
+        "tie": false,
+        "firsts": 2,
+        "seconds": 1,
+        "checkIns": 0,
+        "points": 13
+      },
+      "currentPeriod": {
+        "rank": 0,
+        "tie": false,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 0,
+        "points": 0
+      }
+    },
+    {
+      "userName": "batpug333",
+      "totalPeriod": {
+        "rank": 21,
+        "tie": true,
+        "firsts": 1,
+        "seconds": 0,
+        "checkIns": 7,
+        "points": 12
+      },
+      "currentPeriod": {
+        "rank": 0,
+        "tie": false,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 0,
+        "points": 0
+      }
+    },
+    {
+      "userName": "JCD101314",
+      "totalPeriod": {
+        "rank": 21,
+        "tie": true,
+        "firsts": 1,
+        "seconds": 1,
+        "checkIns": 4,
+        "points": 12
+      },
+      "currentPeriod": {
+        "rank": 0,
+        "tie": false,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 0,
+        "points": 0
+      }
+    },
+    {
+      "userName": "Dethlss",
+      "totalPeriod": {
+        "rank": 23,
+        "tie": true,
+        "firsts": 0,
+        "seconds": 1,
+        "checkIns": 8,
+        "points": 11
+      },
+      "currentPeriod": {
+        "rank": 0,
+        "tie": false,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 0,
+        "points": 0
+      }
+    },
+    {
+      "userName": "aperson7777777",
+      "totalPeriod": {
+        "rank": 23,
+        "tie": true,
+        "firsts": 1,
+        "seconds": 1,
+        "checkIns": 3,
+        "points": 11
+      },
+      "currentPeriod": {
+        "rank": 0,
+        "tie": false,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 0,
+        "points": 0
+      }
+    },
+    {
+      "userName": "Gary_Asher",
+      "totalPeriod": {
+        "rank": 23,
+        "tie": true,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 11,
+        "points": 11
+      },
+      "currentPeriod": {
+        "rank": 0,
+        "tie": false,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 0,
+        "points": 0
+      }
+    },
+    {
+      "userName": "chiconaui",
+      "totalPeriod": {
+        "rank": 26,
+        "tie": true,
+        "firsts": 0,
+        "seconds": 2,
+        "checkIns": 2,
+        "points": 8
+      },
+      "currentPeriod": {
+        "rank": 0,
+        "tie": false,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 0,
+        "points": 0
+      }
+    },
+    {
+      "userName": "Zivonyx",
+      "totalPeriod": {
+        "rank": 26,
+        "tie": true,
+        "firsts": 0,
+        "seconds": 1,
+        "checkIns": 5,
+        "points": 8
+      },
+      "currentPeriod": {
+        "rank": 0,
+        "tie": false,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 0,
+        "points": 0
+      }
+    },
+    {
+      "userName": "twiggyVi",
+      "totalPeriod": {
+        "rank": 26,
+        "tie": true,
+        "firsts": 1,
+        "seconds": 1,
+        "checkIns": 0,
+        "points": 8
+      },
+      "currentPeriod": {
+        "rank": 0,
+        "tie": false,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 0,
+        "points": 0
+      }
+    },
+    {
+      "userName": "Jan_Chess_",
+      "totalPeriod": {
+        "rank": 29,
+        "tie": true,
+        "firsts": 1,
+        "seconds": 0,
+        "checkIns": 2,
+        "points": 7
+      },
+      "currentPeriod": {
+        "rank": 0,
+        "tie": false,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 0,
+        "points": 0
+      }
+    },
+    {
+      "userName": "kyushiy",
+      "totalPeriod": {
+        "rank": 29,
+        "tie": true,
+        "firsts": 1,
+        "seconds": 0,
+        "checkIns": 2,
+        "points": 7
+      },
+      "currentPeriod": {
+        "rank": 0,
+        "tie": false,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 0,
+        "points": 0
+      }
+    },
+    {
+      "userName": "forfoxsake__",
+      "totalPeriod": {
+        "rank": 31,
+        "tie": true,
+        "firsts": 0,
+        "seconds": 1,
+        "checkIns": 2,
+        "points": 5
+      },
+      "currentPeriod": {
+        "rank": 0,
+        "tie": false,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 0,
+        "points": 0
+      }
+    },
+    {
+      "userName": "weswaynes",
+      "totalPeriod": {
+        "rank": 31,
+        "tie": true,
+        "firsts": 1,
+        "seconds": 0,
+        "checkIns": 0,
+        "points": 5
+      },
+      "currentPeriod": {
+        "rank": 0,
+        "tie": false,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 0,
+        "points": 0
+      }
+    },
+    {
+      "userName": "Biostats",
+      "totalPeriod": {
+        "rank": 31,
+        "tie": true,
+        "firsts": 1,
+        "seconds": 0,
+        "checkIns": 0,
+        "points": 5
+      },
+      "currentPeriod": {
+        "rank": 0,
+        "tie": false,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 0,
+        "points": 0
+      }
+    },
+    {
+      "userName": "40luls",
+      "totalPeriod": {
+        "rank": 31,
+        "tie": true,
+        "firsts": 1,
+        "seconds": 0,
+        "checkIns": 0,
+        "points": 5
+      },
+      "currentPeriod": {
+        "rank": 0,
+        "tie": false,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 0,
+        "points": 0
+      }
+    },
+    {
+      "userName": "AlexKnauth",
+      "totalPeriod": {
+        "rank": 31,
+        "tie": true,
+        "firsts": 1,
+        "seconds": 0,
+        "checkIns": 0,
+        "points": 5
+      },
+      "currentPeriod": {
+        "rank": 0,
+        "tie": false,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 0,
+        "points": 0
+      }
+    },
+    {
+      "userName": "shreshthanigans",
+      "totalPeriod": {
+        "rank": 31,
+        "tie": true,
+        "firsts": 1,
+        "seconds": 0,
+        "checkIns": 0,
+        "points": 5
+      },
+      "currentPeriod": {
+        "rank": 0,
+        "tie": false,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 0,
+        "points": 0
+      }
+    },
+    {
+      "userName": "silksong_player456",
+      "totalPeriod": {
+        "rank": 31,
+        "tie": true,
+        "firsts": 1,
+        "seconds": 0,
+        "checkIns": 0,
+        "points": 5
+      },
+      "currentPeriod": {
+        "rank": 0,
+        "tie": false,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 0,
+        "points": 0
+      }
+    },
+    {
+      "userName": "nmie",
+      "totalPeriod": {
+        "rank": 38,
+        "tie": true,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 4,
+        "points": 4
+      },
+      "currentPeriod": {
+        "rank": 0,
+        "tie": false,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 0,
+        "points": 0
+      }
+    },
+    {
+      "userName": "BR0K0U",
+      "totalPeriod": {
+        "rank": 38,
+        "tie": true,
+        "firsts": 0,
+        "seconds": 1,
+        "checkIns": 1,
+        "points": 4
+      },
+      "currentPeriod": {
+        "rank": 0,
+        "tie": false,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 0,
+        "points": 0
+      }
+    },
+    {
+      "userName": "goofyknight275",
+      "totalPeriod": {
+        "rank": 40,
+        "tie": true,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 3,
+        "points": 3
+      },
+      "currentPeriod": {
+        "rank": 0,
+        "tie": false,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 0,
+        "points": 0
+      }
+    },
+    {
+      "userName": "DocoNord",
+      "totalPeriod": {
+        "rank": 40,
+        "tie": true,
+        "firsts": 0,
+        "seconds": 1,
+        "checkIns": 0,
+        "points": 3
+      },
+      "currentPeriod": {
+        "rank": 0,
+        "tie": false,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 0,
+        "points": 0
+      }
+    },
+    {
+      "userName": "Madss__42",
+      "totalPeriod": {
+        "rank": 40,
+        "tie": true,
+        "firsts": 0,
+        "seconds": 1,
+        "checkIns": 0,
+        "points": 3
+      },
+      "currentPeriod": {
+        "rank": 0,
+        "tie": false,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 0,
+        "points": 0
+      }
+    },
+    {
+      "userName": "kratsel",
+      "totalPeriod": {
+        "rank": 43,
+        "tie": true,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 2,
+        "points": 2
+      },
+      "currentPeriod": {
+        "rank": 0,
+        "tie": false,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 0,
+        "points": 0
+      }
+    },
+    {
+      "userName": "georgebonkers",
+      "totalPeriod": {
+        "rank": 43,
+        "tie": true,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 2,
+        "points": 2
+      },
+      "currentPeriod": {
+        "rank": 0,
+        "tie": false,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 0,
+        "points": 0
+      }
+    },
+    {
+      "userName": "MesianVelari",
+      "totalPeriod": {
+        "rank": 43,
+        "tie": true,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 2,
+        "points": 2
+      },
+      "currentPeriod": {
+        "rank": 0,
+        "tie": false,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 0,
+        "points": 0
+      }
+    },
+    {
+      "userName": "7majorx7",
+      "totalPeriod": {
+        "rank": 43,
+        "tie": true,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 2,
+        "points": 2
+      },
+      "currentPeriod": {
+        "rank": 0,
+        "tie": false,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 0,
+        "points": 0
+      }
+    },
+    {
+      "userName": "itsprettynotbad",
+      "totalPeriod": {
+        "rank": 43,
+        "tie": true,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 2,
+        "points": 2
+      },
+      "currentPeriod": {
+        "rank": 0,
+        "tie": false,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 0,
+        "points": 0
+      }
+    },
+    {
+      "userName": "thatrandomclonetrooper",
+      "totalPeriod": {
+        "rank": 43,
+        "tie": true,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 2,
+        "points": 2
+      },
+      "currentPeriod": {
+        "rank": 0,
+        "tie": false,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 0,
+        "points": 0
+      }
+    },
+    {
+      "userName": "AgelessRPG",
+      "totalPeriod": {
+        "rank": 43,
+        "tie": true,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 2,
+        "points": 2
+      },
+      "currentPeriod": {
+        "rank": 0,
+        "tie": false,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 0,
+        "points": 0
+      }
+    },
+    {
+      "userName": "mipsthechonkycat",
+      "totalPeriod": {
+        "rank": 43,
+        "tie": true,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 2,
+        "points": 2
+      },
+      "currentPeriod": {
+        "rank": 0,
+        "tie": false,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 0,
+        "points": 0
+      }
+    },
+    {
+      "userName": "LotusVeil",
+      "totalPeriod": {
+        "rank": 52,
+        "tie": true,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 1,
+        "points": 1
+      },
+      "currentPeriod": {
+        "rank": 0,
+        "tie": false,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 0,
+        "points": 0
+      }
+    },
+    {
+      "userName": "slaurent22",
+      "totalPeriod": {
+        "rank": 52,
+        "tie": true,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 1,
+        "points": 1
+      },
+      "currentPeriod": {
+        "rank": 0,
+        "tie": false,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 0,
+        "points": 0
+      }
+    },
+    {
+      "userName": "AkiChanVTuber",
+      "totalPeriod": {
+        "rank": 52,
+        "tie": true,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 1,
+        "points": 1
+      },
+      "currentPeriod": {
+        "rank": 0,
+        "tie": false,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 0,
+        "points": 0
+      }
+    },
+    {
+      "userName": "mastapeet",
+      "totalPeriod": {
+        "rank": 52,
+        "tie": true,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 1,
+        "points": 1
+      },
+      "currentPeriod": {
+        "rank": 0,
+        "tie": false,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 0,
+        "points": 0
+      }
+    },
+    {
+      "userName": "MrBoboMountainCock",
+      "totalPeriod": {
+        "rank": 52,
+        "tie": true,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 1,
+        "points": 1
+      },
+      "currentPeriod": {
+        "rank": 0,
+        "tie": false,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 0,
+        "points": 0
+      }
+    },
+    {
+      "userName": "zorizaurus",
+      "totalPeriod": {
+        "rank": 52,
+        "tie": true,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 1,
+        "points": 1
+      },
+      "currentPeriod": {
+        "rank": 0,
+        "tie": false,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 0,
+        "points": 0
+      }
+    },
+    {
+      "userName": "Stargazer619",
+      "totalPeriod": {
+        "rank": 52,
+        "tie": true,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 1,
+        "points": 1
+      },
+      "currentPeriod": {
+        "rank": 0,
+        "tie": false,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 0,
+        "points": 0
+      }
+    },
+    {
+      "userName": "LorenzShrek12",
+      "totalPeriod": {
+        "rank": 52,
+        "tie": true,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 1,
+        "points": 1
+      },
+      "currentPeriod": {
+        "rank": 0,
+        "tie": false,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 0,
+        "points": 0
+      }
+    },
+    {
+      "userName": "Shaka6331",
+      "totalPeriod": {
+        "rank": 52,
+        "tie": true,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 1,
+        "points": 1
+      },
+      "currentPeriod": {
+        "rank": 0,
+        "tie": false,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 0,
+        "points": 0
+      }
+    },
+    {
+      "userName": "rtist21",
+      "totalPeriod": {
+        "rank": 52,
+        "tie": true,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 1,
+        "points": 1
+      },
+      "currentPeriod": {
+        "rank": 0,
+        "tie": false,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 0,
+        "points": 0
+      }
+    },
+    {
+      "userName": "savagebeastfly2",
+      "totalPeriod": {
+        "rank": 52,
+        "tie": true,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 1,
+        "points": 1
+      },
+      "currentPeriod": {
+        "rank": 0,
+        "tie": false,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 0,
+        "points": 0
+      }
+    },
+    {
+      "userName": "DumpsterDonuts",
+      "totalPeriod": {
+        "rank": 52,
+        "tie": true,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 1,
+        "points": 1
+      },
+      "currentPeriod": {
+        "rank": 0,
+        "tie": false,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 0,
+        "points": 0
+      }
+    },
+    {
+      "userName": "insert0cool0name",
+      "totalPeriod": {
+        "rank": 52,
+        "tie": true,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 1,
+        "points": 1
+      },
+      "currentPeriod": {
+        "rank": 0,
+        "tie": false,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 0,
+        "points": 0
+      }
+    },
+    {
+      "userName": "cyron_dnd",
+      "totalPeriod": {
+        "rank": 52,
+        "tie": true,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 1,
+        "points": 1
+      },
+      "currentPeriod": {
+        "rank": 0,
+        "tie": false,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 0,
+        "points": 0
+      }
+    },
+    {
+      "userName": "folktimetravlr",
+      "totalPeriod": {
+        "rank": 52,
+        "tie": true,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 1,
+        "points": 1
+      },
+      "currentPeriod": {
+        "rank": 0,
+        "tie": false,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 0,
+        "points": 0
+      }
+    },
+    {
+      "userName": "Directing_Titan",
+      "totalPeriod": {
+        "rank": 52,
+        "tie": true,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 1,
+        "points": 1
+      },
+      "currentPeriod": {
+        "rank": 0,
+        "tie": false,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 0,
+        "points": 0
+      }
+    },
+    {
+      "userName": "b1gbadw0lf",
+      "totalPeriod": {
+        "rank": 52,
+        "tie": true,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 1,
+        "points": 1
+      },
+      "currentPeriod": {
+        "rank": 0,
+        "tie": false,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 0,
+        "points": 0
+      }
+    },
+    {
+      "userName": "karathegamer08",
+      "totalPeriod": {
+        "rank": 52,
+        "tie": true,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 1,
+        "points": 1
+      },
+      "currentPeriod": {
+        "rank": 0,
+        "tie": false,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 0,
+        "points": 0
+      }
+    },
+    {
+      "userName": "donnynord",
+      "totalPeriod": {
+        "rank": 52,
+        "tie": true,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 1,
+        "points": 1
+      },
+      "currentPeriod": {
+        "rank": 0,
+        "tie": false,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 0,
+        "points": 0
+      }
+    },
+    {
+      "userName": "HollowedDoob",
+      "totalPeriod": {
+        "rank": 52,
+        "tie": true,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 1,
+        "points": 1
+      },
+      "currentPeriod": {
+        "rank": 0,
+        "tie": false,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 0,
+        "points": 0
+      }
+    },
+    {
+      "userName": "mysterydip",
+      "totalPeriod": {
+        "rank": 52,
+        "tie": true,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 1,
+        "points": 1
+      },
+      "currentPeriod": {
+        "rank": 0,
+        "tie": false,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 0,
+        "points": 0
+      }
+    },
+    {
+      "userName": "YouKai572",
+      "totalPeriod": {
+        "rank": 52,
+        "tie": true,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 1,
+        "points": 1
+      },
+      "currentPeriod": {
+        "rank": 0,
+        "tie": false,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 0,
+        "points": 0
+      }
+    },
+    {
+      "userName": "StinkyStilkin",
+      "totalPeriod": {
+        "rank": 52,
+        "tie": true,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 1,
+        "points": 1
+      },
+      "currentPeriod": {
+        "rank": 0,
+        "tie": false,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 0,
+        "points": 0
+      }
+    },
+    {
+      "userName": "teogamerzzz",
+      "totalPeriod": {
+        "rank": 52,
+        "tie": true,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 1,
+        "points": 1
+      },
+      "currentPeriod": {
+        "rank": 0,
+        "tie": false,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 0,
+        "points": 0
+      }
+    },
+    {
+      "userName": "kyleanderror13",
+      "totalPeriod": {
+        "rank": 51,
+        "tie": false,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 3,
+        "points": 3
+      },
+      "currentPeriod": {
+        "rank": 0,
+        "tie": false,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 0,
+        "points": 0
+      }
+    },
+    {
+      "userName": "sarunniuxx",
+      "totalPeriod": {
+        "rank": 52,
+        "tie": true,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 1,
+        "points": 1
+      },
+      "currentPeriod": {
+        "rank": 0,
+        "tie": false,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 0,
+        "points": 0
+      }
+    },
+    {
+      "userName": "3l3tist",
+      "totalPeriod": {
+        "rank": 52,
+        "tie": true,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 1,
+        "points": 1
+      },
+      "currentPeriod": {
+        "rank": 0,
+        "tie": false,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 0,
+        "points": 0
+      }
+    },
+    {
+      "userName": "bradsgamedev",
+      "totalPeriod": {
+        "rank": 52,
+        "tie": true,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 1,
+        "points": 1
+      },
+      "currentPeriod": {
+        "rank": 0,
+        "tie": false,
+        "firsts": 0,
+        "seconds": 0,
+        "checkIns": 0,
+        "points": 0
+      }
+    }
   ]
 }

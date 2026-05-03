@@ -3,25 +3,35 @@
     <PageHeader
       title="Loyalty"
       icon="pi-star"
-      :subtitle="`${chatters.length} chatters tracked`"
     >
       <template #actions>
         <InputText
           v-model="globalFilter"
-          placeholder="Search chatters..."
+          placeholder="Search..."
           class="search-input"
           size="small"
         />
       </template>
     </PageHeader>
 
+    <div class="period-bar">
+      <Select
+        v-model="selectedPeriodId"
+        :options="periods"
+        option-label="label"
+        option-value="id"
+        class="period-select"
+        size="small"
+      />
+    </div>
+
     <div class="table-wrapper">
       <DataTable
-        :value="chatters"
+        :value="sortedUsers"
         :virtual-scroller-options="{ itemSize: 46 }"
         scrollable
         scroll-height="flex"
-        :global-filter-fields="['username']"
+        :global-filter-fields="['userName']"
         :filters="filters"
         sort-field="points"
         :sort-order="-1"
@@ -29,7 +39,6 @@
         size="small"
         :loading="loading"
         striped-rows
-        resizable-columns
         column-resize-mode="fit"
       >
         <template #empty>
@@ -39,58 +48,53 @@
           </div>
         </template>
 
-        <Column field="rank" header="Rank" :sortable="true" style="width: 80px; text-align: center">
+        <Column field="_period.rank" header="Rank" :sortable="true" style="width: 80px; text-align: center">
           <template #body="{ data }">
-            <span class="rank-badge" :class="rankClass(data.rank)">
-              #{{ data.rank ?? '–' }}
+            <span class="rank-badge" :class="rankClass(data._period.rank)">
+              #{{ data._period.rank ?? '–' }}
             </span>
           </template>
         </Column>
 
-        <Column field="username" header="Chatter" :sortable="true">
+        <Column field="userName" header="User" :sortable="true">
           <template #body="{ data }">
-            <div class="chatter-cell">
-              <div class="chatter-avatar">{{ data.username[0].toUpperCase() }}</div>
-              <span class="chatter-name">{{ data.username }}</span>
+            <div class="user-cell">
+              <div class="user-avatar">{{ data.userName[0].toUpperCase() }}</div>
+              <span class="user-name">{{ data.userName }}</span>
             </div>
           </template>
         </Column>
 
-        <Column field="points" header="Points" :sortable="true" style="width: 140px">
+        <Column field="_period.points" header="Points" :sortable="true" style="width: 100px">
           <template #body="{ data }">
             <span class="points-value">
               <i class="pi pi-star-fill points-icon" />
-              {{ data.points.toLocaleString() }}
+              {{ data._period.points.toLocaleString() }}
             </span>
           </template>
         </Column>
 
-        <Column field="watchTime" header="Watch Time" :sortable="true" style="width: 150px">
-          <template #body="{ data }">
-            <span class="mono-text">{{ formatWatchTime(data.watchTime) }}</span>
-          </template>
-        </Column>
-
-        <Column field="lastSeen" header="Last Seen" :sortable="true" style="width: 160px">
-          <template #body="{ data }">
-            <span class="mono-text muted">{{ formatDate(data.lastSeen) }}</span>
-          </template>
-        </Column>
       </DataTable>
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
-import { ref, onMounted } from 'vue'
+import { ref, computed, onMounted } from 'vue'
 import { FilterMatchMode } from '@primevue/core/api'
 import DataTable from 'primevue/datatable'
 import Column from 'primevue/column'
+import Select from 'primevue/select'
 import InputText from 'primevue/inputtext'
 import PageHeader from '@/components/PageHeader.vue'
-import type { LoyaltyChatter } from '@/types'
+import type { LoyaltyUser, LoyaltyPeriod } from '@/types'
 
-const chatters = ref<LoyaltyChatter[]>([])
+const users = ref<LoyaltyUser[]>([])
+const periods = [
+  { id: 'current', label: 'May 2026' },
+  { id: 'total', label: 'All Time' },
+]
+const selectedPeriodId = ref<string>("total");
 const loading = ref(true)
 const globalFilter = ref('')
 
@@ -114,36 +118,39 @@ async function loadData() {
     const res = await fetch('/data/loyalty.json')
     if (!res.ok) throw new Error('Failed to load')
     const json = await res.json()
-    chatters.value = json.chatters ?? []
+    // TODO: add extra periods here once archived data is available.
+    users.value = json.users ?? []
   } catch {
-    chatters.value = []
+    users.value = []
   } finally {
     loading.value = false
   }
 }
 
-function formatWatchTime(minutes?: number): string {
-  if (minutes == null) return '–'
-  const h = Math.floor(minutes / 60)
-  const m = minutes % 60
-  return `${h}h ${m}m`
-}
-
-function formatDate(iso?: string): string {
-  if (!iso) return '–'
-  return new Date(iso).toLocaleDateString('en-AU', {
-    day: '2-digit',
-    month: 'short',
-    year: 'numeric'
-  })
-}
-
-function rankClass(rank?: number): string {
+function rankClass(rank: number): string {
   if (rank === 1) return 'gold'
   if (rank === 2) return 'silver'
   if (rank === 3) return 'bronze'
   return ''
 }
+
+// Computed to get points/watchTime for the selected period:
+function getPeriodData(user: LoyaltyUser): LoyaltyPeriod {
+  if (selectedPeriodId.value == 'total') {
+    return user.totalPeriod;
+  }
+  else {
+    return user.currentPeriod;
+  }
+}
+
+const sortedUsers = computed(() =>
+  [...users.value]
+    .filter((c) => getPeriodData(c).points > 0)
+    .map((c) => ({ ...c, _period: getPeriodData(c) }))
+    .sort((a, b) => b._period.points - a._period.points)
+)
+
 </script>
 
 <style scoped>
@@ -177,37 +184,38 @@ function rankClass(rank?: number): string {
 /* Rank badge */
 .rank-badge {
   font-family: var(--font-mono);
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 600;
   padding: 2px 8px;
   border-radius: 4px;
-  background: var(--brand-surface-2);
   color: var(--brand-text-muted);
 }
 
 .rank-badge.gold {
   background: color-mix(in srgb, #ffd700 20%, transparent);
   color: #ffd700;
+  font-size: 20px;
 }
 
 .rank-badge.silver {
   background: color-mix(in srgb, #c0c0c0 20%, transparent);
   color: #c0c0c0;
+  font-size: 20px;
 }
 
 .rank-badge.bronze {
   background: color-mix(in srgb, #cd7f32 20%, transparent);
   color: #cd7f32;
+  font-size: 20px;
 }
 
-/* Chatter cell */
-.chatter-cell {
+.user-cell {
   display: flex;
   align-items: center;
   gap: 10px;
 }
 
-.chatter-avatar {
+.user-avatar {
   width: 28px;
   height: 28px;
   border-radius: 50%;
@@ -215,19 +223,18 @@ function rankClass(rank?: number): string {
   color: white;
   font-family: var(--font-display);
   font-weight: 700;
-  font-size: 13px;
+  font-size: 14px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
 }
 
-.chatter-name {
+.user-name {
   font-weight: 500;
-  font-size: 13px;
+  font-size: 15px;
 }
 
-/* Points */
 .points-value {
   display: flex;
   align-items: center;
@@ -274,4 +281,19 @@ function rankClass(rank?: number): string {
   border-radius: 4px;
   font-size: 12px;
 }
+
+.period-bar {
+  padding: 10px 16px;
+  background: var(--brand-surface);
+  border-bottom: 1px solid var(--brand-border);
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.period-select {
+  width: 200px;
+}
+
 </style>

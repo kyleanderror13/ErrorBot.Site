@@ -123,14 +123,6 @@ const filteredGames = computed(() => {
   })
 })
 
-const platinumCount = computed(() =>
-  games.value.filter((g) => g.completed === 'completed-100').length
-)
-
-const completedCount = computed(() =>
-  games.value.filter((g) => g.completed === 'completed-any').length
-)
-
 const summaryStats = computed(() => [
   { label: 'Total', value: games.value.length, color: 'var(--brand-text)' },
   { label: '100%', value: games.value.filter((g) => g.completed === 'completed-100').length, color: '#e7ce42' },
