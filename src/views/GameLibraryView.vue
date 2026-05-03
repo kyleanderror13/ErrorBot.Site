@@ -3,27 +3,8 @@
     <PageHeader
       title="Game Library"
       icon="pi-th-large"
-      :subtitle="`${games.length} games · ${platinumCount + completedCount} completed`"
     >
       <template #actions>
-        <Select
-          v-model="selectedPlatform"
-          :options="platformOptions"
-          placeholder="All Platforms"
-          class="filter-select"
-          size="small"
-          show-clear
-        />
-        <Select
-          v-model="selectedStatus"
-          :options="statusOptions"
-          option-label="label"
-          option-value="value"
-          placeholder="All Statuses"
-          class="filter-select"
-          size="small"
-          show-clear
-        />
         <InputText
           v-model="globalFilter"
           placeholder="Search games..."
@@ -41,7 +22,7 @@
         class="summary-stat"
       >
         <span class="summary-value" :style="{ color: stat.color }">{{ stat.value }}</span>
-        <span class="summary-label">{{ stat.label }} ({{ Math.round(stat.value / games.length * 100) }}%)</span>
+        <span class="summary-label">{{ stat.label }}</span>
       </div>
     </div>
 
@@ -58,8 +39,8 @@
         :loading="loading"
         striped-rows
         removable-sort
-        resizable-columns
         column-resize-mode="fit"
+        style="width: 100%"
       >
         <template #empty>
           <div class="empty-state">
@@ -68,21 +49,28 @@
           </div>
         </template>
 
-        <Column field="title" header="Title" :sortable="true" style="width: 300px">
+        <Column field="platform" header="" style="width: 32px">
           <template #body="{ data }">
-            <span class="game-title">{{ data.Title }}</span>
+            <PlatformBadge :platform="data.platform" />
           </template>
         </Column>
 
-        <Column field="platform" header="Platform" :sortable="true" style="width: 180px">
+        <Column field="title" header="Title" :sortable="true" class="col-title">
           <template #body="{ data }">
-            <PlatformBadge :platform="data.Platform" />
+            <span class="game-title" v-tooltip.bottom="data.title">{{ data.title }}</span>
           </template>
         </Column>
 
-        <Column field="completionStatus" header="Status" :sortable="true" style="width: 150px">
+        <Column 
+          field="completionStatus" 
+          header="" 
+          style="width: 48px"
+          header-style="text-align:right; justify-content: flex-end"
+        >
           <template #body="{ data }">
-            <CompletionBadge :status="data.Completed" />
+            <div style="display:flex; justify-content: flex-end">
+              <CompletionBadge :status="data.completed" />
+            </div>
           </template>
         </Column>
       </DataTable>
@@ -95,7 +83,6 @@ import { ref, computed, onMounted } from 'vue'
 import DataTable from 'primevue/datatable'
 import Column from 'primevue/column'
 import InputText from 'primevue/inputtext'
-import Select from 'primevue/select'
 import PageHeader from '@/components/PageHeader.vue'
 import PlatformBadge from '@/components/PlatformBadge.vue'
 import CompletionBadge from '@/components/CompletionBadge.vue'
@@ -125,43 +112,31 @@ async function loadData() {
   }
 }
 
-const platformOptions = computed(() => {
-  const set = new Set(games.value.map((g) => g.Platform))
-  return Array.from(set).sort()
-})
-
-const statusOptions = [
-  { label: '100%', value: 'Completed100' },
-  { label: 'Any%', value: 'CompletedAny' },
-  { label: 'In Progress', value: 'InProgress' },
-  { label: 'Not Started', value: 'NotStarted' },
-]
-
 const filteredGames = computed(() => {
   return games.value.filter((g) => {
-    const matchPlatform = !selectedPlatform.value || g.Platform === selectedPlatform.value
-    const matchStatus = !selectedStatus.value || g.Completed === selectedStatus.value
+    const matchPlatform = !selectedPlatform.value || g.platform === selectedPlatform.value
+    const matchStatus = !selectedStatus.value || g.completed === selectedStatus.value
     const matchSearch =
       !globalFilter.value ||
-      g.Title.toLowerCase().includes(globalFilter.value.toLowerCase())
+      g.title.toLowerCase().includes(globalFilter.value.toLowerCase())
     return matchPlatform && matchStatus && matchSearch
   })
 })
 
 const platinumCount = computed(() =>
-  games.value.filter((g) => g.Completed === 'Completed100').length
+  games.value.filter((g) => g.completed === 'completed-100').length
 )
 
 const completedCount = computed(() =>
-  games.value.filter((g) => g.Completed === 'CompletedAny').length
+  games.value.filter((g) => g.completed === 'completed-any').length
 )
 
 const summaryStats = computed(() => [
   { label: 'Total', value: games.value.length, color: 'var(--brand-text)' },
-  { label: '100%', value: games.value.filter((g) => g.Completed === 'Completed100').length, color: 'var(--brand-purple-light)' },
-  { label: 'Completed', value: games.value.filter((g) => g.Completed === 'CompletedAny').length, color: 'var(--brand-accent-green)' },
-  { label: 'In Progress', value: games.value.filter((g) => g.Completed === 'InProgress').length, color: 'var(--brand-accent-red)' },
-  { label: 'Not Started', value: games.value.filter((g) => g.Completed === 'NotStarted').length, color: 'var(--brand-text-muted)' },
+  { label: '100%', value: games.value.filter((g) => g.completed === 'completed-100').length, color: '#e7ce42' },
+  { label: 'Completed', value: games.value.filter((g) => g.completed === 'completed-any').length, color: '#00fa9a' },
+  { label: 'In Progress', value: games.value.filter((g) => g.completed === 'in-progress').length, color: '#bf94ff' },
+  { label: 'Not Started', value: games.value.filter((g) => g.completed === 'not-started').length, color: 'var(--brand-text-muted)' },
 ])
 </script>
 
@@ -185,7 +160,6 @@ const summaryStats = computed(() => [
   height: 100%;
 }
 
-/* Summary bar */
 .summary-bar {
   display: flex;
   gap: 0;
@@ -205,20 +179,20 @@ const summaryStats = computed(() => [
 
 .summary-value {
   font-family: var(--font-display);
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 700;
   line-height: 1;
 }
 
 .summary-label {
-  font-size: 10px;
+  text-align: center;
+  font-size: 12px;
   text-transform: uppercase;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.02em;
   color: var(--brand-text-muted);
   font-family: var(--font-mono);
 }
 
-/* Search / filters */
 .filter-select {
   width: 160px;
   font-size: 13px !important;
@@ -232,46 +206,15 @@ const summaryStats = computed(() => [
   font-size: 13px !important;
 }
 
-/* Table cells */
 .game-title {
   font-weight: 600;
-  font-size: 13px;
-}
-
-.genre-text {
-  font-size: 12px;
-  color: var(--brand-text-muted);
-}
-
-.mono-text {
-  font-family: var(--font-mono);
-  font-size: 12px;
+  font-size: 18px;
 }
 
 .muted {
   color: var(--brand-text-muted);
 }
 
-.rating {
-  font-family: var(--font-mono);
-  font-size: 12px;
-  display: flex;
-  align-items: center;
-  gap: 5px;
-}
-
-.notes-text {
-  font-size: 12px;
-  color: var(--brand-text-muted);
-  font-style: italic;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  display: block;
-  max-width: 220px;
-}
-
-/* Empty state */
 .empty-state {
   display: flex;
   flex-direction: column;
@@ -293,4 +236,18 @@ const summaryStats = computed(() => [
   border-radius: 4px;
   font-size: 12px;
 }
+
+:deep(.p-datatable-tbody .game-title) {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+}
+
+:deep(.col-title.p-datatable-column-header),
+:deep(.p-datatable-tbody > tr > td.col-title) {
+  overflow: hidden;
+  max-width: 0;
+}
+
 </style>

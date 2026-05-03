@@ -53,13 +53,13 @@ export type LibraryPlatform =
   | 'Steam'
   | 'Xbox'
   
-export type LibraryCompletionStatus = 'Completed100' | 'CompletedAny' | 'InProgress' | 'NotStarted'
+export type LibraryCompletionStatus = 'completed-100' | 'completed-any' | 'in-progress' | 'not-started'
 
 export interface LibraryGame {
   //id: string
-  Title: string
-  Platform: LibraryPlatform
-  Completed: LibraryCompletionStatus
+  title: string
+  platform: LibraryPlatform
+  completed: LibraryCompletionStatus
   //hoursPlayed?: number
   //lastPlayed?: Date
   //coverImage?: string

@@ -5,174 +5,205 @@
       icon="pi-shield"
       :subtitle="`${runs.length} challenge runs`"
     >
+      <template #actions>
+        <!-- Back button: mobile only, shown when viewing detail -->
+        <button
+          v-if="isMobile && showDetail"
+          class="back-btn"
+          @click="showDetail = false"
+        >
+          <i class="pi pi-arrow-left" />
+          <span>Runs</span>
+        </button>
+        <label class="upload-btn" v-tooltip="'Upload nohit.json'">
+          <i class="pi pi-upload" />
+          <input type="file" accept=".json" @change="onFileUpload" hidden />
+        </label>
+      </template>
     </PageHeader>
 
-    <div class="content-area">
-      <!-- Run list (left panel) -->
-      <aside class="run-list">
-        <div
-          v-for="run in runs"
-          :key="run.id"
-          class="run-card"
-          :class="{ active: selectedRun?.id === run.id }"
-          @click="selectedRun = run"
+    <!-- ── Panel container ────────────────────────────────────── -->
+    <div class="content-area" :class="{ 'mobile-mode': isMobile }">
+
+      <!-- Run list panel -->
+      <Transition :name="isMobile ? 'panel-left' : 'none'">
+        <aside
+          v-show="!isMobile || !showDetail"
+          class="run-list"
+          :class="{ 'panel-full': isMobile }"
         >
-          <div class="run-card-header">
-            <span class="run-game">{{ run.game }}</span>
-            <StatusBadge :status="run.status" />
-          </div>
-          <div class="run-card-sub">{{ run.category }}</div>
-          <div class="run-card-meta">
-            <span><i class="pi pi-calendar" /> {{ formatDate(run.startDate) }}</span>
-            <span><i class="pi pi-flag" /> {{ bossesDefeated(run) }}/{{ run.bosses.length }}</span>
-          </div>
-        </div>
-
-        <div v-if="!runs.length" class="empty-list">
-          <i class="pi pi-shield" />
-          <p>No runs yet.</p>
-        </div>
-      </aside>
-
-      <!-- Run detail (right panel) -->
-      <section class="run-detail" v-if="selectedRun">
-        <div class="detail-header">
-          <div>
-            <h2 class="detail-title">{{ selectedRun.game }}</h2>
-            <p class="detail-sub">{{ selectedRun.category }}</p>
-          </div>
-          <StatusBadge :status="selectedRun.status" large />
-        </div>
-
-        <!-- Stats strip -->
-        <div class="stats-strip">
-          <div class="stat-box">
-            <span class="stat-label">Start Date</span>
-            <span class="stat-value">{{ formatDate(selectedRun.startDate) }}</span>
-          </div>
-          <div class="stat-box" v-if="selectedRun.endDate">
-            <span class="stat-label">End Date</span>
-            <span class="stat-value">{{ formatDate(selectedRun.endDate) }}</span>
-          </div>
-          <div class="stat-box">
-            <span class="stat-label">Sessions</span>
-            <span class="stat-value">{{ selectedRun.sessions.length }}</span>
-          </div>
-          <div class="stat-box">
-            <span class="stat-label">Total Deaths</span>
-            <span class="stat-value deaths">{{ totalDeaths(selectedRun) }}</span>
-          </div>
-          <div class="stat-box">
-            <span class="stat-label">Total Hours</span>
-            <span class="stat-value">{{ totalHours(selectedRun) }}</span>
-          </div>
-          <div class="stat-box">
-            <span class="stat-label">Bosses</span>
-            <span class="stat-value">{{ bossesDefeated(selectedRun) }}/{{ selectedRun.bosses.length }}</span>
-          </div>
-        </div>
-
-        <div class="charts-grid">
-          <!-- Deaths per session chart -->
-          <div class="chart-card">
-            <div class="chart-title">Deaths per Session</div>
-            <Chart
-              type="bar"
-              :data="deathsChartData"
-              :options="barChartOptions"
-              class="chart-instance"
-            />
-          </div>
-
-          <!-- Boss attempts chart -->
-          <div class="chart-card">
-            <div class="chart-title">Boss Attempts</div>
-            <Chart
-              type="bar"
-              :data="bossAttemptsChartData"
-              :options="horizontalBarOptions"
-              class="chart-instance"
-            />
-          </div>
-        </div>
-
-        <!-- Bosses table -->
-        <div class="bosses-section">
-          <div class="section-title">Boss Progress</div>
-          <DataTable
-            :value="selectedRun.bosses"
-            size="small"
-            class="bosses-table"
-            striped-rows
+          <div
+            v-for="run in runs"
+            :key="run.id"
+            class="run-card"
+            :class="{ active: selectedRun?.id === run.id }"
+            @click="selectRun(run)"
           >
-            <Column field="name" header="Boss" />
-            <Column field="defeated" header="Status" style="width: 100px">
-              <template #body="{ data }">
-                <span class="boss-status" :class="data.defeated ? 'defeated' : 'pending'">
-                  <i :class="`pi ${data.defeated ? 'pi-check-circle' : 'pi-times-circle'}`" />
-                  {{ data.defeated ? 'Defeated' : 'Pending' }}
-                </span>
-              </template>
-            </Column>
-            <Column field="attempts" header="Attempts" style="width: 100px">
-              <template #body="{ data }">
-                <span class="mono-text">{{ data.attempts }}</span>
-              </template>
-            </Column>
-          </DataTable>
-        </div>
+            <div class="run-card-header">
+              <span class="run-game">{{ run.game }}</span>
+              <StatusBadge :status="run.status" />
+            </div>
+            <div class="run-card-sub">{{ run.category }}</div>
+            <div class="run-card-meta">
+              <span><i class="pi pi-calendar" /> {{ formatDate(run.startDate) }}</span>
+              <span><i class="pi pi-flag" /> {{ bossesDefeated(run) }}/{{ run.bosses.length }}</span>
+            </div>
+            <!-- Mobile tap hint -->
+            <div v-if="isMobile" class="tap-hint">
+              <i class="pi pi-chevron-right" />
+            </div>
+          </div>
 
-        <!-- Sessions table -->
-        <div class="bosses-section">
-          <div class="section-title">Session Log</div>
-          <DataTable
-            :value="selectedRun.sessions"
-            size="small"
-            class="bosses-table"
-            striped-rows
-            resizable-columns
-            column-resize-mode="fit"
-          >
-            <Column field="date" header="Date">
-              <template #body="{ data }">
-                <span class="mono-text">{{ formatDate(data.date) }}</span>
-              </template>
-            </Column>
-            <Column field="duration" header="Duration">
-              <template #body="{ data }">
-                <span class="mono-text">{{ data.duration }}m</span>
-              </template>
-            </Column>
-            <Column field="deaths" header="Deaths">
-              <template #body="{ data }">
-                <span class="mono-text deaths">{{ data.deaths }}</span>
-              </template>
-            </Column>
-            <Column field="bossesDefeated" header="Bosses Killed">
-              <template #body="{ data }">
-                <span class="mono-text">{{ data.bossesDefeated }}</span>
-              </template>
-            </Column>
-            <Column field="notes" header="Notes">
-              <template #body="{ data }">
-                <span class="notes-text">{{ data.notes ?? '–' }}</span>
-              </template>
-            </Column>
-          </DataTable>
-        </div>
-      </section>
+          <div v-if="!runs.length" class="empty-list">
+            <i class="pi pi-shield" />
+            <p>No runs yet. Upload <code>nohit.json</code>.</p>
+          </div>
+        </aside>
+      </Transition>
 
-      <!-- Empty detail state -->
-      <section class="run-detail empty-detail" v-else>
-        <i class="pi pi-arrow-left" />
-        <p>Select a run to view details</p>
-      </section>
+      <!-- Run detail panel -->
+      <Transition :name="isMobile ? 'panel-right' : 'none'">
+        <section
+          v-show="!isMobile || showDetail"
+          class="run-detail"
+          :class="{ 'panel-full': isMobile }"
+        >
+          <template v-if="selectedRun">
+            <div class="detail-header">
+              <div>
+                <h2 class="detail-title">{{ selectedRun.game }}</h2>
+                <p class="detail-sub">{{ selectedRun.category }}</p>
+              </div>
+              <StatusBadge :status="selectedRun.status" large />
+            </div>
+
+            <!-- Stats strip -->
+            <div class="stats-strip">
+              <div class="stat-box">
+                <span class="stat-label">Start Date</span>
+                <span class="stat-value">{{ formatDate(selectedRun.startDate) }}</span>
+              </div>
+              <div class="stat-box" v-if="selectedRun.endDate">
+                <span class="stat-label">End Date</span>
+                <span class="stat-value">{{ formatDate(selectedRun.endDate) }}</span>
+              </div>
+              <div class="stat-box">
+                <span class="stat-label">Sessions</span>
+                <span class="stat-value">{{ selectedRun.sessions.length }}</span>
+              </div>
+              <div class="stat-box">
+                <span class="stat-label">Total Deaths</span>
+                <span class="stat-value deaths">{{ totalDeaths(selectedRun) }}</span>
+              </div>
+              <div class="stat-box">
+                <span class="stat-label">Total Hours</span>
+                <span class="stat-value">{{ totalHours(selectedRun) }}</span>
+              </div>
+              <div class="stat-box">
+                <span class="stat-label">Bosses</span>
+                <span class="stat-value">{{ bossesDefeated(selectedRun) }}/{{ selectedRun.bosses.length }}</span>
+              </div>
+            </div>
+
+            <!-- Charts: responsive grid → stack -->
+            <div class="charts-grid">
+              <div class="chart-card">
+                <div class="chart-title">Deaths per Session</div>
+                <Chart
+                  type="bar"
+                  :data="deathsChartData"
+                  :options="barChartOptions"
+                  class="chart-instance"
+                />
+              </div>
+              <div class="chart-card">
+                <div class="chart-title">Boss Attempts</div>
+                <Chart
+                  type="bar"
+                  :data="bossAttemptsChartData"
+                  :options="horizontalBarOptions"
+                  class="chart-instance"
+                />
+              </div>
+            </div>
+
+            <!-- Boss progress table -->
+            <div class="bosses-section">
+              <div class="section-title">Boss Progress</div>
+              <DataTable
+                :value="selectedRun.bosses"
+                size="small"
+                class="bosses-table"
+                striped-rows
+              >
+                <Column field="name" header="Boss" />
+                <Column field="defeated" header="Status" style="width: 100px">
+                  <template #body="{ data }">
+                    <span class="boss-status" :class="data.defeated ? 'defeated' : 'pending'">
+                      <i :class="`pi ${data.defeated ? 'pi-check-circle' : 'pi-times-circle'}`" />
+                      {{ data.defeated ? 'Defeated' : 'Pending' }}
+                    </span>
+                  </template>
+                </Column>
+                <Column field="attempts" header="Attempts" style="width: 100px">
+                  <template #body="{ data }">
+                    <span class="mono-text">{{ data.attempts }}</span>
+                  </template>
+                </Column>
+              </DataTable>
+            </div>
+
+            <!-- Session log table -->
+            <div class="bosses-section">
+              <div class="section-title">Session Log</div>
+              <DataTable
+                :value="selectedRun.sessions"
+                size="small"
+                class="bosses-table"
+                striped-rows
+              >
+                <Column field="date" header="Date">
+                  <template #body="{ data }">
+                    <span class="mono-text">{{ formatDate(data.date) }}</span>
+                  </template>
+                </Column>
+                <Column field="duration" header="Duration">
+                  <template #body="{ data }">
+                    <span class="mono-text">{{ data.duration }}m</span>
+                  </template>
+                </Column>
+                <Column field="deaths" header="Deaths">
+                  <template #body="{ data }">
+                    <span class="mono-text deaths">{{ data.deaths }}</span>
+                  </template>
+                </Column>
+                <Column field="bossesDefeated" header="Bosses">
+                  <template #body="{ data }">
+                    <span class="mono-text">{{ data.bossesDefeated }}</span>
+                  </template>
+                </Column>
+                <Column field="notes" header="Notes" class="col-notes">
+                  <template #body="{ data }">
+                    <span class="notes-text">{{ data.notes ?? '–' }}</span>
+                  </template>
+                </Column>
+              </DataTable>
+            </div>
+          </template>
+
+          <!-- Empty state (desktop only — mobile hides this panel) -->
+          <div v-else-if="!isMobile" class="empty-detail">
+            <i class="pi pi-arrow-left" />
+            <p>Select a run to view details</p>
+          </div>
+        </section>
+      </Transition>
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
-import { ref, computed, onMounted } from 'vue'
+import { ref, computed, onMounted, onUnmounted } from 'vue'
 import Chart from 'primevue/chart'
 import DataTable from 'primevue/datatable'
 import Column from 'primevue/column'
@@ -184,8 +215,24 @@ const runs = ref<NoHitRun[]>([])
 const selectedRun = ref<NoHitRun | null>(null)
 const loading = ref(true)
 
+// Mobile panel state
+const isMobile = ref(false)
+const showDetail = ref(false)
+
+const MOBILE_BREAKPOINT = 768
+
+function checkMobile() {
+  isMobile.value = window.innerWidth < MOBILE_BREAKPOINT
+}
+
 onMounted(async () => {
+  checkMobile()
+  window.addEventListener('resize', checkMobile)
   await loadData()
+})
+
+onUnmounted(() => {
+  window.removeEventListener('resize', checkMobile)
 })
 
 async function loadData() {
@@ -195,11 +242,38 @@ async function loadData() {
     if (!res.ok) throw new Error('Failed to load')
     const json = await res.json()
     runs.value = json.runs ?? []
-    if (runs.value.length) selectedRun.value = runs.value[0]
+    if (runs.value.length) {
+      selectedRun.value = runs.value[0]
+      // On desktop, pre-select first run; on mobile, stay on list
+    }
   } catch {
     runs.value = []
   } finally {
     loading.value = false
+  }
+}
+
+function onFileUpload(e: Event) {
+  const file = (e.target as HTMLInputElement).files?.[0]
+  if (!file) return
+  const reader = new FileReader()
+  reader.onload = (ev) => {
+    try {
+      const json = JSON.parse(ev.target?.result as string)
+      runs.value = json.runs ?? []
+      selectedRun.value = runs.value[0] ?? null
+      showDetail.value = false
+    } catch {
+      alert('Invalid JSON file.')
+    }
+  }
+  reader.readAsText(file)
+}
+
+function selectRun(run: NoHitRun) {
+  selectedRun.value = run
+  if (isMobile.value) {
+    showDetail.value = true
   }
 }
 
@@ -227,19 +301,16 @@ function totalHours(run: NoHitRun): string {
 // ── Chart data ─────────────────────────────────────────────────────────────
 const deathsChartData = computed(() => {
   if (!selectedRun.value) return {}
-  const sessions = selectedRun.value.sessions
   return {
-    labels: sessions.map((_s, i) => `S${i + 1}`),
-    datasets: [
-      {
-        label: 'Deaths',
-        data: sessions.map((s) => s.deaths),
-        backgroundColor: 'rgba(145, 70, 255, 0.6)',
-        borderColor: '#9146ff',
-        borderWidth: 1,
-        borderRadius: 4
-      }
-    ]
+    labels: selectedRun.value.sessions.map((_s, i) => `S${i + 1}`),
+    datasets: [{
+      label: 'Deaths',
+      data: selectedRun.value.sessions.map((s) => s.deaths),
+      backgroundColor: 'rgba(145, 70, 255, 0.6)',
+      borderColor: '#9146ff',
+      borderWidth: 1,
+      borderRadius: 4
+    }]
   }
 })
 
@@ -248,18 +319,16 @@ const bossAttemptsChartData = computed(() => {
   const bosses = selectedRun.value.bosses
   return {
     labels: bosses.map((b) => b.name),
-    datasets: [
-      {
-        label: 'Attempts',
-        data: bosses.map((b) => b.attempts),
-        backgroundColor: bosses.map((b) =>
-          b.defeated ? 'rgba(0, 250, 154, 0.6)' : 'rgba(255, 68, 68, 0.5)'
-        ),
-        borderColor: bosses.map((b) => (b.defeated ? '#00fa9a' : '#ff4444')),
-        borderWidth: 1,
-        borderRadius: 4
-      }
-    ]
+    datasets: [{
+      label: 'Attempts',
+      data: bosses.map((b) => b.attempts),
+      backgroundColor: bosses.map((b) =>
+        b.defeated ? 'rgba(0, 250, 154, 0.6)' : 'rgba(255, 68, 68, 0.5)'
+      ),
+      borderColor: bosses.map((b) => (b.defeated ? '#00fa9a' : '#ff4444')),
+      borderWidth: 1,
+      borderRadius: 4
+    }]
   }
 })
 
@@ -291,7 +360,10 @@ const horizontalBarOptions = {
     x: baseChartOptions.scales.x,
     y: {
       ...baseChartOptions.scales.y,
-      ticks: { ...baseChartOptions.scales.y.ticks, font: { family: 'JetBrains Mono', size: 10 } }
+      ticks: {
+        ...baseChartOptions.scales.y.ticks,
+        font: { family: 'JetBrains Mono', size: 10 }
+      }
     }
   }
 }
@@ -301,14 +373,21 @@ const horizontalBarOptions = {
 .view-container {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 100%;
   overflow: hidden;
   background: var(--brand-bg);
 }
 
+/* ── Content area ──────────────────────────────────────────── */
 .content-area {
   flex: 1;
   display: flex;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Mobile: clip so sliding panels don't overflow */
+.content-area.mobile-mode {
   overflow: hidden;
 }
 
@@ -323,6 +402,16 @@ const horizontalBarOptions = {
   flex-direction: column;
   gap: 6px;
   background: var(--brand-surface);
+  flex-shrink: 0;
+}
+
+/* Mobile: full width panel */
+.run-list.panel-full {
+  width: 100%;
+  min-width: 0;
+  border-right: none;
+  position: absolute;
+  inset: 0;
 }
 
 .run-card {
@@ -332,6 +421,7 @@ const horizontalBarOptions = {
   cursor: pointer;
   transition: all 0.15s;
   background: var(--brand-surface-2);
+  position: relative;
 }
 
 .run-card:hover {
@@ -379,6 +469,16 @@ const horizontalBarOptions = {
   margin-right: 3px;
 }
 
+.tap-hint {
+  position: absolute;
+  right: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--brand-text-muted);
+  font-size: 12px;
+  opacity: 0.5;
+}
+
 /* ── Detail panel ──────────────────────────────────────────── */
 .run-detail {
   flex: 1;
@@ -387,11 +487,22 @@ const horizontalBarOptions = {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  min-width: 0;
+}
+
+.run-detail.panel-full {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  padding: 16px;
 }
 
 .empty-detail {
+  flex: 1;
+  display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   color: var(--brand-text-muted);
   gap: 12px;
   font-size: 14px;
@@ -406,6 +517,7 @@ const horizontalBarOptions = {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
+  gap: 12px;
 }
 
 .detail-title {
@@ -425,10 +537,10 @@ const horizontalBarOptions = {
   margin: 0;
 }
 
-/* Stats strip */
+/* ── Stats strip ───────────────────────────────────────────── */
 .stats-strip {
   display: flex;
-  gap: 12px;
+  gap: 10px;
   flex-wrap: wrap;
 }
 
@@ -436,11 +548,12 @@ const horizontalBarOptions = {
   background: var(--brand-surface);
   border: 1px solid var(--brand-border);
   border-radius: 8px;
-  padding: 10px 16px;
+  padding: 10px 14px;
   display: flex;
   flex-direction: column;
   gap: 4px;
-  min-width: 100px;
+  min-width: 90px;
+  flex: 1;
 }
 
 .stat-label {
@@ -449,6 +562,7 @@ const horizontalBarOptions = {
   letter-spacing: 0.06em;
   color: var(--brand-text-muted);
   font-family: var(--font-mono);
+  white-space: nowrap;
 }
 
 .stat-value {
@@ -462,11 +576,25 @@ const horizontalBarOptions = {
   color: var(--brand-accent-red);
 }
 
-/* Charts */
+/* ── Charts: 2-col on wide, stack on narrow ────────────────── */
 .charts-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 16px;
+}
+
+@media (max-width: 640px) {
+  .charts-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .detail-title {
+    font-size: 20px;
+  }
+
+  .run-detail.panel-full {
+    padding: 12px;
+  }
 }
 
 .chart-card {
@@ -474,6 +602,7 @@ const horizontalBarOptions = {
   border: 1px solid var(--brand-border);
   border-radius: 10px;
   padding: 16px;
+  min-width: 0;
 }
 
 .chart-title {
@@ -489,7 +618,7 @@ const horizontalBarOptions = {
   height: 200px;
 }
 
-/* Boss table */
+/* ── Boss / session tables ─────────────────────────────────── */
 .bosses-section {
   display: flex;
   flex-direction: column;
@@ -514,26 +643,16 @@ const horizontalBarOptions = {
   font-weight: 600;
 }
 
-.boss-status.defeated {
-  color: var(--brand-accent-green);
-}
-
-.boss-status.pending {
-  color: var(--brand-text-muted);
-}
-
-.boss-status .pi {
-  font-size: 14px;
-}
+.boss-status.defeated { color: var(--brand-accent-green); }
+.boss-status.pending  { color: var(--brand-text-muted); }
+.boss-status .pi      { font-size: 14px; }
 
 .mono-text {
   font-family: var(--font-mono);
   font-size: 12px;
 }
 
-.mono-text.deaths {
-  color: var(--brand-accent-red);
-}
+.mono-text.deaths { color: var(--brand-accent-red); }
 
 .notes-text {
   font-size: 12px;
@@ -541,6 +660,7 @@ const horizontalBarOptions = {
   font-style: italic;
 }
 
+/* ── Empty / upload ────────────────────────────────────────── */
 .empty-list {
   display: flex;
   flex-direction: column;
@@ -565,4 +685,65 @@ const horizontalBarOptions = {
   font-size: 11px;
 }
 
+.upload-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  background: var(--brand-surface-2);
+  border: 1px solid var(--brand-border);
+  border-radius: 6px;
+  color: var(--brand-text-muted);
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.upload-btn:hover {
+  background: var(--brand-surface-3);
+  color: var(--brand-purple-light);
+  border-color: var(--brand-purple);
+}
+
+.back-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 12px;
+  background: var(--brand-surface-2);
+  border: 1px solid var(--brand-border);
+  border-radius: 6px;
+  color: var(--brand-text-muted);
+  font-size: 13px;
+  font-family: var(--font-body);
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.back-btn:hover {
+  border-color: var(--brand-purple);
+  color: var(--brand-purple-light);
+}
+
+/* ── Panel slide transitions ───────────────────────────────── */
+.panel-left-enter-active,
+.panel-left-leave-active,
+.panel-right-enter-active,
+.panel-right-leave-active {
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.3s ease;
+  position: absolute;
+  inset: 0;
+}
+
+.panel-left-enter-from { transform: translateX(-100%); opacity: 0; }
+.panel-left-leave-to   { transform: translateX(-100%); opacity: 0; }
+
+.panel-right-enter-from { transform: translateX(100%); opacity: 0; }
+.panel-right-leave-to   { transform: translateX(100%); opacity: 0; }
+
+/* no-op transition for desktop */
+.none-enter-active,
+.none-leave-active {
+  transition: none;
+}
 </style>

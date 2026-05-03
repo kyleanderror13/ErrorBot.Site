@@ -1,38 +1,72 @@
 <template>
   <div class="dark-mode app-shell">
+
+    <!-- Mobile overlay backdrop -->
+    <Transition name="backdrop">
+      <div
+        v-if="sidebarOpen && isMobile"
+        class="sidebar-backdrop"
+        @click="sidebarOpen = false"
+      />
+    </Transition>
+
     <!-- Sidebar -->
-    <aside class="sidebar">
-      <div class="sidebar-header">
-        <div class="logo-mark">
-          <i class="pi pi-twitch" />
+    <Transition name="sidebar-slide">
+      <aside
+        v-show="sidebarOpen || !isMobile"
+        class="sidebar"
+        :class="{ 'sidebar--mobile': isMobile }"
+      >
+        <div class="sidebar-header">
+          <div class="logo-mark">
+            <i class="pi pi-twitch" />
+          </div>
+          <div class="logo-text">
+            <span class="logo-title">kyleanderror13</span>
+            <span class="logo-sub">Dashboard</span>
+          </div>
+          <button v-if="isMobile" class="sidebar-close" @click="sidebarOpen = false">
+            <i class="pi pi-times" />
+          </button>
         </div>
-        <div class="logo-text">
-          <span class="logo-title">kyleanderror13</span>
-          <span class="logo-sub">Channel Dashboard</span>
+
+        <nav class="sidebar-nav">
+          <RouterLink
+            v-for="route in navRoutes"
+            :key="route.path"
+            :to="route.path"
+            class="nav-item"
+            :class="{ active: currentRoute === route.path }"
+            @click="onNavClick"
+          >
+            <i :class="`pi ${route.meta?.icon}`" />
+            <span>{{ route.meta?.title }}</span>
+            <span class="nav-active-bar" />
+          </RouterLink>
+        </nav>
+
+        <div class="sidebar-footer">
+          <span class="footer-text">v1.0.0</span>
         </div>
-      </div>
-
-      <nav class="sidebar-nav">
-        <RouterLink
-          v-for="route in navRoutes"
-          :key="route.path"
-          :to="route.path"
-          class="nav-item"
-          :class="{ active: currentRoute === route.path }"
-        >
-          <i :class="`pi ${route.meta?.icon}`" />
-          <span>{{ route.meta?.title }}</span>
-          <span class="nav-active-bar" />
-        </RouterLink>
-      </nav>
-
-      <div class="sidebar-footer">
-        <span class="footer-text">v1.0.0</span>
-      </div>
-    </aside>
+      </aside>
+    </Transition>
 
     <!-- Main content area -->
     <main class="main-content">
+      <!-- Mobile top bar -->
+      <div v-if="isMobile" class="mobile-topbar">
+        <button class="hamburger" @click="sidebarOpen = true">
+          <i class="pi pi-bars" />
+        </button>
+        <div class="topbar-logo">
+          <div class="logo-mark-sm">
+            <i class="pi pi-twitch" />
+          </div>
+          <span class="topbar-title">kyleanderror13</span>
+        </div>
+        <div class="topbar-page">{{ currentPageTitle }}</div>
+      </div>
+
       <RouterView v-slot="{ Component }">
         <Transition name="page" mode="out-in">
           <component :is="Component" />
@@ -43,17 +77,46 @@
 </template>
 
 <script setup lang="ts">
-import { computed } from 'vue'
+import { ref, computed, onMounted, onUnmounted } from 'vue'
 import { RouterLink, RouterView, useRoute, useRouter } from 'vue-router'
 
 const route = useRoute()
 const router = useRouter()
+
+const sidebarOpen = ref(false)
+const isMobile = ref(false)
+
+const MOBILE_BREAKPOINT = 768
+
+function checkMobile() {
+  isMobile.value = window.innerWidth < MOBILE_BREAKPOINT
+}
+
+onMounted(() => {
+  checkMobile()
+  window.addEventListener('resize', checkMobile)
+})
+
+onUnmounted(() => {
+  window.removeEventListener('resize', checkMobile)
+})
 
 const currentRoute = computed(() => route.path)
 
 const navRoutes = computed(() =>
   router.getRoutes().filter((r) => r.meta?.title)
 )
+
+const currentPageTitle = computed(() => {
+  const r = navRoutes.value.find((r) => r.path === route.path)
+  return r?.meta?.title as string ?? ''
+})
+
+function onNavClick() {
+  if (isMobile.value) {
+    sidebarOpen.value = false
+  }
+}
 </script>
 
 <style scoped>
@@ -65,17 +128,45 @@ const navRoutes = computed(() =>
   background: var(--brand-bg);
 }
 
+/* ── Backdrop ──────────────────────────────────────────────── */
+.sidebar-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 40;
+  backdrop-filter: blur(2px);
+}
+
+.backdrop-enter-active,
+.backdrop-leave-active {
+  transition: opacity 0.25s ease;
+}
+
+.backdrop-enter-from,
+.backdrop-leave-to {
+  opacity: 0;
+}
+
 /* ── Sidebar ───────────────────────────────────────────────── */
 .sidebar {
-  width: 220px;
-  min-width: 220px;
+  width: 240px;
+  min-width: 240px;
   height: 100vh;
   display: flex;
   flex-direction: column;
   background: var(--brand-surface);
   border-right: 1px solid var(--brand-border);
   position: relative;
-  z-index: 10;
+  z-index: 50;
+  flex-shrink: 0;
+}
+
+.sidebar--mobile {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  box-shadow: 4px 0 32px rgba(0, 0, 0, 0.6);
 }
 
 .sidebar::after {
@@ -115,6 +206,11 @@ const navRoutes = computed(() =>
   flex-shrink: 0;
 }
 
+.logo-text {
+  flex: 1;
+  min-width: 0;
+}
+
 .logo-title {
   display: block;
   font-family: var(--font-display);
@@ -135,7 +231,24 @@ const navRoutes = computed(() =>
   margin-top: 2px;
 }
 
-/* ── Nav items ─────────────────────────────────────────────── */
+.sidebar-close {
+  background: none;
+  border: none;
+  color: var(--brand-text-muted);
+  cursor: pointer;
+  font-size: 16px;
+  padding: 6px;
+  border-radius: 4px;
+  transition: color 0.15s;
+  flex-shrink: 0;
+  line-height: 1;
+}
+
+.sidebar-close:hover {
+  color: var(--brand-text);
+}
+
+/* ── Nav ───────────────────────────────────────────────────── */
 .sidebar-nav {
   flex: 1;
   display: flex;
@@ -195,7 +308,7 @@ const navRoutes = computed(() =>
   border-radius: 0 2px 2px 0;
 }
 
-/* ── Sidebar footer ────────────────────────────────────────── */
+/* ── Footer ────────────────────────────────────────────────── */
 .sidebar-footer {
   padding: 12px 16px;
   border-top: 1px solid var(--brand-border);
@@ -211,6 +324,88 @@ const navRoutes = computed(() =>
   opacity: 0.5;
 }
 
+/* ── Sidebar slide animation ───────────────────────────────── */
+.sidebar-slide-enter-active,
+.sidebar-slide-leave-active {
+  transition: transform 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.sidebar-slide-enter-from,
+.sidebar-slide-leave-to {
+  transform: translateX(-100%);
+}
+
+/* ── Mobile top bar ────────────────────────────────────────── */
+.mobile-topbar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 0 16px;
+  height: 52px;
+  background: var(--brand-surface);
+  border-bottom: 1px solid var(--brand-border);
+  flex-shrink: 0;
+  position: relative;
+  z-index: 10;
+}
+
+.hamburger {
+  background: none;
+  border: 1px solid var(--brand-border);
+  color: var(--brand-text);
+  width: 34px;
+  height: 34px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 15px;
+  flex-shrink: 0;
+  transition: all 0.15s;
+}
+
+.hamburger:hover {
+  background: var(--brand-surface-2);
+  border-color: var(--brand-purple);
+  color: var(--brand-purple-light);
+}
+
+.topbar-logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo-mark-sm {
+  width: 28px;
+  height: 28px;
+  background: var(--brand-purple);
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+}
+
+.topbar-title {
+  font-family: var(--font-display);
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--brand-text);
+}
+
+.topbar-page {
+  margin-left: auto;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--brand-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
 /* ── Main content ──────────────────────────────────────────── */
 .main-content {
   flex: 1;
@@ -218,6 +413,7 @@ const navRoutes = computed(() =>
   overflow: hidden;
   display: flex;
   flex-direction: column;
+  min-width: 0;
 }
 
 /* ── Page transition ───────────────────────────────────────── */

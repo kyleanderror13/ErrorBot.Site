@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Nunito:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Nunito:wght@300;400;500;600&display=swap');
 
 :root {
   --brand-purple: #9146ff;
@@ -15,9 +15,9 @@
   --brand-accent-red: #ff4444;
   --brand-accent-gold: #ffd700;
 
-  --font-display: 'Rajdhani', sans-serif;
-  --font-body: 'Nunito', sans-serif;
-  --font-mono: 'JetBrains Mono', monospace;
+  --font-display: 'Josefin Sans', sans-serif;
+  --font-body: 'Josefin Sans', sans-serif;
+  --font-mono: 'Josefin Sans', monospace;
 }
 
 *,
@@ -43,6 +43,11 @@ body {
   width: 100vw;
   display: flex;
   overflow: hidden;
+}
+
+/* Views fill the remaining space below the mobile topbar */
+.view-container {
+  height: 100%;
 }
 
 /* PrimeVue dark mode overrides */
@@ -85,13 +90,4 @@ body {
 }
 ::-webkit-scrollbar-thumb:hover {
   background: var(--brand-purple);
-}
-
-.p-datatable-column-resizer {
-  border-right: 2px solid transparent;
-  cursor: col-resize;
-}
-
-.p-datatable-resizable-column:hover .p-datatable-column-resizer {
-  background-color: var(--brand-purple);
 }

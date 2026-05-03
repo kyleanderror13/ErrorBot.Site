@@ -1,8 +1,17 @@
 <template>
-  <span class="platform-badge" :class="platformKey">
-    <i :class="`pi ${icon}`" />
-    {{ platform }}
-  </span>
+  <span class="platform-badge" :class="platformKey" v-tooltip.bottom="platform">
+      <svg
+        v-if="icon"
+        viewBox="0 0 24 24"
+        width="24"
+        height="24"
+        fill="white"
+        role="img"
+        aria-hidden="true"
+      >
+        <path :d="icon.path" />
+      </svg>
+    </span>
 </template>
 
 <script setup lang="ts">
@@ -11,19 +20,22 @@ import { siSteam, siEpicgames, siGogdotcom, siEa } from 'simple-icons'
 import { mdiMicrosoftXbox, mdiMicrosoftWindows } from '@mdi/js'
 import type { LibraryPlatform } from '@/types'
 
+console.log(siEpicgames);
+console.log(siEa);
+
 const props = defineProps<{ platform: LibraryPlatform }>()
 
 const platformKey = computed(() =>
   props.platform.toLowerCase().replace(/[\s:]/g, '-')
 )
 
-const iconMap: Record<string, { path: string; color: string, viewBox?: string }> = {
-  'Steam': { path: siSteam.path, color: '#1b2838', viewBox: '0 0 24 24' },
-  'Epic Games': { path: siEpicgames.path, color: '#313131', viewBox: '0 0 24 24' },
-  'GOG': { path: siGogdotcom.path, color: '#86328A', viewBox: '0 0 24 24' },
-  'Xbox': { path: mdiMicrosoftXbox, color: '#00ADEF', viewBox: '0 0 24 24' },
-  'Microsoft': { path: mdiMicrosoftWindows, color: '#107C10', viewBox: '0 0 24 24' },
-  'EA': { path: siEa.path, color: '#0078D4', viewBox: '0 0 24 24' },
+const iconMap: Record<string, { path: string }> = {
+  'Steam': { path: siSteam.path },
+  'Epic': { path: siEpicgames.path },
+  'GOG': { path: siGogdotcom.path },
+  'Xbox': { path: mdiMicrosoftXbox },
+  'Microsoft': { path: mdiMicrosoftWindows },
+  'Origin': { path: siEa.path },
 }
 
 const icon = computed(() => iconMap[props.platform])
@@ -34,16 +46,13 @@ const icon = computed(() => iconMap[props.platform])
 .platform-badge {
   display: inline-flex;
   align-items: center;
-  gap: 6px;
-  padding: 2px 10px;
-  border-radius: 4px;
+  gap: 2px;
+  padding: 8px;
   font-size: 11px;
   font-weight: 600;
   font-family: var(--font-mono);
   white-space: nowrap;
-  background: var(--brand-surface-2);
   color: var(--brand-text-muted);
-  border: 1px solid var(--brand-border);
 }
 
 .pc {
