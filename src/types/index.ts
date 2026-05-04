@@ -19,36 +19,47 @@ export interface LoyaltyPeriod {
   points: number
 }
 
-// No-Hit Run types
-export interface NoHitBoss {
-  name: string
-  defeated: boolean
-  attempts: number
-  timestamp?: string
+export interface NoHitCatalog {
+  runs: NoHitCatalogRun[]
 }
 
-export interface NoHitSession {
-  date: string          // ISO date string
-  duration: number      // minutes
-  deaths: number
-  bossesDefeated: number
-  notes?: string
-}
-
-export interface NoHitRun {
+export interface NoHitCatalogRun {
   id: string
   game: string
   category: string
-  status: 'active' | 'completed' | 'failed'
-  startDate: string
-  endDate?: string
-  bosses: NoHitBoss[]
-  sessions: NoHitSession[]
+  status: 'Active' | 'Completed' | 'Paused' | 'NotStarted'
+  attempts: number
+  hitPB? : number
+  distancePB?: number
   coverImage?: string
 }
 
-export interface NoHitData {
-  runs: NoHitRun[]
+export interface NoHitSummary {
+  splits: NoHitSummarySplit[]
+}
+
+export interface NoHitSummarySplit {
+  name: string
+  resets: number
+  successRate: number
+  averageHits: number
+  totalHits: number
+  successAttempts: number
+  totalAttempts: number
+}
+
+export interface NoHitLog {
+  runs: NoHitLogRun[]
+}
+
+export interface NoHitLogRun {
+  attempt: number
+  date: Date // date of the run
+  hits: number
+  progress: number // percentage of run completed
+  resetSplitName?: string
+  pb: boolean
+  distance: boolean
 }
 
 // Game Library types

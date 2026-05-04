@@ -115,7 +115,7 @@ onMounted(async () => {
 async function loadData() {
   loading.value = true
   try {
-    const res = await fetch('/data/loyalty.json')
+    const res = await fetch('/data/loyalty/loyalty.json')
     if (!res.ok) throw new Error('Failed to load')
     const json = await res.json()
     // TODO: add extra periods here once archived data is available.

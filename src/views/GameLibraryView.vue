@@ -101,7 +101,7 @@ onMounted(async () => {
 async function loadData() {
   loading.value = true
   try {
-    const res = await fetch('/data/gamelibrary.json')
+    const res = await fetch('/data/gamelibrary/gamelibrary.json')
     if (!res.ok) throw new Error()
     const json = await res.json()
     games.value = json.games ?? []
@@ -126,9 +126,8 @@ const filteredGames = computed(() => {
 const summaryStats = computed(() => [
   { label: 'Total', value: games.value.length, color: 'var(--brand-text)' },
   { label: '100%', value: games.value.filter((g) => g.completed === 'completed-100').length, color: '#e7ce42' },
-  { label: 'Completed', value: games.value.filter((g) => g.completed === 'completed-any').length, color: '#00fa9a' },
-  { label: 'In Progress', value: games.value.filter((g) => g.completed === 'in-progress').length, color: '#bf94ff' },
-  { label: 'Not Started', value: games.value.filter((g) => g.completed === 'not-started').length, color: 'var(--brand-text-muted)' },
+  { label: 'Any%', value: games.value.filter((g) => g.completed === 'completed-any').length, color: '#00fa9a' },
+  { label: 'In Progress', value: games.value.filter((g) => g.completed === 'in-progress').length, color: '#bf94ff' }
 ])
 </script>
 

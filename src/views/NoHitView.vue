@@ -3,10 +3,9 @@
     <PageHeader
       title="No Hit"
       icon="pi-shield"
-      :subtitle="`${runs.length} challenge runs`"
+      :subtitle="`${catalogRuns.length} runs`"
     >
       <template #actions>
-        <!-- Back button: mobile only, shown when viewing detail -->
         <button
           v-if="isMobile && showDetail"
           class="back-btn"
@@ -15,17 +14,11 @@
           <i class="pi pi-arrow-left" />
           <span>Runs</span>
         </button>
-        <label class="upload-btn" v-tooltip="'Upload nohit.json'">
-          <i class="pi pi-upload" />
-          <input type="file" accept=".json" @change="onFileUpload" hidden />
-        </label>
       </template>
     </PageHeader>
 
-    <!-- ── Panel container ────────────────────────────────────── -->
     <div class="content-area" :class="{ 'mobile-mode': isMobile }">
 
-      <!-- Run list panel -->
       <Transition :name="isMobile ? 'panel-left' : 'none'">
         <aside
           v-show="!isMobile || !showDetail"
@@ -33,35 +26,30 @@
           :class="{ 'panel-full': isMobile }"
         >
           <div
-            v-for="run in runs"
+            v-for="run in catalogRuns"
             :key="run.id"
             class="run-card"
             :class="{ active: selectedRun?.id === run.id }"
             @click="selectRun(run)"
           >
-            <div class="run-card-header">
-              <span class="run-game">{{ run.game }}</span>
-              <StatusBadge :status="run.status" />
-            </div>
+            <span class="run-game">{{ run.game }}</span>
+
             <div class="run-card-sub">{{ run.category }}</div>
-            <div class="run-card-meta">
-              <span><i class="pi pi-calendar" /> {{ formatDate(run.startDate) }}</span>
-              <span><i class="pi pi-flag" /> {{ bossesDefeated(run) }}/{{ run.bosses.length }}</span>
-            </div>
-            <!-- Mobile tap hint -->
+
+            <StatusBadge :status="run.status" />
+
             <div v-if="isMobile" class="tap-hint">
               <i class="pi pi-chevron-right" />
             </div>
           </div>
 
-          <div v-if="!runs.length" class="empty-list">
+          <div v-if="!catalogRuns.length" class="empty-list">
             <i class="pi pi-shield" />
-            <p>No runs yet. Upload <code>nohit.json</code>.</p>
+            <p>No runs yet.</p>
           </div>
         </aside>
       </Transition>
 
-      <!-- Run detail panel -->
       <Transition :name="isMobile ? 'panel-right' : 'none'">
         <section
           v-show="!isMobile || showDetail"
@@ -77,114 +65,68 @@
               <StatusBadge :status="selectedRun.status" large />
             </div>
 
-            <!-- Stats strip -->
             <div class="stats-strip">
               <div class="stat-box">
-                <span class="stat-label">Start Date</span>
-                <span class="stat-value">{{ formatDate(selectedRun.startDate) }}</span>
-              </div>
-              <div class="stat-box" v-if="selectedRun.endDate">
-                <span class="stat-label">End Date</span>
-                <span class="stat-value">{{ formatDate(selectedRun.endDate) }}</span>
+                <span class="stat-label">Hit PB</span>
+                <span class="stat-value">{{ selectedRun.hitPB ?? 0 }}</span>
               </div>
               <div class="stat-box">
-                <span class="stat-label">Sessions</span>
-                <span class="stat-value">{{ selectedRun.sessions.length }}</span>
+                <span class="stat-label">Distance PB</span>
+                <span class="stat-value">{{ selectedRun.distancePB }}</span>
               </div>
               <div class="stat-box">
-                <span class="stat-label">Total Deaths</span>
-                <span class="stat-value deaths">{{ totalDeaths(selectedRun) }}</span>
-              </div>
-              <div class="stat-box">
-                <span class="stat-label">Total Hours</span>
-                <span class="stat-value">{{ totalHours(selectedRun) }}</span>
-              </div>
-              <div class="stat-box">
-                <span class="stat-label">Bosses</span>
-                <span class="stat-value">{{ bossesDefeated(selectedRun) }}/{{ selectedRun.bosses.length }}</span>
+                <span class="stat-label">Attempts</span>
+                <span class="stat-value">{{ selectedRun.attempts }}</span>
               </div>
             </div>
 
-            <!-- Charts: responsive grid → stack -->
             <div class="charts-grid">
               <div class="chart-card">
-                <div class="chart-title">Deaths per Session</div>
+                <div class="chart-title">Success Rate</div>
                 <Chart
                   type="bar"
-                  :data="deathsChartData"
-                  :options="barChartOptions"
+                  :data="successRateChartData"
+                  :options="horizontalBarOptions"
                   class="chart-instance"
                 />
               </div>
               <div class="chart-card">
-                <div class="chart-title">Boss Attempts</div>
+                <div class="chart-title">Average Hits</div>
                 <Chart
                   type="bar"
-                  :data="bossAttemptsChartData"
+                  :data="averageHitsChartData"
                   :options="horizontalBarOptions"
                   class="chart-instance"
                 />
               </div>
             </div>
 
-            <!-- Boss progress table -->
-            <div class="bosses-section">
-              <div class="section-title">Boss Progress</div>
+            <div class="log-section">
+              <div class="section-title">Run Log</div>
               <DataTable
-                :value="selectedRun.bosses"
+                :value="logRuns"
                 size="small"
-                class="bosses-table"
+                class="log-table"
                 striped-rows
               >
-                <Column field="name" header="Boss" />
-                <Column field="defeated" header="Status" style="width: 100px">
+                <Column field="attempt" header="#">
                   <template #body="{ data }">
-                    <span class="boss-status" :class="data.defeated ? 'defeated' : 'pending'">
-                      <i :class="`pi ${data.defeated ? 'pi-check-circle' : 'pi-times-circle'}`" />
-                      {{ data.defeated ? 'Defeated' : 'Pending' }}
-                    </span>
+                    <span class="mono-text">{{ data.attempt }}</span>
                   </template>
                 </Column>
-                <Column field="attempts" header="Attempts" style="width: 100px">
-                  <template #body="{ data }">
-                    <span class="mono-text">{{ data.attempts }}</span>
-                  </template>
-                </Column>
-              </DataTable>
-            </div>
-
-            <!-- Session log table -->
-            <div class="bosses-section">
-              <div class="section-title">Session Log</div>
-              <DataTable
-                :value="selectedRun.sessions"
-                size="small"
-                class="bosses-table"
-                striped-rows
-              >
                 <Column field="date" header="Date">
                   <template #body="{ data }">
                     <span class="mono-text">{{ formatDate(data.date) }}</span>
                   </template>
                 </Column>
-                <Column field="duration" header="Duration">
+                <Column field="hits" header="Result">
                   <template #body="{ data }">
-                    <span class="mono-text">{{ data.duration }}m</span>
+                    <span class="mono-text">{{ data.resetSplitName == null ? (data.hits + plural(" hit", data.hits)) : ('reset at ' + data.resetSplitName) }}</span>
                   </template>
                 </Column>
-                <Column field="deaths" header="Deaths">
+                <Column field="progress" header="Clean %">
                   <template #body="{ data }">
-                    <span class="mono-text deaths">{{ data.deaths }}</span>
-                  </template>
-                </Column>
-                <Column field="bossesDefeated" header="Bosses">
-                  <template #body="{ data }">
-                    <span class="mono-text">{{ data.bossesDefeated }}</span>
-                  </template>
-                </Column>
-                <Column field="notes" header="Notes" class="col-notes">
-                  <template #body="{ data }">
-                    <span class="notes-text">{{ data.notes ?? '–' }}</span>
+                    <span class="mono-text">{{ (data.progress * 100).toFixed(0) }}%</span>
                   </template>
                 </Column>
               </DataTable>
@@ -209,11 +151,16 @@ import DataTable from 'primevue/datatable'
 import Column from 'primevue/column'
 import PageHeader from '@/components/PageHeader.vue'
 import StatusBadge from '@/components/StatusBadge.vue'
-import type { NoHitRun } from '@/types'
+import type {  NoHitCatalogRun,  NoHitSummarySplit,  NoHitLogRun } from '@/types'
 
-const runs = ref<NoHitRun[]>([])
-const selectedRun = ref<NoHitRun | null>(null)
-const loading = ref(true)
+const catalogRuns = ref<NoHitCatalogRun[]>([])
+const catalogLoading = ref(true)
+const selectedRun = ref<NoHitCatalogRun | null>(null)
+const summarySplits = ref<NoHitSummarySplit[]>([])
+const summaryLoading = ref(false)
+const logRuns = ref<NoHitLogRun[]>([])
+const logLoading = ref(false);
+const loadedLogRunId = ref<string | null>(null)
 
 // Mobile panel state
 const isMobile = ref(false)
@@ -223,6 +170,10 @@ const MOBILE_BREAKPOINT = 768
 
 function checkMobile() {
   isMobile.value = window.innerWidth < MOBILE_BREAKPOINT
+}
+
+function plural(text: string, count: number): string {
+  return count === 1 ? text : text + 's'
 }
 
 onMounted(async () => {
@@ -236,44 +187,52 @@ onUnmounted(() => {
 })
 
 async function loadData() {
-  loading.value = true
+  catalogLoading.value = true
   try {
-    const res = await fetch('/data/nohit.json')
+    const res = await fetch('/data/nohit/nohitcatalog.json')
     if (!res.ok) throw new Error('Failed to load')
     const json = await res.json()
-    runs.value = json.runs ?? []
-    if (runs.value.length) {
-      selectedRun.value = runs.value[0]
-      // On desktop, pre-select first run; on mobile, stay on list
+    catalogRuns.value = json.runs ?? []
+
+    // On desktop, pre-select first run; on mobile, stay on list
+    if (catalogRuns.value.length && !isMobile.value) {
+      selectedRun.value = catalogRuns.value[0]
     }
   } catch {
-    runs.value = []
+    catalogRuns.value = []
   } finally {
-    loading.value = false
+    catalogLoading.value = false
   }
 }
 
-function onFileUpload(e: Event) {
-  const file = (e.target as HTMLInputElement).files?.[0]
-  if (!file) return
-  const reader = new FileReader()
-  reader.onload = (ev) => {
-    try {
-      const json = JSON.parse(ev.target?.result as string)
-      runs.value = json.runs ?? []
-      selectedRun.value = runs.value[0] ?? null
-      showDetail.value = false
-    } catch {
-      alert('Invalid JSON file.')
-    }
-  }
-  reader.readAsText(file)
-}
-
-function selectRun(run: NoHitRun) {
+async function selectRun(run: NoHitCatalogRun) {
   selectedRun.value = run
-  if (isMobile.value) {
-    showDetail.value = true
+  summaryLoading.value = true
+  loadedLogRunId.value = null  // reset log cache so it reloads when switching between runs
+
+  if (isMobile.value) showDetail.value = true
+
+  try {
+    const res = await fetch(`/data/nohit/${run.id}/summary.json`);
+    const json = await res.json()
+    summarySplits.value = json.splits ?? []
+  } finally {
+    summaryLoading.value = false;
+  }
+
+  await loadLog(run);
+}
+
+async function loadLog(run: NoHitCatalogRun) {
+  if (loadedLogRunId.value === run.id) return  // already loaded, skip
+  logLoading.value = true
+  try {
+    const res = await fetch(`/data/nohit/${run.id}/log.json`)
+    const json = await res.json()
+    logRuns.value = json.runs ?? []
+    loadedLogRunId.value = run.id
+  } finally {
+    logLoading.value = false
   }
 }
 
@@ -283,49 +242,38 @@ function formatDate(iso: string): string {
   })
 }
 
-function bossesDefeated(run: NoHitRun): number {
-  return run.bosses.filter((b) => b.defeated).length
-}
-
-function totalDeaths(run: NoHitRun): number {
-  return run.sessions.reduce((acc, s) => acc + s.deaths, 0)
-}
-
-function totalHours(run: NoHitRun): string {
-  const totalMin = run.sessions.reduce((acc, s) => acc + s.duration, 0)
-  const h = Math.floor(totalMin / 60)
-  const m = totalMin % 60
-  return `${h}h ${m}m`
-}
-
-// ── Chart data ─────────────────────────────────────────────────────────────
-const deathsChartData = computed(() => {
-  if (!selectedRun.value) return {}
+const successRateChartData = computed(() => {
+  if (!summarySplits.value) return {}
   return {
-    labels: selectedRun.value.sessions.map((_s, i) => `S${i + 1}`),
+    labels: summarySplits.value.map((s, _i) => `${s.name}`),
     datasets: [{
-      label: 'Deaths',
-      data: selectedRun.value.sessions.map((s) => s.deaths),
-      backgroundColor: 'rgba(145, 70, 255, 0.6)',
-      borderColor: '#9146ff',
+      label: 'Success Rate',
+      data: summarySplits.value.map((s) => s.successRate * 100),
+      backgroundColor: summarySplits.value.map((s) =>
+        s.successRate > 0.80 ? 'rgba(178, 255, 102, 0.8)' : s.successRate > 0.50 ? 'rgba(255, 255, 102, 0.8)' : s.successRate > 0.25 ? 'rgba(255, 178, 102, 0.8)' : 'rgba(255, 102, 102, 0.8)'
+      ),
+      borderColor: summarySplits.value.map((s) =>
+        s.successRate > 0.80 ? 'rgba(178, 255, 102, 0.6)' : s.successRate > 0.50 ? 'rgba(255, 255, 102, 0.6)' : s.successAttempts > 0.25 ? 'rgba(255, 178, 102, 0.6)' : 'rgba(255, 102, 102, 0.6)'
+      ),      
       borderWidth: 1,
-      borderRadius: 4
+      borderRadius: 2
     }]
   }
 })
 
-const bossAttemptsChartData = computed(() => {
-  if (!selectedRun.value) return {}
-  const bosses = selectedRun.value.bosses
+const averageHitsChartData = computed(() => {
+  if (!summarySplits.value) return {}
   return {
-    labels: bosses.map((b) => b.name),
+    labels: summarySplits.value.map((s) => s.name),
     datasets: [{
-      label: 'Attempts',
-      data: bosses.map((b) => b.attempts),
-      backgroundColor: bosses.map((b) =>
-        b.defeated ? 'rgba(0, 250, 154, 0.6)' : 'rgba(255, 68, 68, 0.5)'
+      label: 'Average Hits',
+      data: summarySplits.value.map((s) => s.averageHits),
+      backgroundColor: summarySplits.value.map((s) =>
+        s.averageHits < 0.50 ? 'rgba(178, 255, 102, 0.8)' : s.averageHits < 1 ? 'rgba(255, 255, 102, 0.8)' : s.averageHits < 2 ? 'rgba(255, 178, 102, 0.8)' : 'rgba(255, 102, 102, 0.8)'
       ),
-      borderColor: bosses.map((b) => (b.defeated ? '#00fa9a' : '#ff4444')),
+      borderColor: summarySplits.value.map((s) =>
+        s.averageHits < 0.50 ? 'rgba(178, 255, 102, 0.6)' : s.averageHits < 1 ? 'rgba(255, 255, 102, 0.6)' : s.averageHits < 2 ? 'rgba(255, 178, 102, 0.6)' : 'rgba(255, 102, 102, 0.6)'
+      ),      
       borderWidth: 1,
       borderRadius: 4
     }]
@@ -350,8 +298,6 @@ const baseChartOptions = {
     }
   }
 }
-
-const barChartOptions = { ...baseChartOptions }
 
 const horizontalBarOptions = {
   ...baseChartOptions,
@@ -445,14 +391,15 @@ const horizontalBarOptions = {
 .run-game {
   font-family: var(--font-display);
   font-weight: 700;
-  font-size: 14px;
+  font-size: 16px;
   color: var(--brand-text);
   letter-spacing: 0.02em;
 }
 
 .run-card-sub {
-  font-size: 12px;
+  font-size: 14px;
   color: var(--brand-text-muted);
+  margin-top: 4px;
   margin-bottom: 8px;
 }
 
@@ -579,7 +526,7 @@ const horizontalBarOptions = {
 /* ── Charts: 2-col on wide, stack on narrow ────────────────── */
 .charts-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   gap: 16px;
 }
 
@@ -615,11 +562,10 @@ const horizontalBarOptions = {
 }
 
 .chart-instance {
-  height: 200px;
+  height: 600px;
 }
 
-/* ── Boss / session tables ─────────────────────────────────── */
-.bosses-section {
+.log-section {
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -660,7 +606,6 @@ const horizontalBarOptions = {
   font-style: italic;
 }
 
-/* ── Empty / upload ────────────────────────────────────────── */
 .empty-list {
   display: flex;
   flex-direction: column;
@@ -683,26 +628,6 @@ const horizontalBarOptions = {
   padding: 2px 6px;
   border-radius: 4px;
   font-size: 11px;
-}
-
-.upload-btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 32px;
-  height: 32px;
-  background: var(--brand-surface-2);
-  border: 1px solid var(--brand-border);
-  border-radius: 6px;
-  color: var(--brand-text-muted);
-  cursor: pointer;
-  transition: all 0.15s;
-}
-
-.upload-btn:hover {
-  background: var(--brand-surface-3);
-  color: var(--brand-purple-light);
-  border-color: var(--brand-purple);
 }
 
 .back-btn {

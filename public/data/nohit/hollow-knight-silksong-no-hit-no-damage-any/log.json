@@ -1,0 +1,760 @@
+{
+  "runs": [
+    {
+      "attempt": 1,
+      "date": "2025-10-27T23:35:25.0273738+08:00",
+      "hits": 23,
+      "progress": 0.1521739,
+      "resetSplitName": null,
+      "pb": true,
+      "distance": true
+    },
+    {
+      "attempt": 2,
+      "date": "2025-10-30T23:39:42.2419362+08:00",
+      "hits": 33,
+      "progress": 0.10869565,
+      "resetSplitName": null,
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 3,
+      "date": "2025-11-04T20:43:47.9190112+08:00",
+      "hits": 1,
+      "progress": 0.08695652,
+      "resetSplitName": "Swift Step",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 4,
+      "date": "2025-11-04T20:56:58.3717384+08:00",
+      "hits": 1,
+      "progress": 0.04347826,
+      "resetSplitName": "Weaver's Stabber",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 5,
+      "date": "2025-11-09T18:30:28.5376793+08:00",
+      "hits": 34,
+      "progress": 0.17391305,
+      "resetSplitName": null,
+      "pb": false,
+      "distance": true
+    },
+    {
+      "attempt": 6,
+      "date": "2025-11-09T23:51:33.3944682+08:00",
+      "hits": 20,
+      "progress": 0.08695652,
+      "resetSplitName": null,
+      "pb": true,
+      "distance": false
+    },
+    {
+      "attempt": 7,
+      "date": "2025-11-12T20:36:04.1924718+08:00",
+      "hits": 1,
+      "progress": 0.0,
+      "resetSplitName": "Moss Mother",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 8,
+      "date": "2025-11-12T20:44:30.1410701+08:00",
+      "hits": 1,
+      "progress": 0.02173913,
+      "resetSplitName": "The Marrow",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 9,
+      "date": "2025-11-12T20:56:03.8270381+08:00",
+      "hits": 1,
+      "progress": 0.02173913,
+      "resetSplitName": "The Marrow",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 10,
+      "date": "2025-11-12T20:59:04.4108327+08:00",
+      "hits": 1,
+      "progress": 0.0,
+      "resetSplitName": "Moss Mother",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 11,
+      "date": "2025-11-13T20:50:58.1173267+08:00",
+      "hits": 24,
+      "progress": 0.23913044,
+      "resetSplitName": null,
+      "pb": false,
+      "distance": true
+    },
+    {
+      "attempt": 12,
+      "date": "2025-11-18T21:01:22.4824194+08:00",
+      "hits": 1,
+      "progress": 0.0,
+      "resetSplitName": "Moss Mother",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 13,
+      "date": "2025-11-18T21:05:07.7998056+08:00",
+      "hits": 1,
+      "progress": 0.0,
+      "resetSplitName": "Moss Mother",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 14,
+      "date": "2025-11-19T00:10:50.2999857+08:00",
+      "hits": 12,
+      "progress": 0.3478261,
+      "resetSplitName": null,
+      "pb": true,
+      "distance": true
+    },
+    {
+      "attempt": 15,
+      "date": "2025-11-23T23:15:27.741138+08:00",
+      "hits": 10,
+      "progress": 0.39130434,
+      "resetSplitName": null,
+      "pb": true,
+      "distance": true
+    },
+    {
+      "attempt": 16,
+      "date": "2025-11-25T23:47:55.9001509+08:00",
+      "hits": 8,
+      "progress": 0.32608697,
+      "resetSplitName": null,
+      "pb": true,
+      "distance": false
+    },
+    {
+      "attempt": 17,
+      "date": "2025-11-30T20:39:41.2777577+08:00",
+      "hits": 1,
+      "progress": 0.08695652,
+      "resetSplitName": "Swift Step",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 18,
+      "date": "2025-11-30T20:43:56.3509803+08:00",
+      "hits": 1,
+      "progress": 0.0,
+      "resetSplitName": "Moss Mother",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 19,
+      "date": "2025-12-02T19:25:37.8173831+08:00",
+      "hits": 19,
+      "progress": 0.19565217,
+      "resetSplitName": null,
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 20,
+      "date": "2025-12-02T21:25:20.4400467+08:00",
+      "hits": 2,
+      "progress": 0.41304347,
+      "resetSplitName": "Pollip Pouch",
+      "pb": false,
+      "distance": true
+    },
+    {
+      "attempt": 21,
+      "date": "2025-12-03T00:14:26.7286559+08:00",
+      "hits": 17,
+      "progress": 0.2173913,
+      "resetSplitName": null,
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 22,
+      "date": "2025-12-09T19:05:31.9884063+08:00",
+      "hits": 12,
+      "progress": 0.6956522,
+      "resetSplitName": null,
+      "pb": false,
+      "distance": true
+    },
+    {
+      "attempt": 23,
+      "date": "2025-12-09T23:42:10.6672842+08:00",
+      "hits": 6,
+      "progress": 0.7173913,
+      "resetSplitName": null,
+      "pb": true,
+      "distance": true
+    },
+    {
+      "attempt": 24,
+      "date": "2025-12-14T21:31:24.1138971+08:00",
+      "hits": 3,
+      "progress": 0.2826087,
+      "resetSplitName": "Shellwood Arena",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 25,
+      "date": "2025-12-14T21:51:02.647767+08:00",
+      "hits": 1,
+      "progress": 0.08695652,
+      "resetSplitName": "Swift Step",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 26,
+      "date": "2025-12-15T00:25:24.8247029+08:00",
+      "hits": 19,
+      "progress": 0.3478261,
+      "resetSplitName": null,
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 27,
+      "date": "2025-12-18T23:59:25.91694+08:00",
+      "hits": 13,
+      "progress": 0.54347825,
+      "resetSplitName": null,
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 28,
+      "date": "2025-12-19T00:00:00.4799168+08:00",
+      "hits": 13,
+      "progress": 0.54347825,
+      "resetSplitName": null,
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 29,
+      "date": "2025-12-30T20:27:10.5731465+08:00",
+      "hits": 1,
+      "progress": 0.04347826,
+      "resetSplitName": "Weaver's Stabber",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 30,
+      "date": "2025-12-30T20:43:36.9524991+08:00",
+      "hits": 1,
+      "progress": 0.06521739,
+      "resetSplitName": "Bell Beast",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 31,
+      "date": "2025-12-30T23:26:51.4004276+08:00",
+      "hits": 15,
+      "progress": 0.08695652,
+      "resetSplitName": null,
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 32,
+      "date": "2026-01-04T21:01:21.7327097+08:00",
+      "hits": 1,
+      "progress": 0.0,
+      "resetSplitName": "Moss Mother",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 33,
+      "date": "2026-01-04T21:30:16.1371454+08:00",
+      "hits": 1,
+      "progress": 0.17391305,
+      "resetSplitName": "Hornet 1",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 34,
+      "date": "2026-01-04T21:39:45.1887995+08:00",
+      "hits": 1,
+      "progress": 0.02173913,
+      "resetSplitName": "The Marrow",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 35,
+      "date": "2026-01-05T00:33:17.7421088+08:00",
+      "hits": 14,
+      "progress": 0.36956522,
+      "resetSplitName": null,
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 36,
+      "date": "2026-01-07T23:13:04.605533+08:00",
+      "hits": 6,
+      "progress": 0.075,
+      "resetSplitName": null,
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 37,
+      "date": "2026-01-07T23:16:17.3352173+08:00",
+      "hits": 1,
+      "progress": 0.0,
+      "resetSplitName": "Moss Mother",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 38,
+      "date": "2026-01-11T22:28:42.5114808+08:00",
+      "hits": 8,
+      "progress": 0.25,
+      "resetSplitName": null,
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 39,
+      "date": "2026-01-14T20:23:22.6899187+08:00",
+      "hits": 1,
+      "progress": 0.025,
+      "resetSplitName": "The Marrow",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 40,
+      "date": "2026-01-14T23:08:45.1789139+08:00",
+      "hits": 12,
+      "progress": 0.6,
+      "resetSplitName": null,
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 41,
+      "date": "2026-01-20T20:25:26.9300085+08:00",
+      "hits": 1,
+      "progress": 0.025,
+      "resetSplitName": "The Marrow",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 42,
+      "date": "2026-01-20T23:18:58.8864477+08:00",
+      "hits": 15,
+      "progress": 0.225,
+      "resetSplitName": null,
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 43,
+      "date": "2026-01-25T22:10:50.5085391+08:00",
+      "hits": 8,
+      "progress": 0.3,
+      "resetSplitName": null,
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 44,
+      "date": "2026-02-08T20:06:49.3950066+08:00",
+      "hits": 1,
+      "progress": 0.025,
+      "resetSplitName": "The Marrow",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 45,
+      "date": "2026-02-08T22:32:14.3189186+08:00",
+      "hits": 12,
+      "progress": 0.3,
+      "resetSplitName": null,
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 46,
+      "date": "2026-02-15T21:41:01.0694379+08:00",
+      "hits": 6,
+      "progress": 0.17948718,
+      "resetSplitName": "The Mist",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 47,
+      "date": "2026-02-15T22:03:15.5473893+08:00",
+      "hits": 1,
+      "progress": 0.102564104,
+      "resetSplitName": "Swift Step",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 48,
+      "date": "2026-02-15T22:06:55.8975314+08:00",
+      "hits": 1,
+      "progress": 0.0,
+      "resetSplitName": "Moss Mother",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 49,
+      "date": "2026-02-15T23:27:04.2007534+08:00",
+      "hits": 2,
+      "progress": 0.41025642,
+      "resetSplitName": "The Mist",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 50,
+      "date": "2026-02-17T21:59:47.460323+08:00",
+      "hits": 6,
+      "progress": 0.35897437,
+      "resetSplitName": "Whispering Vaults Arena",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 51,
+      "date": "2026-02-18T19:27:01.2211997+08:00",
+      "hits": 11,
+      "progress": 0.41025642,
+      "resetSplitName": null,
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 52,
+      "date": "2026-02-24T23:24:15.8231102+08:00",
+      "hits": 2,
+      "progress": 0.6666667,
+      "resetSplitName": null,
+      "pb": true,
+      "distance": false
+    },
+    {
+      "attempt": 53,
+      "date": "2026-03-03T22:27:21.1111538+08:00",
+      "hits": 8,
+      "progress": 0.53846157,
+      "resetSplitName": null,
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 54,
+      "date": "2026-03-03T22:33:06.8259083+08:00",
+      "hits": 1,
+      "progress": 0.0,
+      "resetSplitName": "Moss Mother",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 55,
+      "date": "2026-03-05T21:13:06.4975254+08:00",
+      "hits": 1,
+      "progress": 0.9230769,
+      "resetSplitName": null,
+      "pb": true,
+      "distance": true
+    },
+    {
+      "attempt": 56,
+      "date": "2026-03-08T21:26:31.1995509+08:00",
+      "hits": 1,
+      "progress": 0.51282054,
+      "resetSplitName": "Relic Selling + Forge Daughter",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 57,
+      "date": "2026-03-08T21:49:42.4400225+08:00",
+      "hits": 1,
+      "progress": 0.102564104,
+      "resetSplitName": "Mothwing Cloak",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 58,
+      "date": "2026-03-08T22:07:17.2550757+08:00",
+      "hits": 1,
+      "progress": 0.07692308,
+      "resetSplitName": "Bell Beast",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 59,
+      "date": "2026-03-08T23:24:30.1212117+08:00",
+      "hits": 1,
+      "progress": 0.5641026,
+      "resetSplitName": "Sinner's Road",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 60,
+      "date": "2026-03-10T20:46:29.6823377+08:00",
+      "hits": 1,
+      "progress": 0.102564104,
+      "resetSplitName": "Mothwing Cloak",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 61,
+      "date": "2026-03-10T22:12:31.7273493+08:00",
+      "hits": 1,
+      "progress": 0.5897436,
+      "resetSplitName": "The Mist",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 62,
+      "date": "2026-03-10T22:26:44.9498612+08:00",
+      "hits": 1,
+      "progress": 0.07692308,
+      "resetSplitName": "Bell Beast",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 63,
+      "date": "2026-03-10T22:30:03.2459678+08:00",
+      "hits": 1,
+      "progress": 0.0,
+      "resetSplitName": "Moss Mother",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 64,
+      "date": "2026-03-10T22:55:30.5207948+08:00",
+      "hits": 1,
+      "progress": 0.12820514,
+      "resetSplitName": "Flea (Swift Step)",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 65,
+      "date": "2026-04-05T19:56:44.313665+08:00",
+      "hits": 1,
+      "progress": 0.0,
+      "resetSplitName": "Moss Mother",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 66,
+      "date": "2026-04-05T22:19:13.4886115+08:00",
+      "hits": 8,
+      "progress": 0.41025642,
+      "resetSplitName": null,
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 67,
+      "date": "2026-04-05T23:17:15.3163471+08:00",
+      "hits": 1,
+      "progress": 0.41025642,
+      "resetSplitName": "Widow",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 68,
+      "date": "2026-04-18T15:48:18.1034197+08:00",
+      "hits": 9,
+      "progress": 0.41025642,
+      "resetSplitName": null,
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 69,
+      "date": "2026-04-19T19:30:12.8580391+08:00",
+      "hits": 1,
+      "progress": 0.025641026,
+      "resetSplitName": "The Marrow",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 70,
+      "date": "2026-04-19T19:48:11.5248502+08:00",
+      "hits": 1,
+      "progress": 0.102564104,
+      "resetSplitName": "Mothwing Cloak",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 71,
+      "date": "2026-04-19T20:40:38.7586087+08:00",
+      "hits": 1,
+      "progress": 0.3846154,
+      "resetSplitName": "Cling Grip",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 72,
+      "date": "2026-04-19T23:09:34.134491+08:00",
+      "hits": 11,
+      "progress": 0.5897436,
+      "resetSplitName": null,
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 73,
+      "date": "2026-04-20T00:00:47.6467927+08:00",
+      "hits": 1,
+      "progress": 0.3846154,
+      "resetSplitName": "Extra Pointy",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 74,
+      "date": "2026-04-26T20:45:48.9311696+08:00",
+      "hits": 1,
+      "progress": 0.23076923,
+      "resetSplitName": "Fifth Chorus",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 75,
+      "date": "2026-04-26T23:04:45.0801297+08:00",
+      "hits": 12,
+      "progress": 0.25641027,
+      "resetSplitName": null,
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 76,
+      "date": "2026-04-29T00:11:41.2462763+08:00",
+      "hits": 6,
+      "progress": 0.55,
+      "resetSplitName": null,
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 77,
+      "date": "2026-04-30T11:23:41.3092444+08:00",
+      "hits": 1,
+      "progress": 0.0,
+      "resetSplitName": "Moss Mother",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 78,
+      "date": "2026-04-30T13:51:02.1218765+08:00",
+      "hits": 8,
+      "progress": 0.6,
+      "resetSplitName": null,
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 79,
+      "date": "2026-04-30T14:18:43.967982+08:00",
+      "hits": 1,
+      "progress": 0.225,
+      "resetSplitName": "Fifth Chorus",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 80,
+      "date": "2026-04-30T15:29:07.2863845+08:00",
+      "hits": 1,
+      "progress": 0.55,
+      "resetSplitName": "Reaper Crest",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 81,
+      "date": "2026-04-30T22:15:47.6064787+08:00",
+      "hits": 1,
+      "progress": 0.4,
+      "resetSplitName": "Widow",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 82,
+      "date": "2026-04-30T22:45:42.3722873+08:00",
+      "hits": 1,
+      "progress": 0.225,
+      "resetSplitName": "Fifth Chorus",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 83,
+      "date": "2026-05-03T21:24:50.4374812+08:00",
+      "hits": 1,
+      "progress": 0.4,
+      "resetSplitName": "Widow",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 84,
+      "date": "2026-05-04T00:00:28.7817579+08:00",
+      "hits": 3,
+      "progress": 0.575,
+      "resetSplitName": null,
+      "pb": false,
+      "distance": false
+    }
+  ]
+}

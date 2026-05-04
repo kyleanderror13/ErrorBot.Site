@@ -1,0 +1,373 @@
+{
+  "splits": [
+    {
+      "name": "Moss Mother",
+      "resets": 12,
+      "successRate": 0.85714287,
+      "averageHits": 0.14285715,
+      "totalHits": 12,
+      "successAttempts": 72,
+      "totalAttempts": 84
+    },
+    {
+      "name": "The Marrow",
+      "resets": 7,
+      "successRate": 0.9027778,
+      "averageHits": 0.097222224,
+      "totalHits": 7,
+      "successAttempts": 65,
+      "totalAttempts": 72
+    },
+    {
+      "name": "Silk Spear",
+      "resets": 2,
+      "successRate": 0.9692308,
+      "averageHits": 0.03076923,
+      "totalHits": 2,
+      "successAttempts": 63,
+      "totalAttempts": 65
+    },
+    {
+      "name": "Bell Beast",
+      "resets": 3,
+      "successRate": 0.93650794,
+      "averageHits": 0.06349207,
+      "totalHits": 4,
+      "successAttempts": 59,
+      "totalAttempts": 63
+    },
+    {
+      "name": "Swift Step",
+      "resets": 7,
+      "successRate": 0.8333333,
+      "averageHits": 0.16666667,
+      "totalHits": 10,
+      "successAttempts": 50,
+      "totalAttempts": 60
+    },
+    {
+      "name": "Flea (Swift Step)",
+      "resets": 1,
+      "successRate": 0.9811321,
+      "averageHits": 0.018867925,
+      "totalHits": 1,
+      "successAttempts": 52,
+      "totalAttempts": 53
+    },
+    {
+      "name": "Flea (Deep Docks Bellway)",
+      "resets": 0,
+      "successRate": 0.9861111,
+      "averageHits": 0.013888889,
+      "totalHits": 1,
+      "successAttempts": 71,
+      "totalAttempts": 72
+    },
+    {
+      "name": "Lace (Deep Docks)",
+      "resets": 1,
+      "successRate": 0.90384614,
+      "averageHits": 0.09615385,
+      "totalHits": 5,
+      "successAttempts": 47,
+      "totalAttempts": 52
+    },
+    {
+      "name": "Drifter's Cloak",
+      "resets": 0,
+      "successRate": 0.98039216,
+      "averageHits": 0.019607844,
+      "totalHits": 1,
+      "successAttempts": 50,
+      "totalAttempts": 51
+    },
+    {
+      "name": "Fourth Chorus",
+      "resets": 3,
+      "successRate": 0.8627451,
+      "averageHits": 0.15686275,
+      "totalHits": 8,
+      "successAttempts": 44,
+      "totalAttempts": 51
+    },
+    {
+      "name": "Flea (Far Fields)",
+      "resets": 0,
+      "successRate": 0.92537314,
+      "averageHits": 0.07462686,
+      "totalHits": 5,
+      "successAttempts": 62,
+      "totalAttempts": 67
+    },
+    {
+      "name": "Flea (Hunter's March)",
+      "resets": 0,
+      "successRate": 0.9166667,
+      "averageHits": 0.125,
+      "totalHits": 6,
+      "successAttempts": 44,
+      "totalAttempts": 48
+    },
+    {
+      "name": "Flea (The Marrow)",
+      "resets": 0,
+      "successRate": 0.9583333,
+      "averageHits": 0.041666668,
+      "totalHits": 2,
+      "successAttempts": 46,
+      "totalAttempts": 48
+    },
+    {
+      "name": "The Lost Fleas",
+      "resets": 0,
+      "successRate": 0.9791667,
+      "averageHits": 0.020833334,
+      "totalHits": 1,
+      "successAttempts": 47,
+      "totalAttempts": 48
+    },
+    {
+      "name": "Shellwood Arena",
+      "resets": 1,
+      "successRate": 0.8787879,
+      "averageHits": 0.16666667,
+      "totalHits": 11,
+      "successAttempts": 58,
+      "totalAttempts": 66
+    },
+    {
+      "name": "Cling Grip",
+      "resets": 1,
+      "successRate": 0.82978725,
+      "averageHits": 0.23404256,
+      "totalHits": 11,
+      "successAttempts": 39,
+      "totalAttempts": 47
+    },
+    {
+      "name": "Widow",
+      "resets": 3,
+      "successRate": 0.6666667,
+      "averageHits": 0.42222223,
+      "totalHits": 19,
+      "successAttempts": 30,
+      "totalAttempts": 45
+    },
+    {
+      "name": "Sharpened Needle",
+      "resets": 1,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 42,
+      "totalAttempts": 42
+    },
+    {
+      "name": "Shell Satchel",
+      "resets": 0,
+      "successRate": 0.9268293,
+      "averageHits": 0.07317073,
+      "totalHits": 3,
+      "successAttempts": 38,
+      "totalAttempts": 41
+    },
+    {
+      "name": "Evolved Hunter Crest",
+      "resets": 0,
+      "successRate": 0.98275864,
+      "averageHits": 0.01724138,
+      "totalHits": 1,
+      "successAttempts": 57,
+      "totalAttempts": 58
+    },
+    {
+      "name": "Forge Daughter Arena",
+      "resets": 1,
+      "successRate": 0.80487806,
+      "averageHits": 0.2195122,
+      "totalHits": 9,
+      "successAttempts": 33,
+      "totalAttempts": 41
+    },
+    {
+      "name": "Greymoor Memory Locket",
+      "resets": 0,
+      "successRate": 0.875,
+      "averageHits": 0.2,
+      "totalHits": 8,
+      "successAttempts": 35,
+      "totalAttempts": 40
+    },
+    {
+      "name": "Reaper Crest",
+      "resets": 1,
+      "successRate": 0.5,
+      "averageHits": 0.5,
+      "totalHits": 2,
+      "successAttempts": 2,
+      "totalAttempts": 4
+    },
+    {
+      "name": "Sinner's Road",
+      "resets": 1,
+      "successRate": 0.8035714,
+      "averageHits": 0.23214285,
+      "totalHits": 13,
+      "successAttempts": 45,
+      "totalAttempts": 56
+    },
+    {
+      "name": "The Mist",
+      "resets": 3,
+      "successRate": 0.57894737,
+      "averageHits": 0.8684211,
+      "totalHits": 33,
+      "successAttempts": 22,
+      "totalAttempts": 38
+    },
+    {
+      "name": "Phantom",
+      "resets": 0,
+      "successRate": 0.7714286,
+      "averageHits": 0.51428574,
+      "totalHits": 18,
+      "successAttempts": 27,
+      "totalAttempts": 35
+    },
+    {
+      "name": "To Cogwork Dancers",
+      "resets": 0,
+      "successRate": 0.8,
+      "averageHits": 0.22857143,
+      "totalHits": 8,
+      "successAttempts": 28,
+      "totalAttempts": 35
+    },
+    {
+      "name": "Cogwork Dancers",
+      "resets": 0,
+      "successRate": 0.6571429,
+      "averageHits": 0.6571429,
+      "totalHits": 23,
+      "successAttempts": 23,
+      "totalAttempts": 35
+    },
+    {
+      "name": "Whispering Vaults Arena",
+      "resets": 1,
+      "successRate": 0.4857143,
+      "averageHits": 1.0285715,
+      "totalHits": 36,
+      "successAttempts": 17,
+      "totalAttempts": 35
+    },
+    {
+      "name": "Pale Oil",
+      "resets": 0,
+      "successRate": 0.9117647,
+      "averageHits": 0.0882353,
+      "totalHits": 3,
+      "successAttempts": 31,
+      "totalAttempts": 34
+    },
+    {
+      "name": "Shining Needle",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 34,
+      "totalAttempts": 34
+    },
+    {
+      "name": "Trobbio",
+      "resets": 0,
+      "successRate": 0.38235295,
+      "averageHits": 1.0882353,
+      "totalHits": 37,
+      "successAttempts": 13,
+      "totalAttempts": 34
+    },
+    {
+      "name": "Clawline",
+      "resets": 0,
+      "successRate": 0.7941176,
+      "averageHits": 0.23529412,
+      "totalHits": 8,
+      "successAttempts": 27,
+      "totalAttempts": 34
+    },
+    {
+      "name": "Clawline Arena",
+      "resets": 0,
+      "successRate": 0.9117647,
+      "averageHits": 0.11764706,
+      "totalHits": 4,
+      "successAttempts": 31,
+      "totalAttempts": 34
+    },
+    {
+      "name": "Vaultkeeper's Melody",
+      "resets": 0,
+      "successRate": 0.7647059,
+      "averageHits": 0.33333334,
+      "totalHits": 17,
+      "successAttempts": 39,
+      "totalAttempts": 51
+    },
+    {
+      "name": "Cogwork Core/Architect's Melody",
+      "resets": 0,
+      "successRate": 0.44117647,
+      "averageHits": 1.0882353,
+      "totalHits": 37,
+      "successAttempts": 15,
+      "totalAttempts": 34
+    },
+    {
+      "name": "High Halls",
+      "resets": 0,
+      "successRate": 0.64705884,
+      "averageHits": 0.44117647,
+      "totalHits": 15,
+      "successAttempts": 22,
+      "totalAttempts": 34
+    },
+    {
+      "name": "The Forum/Conductor's Melody",
+      "resets": 0,
+      "successRate": 0.20588236,
+      "averageHits": 1.9411764,
+      "totalHits": 66,
+      "successAttempts": 7,
+      "totalAttempts": 34
+    },
+    {
+      "name": "Lace (The Cradle)",
+      "resets": 0,
+      "successRate": 0.7352941,
+      "averageHits": 0.32352942,
+      "totalHits": 11,
+      "successAttempts": 25,
+      "totalAttempts": 34
+    },
+    {
+      "name": "Grand Mother Silk",
+      "resets": 0,
+      "successRate": 0.64705884,
+      "averageHits": 0.7941176,
+      "totalHits": 27,
+      "successAttempts": 22,
+      "totalAttempts": 34
+    },
+    {
+      "name": "Pollip Pouch",
+      "resets": 1,
+      "successRate": 0.7083333,
+      "averageHits": 0.45833334,
+      "totalHits": 11,
+      "successAttempts": 17,
+      "totalAttempts": 24
+    }
+  ]
+}
