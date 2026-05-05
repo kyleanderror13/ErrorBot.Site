@@ -1,7 +1,7 @@
 {
   "splits": [
     {
-      "name": "Double Nosk",
+      "name": "Vengefly King",
       "resets": 0,
       "successRate": 1.0,
       "averageHits": 0.0,
@@ -91,7 +91,7 @@
       "totalAttempts": 19
     },
     {
-      "name": "0",
+      "name": "Xero",
       "resets": 1,
       "successRate": 0.6666667,
       "averageHits": 0.3888889,
