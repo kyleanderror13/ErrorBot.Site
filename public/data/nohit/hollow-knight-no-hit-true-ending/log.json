@@ -1,0 +1,1444 @@
+{
+  "runs": [
+    {
+      "attempt": 1,
+      "date": "2025-04-16T23:28:44.4481213+08:00",
+      "hits": 5,
+      "progress": 0.5263158,
+      "resetSplitName": null,
+      "pb": true,
+      "distance": true
+    },
+    {
+      "attempt": 1,
+      "date": "2025-06-11T21:23:09.9305633+08:00",
+      "hits": 1,
+      "progress": 0.0,
+      "resetSplitName": "Erroneous Chevalier",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 2,
+      "date": "2025-04-17T20:55:49.6448685+08:00",
+      "hits": 1,
+      "progress": 0.10526316,
+      "resetSplitName": "City of Tears (entrance)",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 2,
+      "date": "2025-06-12T21:53:23.1887886+08:00",
+      "hits": 1,
+      "progress": 0.36842105,
+      "resetSplitName": "Soul Tyrant",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 3,
+      "date": "2025-04-17T22:19:10.0408828+08:00",
+      "hits": 1,
+      "progress": 0.36842105,
+      "resetSplitName": "Isma's Tear",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 3,
+      "date": "2025-06-12T22:27:29.5939461+08:00",
+      "hits": 1,
+      "progress": 0.15789473,
+      "resetSplitName": "Defeat The Cat-Boy",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 4,
+      "date": "2025-04-17T23:51:17.0385468+08:00",
+      "hits": 1,
+      "progress": 0.42105263,
+      "resetSplitName": "Uumuu/Monomon",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 4,
+      "date": "2025-06-13T01:38:57.6846969+08:00",
+      "hits": 2,
+      "progress": 0.8947368,
+      "resetSplitName": null,
+      "pb": true,
+      "distance": true
+    },
+    {
+      "attempt": 5,
+      "date": "2025-04-29T19:12:28.8994777+08:00",
+      "hits": 1,
+      "progress": 0.02631579,
+      "resetSplitName": "Hornet Protector/Mothwing Cloak",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 5,
+      "date": "2025-06-14T11:22:00.7617921+08:00",
+      "hits": 1,
+      "progress": 0.31578946,
+      "resetSplitName": "Mom's Ceramic! NO!!!",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 6,
+      "date": "2025-04-29T22:19:08.8912226+08:00",
+      "hits": 4,
+      "progress": 0.68421054,
+      "resetSplitName": null,
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 6,
+      "date": "2025-06-14T11:51:52.8837776+08:00",
+      "hits": 1,
+      "progress": 0.10526316,
+      "resetSplitName": "City of Tears (entrance)",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 7,
+      "date": "2025-04-29T23:19:48.932666+08:00",
+      "hits": 1,
+      "progress": 0.2631579,
+      "resetSplitName": "Soul Warrior/Shade Soul (MG)",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 7,
+      "date": "2025-06-14T12:22:29.1979325+08:00",
+      "hits": 1,
+      "progress": 0.13157895,
+      "resetSplitName": "Hell Room",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 8,
+      "date": "2025-05-06T21:14:34.8889071+08:00",
+      "hits": 1,
+      "progress": 0.15789473,
+      "resetSplitName": "Soul Master/Desolate Dive",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 8,
+      "date": "2025-06-14T13:39:03.2669045+08:00",
+      "hits": 1,
+      "progress": 0.34210527,
+      "resetSplitName": "Very Important Charm",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 9,
+      "date": "2025-05-06T21:16:44.4276633+08:00",
+      "hits": 1,
+      "progress": 0.0,
+      "resetSplitName": "False Knight",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 9,
+      "date": "2025-06-16T19:55:02.0164589+08:00",
+      "hits": 1,
+      "progress": 0.0,
+      "resetSplitName": "Erroneous Chevalier",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 10,
+      "date": "2025-05-06T22:22:36.7609757+08:00",
+      "hits": 1,
+      "progress": 0.31578946,
+      "resetSplitName": "Broken Vessel/Monarch Wings",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 10,
+      "date": "2025-06-16T21:04:11.4218392+08:00",
+      "hits": 1,
+      "progress": 0.2631579,
+      "resetSplitName": "READ THIS Charms + Dive (MG)",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 11,
+      "date": "2025-05-06T23:42:28.0941206+08:00",
+      "hits": 1,
+      "progress": 0.36842105,
+      "resetSplitName": "Isma's Tear",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 11,
+      "date": "2025-06-16T21:14:48.238992+08:00",
+      "hits": 1,
+      "progress": 0.02631579,
+      "resetSplitName": "Silksong 2025 Confirmed",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 12,
+      "date": "2025-05-09T20:09:11.4830803+08:00",
+      "hits": 1,
+      "progress": 0.18421052,
+      "resetSplitName": "City of Tears (exit)",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 12,
+      "date": "2025-06-16T21:34:28.3406251+08:00",
+      "hits": 1,
+      "progress": 0.078947365,
+      "resetSplitName": "Mantis Claw",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 13,
+      "date": "2025-05-09T20:28:07.1895406+08:00",
+      "hits": 1,
+      "progress": 0.078947365,
+      "resetSplitName": "Mantis Claw",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 13,
+      "date": "2025-06-17T21:13:05.5642384+08:00",
+      "hits": 1,
+      "progress": 0.14285715,
+      "resetSplitName": "Defeat The Cat-Boy",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 14,
+      "date": "2025-05-09T21:05:45.3500132+08:00",
+      "hits": 1,
+      "progress": 0.18421052,
+      "resetSplitName": "City of Tears (exit)",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 14,
+      "date": "2025-06-17T21:43:41.3897757+08:00",
+      "hits": 1,
+      "progress": 0.114285715,
+      "resetSplitName": null,
+      "pb": true,
+      "distance": false
+    },
+    {
+      "attempt": 15,
+      "date": "2025-05-11T15:51:23.1028611+08:00",
+      "hits": 2,
+      "progress": 0.84210527,
+      "resetSplitName": null,
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 15,
+      "date": "2025-06-17T23:01:40.7182754+08:00",
+      "hits": 2,
+      "progress": 0.25714287,
+      "resetSplitName": "ASCEND ASCEND ASCEND",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 16,
+      "date": "2025-05-13T21:10:58.3246387+08:00",
+      "hits": 1,
+      "progress": 0.2631579,
+      "resetSplitName": null,
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 16,
+      "date": "2025-06-17T23:22:13.5113352+08:00",
+      "hits": 1,
+      "progress": 0.08571429,
+      "resetSplitName": "Mantis Claw",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 17,
+      "date": "2025-05-13T22:27:20.9658196+08:00",
+      "hits": 1,
+      "progress": 0.31578946,
+      "resetSplitName": "Broken Vessel/Monarch Wings",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 17,
+      "date": "2025-06-18T00:31:49.8062711+08:00",
+      "hits": 1,
+      "progress": 0.31428573,
+      "resetSplitName": "Mom's Ceramic! NO!!!",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 18,
+      "date": "2025-05-13T22:28:24.7491665+08:00",
+      "hits": 1,
+      "progress": 0.0,
+      "resetSplitName": "False Knight",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 18,
+      "date": "2025-06-19T21:58:44.7646466+08:00",
+      "hits": 1,
+      "progress": 0.31428573,
+      "resetSplitName": "Mom's Ceramic! NO!!!",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 19,
+      "date": "2025-05-14T00:09:07.0142356+08:00",
+      "hits": 1,
+      "progress": 0.47368422,
+      "resetSplitName": "Hornet Sentinel/King's Brand",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 19,
+      "date": "2025-06-19T22:04:19.9114102+08:00",
+      "hits": 1,
+      "progress": 0.0,
+      "resetSplitName": "Erroneous Chevalier",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 20,
+      "date": "2025-05-16T19:47:07.857497+08:00",
+      "hits": 1,
+      "progress": 0.02631579,
+      "resetSplitName": "Hornet Protector/Mothwing Cloak",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 20,
+      "date": "2025-06-20T00:55:41.2723852+08:00",
+      "hits": 3,
+      "progress": 0.34285715,
+      "resetSplitName": null,
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 21,
+      "date": "2025-05-16T20:20:06.4143224+08:00",
+      "hits": 1,
+      "progress": 0.10526316,
+      "resetSplitName": "City of Tears (entrance)",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 21,
+      "date": "2025-06-26T21:52:33.1918162+08:00",
+      "hits": 3,
+      "progress": 0.37142858,
+      "resetSplitName": "Revenge of the Cat Man",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 22,
+      "date": "2025-05-16T20:26:47.189798+08:00",
+      "hits": 1,
+      "progress": 0.0,
+      "resetSplitName": "False Knight",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 22,
+      "date": "2025-06-26T22:56:49.1528655+08:00",
+      "hits": 1,
+      "progress": 0.31428573,
+      "resetSplitName": "Mom's Ceramic! NO!!!",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 23,
+      "date": "2025-05-16T21:36:44.7381334+08:00",
+      "hits": 1,
+      "progress": 0.2631579,
+      "resetSplitName": "READ THIS Charms + Dive (MG)",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 23,
+      "date": "2025-07-07T19:51:34.3796199+08:00",
+      "hits": 1,
+      "progress": 0.0,
+      "resetSplitName": "Erroneous Chevalier",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 24,
+      "date": "2025-05-16T21:43:54.4695659+08:00",
+      "hits": 1,
+      "progress": 0.0,
+      "resetSplitName": "False Knight",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 24,
+      "date": "2025-07-07T20:03:48.7747414+08:00",
+      "hits": 1,
+      "progress": 0.028571429,
+      "resetSplitName": "Silksong 2025 Confirmed",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 25,
+      "date": "2025-05-16T22:13:46.4088154+08:00",
+      "hits": 1,
+      "progress": 0.10526316,
+      "resetSplitName": "City of Tears (entrance)",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 25,
+      "date": "2025-07-07T20:17:45.5251406+08:00",
+      "hits": 1,
+      "progress": 0.028571429,
+      "resetSplitName": "Silksong 2025 Confirmed",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 26,
+      "date": "2025-05-18T20:40:11.9169942+08:00",
+      "hits": 1,
+      "progress": 0.84210527,
+      "resetSplitName": null,
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 26,
+      "date": "2025-07-07T23:26:56.5649818+08:00",
+      "hits": 2,
+      "progress": 0.54285717,
+      "resetSplitName": null,
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 27,
+      "date": "2025-05-18T21:43:32.9891742+08:00",
+      "hits": 1,
+      "progress": 0.2631579,
+      "resetSplitName": "READ THIS Charms + Dive (MG)",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 27,
+      "date": "2025-07-14T20:46:00.4947263+08:00",
+      "hits": 1,
+      "progress": 0.22857143,
+      "resetSplitName": "Sleepy Hardware",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 28,
+      "date": "2025-05-18T23:06:10.0289996+08:00",
+      "hits": 1,
+      "progress": 0.2631579,
+      "resetSplitName": "READ THIS Charms + Dive (MG)",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 28,
+      "date": "2025-07-14T23:30:35.9127666+08:00",
+      "hits": 7,
+      "progress": 0.34285715,
+      "resetSplitName": null,
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 29,
+      "date": "2025-05-22T21:15:18.6869575+08:00",
+      "hits": 1,
+      "progress": 0.31578946,
+      "resetSplitName": "Broken Vessel/Monarch Wings",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 29,
+      "date": "2025-07-15T20:37:03.2497459+08:00",
+      "hits": 1,
+      "progress": 0.14285715,
+      "resetSplitName": "Defeat The Cat-Boy",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 30,
+      "date": "2025-05-22T21:20:02.0458295+08:00",
+      "hits": 1,
+      "progress": 0.0,
+      "resetSplitName": "False Knight",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 30,
+      "date": "2025-07-15T21:08:20.6435467+08:00",
+      "hits": 1,
+      "progress": 0.114285715,
+      "resetSplitName": null,
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 31,
+      "date": "2025-05-23T00:32:02.8445155+08:00",
+      "hits": 3,
+      "progress": 0.7368421,
+      "resetSplitName": null,
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 31,
+      "date": "2025-07-15T23:01:06.7611513+08:00",
+      "hits": 5,
+      "progress": 0.31428573,
+      "resetSplitName": "Markoth",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 32,
+      "date": "2025-05-23T19:12:41.1753286+08:00",
+      "hits": 3,
+      "progress": 0.7368421,
+      "resetSplitName": null,
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 32,
+      "date": "2025-07-23T22:47:25.7595181+08:00",
+      "hits": 4,
+      "progress": 0.71428573,
+      "resetSplitName": null,
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 33,
+      "date": "2025-05-23T20:18:52.5378672+08:00",
+      "hits": 1,
+      "progress": 0.078947365,
+      "resetSplitName": "Mantis Claw",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 33,
+      "date": "2025-07-29T21:35:12.6423437+08:00",
+      "hits": 1,
+      "progress": 0.37142858,
+      "resetSplitName": "ASCEND ASCEND ASCEND",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 34,
+      "date": "2025-05-23T21:13:55.8334635+08:00",
+      "hits": 1,
+      "progress": 0.21052632,
+      "resetSplitName": "Crystal Heart",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 34,
+      "date": "2025-08-03T19:10:01.497353+08:00",
+      "hits": 5,
+      "progress": 0.4857143,
+      "resetSplitName": null,
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 35,
+      "date": "2025-05-23T22:31:22.6393656+08:00",
+      "hits": 1,
+      "progress": 0.36842105,
+      "resetSplitName": "Isthmus Tear",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 35,
+      "date": "2025-08-03T20:35:43.1339794+08:00",
+      "hits": 1,
+      "progress": 0.34285715,
+      "resetSplitName": "Revenge of the Cat Man",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 36,
+      "date": "2025-05-24T00:01:14.526824+08:00",
+      "hits": 1,
+      "progress": 0.42105263,
+      "resetSplitName": "Uumuu/Monomon",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 36,
+      "date": "2025-08-03T20:52:25.6524917+08:00",
+      "hits": 1,
+      "progress": 0.028571429,
+      "resetSplitName": "Silksong 2025 Confirmed",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 37,
+      "date": "2025-05-26T20:53:53.8371075+08:00",
+      "hits": 1,
+      "progress": 0.55263156,
+      "resetSplitName": null,
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 37,
+      "date": "2025-08-03T20:58:13.5281339+08:00",
+      "hits": 1,
+      "progress": 0.0,
+      "resetSplitName": "Erroneous Chevalier",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 38,
+      "date": "2025-05-26T21:04:31.0127724+08:00",
+      "hits": 1,
+      "progress": 0.02631579,
+      "resetSplitName": "Silksong 2025 Confirmed",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 38,
+      "date": "2025-08-03T21:35:49.1429957+08:00",
+      "hits": 1,
+      "progress": 0.17142858,
+      "resetSplitName": "City of Tears (exit)",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 39,
+      "date": "2025-05-26T22:48:50.4970411+08:00",
+      "hits": 1,
+      "progress": 0.55263156,
+      "resetSplitName": null,
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 39,
+      "date": "2025-08-03T21:55:49.0117876+08:00",
+      "hits": 1,
+      "progress": 0.08571429,
+      "resetSplitName": "No Slip Grip",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 40,
+      "date": "2025-05-26T23:11:32.3627588+08:00",
+      "hits": 1,
+      "progress": 0.10526316,
+      "resetSplitName": "City of Tears (entrance)",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 40,
+      "date": "2025-08-04T00:51:23.264848+08:00",
+      "hits": 1,
+      "progress": 0.9714286,
+      "resetSplitName": null,
+      "pb": false,
+      "distance": true
+    },
+    {
+      "attempt": 41,
+      "date": "2025-05-26T23:22:05.1669277+08:00",
+      "hits": 1,
+      "progress": 0.02631579,
+      "resetSplitName": "Silksong 2025 Confirmed",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 41,
+      "date": "2025-08-10T21:13:08.2748278+08:00",
+      "hits": 1,
+      "progress": 0.31428573,
+      "resetSplitName": "Mom's Ceramic! NO!!!",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 42,
+      "date": "2025-05-26T23:55:34.5351676+08:00",
+      "hits": 1,
+      "progress": 0.18421052,
+      "resetSplitName": "City of Tears (exit)",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 42,
+      "date": "2025-08-10T21:47:42.7174274+08:00",
+      "hits": 1,
+      "progress": 0.114285715,
+      "resetSplitName": null,
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 43,
+      "date": "2025-05-27T00:18:56.6257242+08:00",
+      "hits": 1,
+      "progress": 0.10526316,
+      "resetSplitName": "City of Tears (entrance)",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 43,
+      "date": "2025-08-10T22:22:20.5471176+08:00",
+      "hits": 1,
+      "progress": 0.114285715,
+      "resetSplitName": null,
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 44,
+      "date": "2025-05-27T21:25:46.4515088+08:00",
+      "hits": 1,
+      "progress": 0.10526316,
+      "resetSplitName": "City of Tears (entrance)",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 44,
+      "date": "2025-08-18T20:23:25.0783887+08:00",
+      "hits": 1,
+      "progress": 0.0,
+      "resetSplitName": "Erroneous Chevalier",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 45,
+      "date": "2025-05-27T21:36:27.4672833+08:00",
+      "hits": 1,
+      "progress": 0.02631579,
+      "resetSplitName": "Silksong 2025 Confirmed",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 45,
+      "date": "2025-08-18T21:35:00.3997277+08:00",
+      "hits": 1,
+      "progress": 0.34285715,
+      "resetSplitName": "I Broke It Again",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 46,
+      "date": "2025-05-27T23:22:51.2199726+08:00",
+      "hits": 1,
+      "progress": 0.55263156,
+      "resetSplitName": null,
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 46,
+      "date": "2025-08-18T21:51:44.1541825+08:00",
+      "hits": 1,
+      "progress": 0.028571429,
+      "resetSplitName": "Silksong 2025 Confirmed",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 47,
+      "date": "2025-05-29T20:48:25.9085128+08:00",
+      "hits": 1,
+      "progress": 0.02631579,
+      "resetSplitName": "Silksong 2025 Confirmed",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 47,
+      "date": "2025-08-18T22:08:34.7109323+08:00",
+      "hits": 1,
+      "progress": 0.057142857,
+      "resetSplitName": "She's Just Eepy Guys",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 48,
+      "date": "2025-03-18T19:52:51.0563903+08:00",
+      "hits": 1,
+      "progress": 0.05,
+      "resetSplitName": null,
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 48,
+      "date": "2025-06-01T15:39:19.1097023+08:00",
+      "hits": 10,
+      "progress": 0.57894737,
+      "resetSplitName": null,
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 48,
+      "date": "2025-08-18T22:40:55.1150467+08:00",
+      "hits": 1,
+      "progress": 0.114285715,
+      "resetSplitName": null,
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 49,
+      "date": "2025-03-18T21:11:33.2014485+08:00",
+      "hits": 1,
+      "progress": 0.3,
+      "resetSplitName": null,
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 49,
+      "date": "2025-06-01T21:44:46.7546038+08:00",
+      "hits": 1,
+      "progress": 0.2631579,
+      "resetSplitName": "READ THIS Charms + Dive (MG)",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 49,
+      "date": "2025-08-21T21:10:55.5499631+08:00",
+      "hits": 1,
+      "progress": 0.114285715,
+      "resetSplitName": null,
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 50,
+      "date": "2025-03-18T22:54:13.7337179+08:00",
+      "hits": 3,
+      "progress": 0.45,
+      "resetSplitName": "Howling Wraiths",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 50,
+      "date": "2025-06-01T22:48:14.3004517+08:00",
+      "hits": 1,
+      "progress": 0.28947368,
+      "resetSplitName": "Duct Tape Dark",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 50,
+      "date": "2025-08-21T21:26:29.2508148+08:00",
+      "hits": 1,
+      "progress": 0.057142857,
+      "resetSplitName": "She's Just Eepy Guys",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 51,
+      "date": "2025-03-19T20:16:13.5413724+08:00",
+      "hits": 1,
+      "progress": 0.025,
+      "resetSplitName": "Hornet Protector/Mothwing Cloak",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 51,
+      "date": "2025-06-01T23:47:30.5857047+08:00",
+      "hits": 1,
+      "progress": 0.2631579,
+      "resetSplitName": "READ THIS Charms + Dive (MG)",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 51,
+      "date": "2025-08-21T23:02:36.5014928+08:00",
+      "hits": 1,
+      "progress": 0.31428573,
+      "resetSplitName": "Mom's Ceramic! NO!!!",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 52,
+      "date": "2025-03-19T23:26:27.2055337+08:00",
+      "hits": 5,
+      "progress": 0.475,
+      "resetSplitName": null,
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 52,
+      "date": "2025-06-06T00:24:05.2431665+08:00",
+      "hits": 4,
+      "progress": 0.57894737,
+      "resetSplitName": null,
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 52,
+      "date": "2025-08-21T23:08:51.0859157+08:00",
+      "hits": 1,
+      "progress": 0.0,
+      "resetSplitName": "Erroneous Chevalier",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 53,
+      "date": "2025-03-21T20:44:06.7092028+08:00",
+      "hits": 1,
+      "progress": 0.1,
+      "resetSplitName": "Mantis Lords",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 53,
+      "date": "2025-06-08T21:07:31.273194+08:00",
+      "hits": 1,
+      "progress": 0.02631579,
+      "resetSplitName": "Silksong 2025 Confirmed",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 53,
+      "date": "2025-08-21T23:15:30.4969263+08:00",
+      "hits": 1,
+      "progress": 0.0,
+      "resetSplitName": "Erroneous Chevalier",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 54,
+      "date": "2025-03-21T23:47:49.6481059+08:00",
+      "hits": 3,
+      "progress": 0.375,
+      "resetSplitName": null,
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 54,
+      "date": "2025-06-08T22:12:39.4519833+08:00",
+      "hits": 1,
+      "progress": 0.28947368,
+      "resetSplitName": "Duct Tape Dark",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 54,
+      "date": "2025-08-22T00:34:03.4602091+08:00",
+      "hits": 2,
+      "progress": 0.25714287,
+      "resetSplitName": "I Broke It Again",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 55,
+      "date": "2025-03-24T19:59:32.8820687+08:00",
+      "hits": 1,
+      "progress": 0.125,
+      "resetSplitName": "City of Tears (entrance)",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 55,
+      "date": "2025-06-08T22:43:45.2544165+08:00",
+      "hits": 1,
+      "progress": 0.10526316,
+      "resetSplitName": "City of Tears (entrance)",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 55,
+      "date": "2025-08-24T20:06:40.5992306+08:00",
+      "hits": 1,
+      "progress": 0.028571429,
+      "resetSplitName": "Silksong 2025 Confirmed",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 56,
+      "date": "2025-03-24T23:20:11.8041974+08:00",
+      "hits": 2,
+      "progress": 0.8,
+      "resetSplitName": null,
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 56,
+      "date": "2025-06-09T20:58:25.8603721+08:00",
+      "hits": 1,
+      "progress": 0.31578946,
+      "resetSplitName": "Mom's Ceramic! NO!!!",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 56,
+      "date": "2025-08-24T21:35:15.046984+08:00",
+      "hits": 1,
+      "progress": 0.34285715,
+      "resetSplitName": "I Broke It Again",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 57,
+      "date": "2025-03-24T23:20:48.8009858+08:00",
+      "hits": 2,
+      "progress": 0.8,
+      "resetSplitName": null,
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 57,
+      "date": "2025-06-09T21:09:20.8080172+08:00",
+      "hits": 1,
+      "progress": 0.02631579,
+      "resetSplitName": "Silksong 2025 Confirmed",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 57,
+      "date": "2025-08-24T21:41:12.5518251+08:00",
+      "hits": 1,
+      "progress": 0.0,
+      "resetSplitName": "Erroneous Chevalier",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 58,
+      "date": "2025-03-25T23:29:42.9783173+08:00",
+      "hits": 8,
+      "progress": 0.4,
+      "resetSplitName": null,
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 58,
+      "date": "2025-06-09T22:14:50.5536091+08:00",
+      "hits": 1,
+      "progress": 0.28947368,
+      "resetSplitName": "Duct Tape Dark",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 58,
+      "date": "2025-08-24T21:45:35.7058736+08:00",
+      "hits": 1,
+      "progress": 0.0,
+      "resetSplitName": "Erroneous Chevalier",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 59,
+      "date": "2025-03-27T20:15:36.2045227+08:00",
+      "hits": 1,
+      "progress": 0.1,
+      "resetSplitName": "Mantis Lords",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 59,
+      "date": "2025-06-10T20:54:34.692091+08:00",
+      "hits": 1,
+      "progress": 0.18421052,
+      "resetSplitName": "City of Tears (exit)",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 59,
+      "date": "2025-08-25T00:53:53.2116509+08:00",
+      "hits": 5,
+      "progress": 0.74285716,
+      "resetSplitName": null,
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 60,
+      "date": "2025-03-27T20:32:17.7860371+08:00",
+      "hits": 1,
+      "progress": 0.05,
+      "resetSplitName": null,
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 60,
+      "date": "2025-06-10T21:11:17.0708736+08:00",
+      "hits": 1,
+      "progress": 0.05263158,
+      "resetSplitName": "She's Just Eepy Guys",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 60,
+      "date": "2025-08-25T23:25:19.8786033+08:00",
+      "hits": 3,
+      "progress": 0.7714286,
+      "resetSplitName": null,
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 61,
+      "date": "2025-03-27T20:47:00.4350357+08:00",
+      "hits": 1,
+      "progress": 0.025,
+      "resetSplitName": "Hornet Protector/Mothwing Cloak",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 61,
+      "date": "2025-06-10T21:21:34.363365+08:00",
+      "hits": 1,
+      "progress": 0.0,
+      "resetSplitName": "Erroneous Chevalier",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 61,
+      "date": "2025-09-01T20:52:03.0457285+08:00",
+      "hits": 1,
+      "progress": 0.37142858,
+      "resetSplitName": "Revenge of the Cat Man",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 62,
+      "date": "2025-03-27T21:34:27.6873468+08:00",
+      "hits": 1,
+      "progress": 0.225,
+      "resetSplitName": "Crystal Heart",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 62,
+      "date": "2025-06-11T00:15:20.9491023+08:00",
+      "hits": 5,
+      "progress": 0.55263156,
+      "resetSplitName": null,
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 62,
+      "date": "2025-09-01T21:30:55.466674+08:00",
+      "hits": 1,
+      "progress": 0.14285715,
+      "resetSplitName": "Defeat The Cat-Boy",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 63,
+      "date": "2025-03-28T00:41:16.7344803+08:00",
+      "hits": 9,
+      "progress": 0.8,
+      "resetSplitName": null,
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 63,
+      "date": "2025-09-02T00:30:17.6699854+08:00",
+      "hits": 1,
+      "progress": 0.8857143,
+      "resetSplitName": null,
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 64,
+      "date": "2025-04-01T22:58:00.8159343+08:00",
+      "hits": 5,
+      "progress": 0.55,
+      "resetSplitName": null,
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 64,
+      "date": "2025-09-02T20:52:05.9392474+08:00",
+      "hits": 1,
+      "progress": 0.057142857,
+      "resetSplitName": "She's Just Eepy Guys",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 65,
+      "date": "2025-04-03T20:29:48.5695538+08:00",
+      "hits": 1,
+      "progress": 0.125,
+      "resetSplitName": "City of Tears (entrance)",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 65,
+      "date": "2025-09-02T23:52:43.5374738+08:00",
+      "hits": 2,
+      "progress": 0.71428573,
+      "resetSplitName": null,
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 66,
+      "date": "2025-04-03T22:04:28.8672673+08:00",
+      "hits": 1,
+      "progress": 0.4,
+      "resetSplitName": "Hornet Sentinel/King's Brand",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 66,
+      "date": "2025-10-07T19:40:42.2578083+08:00",
+      "hits": 4,
+      "progress": 0.94285715,
+      "resetSplitName": null,
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 67,
+      "date": "2025-04-03T22:19:38.3763968+08:00",
+      "hits": 1,
+      "progress": 0.05,
+      "resetSplitName": null,
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 67,
+      "date": "2025-10-07T19:54:21.487646+08:00",
+      "hits": 1,
+      "progress": 0.0,
+      "resetSplitName": "Erroneous Chevalier",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 68,
+      "date": "2025-04-04T00:06:55.9342331+08:00",
+      "hits": 1,
+      "progress": 0.55,
+      "resetSplitName": "Lost Kin",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 68,
+      "date": "2025-10-07T20:04:46.8795912+08:00",
+      "hits": 1,
+      "progress": 0.028571429,
+      "resetSplitName": "Silksong 2025 Confirmed",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 69,
+      "date": "2025-04-08T21:13:51.1715417+08:00",
+      "hits": 1,
+      "progress": 0.175,
+      "resetSplitName": "Soul Master/Desolate Dive",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 69,
+      "date": "2025-10-07T21:26:37.6165899+08:00",
+      "hits": 2,
+      "progress": 0.2857143,
+      "resetSplitName": "ASCEND ASCEND ASCEND",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 70,
+      "date": "2025-04-08T22:23:18.2005892+08:00",
+      "hits": 1,
+      "progress": 0.325,
+      "resetSplitName": "Broken Vessel/Monarch Wings",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 70,
+      "date": "2025-10-10T20:58:48.3703217+08:00",
+      "hits": 1,
+      "progress": 0.114285715,
+      "resetSplitName": "Cry Some More",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 71,
+      "date": "2025-04-08T23:49:55.7027669+08:00",
+      "hits": 1,
+      "progress": 0.3,
+      "resetSplitName": "Gorb",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 71,
+      "date": "2025-10-11T17:59:07.337311+08:00",
+      "hits": 0,
+      "progress": -0.028571429,
+      "resetSplitName": null,
+      "pb": true,
+      "distance": false
+    },
+    {
+      "attempt": 72,
+      "date": "2025-04-08T23:50:10.0302791+08:00",
+      "hits": 1,
+      "progress": 0.3,
+      "resetSplitName": "Gorb",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 73,
+      "date": "2025-04-09T20:45:50.4612816+08:00",
+      "hits": 1,
+      "progress": 0.3,
+      "resetSplitName": "Soul Warrior/Shade Soul (MG)",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 74,
+      "date": "2025-04-09T21:23:48.9421599+08:00",
+      "hits": 1,
+      "progress": 0.175,
+      "resetSplitName": "Soul Master/Desolate Dive",
+      "pb": false,
+      "distance": false
+    }
+  ]
+}

@@ -58,14 +58,16 @@
         >
           <template v-if="selectedRun">
             <div class="detail-header">
-              <div>
+              <div class="detail-header-text">
                 <h2 class="detail-title">{{ selectedRun.game }}</h2>
                 <p class="detail-sub">{{ selectedRun.category }}</p>
+                <LinkBadge v-if="selectedRun.runLink != null" :link="selectedRun.runLink" :source="'youtube'" />
               </div>
+
               <StatusBadge :status="selectedRun.status" large />
             </div>
 
-            <div class="stats-strip">
+            <div class="stats-strip" v-if="summarySplits.length > 0">
               <div class="stat-box">
                 <span class="stat-label">Hit PB</span>
                 <span class="stat-value">{{ selectedRun.hitPB ?? 0 }}</span>
@@ -80,7 +82,7 @@
               </div>
             </div>
 
-            <div class="charts-grid">
+            <div class="charts-grid" v-if="summarySplits.length > 0">
               <div class="chart-card">
                 <div class="chart-title">Success Rate</div>
                 <Chart
@@ -101,7 +103,7 @@
               </div>
             </div>
 
-            <div class="log-section">
+            <div class="log-section" v-if="logRuns.length > 0">
               <div class="section-title">Run Log</div>
               <DataTable
                 :value="logRuns"
@@ -150,6 +152,7 @@ import Chart from 'primevue/chart'
 import DataTable from 'primevue/datatable'
 import Column from 'primevue/column'
 import PageHeader from '@/components/PageHeader.vue'
+import LinkBadge from '@/components/LinkBadge.vue'
 import StatusBadge from '@/components/StatusBadge.vue'
 import type {  NoHitCatalogRun,  NoHitSummarySplit,  NoHitLogRun } from '@/types'
 
@@ -193,10 +196,21 @@ async function loadData() {
     if (!res.ok) throw new Error('Failed to load')
     const json = await res.json()
     catalogRuns.value = json.runs ?? []
+    catalogRuns.value = catalogRuns.value.sort((a, b) => {
+      let sortValue = a.status.localeCompare(b.status);
+
+      if (sortValue == 0)
+        sortValue = a.game.localeCompare(b.game);
+
+      if (sortValue == 0)
+        sortValue = a.category.localeCompare(b.category);
+
+      return sortValue;
+    });
 
     // On desktop, pre-select first run; on mobile, stay on list
     if (catalogRuns.value.length && !isMobile.value) {
-      selectedRun.value = catalogRuns.value[0]
+      selectRun(catalogRuns.value[0]);
     }
   } catch {
     catalogRuns.value = []
@@ -394,6 +408,10 @@ const horizontalBarOptions = {
   font-size: 16px;
   color: var(--brand-text);
   letter-spacing: 0.02em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
 }
 
 .run-card-sub {
@@ -401,6 +419,10 @@ const horizontalBarOptions = {
   color: var(--brand-text-muted);
   margin-top: 4px;
   margin-bottom: 8px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;  
 }
 
 .run-card-meta {
@@ -467,6 +489,11 @@ const horizontalBarOptions = {
   gap: 12px;
 }
 
+.detail-header-text {
+  min-width: 0;
+  flex: 1;  
+ }
+
 .detail-title {
   font-family: var(--font-display);
   font-size: 26px;
@@ -475,6 +502,10 @@ const horizontalBarOptions = {
   text-transform: uppercase;
   margin: 0 0 4px;
   color: var(--brand-text);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
 }
 
 .detail-sub {
@@ -482,6 +513,10 @@ const horizontalBarOptions = {
   font-size: 13px;
   color: var(--brand-text-muted);
   margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
 }
 
 /* ── Stats strip ───────────────────────────────────────────── */

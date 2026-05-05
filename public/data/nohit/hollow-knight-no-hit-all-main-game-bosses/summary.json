@@ -1,0 +1,598 @@
+{
+  "splits": [
+    {
+      "name": "False Knight",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 1,
+      "totalAttempts": 1
+    },
+    {
+      "name": "Vengeful Spirit",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 1,
+      "totalAttempts": 1
+    },
+    {
+      "name": "Vengefly King",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 1,
+      "totalAttempts": 1
+    },
+    {
+      "name": "Hornet Protector (QTB)",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 1,
+      "totalAttempts": 1
+    },
+    {
+      "name": "Gruz Mother",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 1,
+      "totalAttempts": 1
+    },
+    {
+      "name": "Mantis Claw",
+      "resets": 0,
+      "successRate": 0.0,
+      "averageHits": 1.0,
+      "totalHits": 1,
+      "successAttempts": 0,
+      "totalAttempts": 1
+    },
+    {
+      "name": "Mantis Lords",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 1,
+      "totalAttempts": 1
+    },
+    {
+      "name": "Soul Master",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 1,
+      "totalAttempts": 1
+    },
+    {
+      "name": "Crystal Heart (QTB)",
+      "resets": 0,
+      "successRate": 0.0,
+      "averageHits": 1.0,
+      "totalHits": 1,
+      "successAttempts": 0,
+      "totalAttempts": 1
+    },
+    {
+      "name": "Dream Nail",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 1,
+      "totalAttempts": 1
+    },
+    {
+      "name": "Charm Notches (5 + 10)",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 1,
+      "totalAttempts": 1
+    },
+    {
+      "name": "Soul Warrior",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 1,
+      "totalAttempts": 1
+    },
+    {
+      "name": "Vessel Fragment (Crossroads)",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 1,
+      "totalAttempts": 1
+    },
+    {
+      "name": "Gorgeous Husk/Lemm (QTB)",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 1,
+      "totalAttempts": 1
+    },
+    {
+      "name": "Vessel Fragments (Sly)",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 1,
+      "totalAttempts": 1
+    },
+    {
+      "name": "Descending Dark (QTB)",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 1,
+      "totalAttempts": 1
+    },
+    {
+      "name": "Brooding Mawlek (QTB)",
+      "resets": 0,
+      "successRate": 0.0,
+      "averageHits": 1.0,
+      "totalHits": 1,
+      "successAttempts": 0,
+      "totalAttempts": 1
+    },
+    {
+      "name": "Pale Ore (Ancient Basin)",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 1,
+      "totalAttempts": 1
+    },
+    {
+      "name": "Broken Vessel",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 1,
+      "totalAttempts": 1
+    },
+    {
+      "name": "Lost Kin (QTB)",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 1,
+      "totalAttempts": 1
+    },
+    {
+      "name": "Soul Tyrant (QTB)",
+      "resets": 0,
+      "successRate": 0.0,
+      "averageHits": 1.0,
+      "totalHits": 1,
+      "successAttempts": 0,
+      "totalAttempts": 1
+    },
+    {
+      "name": "Cyclone Slash",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 1,
+      "totalAttempts": 1
+    },
+    {
+      "name": "Gorb",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 1,
+      "totalAttempts": 1
+    },
+    {
+      "name": "Vessel Fragment (Stag Nest) (QTB)",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 1,
+      "totalAttempts": 1
+    },
+    {
+      "name": "Xero",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 1,
+      "totalAttempts": 1
+    },
+    {
+      "name": "Dreamgate",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 1,
+      "totalAttempts": 1
+    },
+    {
+      "name": "Dung Defender (DGO)",
+      "resets": 0,
+      "successRate": 0.0,
+      "averageHits": 1.0,
+      "totalHits": 1,
+      "successAttempts": 0,
+      "totalAttempts": 1
+    },
+    {
+      "name": "Isma's Tear (QTB)",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 1,
+      "totalAttempts": 1
+    },
+    {
+      "name": "Hornet Sentinel (DGO)",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 1,
+      "totalAttempts": 1
+    },
+    {
+      "name": "Love Tower (shortcut)",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 1,
+      "totalAttempts": 1
+    },
+    {
+      "name": "Great Slash (DGO)",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 1,
+      "totalAttempts": 1
+    },
+    {
+      "name": "No Eyes (DGO)",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 1,
+      "totalAttempts": 1
+    },
+    {
+      "name": "Massive Moss Charger",
+      "resets": 0,
+      "successRate": 0.0,
+      "averageHits": 1.0,
+      "totalHits": 1,
+      "successAttempts": 0,
+      "totalAttempts": 1
+    },
+    {
+      "name": "Vessel Fragment (Greenpath) (DGO)",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 1,
+      "totalAttempts": 1
+    },
+    {
+      "name": "Howling Wraiths (QTB)",
+      "resets": 0,
+      "successRate": 0.0,
+      "averageHits": 1.0,
+      "totalHits": 1,
+      "successAttempts": 0,
+      "totalAttempts": 1
+    },
+    {
+      "name": "Abyss Shriek",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 1,
+      "totalAttempts": 1
+    },
+    {
+      "name": "Shade Cloak (DGO)",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 1,
+      "totalAttempts": 1
+    },
+    {
+      "name": "Charm Notch (Jelly Room)",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 1,
+      "totalAttempts": 1
+    },
+    {
+      "name": "Leg Eater Charms",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 1,
+      "totalAttempts": 1
+    },
+    {
+      "name": "Elder Hu (DGO)",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 1,
+      "totalAttempts": 1
+    },
+    {
+      "name": "Uumuu (DGO)",
+      "resets": 0,
+      "successRate": 0.0,
+      "averageHits": 1.0,
+      "totalHits": 1,
+      "successAttempts": 0,
+      "totalAttempts": 1
+    },
+    {
+      "name": "Flukemarm",
+      "resets": 0,
+      "successRate": 0.0,
+      "averageHits": 2.0,
+      "totalHits": 2,
+      "successAttempts": 0,
+      "totalAttempts": 1
+    },
+    {
+      "name": "Failed Champion",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 1,
+      "totalAttempts": 1
+    },
+    {
+      "name": "Markoth",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 1,
+      "totalAttempts": 1
+    },
+    {
+      "name": "Dash Slash",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 1,
+      "totalAttempts": 1
+    },
+    {
+      "name": "Crystal Guardian",
+      "resets": 0,
+      "successRate": 0.0,
+      "averageHits": 1.0,
+      "totalHits": 1,
+      "successAttempts": 0,
+      "totalAttempts": 1
+    },
+    {
+      "name": "Enraged Guardian (QTB)",
+      "resets": 0,
+      "successRate": 0.0,
+      "averageHits": 2.0,
+      "totalHits": 2,
+      "successAttempts": 0,
+      "totalAttempts": 1
+    },
+    {
+      "name": "Charm Notch (18)",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 1,
+      "totalAttempts": 1
+    },
+    {
+      "name": "Love Key",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 1,
+      "totalAttempts": 1
+    },
+    {
+      "name": "Marmu",
+      "resets": 0,
+      "successRate": 0.0,
+      "averageHits": 4.0,
+      "totalHits": 4,
+      "successAttempts": 0,
+      "totalAttempts": 1
+    },
+    {
+      "name": "Traitor Lord (DGO)",
+      "resets": 0,
+      "successRate": 0.0,
+      "averageHits": 1.0,
+      "totalHits": 1,
+      "successAttempts": 0,
+      "totalAttempts": 1
+    },
+    {
+      "name": "Nosk (QTB)",
+      "resets": 0,
+      "successRate": 0.0,
+      "averageHits": 1.0,
+      "totalHits": 1,
+      "successAttempts": 0,
+      "totalAttempts": 1
+    },
+    {
+      "name": "Save Zote",
+      "resets": 0,
+      "successRate": 0.0,
+      "averageHits": 2.0,
+      "totalHits": 2,
+      "successAttempts": 0,
+      "totalAttempts": 1
+    },
+    {
+      "name": "Galien",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 1,
+      "totalAttempts": 1
+    },
+    {
+      "name": "Herrah the Beast",
+      "resets": 0,
+      "successRate": 0.0,
+      "averageHits": 2.0,
+      "totalHits": 2,
+      "successAttempts": 0,
+      "totalAttempts": 1
+    },
+    {
+      "name": "Awoken Dream Nail",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 1,
+      "totalAttempts": 1
+    },
+    {
+      "name": "White Palace",
+      "resets": 0,
+      "successRate": 0.0,
+      "averageHits": 3.0,
+      "totalHits": 3,
+      "successAttempts": 0,
+      "totalAttempts": 1
+    },
+    {
+      "name": "Void Heart (QTB)",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 1,
+      "totalAttempts": 1
+    },
+    {
+      "name": "Coiled Nail (QTB)",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 1,
+      "totalAttempts": 1
+    },
+    {
+      "name": "Watcher Knights (DGO)",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 1,
+      "totalAttempts": 1
+    },
+    {
+      "name": "The Collector",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 1,
+      "totalAttempts": 1
+    },
+    {
+      "name": "Trial of the Warrior/Zote the Mighty",
+      "resets": 0,
+      "successRate": 0.0,
+      "averageHits": 3.0,
+      "totalHits": 3,
+      "successAttempts": 0,
+      "totalAttempts": 1
+    },
+    {
+      "name": "Trial of the Conqueror/Oblobbles",
+      "resets": 0,
+      "successRate": 0.0,
+      "averageHits": 4.0,
+      "totalHits": 4,
+      "successAttempts": 0,
+      "totalAttempts": 1
+    },
+    {
+      "name": "Trial of the Fool/God Tamer (DGO)",
+      "resets": 0,
+      "successRate": 0.0,
+      "averageHits": 16.0,
+      "totalHits": 16,
+      "successAttempts": 0,
+      "totalAttempts": 1
+    },
+    {
+      "name": "The Hollow Knight",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 1,
+      "totalAttempts": 1
+    },
+    {
+      "name": "The Radiance",
+      "resets": 0,
+      "successRate": 0.0,
+      "averageHits": 1.0,
+      "totalHits": 1,
+      "successAttempts": 0,
+      "totalAttempts": 1
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "splits": [
+    {
+      "name": "Asylum",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 1,
+      "totalAttempts": 1
+    },
+    {
+      "name": "Bell Gargoyles",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 1,
+      "totalAttempts": 1
+    },
+    {
+      "name": "Chaos Witch Quelaag",
+      "resets": 0,
+      "successRate": 0.0,
+      "averageHits": 1.0,
+      "totalHits": 1,
+      "successAttempts": 0,
+      "totalAttempts": 1
+    },
+    {
+      "name": "Ceaseless Discharge",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 1,
+      "totalAttempts": 1
+    },
+    {
+      "name": "Iron Golem",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 1,
+      "totalAttempts": 1
+    },
+    {
+      "name": "Ornstein and Smough",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 1,
+      "totalAttempts": 1
+    },
+    {
+      "name": "Pinwheel",
+      "resets": 0,
+      "successRate": 0.0,
+      "averageHits": 2.0,
+      "totalHits": 2,
+      "successAttempts": 0,
+      "totalAttempts": 1
+    },
+    {
+      "name": "Stray Demon",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 1,
+      "totalAttempts": 1
+    },
+    {
+      "name": "Moonlight Butterfly",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 1,
+      "totalAttempts": 1
+    },
+    {
+      "name": "Great Grey Wolf Sif",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 1,
+      "totalAttempts": 1
+    },
+    {
+      "name": "Four Kings",
+      "resets": 0,
+      "successRate": 0.0,
+      "averageHits": 1.0,
+      "totalHits": 1,
+      "successAttempts": 0,
+      "totalAttempts": 1
+    },
+    {
+      "name": "Taurus Demon",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 1,
+      "totalAttempts": 1
+    },
+    {
+      "name": "Capra Demon",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 1,
+      "totalAttempts": 1
+    },
+    {
+      "name": "Gaping Dragon",
+      "resets": 0,
+      "successRate": 0.0,
+      "averageHits": 1.0,
+      "totalHits": 1,
+      "successAttempts": 0,
+      "totalAttempts": 1
+    },
+    {
+      "name": "Gravelord Nito",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 1,
+      "totalAttempts": 1
+    },
+    {
+      "name": "Seath the Scaleless",
+      "resets": 0,
+      "successRate": 0.0,
+      "averageHits": 1.0,
+      "totalHits": 1,
+      "successAttempts": 0,
+      "totalAttempts": 1
+    },
+    {
+      "name": "Demon Firesage",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 1,
+      "totalAttempts": 1
+    },
+    {
+      "name": "Centipede Demon",
+      "resets": 0,
+      "successRate": 0.0,
+      "averageHits": 1.0,
+      "totalHits": 1,
+      "successAttempts": 0,
+      "totalAttempts": 1
+    },
+    {
+      "name": "Bed of Chaos",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 1,
+      "totalAttempts": 1
+    },
+    {
+      "name": "Dark Sun Gwyndolin",
+      "resets": 0,
+      "successRate": 0.0,
+      "averageHits": 1.0,
+      "totalHits": 1,
+      "successAttempts": 0,
+      "totalAttempts": 1
+    },
+    {
+      "name": "Painted World of Ariandel",
+      "resets": 0,
+      "successRate": 0.0,
+      "averageHits": 1.0,
+      "totalHits": 1,
+      "successAttempts": 0,
+      "totalAttempts": 1
+    },
+    {
+      "name": "Crossbreed Priscilla",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 1,
+      "totalAttempts": 1
+    },
+    {
+      "name": "Gwyn Lord of Cinder",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 1,
+      "totalAttempts": 1
+    }
+  ]
+}

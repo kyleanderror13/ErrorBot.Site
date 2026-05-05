@@ -1,24 +1,147 @@
 {
   "runs": [
     {
+      "id": "dark-souls-remastered-no-hit-any",
+      "game": "Dark Souls: Remastered",
+      "category": "No Hit Any%",
+      "status": "Completed",
+      "attempts": 0,
+      "hitPB": null,
+      "distancePB": null,
+      "coverImage": null,
+      "runLink": "https://www.youtube.com/watch?v=THNwoJx2XkU"
+    },
+    {
+      "id": "dark-souls-ii-scholar-of-the-first-sin-no-hit-any",
+      "game": "Dark Souls II: Scholar of the First Sin",
+      "category": "No Hit Any%",
+      "status": "Completed",
+      "attempts": 0,
+      "hitPB": null,
+      "distancePB": null,
+      "coverImage": null,
+      "runLink": "https://www.youtube.com/watch?v=lWkV7oV6rYI"
+    },
+    {
+      "id": "dark-souls-remastered-no-hit-all-main-game-bosses",
+      "game": "Dark Souls: Remastered",
+      "category": "No Hit All Main Game Bosses",
+      "status": "Paused",
+      "attempts": 12,
+      "hitPB": 9,
+      "distancePB": 0.08695652,
+      "coverImage": null,
+      "runLink": null
+    },
+    {
+      "id": "hollow-knight-no-hit-true-ending",
+      "game": "Hollow Knight",
+      "category": "No Hit True Ending",
+      "status": "Completed",
+      "attempts": 74,
+      "hitPB": 0,
+      "distancePB": 0.9714286,
+      "coverImage": null,
+      "runLink": "https://www.youtube.com/watch?v=E1ZdOd5aGFQ"
+    },
+    {
+      "id": "hollow-knight-no-hit-sealed-siblings",
+      "game": "Hollow Knight",
+      "category": "No Hit Sealed Siblings",
+      "status": "Paused",
+      "attempts": 12,
+      "hitPB": 1,
+      "distancePB": 0.9189189,
+      "coverImage": null,
+      "runLink": null
+    },
+    {
+      "id": "hollow-knight-no-hit-all-skills",
+      "game": "Hollow Knight",
+      "category": "No Hit All Skills",
+      "status": "Completed",
+      "attempts": 0,
+      "hitPB": null,
+      "distancePB": null,
+      "coverImage": null,
+      "runLink": "https://www.youtube.com/watch?v=p8VbL8-LUIs"
+    },
+    {
+      "id": "hollow-knight-no-hit-p5",
+      "game": "Hollow Knight",
+      "category": "No Hit P5",
+      "status": "Paused",
+      "attempts": 82,
+      "hitPB": 10,
+      "distancePB": 0.6666667,
+      "coverImage": null,
+      "runLink": null
+    },
+    {
+      "id": "hades-no-hit-any",
+      "game": "Hades",
+      "category": "No Hit Any%",
+      "status": "Completed",
+      "attempts": 0,
+      "hitPB": null,
+      "distancePB": null,
+      "coverImage": null,
+      "runLink": "https://www.youtube.com/watch?v=sVUtU3omaMQ"
+    },
+    {
+      "id": "hollow-knight-no-hit-all-main-game-bosses",
+      "game": "Hollow Knight",
+      "category": "No Hit All Main Game Bosses",
+      "status": "Paused",
+      "attempts": 1,
+      "hitPB": 50,
+      "distancePB": 0.07575758,
+      "coverImage": null,
+      "runLink": null
+    },
+    {
+      "id": "hollow-knight-no-hit-ghostbusters",
+      "game": "Hollow Knight",
+      "category": "No Hit Ghostbusters",
+      "status": "Paused",
+      "attempts": 3,
+      "hitPB": 7,
+      "distancePB": 0.375,
+      "coverImage": null,
+      "runLink": null
+    },
+    {
+      "id": "hollow-knight-no-hit-no-damage-colosseum-of-fools",
+      "game": "Hollow Knight",
+      "category": "No Hit No Damage Colosseum of Fools",
+      "status": "Paused",
+      "attempts": 2,
+      "hitPB": 10,
+      "distancePB": 0.0,
+      "coverImage": null,
+      "runLink": null
+    },
+    {
       "id": "hollow-knight-silksong-no-hit-no-damage-any",
-      "game": "Hollow Knight Silksong",
+      "game": "Hollow Knight: Silksong",
       "category": "No Hit No Damage Any%",
       "status": "Active",
       "attempts": 84,
       "hitPB": 1,
       "distancePB": 0.9230769,
-      "coverImage": null
+      "coverImage": null,
+      "runLink": null
     },
     {
       "id": "hollow-knight-silksong-no-hit-no-damage-twisted-child",
-      "game": "Hollow Knight Silksong",
+      "game": "Hollow Knight: Silksong",
       "category": "No Hit No Damage Twisted Child",
       "status": "Active",
       "attempts": 3,
       "hitPB": 2,
       "distancePB": 0.47619048,
-      "coverImage": null
+      "coverImage": null,
+      "runLink": null
     }
   ]
 }

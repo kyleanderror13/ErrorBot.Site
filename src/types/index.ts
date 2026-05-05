@@ -32,6 +32,7 @@ export interface NoHitCatalogRun {
   hitPB? : number
   distancePB?: number
   coverImage?: string
+  runLink?: string
 }
 
 export interface NoHitSummary {

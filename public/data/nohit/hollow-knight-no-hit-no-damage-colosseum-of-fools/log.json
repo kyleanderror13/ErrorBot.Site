@@ -1,0 +1,22 @@
+{
+  "runs": [
+    {
+      "attempt": 1,
+      "date": "2026-03-08T15:23:32.0776431+08:00",
+      "hits": 21,
+      "progress": 0.0,
+      "resetSplitName": null,
+      "pb": true,
+      "distance": true
+    },
+    {
+      "attempt": 2,
+      "date": "2026-03-08T15:45:00.2568541+08:00",
+      "hits": 10,
+      "progress": 0.0,
+      "resetSplitName": null,
+      "pb": true,
+      "distance": false
+    }
+  ]
+}

@@ -1,0 +1,382 @@
+{
+  "splits": [
+    {
+      "name": "False Knight",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 14,
+      "totalAttempts": 14
+    },
+    {
+      "name": "Hornet Protector/Mothwing Cloak",
+      "resets": 1,
+      "successRate": 0.9285714,
+      "averageHits": 0.071428575,
+      "totalHits": 1,
+      "successAttempts": 13,
+      "totalAttempts": 14
+    },
+    {
+      "name": "Gruz Mother",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 2,
+      "totalAttempts": 2
+    },
+    {
+      "name": "Mantis Claw",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 13,
+      "totalAttempts": 13
+    },
+    {
+      "name": "Mantis Lords",
+      "resets": 0,
+      "successRate": "NaN",
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 0,
+      "totalAttempts": 0
+    },
+    {
+      "name": "City of Tears (entrance)",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 13,
+      "totalAttempts": 13
+    },
+    {
+      "name": "Soul Sanctum",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 13,
+      "totalAttempts": 13
+    },
+    {
+      "name": "Soul Master/Desolate Dive",
+      "resets": 1,
+      "successRate": 0.9230769,
+      "averageHits": 0.07692308,
+      "totalHits": 1,
+      "successAttempts": 12,
+      "totalAttempts": 13
+    },
+    {
+      "name": "City of Tears (exit)",
+      "resets": 1,
+      "successRate": 0.9166667,
+      "averageHits": 0.083333336,
+      "totalHits": 1,
+      "successAttempts": 11,
+      "totalAttempts": 12
+    },
+    {
+      "name": "Crystal Heart",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 11,
+      "totalAttempts": 11
+    },
+    {
+      "name": "Descending Dark",
+      "resets": 1,
+      "successRate": 0.8888889,
+      "averageHits": 0.11111111,
+      "totalHits": 1,
+      "successAttempts": 8,
+      "totalAttempts": 9
+    },
+    {
+      "name": "Dream Nail",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 11,
+      "totalAttempts": 11
+    },
+    {
+      "name": "Soul Warrior/Shade Soul",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 3,
+      "totalAttempts": 3
+    },
+    {
+      "name": "Broken Vessel/Monarch Wings",
+      "resets": 1,
+      "successRate": 0.8333333,
+      "averageHits": 0.16666667,
+      "totalHits": 1,
+      "successAttempts": 5,
+      "totalAttempts": 6
+    },
+    {
+      "name": "Dung Defender",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 5,
+      "totalAttempts": 5
+    },
+    {
+      "name": "Isma's Tear",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 5,
+      "totalAttempts": 5
+    },
+    {
+      "name": "Hornet Sentinel/King's Brand",
+      "resets": 1,
+      "successRate": 0.71428573,
+      "averageHits": 0.2857143,
+      "totalHits": 2,
+      "successAttempts": 5,
+      "totalAttempts": 7
+    },
+    {
+      "name": "Gorb",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 7,
+      "totalAttempts": 7
+    },
+    {
+      "name": "Uumuu/Monomon",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 7,
+      "totalAttempts": 7
+    },
+    {
+      "name": "Howling Wraiths",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 7,
+      "totalAttempts": 7
+    },
+    {
+      "name": "Abyss Shriek",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 6,
+      "totalAttempts": 6
+    },
+    {
+      "name": "Shade Cloak",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 6,
+      "totalAttempts": 6
+    },
+    {
+      "name": "Lost Kin",
+      "resets": 0,
+      "successRate": 0.6666667,
+      "averageHits": 0.5,
+      "totalHits": 3,
+      "successAttempts": 4,
+      "totalAttempts": 6
+    },
+    {
+      "name": "Markoth",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 6,
+      "totalAttempts": 6
+    },
+    {
+      "name": "Failed Champion",
+      "resets": 0,
+      "successRate": 0.8333333,
+      "averageHits": 0.33333334,
+      "totalHits": 2,
+      "successAttempts": 5,
+      "totalAttempts": 6
+    },
+    {
+      "name": "No Eyes",
+      "resets": 0,
+      "successRate": 0.8333333,
+      "averageHits": 0.16666667,
+      "totalHits": 1,
+      "successAttempts": 5,
+      "totalAttempts": 6
+    },
+    {
+      "name": "Xero",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 6,
+      "totalAttempts": 6
+    },
+    {
+      "name": "Dreamgate",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 6,
+      "totalAttempts": 6
+    },
+    {
+      "name": "Galien",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 6,
+      "totalAttempts": 6
+    },
+    {
+      "name": "Deepnest/Herrah",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 6,
+      "totalAttempts": 6
+    },
+    {
+      "name": "Spire Bench/Channeled Nail",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 6,
+      "totalAttempts": 6
+    },
+    {
+      "name": "Watcher Knights/Lurien",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 6,
+      "totalAttempts": 6
+    },
+    {
+      "name": "Soul Tyrant",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 6,
+      "totalAttempts": 6
+    },
+    {
+      "name": "Queen's Gardens",
+      "resets": 0,
+      "successRate": 0.6666667,
+      "averageHits": 0.33333334,
+      "totalHits": 2,
+      "successAttempts": 4,
+      "totalAttempts": 6
+    },
+    {
+      "name": "Traitor Lord",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 6,
+      "totalAttempts": 6
+    },
+    {
+      "name": "I'm Way Too Old For This",
+      "resets": 0,
+      "successRate": 0.5,
+      "averageHits": 0.5,
+      "totalHits": 2,
+      "successAttempts": 2,
+      "totalAttempts": 4
+    },
+    {
+      "name": "Void Heart",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 6,
+      "totalAttempts": 6
+    },
+    {
+      "name": "The Hollow Knight",
+      "resets": 0,
+      "successRate": 0.8333333,
+      "averageHits": 0.33333334,
+      "totalHits": 2,
+      "successAttempts": 5,
+      "totalAttempts": 6
+    },
+    {
+      "name": "She's Just Eepy Guys",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 11,
+      "totalAttempts": 11
+    },
+    {
+      "name": "Soul Warrior/Shade Soul (MG)",
+      "resets": 2,
+      "successRate": 0.625,
+      "averageHits": 0.375,
+      "totalHits": 3,
+      "successAttempts": 5,
+      "totalAttempts": 8
+    },
+    {
+      "name": "Broken Vessel",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 2,
+      "totalAttempts": 2
+    },
+    {
+      "name": "White Palace",
+      "resets": 0,
+      "successRate": 0.5,
+      "averageHits": 1.5,
+      "totalHits": 3,
+      "successAttempts": 1,
+      "totalAttempts": 2
+    }
+  ]
+}

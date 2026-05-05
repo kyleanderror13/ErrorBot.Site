@@ -1,0 +1,31 @@
+{
+  "splits": [
+    {
+      "name": "Trial of the Warrior",
+      "resets": 0,
+      "successRate": 0.0,
+      "averageHits": 1.0,
+      "totalHits": 2,
+      "successAttempts": 0,
+      "totalAttempts": 2
+    },
+    {
+      "name": "Trial of the Conqueror",
+      "resets": 0,
+      "successRate": 0.0,
+      "averageHits": 3.0,
+      "totalHits": 6,
+      "successAttempts": 0,
+      "totalAttempts": 2
+    },
+    {
+      "name": "Trial of the Fool",
+      "resets": 0,
+      "successRate": 0.0,
+      "averageHits": 11.5,
+      "totalHits": 23,
+      "successAttempts": 0,
+      "totalAttempts": 2
+    }
+  ]
+}

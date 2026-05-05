@@ -1,0 +1,292 @@
+{
+  "splits": [
+    {
+      "name": "False Knight",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 3,
+      "totalAttempts": 3
+    },
+    {
+      "name": "Vengeful Spirit",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 3,
+      "totalAttempts": 3
+    },
+    {
+      "name": "Hornet Protector",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 3,
+      "totalAttempts": 3
+    },
+    {
+      "name": "Gruz Mother",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 3,
+      "totalAttempts": 3
+    },
+    {
+      "name": "Mantis Claw",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 3,
+      "totalAttempts": 3
+    },
+    {
+      "name": "Mantis Lords",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 3,
+      "totalAttempts": 3
+    },
+    {
+      "name": "Tram Pass",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 3,
+      "totalAttempts": 3
+    },
+    {
+      "name": "Basin Ore",
+      "resets": 0,
+      "successRate": 0.6666667,
+      "averageHits": 0.33333334,
+      "totalHits": 1,
+      "successAttempts": 2,
+      "totalAttempts": 3
+    },
+    {
+      "name": "Channelled Nail",
+      "resets": 0,
+      "successRate": 0.6666667,
+      "averageHits": 0.6666667,
+      "totalHits": 2,
+      "successAttempts": 2,
+      "totalAttempts": 3
+    },
+    {
+      "name": "Soul Master",
+      "resets": 0,
+      "successRate": 0.33333334,
+      "averageHits": 0.6666667,
+      "totalHits": 2,
+      "successAttempts": 1,
+      "totalAttempts": 3
+    },
+    {
+      "name": "Crystal Heart",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 3,
+      "totalAttempts": 3
+    },
+    {
+      "name": "Soul Warrior",
+      "resets": 0,
+      "successRate": 0.6666667,
+      "averageHits": 0.33333334,
+      "totalHits": 1,
+      "successAttempts": 2,
+      "totalAttempts": 3
+    },
+    {
+      "name": "Descending Dark",
+      "resets": 0,
+      "successRate": 0.6666667,
+      "averageHits": 0.33333334,
+      "totalHits": 1,
+      "successAttempts": 2,
+      "totalAttempts": 3
+    },
+    {
+      "name": "Dream Nail",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 3,
+      "totalAttempts": 3
+    },
+    {
+      "name": "Broken Vessel",
+      "resets": 0,
+      "successRate": 0.6666667,
+      "averageHits": 0.33333334,
+      "totalHits": 1,
+      "successAttempts": 2,
+      "totalAttempts": 3
+    },
+    {
+      "name": "Lost Kin",
+      "resets": 0,
+      "successRate": 0.6666667,
+      "averageHits": 0.33333334,
+      "totalHits": 1,
+      "successAttempts": 2,
+      "totalAttempts": 3
+    },
+    {
+      "name": "Hornet Sentinel",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 3,
+      "totalAttempts": 3
+    },
+    {
+      "name": "Shade Cloak",
+      "resets": 0,
+      "successRate": 0.6666667,
+      "averageHits": 0.33333334,
+      "totalHits": 1,
+      "successAttempts": 2,
+      "totalAttempts": 3
+    },
+    {
+      "name": "Sharp Shadow",
+      "resets": 0,
+      "successRate": 0.6666667,
+      "averageHits": 0.33333334,
+      "totalHits": 1,
+      "successAttempts": 2,
+      "totalAttempts": 3
+    },
+    {
+      "name": "Deepnest",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 3,
+      "totalAttempts": 3
+    },
+    {
+      "name": "The Hive",
+      "resets": 0,
+      "successRate": 0.6666667,
+      "averageHits": 0.6666667,
+      "totalHits": 2,
+      "successAttempts": 2,
+      "totalAttempts": 3
+    },
+    {
+      "name": "Hive Knight/Vespa",
+      "resets": 0,
+      "successRate": 0.6666667,
+      "averageHits": 1.0,
+      "totalHits": 3,
+      "successAttempts": 2,
+      "totalAttempts": 3
+    },
+    {
+      "name": "Gravedigger",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 3,
+      "totalAttempts": 3
+    },
+    {
+      "name": "Gorb",
+      "resets": 0,
+      "successRate": 0.6666667,
+      "averageHits": 0.33333334,
+      "totalHits": 1,
+      "successAttempts": 2,
+      "totalAttempts": 3
+    },
+    {
+      "name": "Blue Child Joni",
+      "resets": 0,
+      "successRate": 0.33333334,
+      "averageHits": 1.0,
+      "totalHits": 3,
+      "successAttempts": 1,
+      "totalAttempts": 3
+    },
+    {
+      "name": "Spirit's Glade",
+      "resets": 0,
+      "successRate": 0.0,
+      "averageHits": 2.6666667,
+      "totalHits": 8,
+      "successAttempts": 0,
+      "totalAttempts": 3
+    },
+    {
+      "name": "Uumuu",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 3,
+      "totalAttempts": 3
+    },
+    {
+      "name": "Caelif & Fera Orthop",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 3,
+      "totalAttempts": 3
+    },
+    {
+      "name": "Traitor Lord/Cloth",
+      "resets": 0,
+      "successRate": 0.0,
+      "averageHits": 2.0,
+      "totalHits": 6,
+      "successAttempts": 0,
+      "totalAttempts": 3
+    },
+    {
+      "name": "Marissa & Poggy Thorax",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 3,
+      "totalAttempts": 3
+    },
+    {
+      "name": "Watcher Knights",
+      "resets": 0,
+      "successRate": 0.6666667,
+      "averageHits": 0.33333334,
+      "totalHits": 1,
+      "successAttempts": 2,
+      "totalAttempts": 3
+    },
+    {
+      "name": "The Hollow Knight",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 3,
+      "totalAttempts": 3
+    }
+  ]
+}
