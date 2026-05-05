@@ -111,10 +111,10 @@
               </div>
             </div>
 
-            <div class="log-section" v-if="logRuns.length > 0">
+            <div class="log-section" v-if="visibleLogRuns.length > 0">
               <div class="section-title">Run Log</div>
               <DataTable
-                :value="logRuns"
+                :value="visibleLogRuns"
                 size="small"
                 class="log-table"
                 striped-rows
@@ -132,14 +132,36 @@
                 <Column field="hits" header="Result">
                   <template #body="{ data }">
                     <span class="mono-text">{{ data.resetSplitName == null ? (data.hits + plural(" hit", data.hits)) : ('reset at ' + data.resetSplitName) }}</span>
+                    <i class="log-pb-star" :class="`pi pi-star-fill`" v-if="data.pb" />
                   </template>
                 </Column>
-                <Column field="progress" header="Clean %">
+                <Column field="progress" header="Progress">
                   <template #body="{ data }">
-                    <span class="mono-text">{{ (data.progress * 100).toFixed(0) }}%</span>
+                    <div style="position: relative; display: flex; align-items: center;">
+                      <ProgressBar 
+                        class="progressbar-class" 
+                        :value="Number((data.progress * 100).toFixed(0))"
+                        style="flex: 1; margin-right: 1.5rem;"
+                      />
+                      <i 
+                        v-if="data.distance"
+                        class="log-pb-star pi pi-star-fill" 
+                        style="position: absolute; right: 0;"
+                      />
+                    </div>
                   </template>
                 </Column>
               </DataTable>
+
+              <div v-if="logRuns.length > 10" style="text-align: center; margin-top: 0.5rem;">
+                <Button
+                  :label="isLogExpanded ? 'Show less' : `Show all ${logRuns.length} runs`"
+                  :icon="isLogExpanded ? 'pi pi-chevron-up' : 'pi pi-chevron-down'"
+                  severity="secondary"
+                  text
+                  @click="isLogExpanded = !isLogExpanded"
+                />
+              </div>
             </div>
           </template>
 
@@ -162,16 +184,23 @@ import Column from 'primevue/column'
 import PageHeader from '@/components/PageHeader.vue'
 import LinkBadge from '@/components/LinkBadge.vue'
 import StatusBadge from '@/components/StatusBadge.vue'
+import ProgressBar from 'primevue/progressbar'
+import Button from 'primevue/button'
 import type {  NoHitCatalogRun,  NoHitSummarySplit,  NoHitLogRun } from '@/types'
 
-const catalogRuns = ref<NoHitCatalogRun[]>([])
-const catalogLoading = ref(true)
-const selectedRun = ref<NoHitCatalogRun | null>(null)
-const summarySplits = ref<NoHitSummarySplit[]>([])
-const summaryLoading = ref(false)
-const logRuns = ref<NoHitLogRun[]>([])
+const catalogRuns = ref<NoHitCatalogRun[]>([]);
+const catalogLoading = ref(true);
+const selectedRun = ref<NoHitCatalogRun | null>(null);
+const summarySplits = ref<NoHitSummarySplit[]>([]);
+const summaryLoading = ref(false);
+const logRuns = ref<NoHitLogRun[]>([]);
 const logLoading = ref(false);
-const loadedLogRunId = ref<string | null>(null)
+const loadedLogRunId = ref<string | null>(null);
+
+const isLogExpanded = ref(false);
+const visibleLogRuns = computed(() =>
+  isLogExpanded.value ? logRuns.value : logRuns.value.slice(0, 10)
+)
 
 // Mobile panel state
 const isMobile = ref(false)
@@ -714,4 +743,15 @@ const horizontalBarOptions = {
 .none-leave-active {
   transition: none;
 }
+
+.log-pb-star {
+  margin-left: 8px;
+  font-size: 10px;
+  color: goldenrod;
+}
+
+.progressbar-class :deep(.p-progressbar-label) {
+  color: transparent;
+}
+
 </style>
