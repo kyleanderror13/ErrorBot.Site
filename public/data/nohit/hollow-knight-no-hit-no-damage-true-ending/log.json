@@ -1435,10 +1435,10 @@
       "attempt": 207,
       "date": "2025-10-11T17:59:07.337311+08:00",
       "hits": 0,
-      "progress": -0.028571429,
+      "progress": 1.0,
       "resetSplitName": null,
       "pb": true,
-      "distance": false
+      "distance": true
     }
   ]
 }

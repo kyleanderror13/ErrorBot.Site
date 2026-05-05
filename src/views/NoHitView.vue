@@ -650,9 +650,6 @@ const horizontalBarOptions = {
   margin-bottom: 12px;
 }
 
-.chart-instance {
-}
-
 .log-section {
   display: flex;
   flex-direction: column;
