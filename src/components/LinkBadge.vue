@@ -44,16 +44,4 @@ const openLink = () => {
   margin-top: 8px;
 }
 
-.link-badge.twitch {
-  background: color-mix(in srgb, #fff346 20%, transparent);
-  color: #fff346;
-  border: 1px solid color-mix(in srgb, #fff346 40%, transparent);
-}
-
-.status-badge.youtube {
-  background: color-mix(in srgb, #fa0800 15%, transparent);
-  color: #fa1d00;
-  border: 1px solid color-mix(in srgb, #00fa9a 35%, transparent);
-}
-
 </style>
