@@ -7,7 +7,8 @@
       "progress": 0.21875,
       "resetSplitName": null,
       "pb": true,
-      "distance": true
+      "distance": true,
+      "distanceSplitName": "Basin Ore"
     },
     {
       "attempt": 2,
@@ -16,7 +17,8 @@
       "progress": 0.28125,
       "resetSplitName": null,
       "pb": true,
-      "distance": true
+      "distance": true,
+      "distanceSplitName": "Soul Master"
     },
     {
       "attempt": 3,
@@ -25,7 +27,8 @@
       "progress": 0.375,
       "resetSplitName": null,
       "pb": false,
-      "distance": true
+      "distance": true,
+      "distanceSplitName": "Descending Dark"
     }
   ]
 }

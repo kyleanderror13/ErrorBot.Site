@@ -7,7 +7,8 @@
       "progress": 0.4864865,
       "resetSplitName": null,
       "pb": true,
-      "distance": true
+      "distance": true,
+      "distanceSplitName": "Hornet Sentinel/King's Brand"
     },
     {
       "attempt": 2,
@@ -16,7 +17,8 @@
       "progress": 0.27027026,
       "resetSplitName": null,
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Soul Warrior/Shade Soul (MG)"
     },
     {
       "attempt": 3,
@@ -25,7 +27,8 @@
       "progress": 0.2972973,
       "resetSplitName": "Descending Dark",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Descending Dark"
     },
     {
       "attempt": 4,
@@ -34,7 +37,8 @@
       "progress": 0.9189189,
       "resetSplitName": null,
       "pb": true,
-      "distance": true
+      "distance": true,
+      "distanceSplitName": "I'm Way Too Old For This"
     },
     {
       "attempt": 5,
@@ -43,7 +47,8 @@
       "progress": 0.4864865,
       "resetSplitName": "Hornet Sentinel/King's Brand",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Hornet Sentinel/King's Brand"
     },
     {
       "attempt": 6,
@@ -52,7 +57,8 @@
       "progress": 0.027027028,
       "resetSplitName": "Hornet Protector/Mothwing Cloak",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Hornet Protector/Mothwing Cloak"
     },
     {
       "attempt": 7,
@@ -61,7 +67,8 @@
       "progress": 0.1891892,
       "resetSplitName": "City of Tears (exit)",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "City of Tears (exit)"
     },
     {
       "attempt": 8,
@@ -70,7 +77,8 @@
       "progress": 0.27027026,
       "resetSplitName": "Soul Warrior/Shade Soul (MG)",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Soul Warrior/Shade Soul (MG)"
     },
     {
       "attempt": 9,
@@ -79,7 +87,8 @@
       "progress": 0.16216215,
       "resetSplitName": "Soul Master/Desolate Dive",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Soul Master/Desolate Dive"
     },
     {
       "attempt": 10,
@@ -88,7 +97,8 @@
       "progress": 0.7297297,
       "resetSplitName": null,
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "No Eyes"
     },
     {
       "attempt": 11,
@@ -97,7 +107,8 @@
       "progress": 0.27027026,
       "resetSplitName": "Soul Warrior/Shade Soul (MG)",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Soul Warrior/Shade Soul (MG)"
     },
     {
       "attempt": 12,
@@ -106,7 +117,8 @@
       "progress": 0.3243243,
       "resetSplitName": "Broken Vessel/Monarch Wings",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Broken Vessel/Monarch Wings"
     },
     {
       "attempt": 13,
@@ -115,7 +127,8 @@
       "progress": 0.74285716,
       "resetSplitName": null,
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Queen's Gardens"
     },
     {
       "attempt": 14,
@@ -124,7 +137,8 @@
       "progress": 0.6857143,
       "resetSplitName": null,
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Failed Champion"
     }
   ]
 }

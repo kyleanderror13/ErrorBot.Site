@@ -249,12 +249,6 @@ const sortedUsers = computed(() =>
   color: var(--brand-accent-gold);
 }
 
-/* Misc */
-.mono-text {
-  font-family: var(--font-mono);
-  font-size: 12px;
-}
-
 .muted {
   color: var(--brand-text-muted);
 }

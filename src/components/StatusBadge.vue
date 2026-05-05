@@ -18,8 +18,8 @@ const icon = computed(() => {
   switch (props.status) {
     case 'Active': return 'pi-play-circle'
     case 'Completed': return 'pi-check-circle'
-    case 'Paused': return 'pi-times-circle'
-    case 'NotStarted': return 'pi-times-circle'
+    case 'Paused': return 'pi-pause-circle'
+    case 'NotStarted': return 'pi-circle'
   }
 })
 

@@ -7,7 +7,8 @@
       "progress": 0.1521739,
       "resetSplitName": null,
       "pb": true,
-      "distance": true
+      "distance": true,
+      "distanceSplitName": "Deep Docks Bellway"
     },
     {
       "attempt": 2,
@@ -16,7 +17,8 @@
       "progress": 0.10869565,
       "resetSplitName": null,
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Swift Step"
     },
     {
       "attempt": 3,
@@ -25,7 +27,8 @@
       "progress": 0.08695652,
       "resetSplitName": "Swift Step",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Swift Step"
     },
     {
       "attempt": 4,
@@ -34,7 +37,8 @@
       "progress": 0.04347826,
       "resetSplitName": "Weaver's Stabber",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Weaver's Stabber"
     },
     {
       "attempt": 5,
@@ -43,7 +47,8 @@
       "progress": 0.17391305,
       "resetSplitName": null,
       "pb": false,
-      "distance": true
+      "distance": true,
+      "distanceSplitName": "Hornet 1"
     },
     {
       "attempt": 6,
@@ -52,7 +57,8 @@
       "progress": 0.08695652,
       "resetSplitName": null,
       "pb": true,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Swift Step"
     },
     {
       "attempt": 7,
@@ -61,7 +67,8 @@
       "progress": 0.0,
       "resetSplitName": "Moss Mother",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Moss Mother"
     },
     {
       "attempt": 8,
@@ -70,7 +77,8 @@
       "progress": 0.02173913,
       "resetSplitName": "The Marrow",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "The Marrow"
     },
     {
       "attempt": 9,
@@ -79,7 +87,8 @@
       "progress": 0.02173913,
       "resetSplitName": "The Marrow",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "The Marrow"
     },
     {
       "attempt": 10,
@@ -88,7 +97,8 @@
       "progress": 0.0,
       "resetSplitName": "Moss Mother",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Moss Mother"
     },
     {
       "attempt": 11,
@@ -97,7 +107,8 @@
       "progress": 0.23913044,
       "resetSplitName": null,
       "pb": false,
-      "distance": true
+      "distance": true,
+      "distanceSplitName": "Far Fields Bench/Bellway"
     },
     {
       "attempt": 12,
@@ -106,7 +117,8 @@
       "progress": 0.0,
       "resetSplitName": "Moss Mother",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Moss Mother"
     },
     {
       "attempt": 13,
@@ -115,7 +127,8 @@
       "progress": 0.0,
       "resetSplitName": "Moss Mother",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Moss Mother"
     },
     {
       "attempt": 14,
@@ -124,7 +137,8 @@
       "progress": 0.3478261,
       "resetSplitName": null,
       "pb": true,
-      "distance": true
+      "distance": true,
+      "distanceSplitName": "Shellwood Arena"
     },
     {
       "attempt": 15,
@@ -133,7 +147,8 @@
       "progress": 0.39130434,
       "resetSplitName": null,
       "pb": true,
-      "distance": true
+      "distance": true,
+      "distanceSplitName": "Cling Grip"
     },
     {
       "attempt": 16,
@@ -142,7 +157,8 @@
       "progress": 0.32608697,
       "resetSplitName": null,
       "pb": true,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "The Lost Fleas"
     },
     {
       "attempt": 17,
@@ -151,7 +167,8 @@
       "progress": 0.08695652,
       "resetSplitName": "Swift Step",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Swift Step"
     },
     {
       "attempt": 18,
@@ -160,7 +177,8 @@
       "progress": 0.0,
       "resetSplitName": "Moss Mother",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Moss Mother"
     },
     {
       "attempt": 19,
@@ -169,7 +187,8 @@
       "progress": 0.19565217,
       "resetSplitName": null,
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "The Monroe"
     },
     {
       "attempt": 20,
@@ -178,7 +197,8 @@
       "progress": 0.41304347,
       "resetSplitName": "Pollip Pouch",
       "pb": false,
-      "distance": true
+      "distance": true,
+      "distanceSplitName": "Pollip Pouch"
     },
     {
       "attempt": 21,
@@ -187,7 +207,8 @@
       "progress": 0.2173913,
       "resetSplitName": null,
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Fifth Chorus"
     },
     {
       "attempt": 22,
@@ -196,7 +217,8 @@
       "progress": 0.6956522,
       "resetSplitName": null,
       "pb": false,
-      "distance": true
+      "distance": true,
+      "distanceSplitName": "Cogwork Dancers"
     },
     {
       "attempt": 23,
@@ -205,7 +227,8 @@
       "progress": 0.7173913,
       "resetSplitName": null,
       "pb": true,
-      "distance": true
+      "distance": true,
+      "distanceSplitName": "Whispering Vaults Arena"
     },
     {
       "attempt": 24,
@@ -214,7 +237,8 @@
       "progress": 0.2826087,
       "resetSplitName": "Shellwood Arena",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Flea (Hunter's March)"
     },
     {
       "attempt": 25,
@@ -223,7 +247,8 @@
       "progress": 0.08695652,
       "resetSplitName": "Swift Step",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Swift Step"
     },
     {
       "attempt": 26,
@@ -232,7 +257,8 @@
       "progress": 0.3478261,
       "resetSplitName": null,
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Shellwood Arena"
     },
     {
       "attempt": 27,
@@ -241,7 +267,8 @@
       "progress": 0.54347825,
       "resetSplitName": null,
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Relic Selling + Forge Daughter"
     },
     {
       "attempt": 28,
@@ -250,7 +277,8 @@
       "progress": 0.54347825,
       "resetSplitName": null,
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Relic Selling + Forge Daughter"
     },
     {
       "attempt": 29,
@@ -259,7 +287,8 @@
       "progress": 0.04347826,
       "resetSplitName": "Weaver's Stabber",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Weaver's Stabber"
     },
     {
       "attempt": 30,
@@ -268,7 +297,8 @@
       "progress": 0.06521739,
       "resetSplitName": "Bell Beast",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Bell Beast"
     },
     {
       "attempt": 31,
@@ -277,7 +307,8 @@
       "progress": 0.08695652,
       "resetSplitName": null,
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Swift Step"
     },
     {
       "attempt": 32,
@@ -286,7 +317,8 @@
       "progress": 0.0,
       "resetSplitName": "Moss Mother",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Moss Mother"
     },
     {
       "attempt": 33,
@@ -295,7 +327,8 @@
       "progress": 0.17391305,
       "resetSplitName": "Hornet 1",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Hornet 1"
     },
     {
       "attempt": 34,
@@ -304,7 +337,8 @@
       "progress": 0.02173913,
       "resetSplitName": "The Marrow",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "The Marrow"
     },
     {
       "attempt": 35,
@@ -313,7 +347,8 @@
       "progress": 0.36956522,
       "resetSplitName": null,
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Shellwood Bench/Bellway"
     },
     {
       "attempt": 36,
@@ -322,7 +357,8 @@
       "progress": 0.075,
       "resetSplitName": null,
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Bell Beast"
     },
     {
       "attempt": 37,
@@ -331,7 +367,8 @@
       "progress": 0.0,
       "resetSplitName": "Moss Mother",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Moss Mother"
     },
     {
       "attempt": 38,
@@ -340,7 +377,8 @@
       "progress": 0.25,
       "resetSplitName": null,
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Flea (Far Fields)"
     },
     {
       "attempt": 39,
@@ -349,7 +387,8 @@
       "progress": 0.025,
       "resetSplitName": "The Marrow",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "The Marrow"
     },
     {
       "attempt": 40,
@@ -358,7 +397,8 @@
       "progress": 0.6,
       "resetSplitName": null,
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "The Mist"
     },
     {
       "attempt": 41,
@@ -367,7 +407,8 @@
       "progress": 0.025,
       "resetSplitName": "The Marrow",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "The Marrow"
     },
     {
       "attempt": 42,
@@ -376,7 +417,8 @@
       "progress": 0.225,
       "resetSplitName": null,
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Fifth Chorus"
     },
     {
       "attempt": 43,
@@ -385,7 +427,8 @@
       "progress": 0.3,
       "resetSplitName": null,
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Flea (The Marrow)"
     },
     {
       "attempt": 44,
@@ -394,7 +437,8 @@
       "progress": 0.025,
       "resetSplitName": "The Marrow",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "The Marrow"
     },
     {
       "attempt": 45,
@@ -403,7 +447,8 @@
       "progress": 0.3,
       "resetSplitName": null,
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Flea (The Marrow)"
     },
     {
       "attempt": 46,
@@ -412,7 +457,8 @@
       "progress": 0.17948718,
       "resetSplitName": "The Mist",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Hornet 1"
     },
     {
       "attempt": 47,
@@ -421,7 +467,8 @@
       "progress": 0.102564104,
       "resetSplitName": "Swift Step",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Swift Step"
     },
     {
       "attempt": 48,
@@ -430,7 +477,8 @@
       "progress": 0.0,
       "resetSplitName": "Moss Mother",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Moss Mother"
     },
     {
       "attempt": 49,
@@ -439,7 +487,8 @@
       "progress": 0.41025642,
       "resetSplitName": "The Mist",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Widow"
     },
     {
       "attempt": 50,
@@ -448,7 +497,8 @@
       "progress": 0.35897437,
       "resetSplitName": "Whispering Vaults Arena",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Shellwood Arena"
     },
     {
       "attempt": 51,
@@ -457,7 +507,8 @@
       "progress": 0.41025642,
       "resetSplitName": null,
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Widow"
     },
     {
       "attempt": 52,
@@ -466,7 +517,8 @@
       "progress": 0.6666667,
       "resetSplitName": null,
       "pb": true,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Cogwork Dancers"
     },
     {
       "attempt": 53,
@@ -475,7 +527,8 @@
       "progress": 0.53846157,
       "resetSplitName": null,
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Greymoor Memory Locket"
     },
     {
       "attempt": 54,
@@ -484,7 +537,8 @@
       "progress": 0.0,
       "resetSplitName": "Moss Mother",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Moss Mother"
     },
     {
       "attempt": 55,
@@ -493,7 +547,8 @@
       "progress": 0.9230769,
       "resetSplitName": null,
       "pb": true,
-      "distance": true
+      "distance": true,
+      "distanceSplitName": "The Forum/Conductor's Melody"
     },
     {
       "attempt": 56,
@@ -502,7 +557,8 @@
       "progress": 0.51282054,
       "resetSplitName": "Relic Selling + Forge Daughter",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Relic Selling + Forge Daughter"
     },
     {
       "attempt": 57,
@@ -511,7 +567,8 @@
       "progress": 0.102564104,
       "resetSplitName": "Mothwing Cloak",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Mothwing Cloak"
     },
     {
       "attempt": 58,
@@ -520,7 +577,8 @@
       "progress": 0.07692308,
       "resetSplitName": "Bell Beast",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Bell Beast"
     },
     {
       "attempt": 59,
@@ -529,7 +587,8 @@
       "progress": 0.5641026,
       "resetSplitName": "Sinner's Road",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Sinner's Road"
     },
     {
       "attempt": 60,
@@ -538,7 +597,8 @@
       "progress": 0.102564104,
       "resetSplitName": "Mothwing Cloak",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Mothwing Cloak"
     },
     {
       "attempt": 61,
@@ -547,7 +607,8 @@
       "progress": 0.5897436,
       "resetSplitName": "The Mist",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "The Mist"
     },
     {
       "attempt": 62,
@@ -556,7 +617,8 @@
       "progress": 0.07692308,
       "resetSplitName": "Bell Beast",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Bell Beast"
     },
     {
       "attempt": 63,
@@ -565,7 +627,8 @@
       "progress": 0.0,
       "resetSplitName": "Moss Mother",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Moss Mother"
     },
     {
       "attempt": 64,
@@ -574,7 +637,8 @@
       "progress": 0.12820514,
       "resetSplitName": "Flea (Swift Step)",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Flea (Swift Step)"
     },
     {
       "attempt": 65,
@@ -583,7 +647,8 @@
       "progress": 0.0,
       "resetSplitName": "Moss Mother",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Moss Mother"
     },
     {
       "attempt": 66,
@@ -592,7 +657,8 @@
       "progress": 0.41025642,
       "resetSplitName": null,
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Widow"
     },
     {
       "attempt": 67,
@@ -601,7 +667,8 @@
       "progress": 0.41025642,
       "resetSplitName": "Widow",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Widow"
     },
     {
       "attempt": 68,
@@ -610,7 +677,8 @@
       "progress": 0.41025642,
       "resetSplitName": null,
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Widow"
     },
     {
       "attempt": 69,
@@ -619,7 +687,8 @@
       "progress": 0.025641026,
       "resetSplitName": "The Marrow",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "The Marrow"
     },
     {
       "attempt": 70,
@@ -628,7 +697,8 @@
       "progress": 0.102564104,
       "resetSplitName": "Mothwing Cloak",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Mothwing Cloak"
     },
     {
       "attempt": 71,
@@ -637,7 +707,8 @@
       "progress": 0.3846154,
       "resetSplitName": "Cling Grip",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Cling Grip"
     },
     {
       "attempt": 72,
@@ -646,7 +717,8 @@
       "progress": 0.5897436,
       "resetSplitName": null,
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "The Mist"
     },
     {
       "attempt": 73,
@@ -655,7 +727,8 @@
       "progress": 0.3846154,
       "resetSplitName": "Extra Pointy",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Cling Grip"
     },
     {
       "attempt": 74,
@@ -664,7 +737,8 @@
       "progress": 0.23076923,
       "resetSplitName": "Fifth Chorus",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Fifth Chorus"
     },
     {
       "attempt": 75,
@@ -673,7 +747,8 @@
       "progress": 0.25641027,
       "resetSplitName": null,
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Flea (Far Fields)"
     },
     {
       "attempt": 76,
@@ -682,7 +757,8 @@
       "progress": 0.55,
       "resetSplitName": null,
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Reaper Crest"
     },
     {
       "attempt": 77,
@@ -691,7 +767,8 @@
       "progress": 0.0,
       "resetSplitName": "Moss Mother",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Moss Mother"
     },
     {
       "attempt": 78,
@@ -700,7 +777,8 @@
       "progress": 0.6,
       "resetSplitName": null,
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "The Mist"
     },
     {
       "attempt": 79,
@@ -709,7 +787,8 @@
       "progress": 0.225,
       "resetSplitName": "Fifth Chorus",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Fifth Chorus"
     },
     {
       "attempt": 80,
@@ -718,7 +797,8 @@
       "progress": 0.55,
       "resetSplitName": "Reaper Crest",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Reaper Crest"
     },
     {
       "attempt": 81,
@@ -727,7 +807,8 @@
       "progress": 0.4,
       "resetSplitName": "Widow",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Widow"
     },
     {
       "attempt": 82,
@@ -736,7 +817,8 @@
       "progress": 0.225,
       "resetSplitName": "Fifth Chorus",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Fifth Chorus"
     },
     {
       "attempt": 83,
@@ -745,7 +827,8 @@
       "progress": 0.4,
       "resetSplitName": "Widow",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Widow"
     },
     {
       "attempt": 84,
@@ -754,7 +837,8 @@
       "progress": 0.575,
       "resetSplitName": null,
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Sinner's Road"
     }
   ]
 }

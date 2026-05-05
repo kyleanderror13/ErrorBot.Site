@@ -21,7 +21,7 @@
         :key="stat.label"
         class="summary-stat"
       >
-        <span class="summary-value" :style="{ color: stat.color }">{{ stat.value }}</span>
+        <span class="summary-value" :style="{ color: stat.color }">{{ stat.value.toLocaleString() }}</span>
         <span class="summary-label">{{ stat.label }}</span>
       </div>
     </div>

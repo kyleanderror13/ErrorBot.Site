@@ -7,7 +7,8 @@
       "progress": 0.05,
       "resetSplitName": "Gruz Mother",
       "pb": false,
-      "distance": true
+      "distance": true,
+      "distanceSplitName": "Gruz Mother"
     },
     {
       "attempt": 49,
@@ -16,7 +17,8 @@
       "progress": 0.3,
       "resetSplitName": "Soul Warrior/Shade Soul",
       "pb": false,
-      "distance": true
+      "distance": true,
+      "distanceSplitName": "Soul Warrior/Shade Soul"
     },
     {
       "attempt": 50,
@@ -25,7 +27,8 @@
       "progress": 0.45,
       "resetSplitName": "Howling Wraiths",
       "pb": false,
-      "distance": true
+      "distance": true,
+      "distanceSplitName": "Uumuu/Monomon"
     },
     {
       "attempt": 51,
@@ -34,7 +37,8 @@
       "progress": 0.025,
       "resetSplitName": "Hornet Protector/Mothwing Cloak",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Hornet Protector/Mothwing Cloak"
     },
     {
       "attempt": 52,
@@ -43,7 +47,8 @@
       "progress": 0.475,
       "resetSplitName": null,
       "pb": true,
-      "distance": true
+      "distance": true,
+      "distanceSplitName": "Howling Wraiths"
     },
     {
       "attempt": 53,
@@ -52,7 +57,8 @@
       "progress": 0.1,
       "resetSplitName": "Mantis Lords",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Mantis Lords"
     },
     {
       "attempt": 54,
@@ -61,7 +67,8 @@
       "progress": 0.375,
       "resetSplitName": null,
       "pb": true,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Isma's Tear"
     },
     {
       "attempt": 55,
@@ -70,7 +77,8 @@
       "progress": 0.125,
       "resetSplitName": "City of Tears (entrance)",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "City of Tears (entrance)"
     },
     {
       "attempt": 56,
@@ -79,7 +87,8 @@
       "progress": 0.8,
       "resetSplitName": null,
       "pb": true,
-      "distance": true
+      "distance": true,
+      "distanceSplitName": "Soul Tyrant"
     },
     {
       "attempt": 57,
@@ -88,7 +97,8 @@
       "progress": 0.8,
       "resetSplitName": null,
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Soul Tyrant"
     },
     {
       "attempt": 58,
@@ -97,7 +107,8 @@
       "progress": 0.4,
       "resetSplitName": null,
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Hornet Sentinel/King's Brand"
     },
     {
       "attempt": 59,
@@ -106,7 +117,8 @@
       "progress": 0.1,
       "resetSplitName": "Mantis Lords",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Mantis Lords"
     },
     {
       "attempt": 60,
@@ -115,7 +127,8 @@
       "progress": 0.05,
       "resetSplitName": "Gruz Mother",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Gruz Mother"
     },
     {
       "attempt": 61,
@@ -124,7 +137,8 @@
       "progress": 0.025,
       "resetSplitName": "Hornet Protector/Mothwing Cloak",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Hornet Protector/Mothwing Cloak"
     },
     {
       "attempt": 62,
@@ -133,7 +147,8 @@
       "progress": 0.225,
       "resetSplitName": "Crystal Heart",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Crystal Heart"
     },
     {
       "attempt": 63,
@@ -142,7 +157,8 @@
       "progress": 0.8,
       "resetSplitName": null,
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Soul Tyrant"
     },
     {
       "attempt": 64,
@@ -151,7 +167,8 @@
       "progress": 0.55,
       "resetSplitName": null,
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Lost Kin"
     },
     {
       "attempt": 65,
@@ -160,7 +177,8 @@
       "progress": 0.125,
       "resetSplitName": "City of Tears (entrance)",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "City of Tears (entrance)"
     },
     {
       "attempt": 66,
@@ -169,7 +187,8 @@
       "progress": 0.4,
       "resetSplitName": "Hornet Sentinel/King's Brand",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Hornet Sentinel/King's Brand"
     },
     {
       "attempt": 67,
@@ -178,7 +197,8 @@
       "progress": 0.05,
       "resetSplitName": "Gruz Mother",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Gruz Mother"
     },
     {
       "attempt": 68,
@@ -187,7 +207,8 @@
       "progress": 0.55,
       "resetSplitName": "Lost Kin",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Lost Kin"
     },
     {
       "attempt": 69,
@@ -196,7 +217,8 @@
       "progress": 0.175,
       "resetSplitName": "Soul Master/Desolate Dive",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Soul Master/Desolate Dive"
     },
     {
       "attempt": 70,
@@ -205,7 +227,8 @@
       "progress": 0.325,
       "resetSplitName": "Broken Vessel/Monarch Wings",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Broken Vessel/Monarch Wings"
     },
     {
       "attempt": 71,
@@ -214,7 +237,8 @@
       "progress": 0.3,
       "resetSplitName": "Gorb",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Soul Warrior/Shade Soul (MG)"
     },
     {
       "attempt": 72,
@@ -223,7 +247,8 @@
       "progress": 0.3,
       "resetSplitName": "Gorb",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Soul Warrior/Shade Soul (MG)"
     },
     {
       "attempt": 73,
@@ -232,7 +257,8 @@
       "progress": 0.3,
       "resetSplitName": "Soul Warrior/Shade Soul (MG)",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Soul Warrior/Shade Soul (MG)"
     },
     {
       "attempt": 74,
@@ -241,7 +267,8 @@
       "progress": 0.175,
       "resetSplitName": "Soul Master/Desolate Dive",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Soul Master/Desolate Dive"
     },
     {
       "attempt": 75,
@@ -250,7 +277,8 @@
       "progress": 0.5263158,
       "resetSplitName": null,
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Shade Cloak"
     },
     {
       "attempt": 76,
@@ -259,7 +287,8 @@
       "progress": 0.10526316,
       "resetSplitName": "City of Tears (entrance)",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "City of Tears (entrance)"
     },
     {
       "attempt": 77,
@@ -268,7 +297,8 @@
       "progress": 0.36842105,
       "resetSplitName": "Isma's Tear",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Isma's Tear"
     },
     {
       "attempt": 78,
@@ -277,7 +307,8 @@
       "progress": 0.42105263,
       "resetSplitName": "Uumuu/Monomon",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Uumuu/Monomon"
     },
     {
       "attempt": 79,
@@ -286,7 +317,8 @@
       "progress": 0.02631579,
       "resetSplitName": "Hornet Protector/Mothwing Cloak",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Hornet Protector/Mothwing Cloak"
     },
     {
       "attempt": 80,
@@ -295,7 +327,8 @@
       "progress": 0.68421054,
       "resetSplitName": null,
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Failed Champion"
     },
     {
       "attempt": 81,
@@ -304,7 +337,8 @@
       "progress": 0.2631579,
       "resetSplitName": "Soul Warrior/Shade Soul (MG)",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Soul Warrior/Shade Soul (MG)"
     },
     {
       "attempt": 82,
@@ -313,7 +347,8 @@
       "progress": 0.15789473,
       "resetSplitName": "Soul Master/Desolate Dive",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Soul Master/Desolate Dive"
     },
     {
       "attempt": 83,
@@ -322,7 +357,8 @@
       "progress": 0.0,
       "resetSplitName": "False Knight",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "False Knight"
     },
     {
       "attempt": 84,
@@ -331,7 +367,8 @@
       "progress": 0.31578946,
       "resetSplitName": "Broken Vessel/Monarch Wings",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Broken Vessel/Monarch Wings"
     },
     {
       "attempt": 85,
@@ -340,7 +377,8 @@
       "progress": 0.36842105,
       "resetSplitName": "Isma's Tear",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Isma's Tear"
     },
     {
       "attempt": 86,
@@ -349,7 +387,8 @@
       "progress": 0.18421052,
       "resetSplitName": "City of Tears (exit)",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "City of Tears (exit)"
     },
     {
       "attempt": 87,
@@ -358,7 +397,8 @@
       "progress": 0.078947365,
       "resetSplitName": "Mantis Claw",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Mantis Claw"
     },
     {
       "attempt": 88,
@@ -367,7 +407,8 @@
       "progress": 0.18421052,
       "resetSplitName": "City of Tears (exit)",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "City of Tears (exit)"
     },
     {
       "attempt": 89,
@@ -376,7 +417,8 @@
       "progress": 0.84210527,
       "resetSplitName": null,
       "pb": false,
-      "distance": true
+      "distance": true,
+      "distanceSplitName": "Queen's Gardens"
     },
     {
       "attempt": 90,
@@ -385,7 +427,8 @@
       "progress": 0.2631579,
       "resetSplitName": "Charms (MG)",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Charms (MG)"
     },
     {
       "attempt": 91,
@@ -394,7 +437,8 @@
       "progress": 0.31578946,
       "resetSplitName": "Broken Vessel/Monarch Wings",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Broken Vessel/Monarch Wings"
     },
     {
       "attempt": 92,
@@ -403,7 +447,8 @@
       "progress": 0.0,
       "resetSplitName": "False Knight",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "False Knight"
     },
     {
       "attempt": 93,
@@ -412,7 +457,8 @@
       "progress": 0.47368422,
       "resetSplitName": "Hornet Sentinel/King's Brand",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Hornet Sentinel/King's Brand"
     },
     {
       "attempt": 94,
@@ -421,7 +467,8 @@
       "progress": 0.02631579,
       "resetSplitName": "Hornet Protector/Mothwing Cloak",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Hornet Protector/Mothwing Cloak"
     },
     {
       "attempt": 95,
@@ -430,7 +477,8 @@
       "progress": 0.10526316,
       "resetSplitName": "City of Tears (entrance)",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "City of Tears (entrance)"
     },
     {
       "attempt": 96,
@@ -439,7 +487,8 @@
       "progress": 0.0,
       "resetSplitName": "False Knight",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "False Knight"
     },
     {
       "attempt": 97,
@@ -448,7 +497,8 @@
       "progress": 0.2631579,
       "resetSplitName": "READ THIS Charms + Dive (MG)",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "READ THIS Charms + Dive (MG)"
     },
     {
       "attempt": 98,
@@ -457,7 +507,8 @@
       "progress": 0.0,
       "resetSplitName": "False Knight",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "False Knight"
     },
     {
       "attempt": 99,
@@ -466,7 +517,8 @@
       "progress": 0.10526316,
       "resetSplitName": "City of Tears (entrance)",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "City of Tears (entrance)"
     },
     {
       "attempt": 100,
@@ -475,7 +527,8 @@
       "progress": 0.84210527,
       "resetSplitName": null,
       "pb": true,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Queen's Gardens"
     },
     {
       "attempt": 101,
@@ -484,7 +537,8 @@
       "progress": 0.2631579,
       "resetSplitName": "READ THIS Charms + Dive (MG)",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "READ THIS Charms + Dive (MG)"
     },
     {
       "attempt": 102,
@@ -493,7 +547,8 @@
       "progress": 0.2631579,
       "resetSplitName": "READ THIS Charms + Dive (MG)",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "READ THIS Charms + Dive (MG)"
     },
     {
       "attempt": 103,
@@ -502,7 +557,8 @@
       "progress": 0.31578946,
       "resetSplitName": "Broken Vessel/Monarch Wings",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Broken Vessel/Monarch Wings"
     },
     {
       "attempt": 104,
@@ -511,7 +567,8 @@
       "progress": 0.0,
       "resetSplitName": "False Knight",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "False Knight"
     },
     {
       "attempt": 105,
@@ -520,7 +577,8 @@
       "progress": 0.7368421,
       "resetSplitName": null,
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Galien"
     },
     {
       "attempt": 106,
@@ -529,7 +587,8 @@
       "progress": 0.7368421,
       "resetSplitName": null,
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Galien"
     },
     {
       "attempt": 107,
@@ -538,7 +597,8 @@
       "progress": 0.078947365,
       "resetSplitName": "Mantis Claw",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Mantis Claw"
     },
     {
       "attempt": 108,
@@ -547,7 +607,8 @@
       "progress": 0.21052632,
       "resetSplitName": "Crystal Heart",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Crystal Heart"
     },
     {
       "attempt": 109,
@@ -556,7 +617,8 @@
       "progress": 0.36842105,
       "resetSplitName": "Isthmus Tear",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Isthmus Tear"
     },
     {
       "attempt": 110,
@@ -565,7 +627,8 @@
       "progress": 0.42105263,
       "resetSplitName": "Uumuu/Monomon",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Uumuu/Monomon"
     },
     {
       "attempt": 111,
@@ -574,7 +637,8 @@
       "progress": 0.55263156,
       "resetSplitName": "Kyle's Tinks (LK)",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Kyle's Tinks (LK)"
     },
     {
       "attempt": 112,
@@ -583,7 +647,8 @@
       "progress": 0.02631579,
       "resetSplitName": "Silksong 2025 Confirmed",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Silksong 2025 Confirmed"
     },
     {
       "attempt": 113,
@@ -592,7 +657,8 @@
       "progress": 0.55263156,
       "resetSplitName": "Kyle's Tinks (LK)",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Kyle's Tinks (LK)"
     },
     {
       "attempt": 114,
@@ -601,7 +667,8 @@
       "progress": 0.10526316,
       "resetSplitName": "City of Tears (entrance)",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "City of Tears (entrance)"
     },
     {
       "attempt": 115,
@@ -610,7 +677,8 @@
       "progress": 0.02631579,
       "resetSplitName": "Silksong 2025 Confirmed",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Silksong 2025 Confirmed"
     },
     {
       "attempt": 116,
@@ -619,7 +687,8 @@
       "progress": 0.18421052,
       "resetSplitName": "City of Tears (exit)",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "City of Tears (exit)"
     },
     {
       "attempt": 117,
@@ -628,7 +697,8 @@
       "progress": 0.10526316,
       "resetSplitName": "City of Tears (entrance)",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "City of Tears (entrance)"
     },
     {
       "attempt": 118,
@@ -637,7 +707,8 @@
       "progress": 0.10526316,
       "resetSplitName": "City of Tears (entrance)",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "City of Tears (entrance)"
     },
     {
       "attempt": 119,
@@ -646,7 +717,8 @@
       "progress": 0.02631579,
       "resetSplitName": "Silksong 2025 Confirmed",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Silksong 2025 Confirmed"
     },
     {
       "attempt": 120,
@@ -655,7 +727,8 @@
       "progress": 0.55263156,
       "resetSplitName": "Kyle's Tinks (LK)",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Kyle's Tinks (LK)"
     },
     {
       "attempt": 121,
@@ -664,7 +737,8 @@
       "progress": 0.02631579,
       "resetSplitName": "Silksong 2025 Confirmed",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Silksong 2025 Confirmed"
     },
     {
       "attempt": 122,
@@ -673,7 +747,8 @@
       "progress": 0.57894737,
       "resetSplitName": null,
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Soul Tyrant"
     },
     {
       "attempt": 123,
@@ -682,7 +757,8 @@
       "progress": 0.2631579,
       "resetSplitName": "READ THIS Charms + Dive (MG)",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "READ THIS Charms + Dive (MG)"
     },
     {
       "attempt": 124,
@@ -691,7 +767,8 @@
       "progress": 0.28947368,
       "resetSplitName": "Duct Tape Dark",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Duct Tape Dark"
     },
     {
       "attempt": 125,
@@ -700,7 +777,8 @@
       "progress": 0.2631579,
       "resetSplitName": "READ THIS Charms + Dive (MG)",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "READ THIS Charms + Dive (MG)"
     },
     {
       "attempt": 126,
@@ -709,7 +787,8 @@
       "progress": 0.57894737,
       "resetSplitName": null,
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Soul Tyrant"
     },
     {
       "attempt": 127,
@@ -718,7 +797,8 @@
       "progress": 0.02631579,
       "resetSplitName": "Silksong 2025 Confirmed",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Silksong 2025 Confirmed"
     },
     {
       "attempt": 128,
@@ -727,7 +807,8 @@
       "progress": 0.28947368,
       "resetSplitName": "Duct Tape Dark",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Duct Tape Dark"
     },
     {
       "attempt": 129,
@@ -736,7 +817,8 @@
       "progress": 0.10526316,
       "resetSplitName": "City of Tears (entrance)",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "City of Tears (entrance)"
     },
     {
       "attempt": 130,
@@ -745,7 +827,8 @@
       "progress": 0.31578946,
       "resetSplitName": "Mom's Ceramic! NO!!!",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Mom's Ceramic! NO!!!"
     },
     {
       "attempt": 131,
@@ -754,7 +837,8 @@
       "progress": 0.02631579,
       "resetSplitName": "Silksong 2025 Confirmed",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Silksong 2025 Confirmed"
     },
     {
       "attempt": 132,
@@ -763,7 +847,8 @@
       "progress": 0.28947368,
       "resetSplitName": "Duct Tape Dark",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Duct Tape Dark"
     },
     {
       "attempt": 133,
@@ -772,7 +857,8 @@
       "progress": 0.18421052,
       "resetSplitName": "City of Tears (exit)",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "City of Tears (exit)"
     },
     {
       "attempt": 134,
@@ -781,7 +867,8 @@
       "progress": 0.05263158,
       "resetSplitName": "She's Just Eepy Guys",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "She's Just Eepy Guys"
     },
     {
       "attempt": 135,
@@ -790,7 +877,8 @@
       "progress": 0.0,
       "resetSplitName": "Erroneous Chevalier",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Erroneous Chevalier"
     },
     {
       "attempt": 136,
@@ -799,7 +887,8 @@
       "progress": 0.55263156,
       "resetSplitName": null,
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "I Broke It Again"
     },
     {
       "attempt": 137,
@@ -808,7 +897,8 @@
       "progress": 0.0,
       "resetSplitName": "Erroneous Chevalier",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Erroneous Chevalier"
     },
     {
       "attempt": 138,
@@ -817,7 +907,8 @@
       "progress": 0.36842105,
       "resetSplitName": "Soul Tyrant",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Soul Tyrant"
     },
     {
       "attempt": 139,
@@ -826,7 +917,8 @@
       "progress": 0.15789473,
       "resetSplitName": "Defeat The Cat-Boy",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Defeat The Cat-Boy"
     },
     {
       "attempt": 140,
@@ -835,7 +927,8 @@
       "progress": 0.8947368,
       "resetSplitName": null,
       "pb": false,
-      "distance": true
+      "distance": true,
+      "distanceSplitName": "Path of Pain"
     },
     {
       "attempt": 141,
@@ -844,7 +937,8 @@
       "progress": 0.31578946,
       "resetSplitName": "Mom's Ceramic! NO!!!",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Mom's Ceramic! NO!!!"
     },
     {
       "attempt": 142,
@@ -853,7 +947,8 @@
       "progress": 0.10526316,
       "resetSplitName": "City of Tears (entrance)",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "City of Tears (entrance)"
     },
     {
       "attempt": 143,
@@ -862,7 +957,8 @@
       "progress": 0.13157895,
       "resetSplitName": "Hell Room",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Hell Room"
     },
     {
       "attempt": 144,
@@ -871,7 +967,8 @@
       "progress": 0.34210527,
       "resetSplitName": "Very Important Charm",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "I Broke It Again"
     },
     {
       "attempt": 145,
@@ -880,7 +977,8 @@
       "progress": 0.0,
       "resetSplitName": "Erroneous Chevalier",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Erroneous Chevalier"
     },
     {
       "attempt": 146,
@@ -889,7 +987,8 @@
       "progress": 0.2631579,
       "resetSplitName": "READ THIS Charms + Dive (MG)",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "READ THIS Charms + Dive (MG)"
     },
     {
       "attempt": 147,
@@ -898,7 +997,8 @@
       "progress": 0.02631579,
       "resetSplitName": "Silksong 2025 Confirmed",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Silksong 2025 Confirmed"
     },
     {
       "attempt": 148,
@@ -907,7 +1007,8 @@
       "progress": 0.078947365,
       "resetSplitName": "Mantis Claw",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Mantis Claw"
     },
     {
       "attempt": 149,
@@ -916,7 +1017,8 @@
       "progress": 0.14285715,
       "resetSplitName": "Defeat The Cat-Boy",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Defeat The Cat-Boy"
     },
     {
       "attempt": 150,
@@ -925,7 +1027,8 @@
       "progress": 0.114285715,
       "resetSplitName": "City of Tears/Hell Room",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "City of Tears/Hell Room"
     },
     {
       "attempt": 151,
@@ -934,7 +1037,8 @@
       "progress": 0.25714287,
       "resetSplitName": "ASCEND ASCEND ASCEND",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "READ THIS Charms + Dive (MG)"
     },
     {
       "attempt": 152,
@@ -943,7 +1047,8 @@
       "progress": 0.08571429,
       "resetSplitName": "Mantis Claw",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Mantis Claw"
     },
     {
       "attempt": 153,
@@ -952,7 +1057,8 @@
       "progress": 0.31428573,
       "resetSplitName": "Mom's Ceramic! NO!!!",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Mom's Ceramic! NO!!!"
     },
     {
       "attempt": 154,
@@ -961,7 +1067,8 @@
       "progress": 0.31428573,
       "resetSplitName": "Mom's Ceramic! NO!!!",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Mom's Ceramic! NO!!!"
     },
     {
       "attempt": 155,
@@ -970,7 +1077,8 @@
       "progress": 0.0,
       "resetSplitName": "Erroneous Chevalier",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Erroneous Chevalier"
     },
     {
       "attempt": 156,
@@ -979,7 +1087,8 @@
       "progress": 0.34285715,
       "resetSplitName": null,
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "I Broke It Again"
     },
     {
       "attempt": 157,
@@ -988,7 +1097,8 @@
       "progress": 0.37142858,
       "resetSplitName": "Revenge of the Cat Man",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Revenge of the Cat Man"
     },
     {
       "attempt": 158,
@@ -997,7 +1107,8 @@
       "progress": 0.31428573,
       "resetSplitName": "Mom's Ceramic! NO!!!",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Mom's Ceramic! NO!!!"
     },
     {
       "attempt": 159,
@@ -1006,7 +1117,8 @@
       "progress": 0.0,
       "resetSplitName": "Erroneous Chevalier",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Erroneous Chevalier"
     },
     {
       "attempt": 160,
@@ -1015,7 +1127,8 @@
       "progress": 0.028571429,
       "resetSplitName": "Silksong 2025 Confirmed",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Silksong 2025 Confirmed"
     },
     {
       "attempt": 161,
@@ -1024,7 +1137,8 @@
       "progress": 0.028571429,
       "resetSplitName": "Silksong 2025 Confirmed",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Silksong 2025 Confirmed"
     },
     {
       "attempt": 162,
@@ -1033,7 +1147,8 @@
       "progress": 0.54285717,
       "resetSplitName": null,
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Uumuu/Monomon"
     },
     {
       "attempt": 163,
@@ -1042,7 +1157,8 @@
       "progress": 0.22857143,
       "resetSplitName": "Sleepy Hardware",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Sleepy Hardware"
     },
     {
       "attempt": 164,
@@ -1051,7 +1167,8 @@
       "progress": 0.34285715,
       "resetSplitName": null,
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "I Broke It Again"
     },
     {
       "attempt": 165,
@@ -1060,7 +1177,8 @@
       "progress": 0.14285715,
       "resetSplitName": "Defeat The Cat-Boy",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Defeat The Cat-Boy"
     },
     {
       "attempt": 166,
@@ -1069,7 +1187,8 @@
       "progress": 0.114285715,
       "resetSplitName": "City of Tears/Hell Room",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "City of Tears/Hell Room"
     },
     {
       "attempt": 167,
@@ -1078,7 +1197,8 @@
       "progress": 0.31428573,
       "resetSplitName": "Markoth",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Mom's Ceramic! NO!!!"
     },
     {
       "attempt": 168,
@@ -1087,7 +1207,8 @@
       "progress": 0.71428573,
       "resetSplitName": null,
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Queen's Gardens"
     },
     {
       "attempt": 169,
@@ -1096,7 +1217,8 @@
       "progress": 0.37142858,
       "resetSplitName": "ASCEND ASCEND ASCEND",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Revenge of the Cat Man"
     },
     {
       "attempt": 170,
@@ -1105,7 +1227,8 @@
       "progress": 0.4857143,
       "resetSplitName": null,
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Hornet Sentinel/King's Brand"
     },
     {
       "attempt": 171,
@@ -1114,7 +1237,8 @@
       "progress": 0.34285715,
       "resetSplitName": "Revenge of the Cat Man",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "I Broke It Again"
     },
     {
       "attempt": 172,
@@ -1123,7 +1247,8 @@
       "progress": 0.028571429,
       "resetSplitName": "Silksong 2025 Confirmed",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Silksong 2025 Confirmed"
     },
     {
       "attempt": 173,
@@ -1132,7 +1257,8 @@
       "progress": 0.0,
       "resetSplitName": "Erroneous Chevalier",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Erroneous Chevalier"
     },
     {
       "attempt": 174,
@@ -1141,7 +1267,8 @@
       "progress": 0.17142858,
       "resetSplitName": "City of Tears (exit)",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "City of Tears (exit)"
     },
     {
       "attempt": 175,
@@ -1150,7 +1277,8 @@
       "progress": 0.08571429,
       "resetSplitName": "No Slip Grip",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "No Slip Grip"
     },
     {
       "attempt": 176,
@@ -1159,7 +1287,8 @@
       "progress": 0.9714286,
       "resetSplitName": null,
       "pb": false,
-      "distance": true
+      "distance": true,
+      "distanceSplitName": "Your Mom"
     },
     {
       "attempt": 177,
@@ -1168,7 +1297,8 @@
       "progress": 0.31428573,
       "resetSplitName": "Mom's Ceramic! NO!!!",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Mom's Ceramic! NO!!!"
     },
     {
       "attempt": 178,
@@ -1177,7 +1307,8 @@
       "progress": 0.114285715,
       "resetSplitName": "City of Tears/Hell Room",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "City of Tears/Hell Room"
     },
     {
       "attempt": 179,
@@ -1186,7 +1317,8 @@
       "progress": 0.114285715,
       "resetSplitName": "City of Tears/Hell Room",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "City of Tears/Hell Room"
     },
     {
       "attempt": 180,
@@ -1195,7 +1327,8 @@
       "progress": 0.0,
       "resetSplitName": "Erroneous Chevalier",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Erroneous Chevalier"
     },
     {
       "attempt": 181,
@@ -1204,7 +1337,8 @@
       "progress": 0.34285715,
       "resetSplitName": "I Broke It Again",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "I Broke It Again"
     },
     {
       "attempt": 182,
@@ -1213,7 +1347,8 @@
       "progress": 0.028571429,
       "resetSplitName": "Silksong 2025 Confirmed",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Silksong 2025 Confirmed"
     },
     {
       "attempt": 183,
@@ -1222,7 +1357,8 @@
       "progress": 0.057142857,
       "resetSplitName": "She's Just Eepy Guys",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "She's Just Eepy Guys"
     },
     {
       "attempt": 184,
@@ -1231,7 +1367,8 @@
       "progress": 0.114285715,
       "resetSplitName": "City of Tears/Hell Room",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "City of Tears/Hell Room"
     },
     {
       "attempt": 185,
@@ -1240,7 +1377,8 @@
       "progress": 0.114285715,
       "resetSplitName": "City of Tears/Hell Room",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "City of Tears/Hell Room"
     },
     {
       "attempt": 186,
@@ -1249,7 +1387,8 @@
       "progress": 0.057142857,
       "resetSplitName": "She's Just Eepy Guys",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "She's Just Eepy Guys"
     },
     {
       "attempt": 187,
@@ -1258,7 +1397,8 @@
       "progress": 0.31428573,
       "resetSplitName": "Mom's Ceramic! NO!!!",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Mom's Ceramic! NO!!!"
     },
     {
       "attempt": 188,
@@ -1267,7 +1407,8 @@
       "progress": 0.0,
       "resetSplitName": "Erroneous Chevalier",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Erroneous Chevalier"
     },
     {
       "attempt": 189,
@@ -1276,7 +1417,8 @@
       "progress": 0.0,
       "resetSplitName": "Erroneous Chevalier",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Erroneous Chevalier"
     },
     {
       "attempt": 190,
@@ -1285,7 +1427,8 @@
       "progress": 0.25714287,
       "resetSplitName": "I Broke It Again",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "READ THIS Charms + Dive (MG)"
     },
     {
       "attempt": 191,
@@ -1294,7 +1437,8 @@
       "progress": 0.028571429,
       "resetSplitName": "Silksong 2025 Confirmed",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Silksong 2025 Confirmed"
     },
     {
       "attempt": 192,
@@ -1303,7 +1447,8 @@
       "progress": 0.34285715,
       "resetSplitName": "I Broke It Again",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "I Broke It Again"
     },
     {
       "attempt": 193,
@@ -1312,7 +1457,8 @@
       "progress": 0.0,
       "resetSplitName": "Erroneous Chevalier",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Erroneous Chevalier"
     },
     {
       "attempt": 194,
@@ -1321,7 +1467,8 @@
       "progress": 0.0,
       "resetSplitName": "Erroneous Chevalier",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Erroneous Chevalier"
     },
     {
       "attempt": 195,
@@ -1330,7 +1477,8 @@
       "progress": 0.74285716,
       "resetSplitName": null,
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Traitor Lord"
     },
     {
       "attempt": 196,
@@ -1339,7 +1487,8 @@
       "progress": 0.7714286,
       "resetSplitName": null,
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Galien"
     },
     {
       "attempt": 197,
@@ -1348,7 +1497,8 @@
       "progress": 0.37142858,
       "resetSplitName": "Revenge of the Cat Man",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Revenge of the Cat Man"
     },
     {
       "attempt": 198,
@@ -1357,7 +1507,8 @@
       "progress": 0.14285715,
       "resetSplitName": "Defeat The Cat-Boy",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Defeat The Cat-Boy"
     },
     {
       "attempt": 199,
@@ -1366,7 +1517,8 @@
       "progress": 0.8857143,
       "resetSplitName": null,
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Path of Pain"
     },
     {
       "attempt": 200,
@@ -1375,7 +1527,8 @@
       "progress": 0.057142857,
       "resetSplitName": "She's Just Eepy Guys",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "She's Just Eepy Guys"
     },
     {
       "attempt": 201,
@@ -1384,7 +1537,8 @@
       "progress": 0.71428573,
       "resetSplitName": null,
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Queen's Gardens"
     },
     {
       "attempt": 202,
@@ -1393,7 +1547,8 @@
       "progress": 0.94285715,
       "resetSplitName": null,
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "The Hollow Knight"
     },
     {
       "attempt": 203,
@@ -1402,7 +1557,8 @@
       "progress": 0.0,
       "resetSplitName": "Erroneous Chevalier",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Erroneous Chevalier"
     },
     {
       "attempt": 204,
@@ -1411,7 +1567,8 @@
       "progress": 0.028571429,
       "resetSplitName": "Silksong 2025 Confirmed",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Silksong 2025 Confirmed"
     },
     {
       "attempt": 205,
@@ -1420,7 +1577,8 @@
       "progress": 0.2857143,
       "resetSplitName": "ASCEND ASCEND ASCEND",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Duct Tape Dark"
     },
     {
       "attempt": 206,
@@ -1429,7 +1587,8 @@
       "progress": 0.114285715,
       "resetSplitName": "Cry Some More",
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Cry Some More"
     },
     {
       "attempt": 207,
@@ -1438,7 +1597,8 @@
       "progress": 1.0,
       "resetSplitName": null,
       "pb": true,
-      "distance": true
+      "distance": true,
+      "distanceSplitName": null
     }
   ]
 }

@@ -32,9 +32,9 @@
             :class="{ active: selectedRun?.id === run.id }"
             @click="selectRun(run)"
           >
-            <span class="run-game">{{ run.game }}</span>
+            <span class="run-game" v-tooltip.bottom="run.game">{{ run.game }}</span>
 
-            <div class="run-card-sub">{{ run.category }}</div>
+            <div class="run-card-sub" v-tooltip.bottom="run.category.toUpperCase()">{{ run.category.toUpperCase() }}</div>
 
             <StatusBadge :status="run.status" />
 
@@ -59,8 +59,8 @@
           <template v-if="selectedRun">
             <div class="detail-header">
               <div class="detail-header-text">
-                <h2 class="detail-title">{{ selectedRun.game }}</h2>
-                <p class="detail-sub">{{ selectedRun.category }}</p>
+                <h2 class="detail-title" v-tooltip.bottom="selectedRun.game">{{ selectedRun.game }}</h2>
+                <p class="detail-sub" v-tooltip.bottom="selectedRun.category.toUpperCase()">{{ selectedRun.category.toUpperCase() }}</p>
                 <LinkBadge v-if="selectedRun.runLink != null" :link="selectedRun.runLink" :source="'youtube'" />
               </div>
 
@@ -75,6 +75,7 @@
               <div class="stat-box">
                 <span class="stat-label">Distance PB</span>
                 <span class="stat-value">{{ (selectedRun.distancePB != null ? (selectedRun.distancePB * 100).toFixed(0) + "%" : '-' )}}</span>
+                <span class="stat-label" v-tooltip.bottom="selectedRun.distancePBSplitName?.toUpperCase() ?? '-'">{{ (selectedRun.distancePBSplitName != null ? selectedRun.distancePBSplitName : '-' )}}</span>
               </div>
               <div class="stat-box">
                 <span class="stat-label">Attempts</span>
@@ -112,42 +113,49 @@
             </div>
 
             <div class="log-section" v-if="visibleLogRuns.length > 0">
-              <div class="section-title">Run Log</div>
+              <div class="log-title">Run Log</div>
+
               <DataTable
                 :value="visibleLogRuns"
                 size="small"
                 class="log-table"
                 striped-rows
+                table-style="width: 100%"
               >
-                <Column field="attempt" header="#">
+                <Column field="attempt" header="#" style="width: 45px; min-width: 45px; max-width: 45px">
                   <template #body="{ data }">
-                    <span class="mono-text">{{ data.attempt }}</span>
+                    <span class="log-text">{{ data.attempt }}</span>
                   </template>
                 </Column>
-                <Column field="date" header="Date">
+                <Column field="date" header="Date" style="width: 110px; min-width: 110px; max-width: 110px">
                   <template #body="{ data }">
-                    <span class="mono-text">{{ formatDate(data.date) }}</span>
+                    <span class="log-text">{{ formatDate(data.date) }}</span>
                   </template>
                 </Column>
-                <Column field="hits" header="Result">
+                <Column field="hits" header="Result" style="min-width: 0">
                   <template #body="{ data }">
-                    <span class="mono-text">{{ data.resetSplitName == null ? (data.hits + plural(" hit", data.hits)) : ('reset at ' + data.resetSplitName) }}</span>
-                    <i class="log-pb-star" :class="`pi pi-star-fill`" v-if="data.pb" />
+                    <div class="log-cell">
+                      <span class="log-text">{{ data.resetSplitName == null ? (data.hits + plural(" hit", data.hits)) : ('reset at ' + data.resetSplitName) }}</span>
+                      <i class="log-pb-star" :class="`pi pi-star-fill`" v-if="data.pb" />
+                    </div>
                   </template>
                 </Column>
-                <Column field="progress" header="Progress">
+                <Column field="progress" header="Progress" style="width:150px; min-width: 150px; max-width: 150px">
                   <template #body="{ data }">
-                    <div style="position: relative; display: flex; align-items: center;">
-                      <ProgressBar 
-                        class="progressbar-class" 
-                        :value="Number((data.progress * 100).toFixed(0))"
-                        style="flex: 1; margin-right: 1.5rem;"
-                      />
-                      <i 
-                        v-if="data.distance"
-                        class="log-pb-star pi pi-star-fill" 
-                        style="position: absolute; right: 0;"
-                      />
+                    <div class="progress-cell">
+                      <div style="position: relative; display: flex; align-items: center;">
+                        <ProgressBar 
+                          class="progressbar-class" 
+                          :value="Number((data.progress * 100).toFixed(0))"
+                          style="flex: 1; margin-right: 1.5rem;"
+                        />
+                        <i 
+                          v-if="data.distance"
+                          class="log-pb-star pi pi-star-fill" 
+                          style="position: absolute; right: 0;"
+                        />
+                      </div>
+                      <div class="progress-split-name">{{ (data.distanceSplitName != null ? data.distanceSplitName.toUpperCase() : "COMPLETED") }}</div>
                     </div>
                   </template>
                 </Column>
@@ -469,9 +477,9 @@ const horizontalBarOptions = {
 }
 
 .run-card-sub {
-  font-size: 14px;
+  font-size: 12px;
   color: var(--brand-text-muted);
-  margin-top: 4px;
+  margin-top: 2px;
   margin-bottom: 8px;
   white-space: nowrap;
   overflow: hidden;
@@ -599,6 +607,8 @@ const horizontalBarOptions = {
   color: var(--brand-text-muted);
   font-family: var(--font-mono);
   white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .stat-value {
@@ -656,7 +666,7 @@ const horizontalBarOptions = {
   gap: 10px;
 }
 
-.section-title {
+.log-title {
   font-family: var(--font-display);
   font-size: 14px;
   text-transform: uppercase;
@@ -666,24 +676,27 @@ const horizontalBarOptions = {
   padding-left: 10px;
 }
 
-.boss-status {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  font-size: 12px;
-  font-weight: 600;
+.log-cell {
+  min-width: 0;  /* allows flex child to shrink below content size */
+  flex: 1;
 }
 
-.boss-status.defeated { color: var(--brand-accent-green); }
-.boss-status.pending  { color: var(--brand-text-muted); }
-.boss-status .pi      { font-size: 14px; }
-
-.mono-text {
+.log-text {
   font-family: var(--font-mono);
-  font-size: 12px;
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
 }
 
-.mono-text.deaths { color: var(--brand-accent-red); }
+:deep(.log-table .p-datatable-tbody > tr > td:nth-child(3)),
+:deep(.log-table .p-datatable-thead > tr > th:nth-child(3)) {
+  width: auto;
+  flex: 1;
+  overflow: hidden;
+  max-width: 0;
+}
 
 .notes-text {
   font-size: 12px;
@@ -761,6 +774,23 @@ const horizontalBarOptions = {
   margin-left: 8px;
   font-size: 10px;
   color: goldenrod;
+}
+
+.progress-cell {
+  min-width: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.progress-split-name {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 10px;
+  color: var(--brand-text-muted);
+  font-family: var(--font-mono);
 }
 
 .progressbar-class :deep(.p-progressbar-label) {

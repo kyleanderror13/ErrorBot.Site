@@ -7,7 +7,8 @@
       "progress": 0.39534885,
       "resetSplitName": null,
       "pb": true,
-      "distance": true
+      "distance": true,
+      "distanceSplitName": "Widow/Needolin"
     },
     {
       "attempt": 2,
@@ -16,7 +17,8 @@
       "progress": 0.3809524,
       "resetSplitName": null,
       "pb": false,
-      "distance": false
+      "distance": false,
+      "distanceSplitName": "Widow/Needolin"
     },
     {
       "attempt": 3,
@@ -25,7 +27,8 @@
       "progress": 0.47619048,
       "resetSplitName": null,
       "pb": true,
-      "distance": true
+      "distance": true,
+      "distanceSplitName": "Forge Daughter Arena"
     }
   ]
 }
