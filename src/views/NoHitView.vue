@@ -135,12 +135,11 @@
                 <Column field="hits" header="Result" style="min-width: 0">
                   <template #body="{ data }">
                     <div class="log-cell">
-                      <span class="log-text">{{ data.resetSplitName == null ? (data.hits + plural(" hit", data.hits)) : ('reset at ' + data.resetSplitName) }}</span>
-                      <i class="log-pb-star" :class="`pi pi-star-fill`" v-if="data.pb" />
+                      <span class="log-text">{{ data.resetSplitName == null ? (data.hits + plural(" hit", data.hits)) : ('reset at ' + data.resetSplitName) }}<i class="log-pb-star" :class="`pi pi-star-fill`" v-if="data.pb" /></span>
                     </div>
                   </template>
                 </Column>
-                <Column field="progress" header="Progress" style="width:150px; min-width: 150px; max-width: 150px">
+                <Column field="progress" header="Progress" style="width:120px; min-width: 150px; max-width: 150px">
                   <template #body="{ data }">
                     <div class="progress-cell">
                       <div style="position: relative; display: flex; align-items: center;">
