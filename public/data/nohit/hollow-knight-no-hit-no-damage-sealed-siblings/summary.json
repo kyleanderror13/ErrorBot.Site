@@ -24,8 +24,8 @@
       "successRate": 1.0,
       "averageHits": 0.0,
       "totalHits": 0,
-      "successAttempts": 2,
-      "totalAttempts": 2
+      "successAttempts": 13,
+      "totalAttempts": 13
     },
     {
       "name": "Mantis Claw",
@@ -110,21 +110,21 @@
     },
     {
       "name": "Soul Warrior/Shade Soul",
-      "resets": 0,
-      "successRate": 1.0,
-      "averageHits": 0.0,
-      "totalHits": 0,
-      "successAttempts": 3,
-      "totalAttempts": 3
+      "resets": 2,
+      "successRate": 0.72727275,
+      "averageHits": 0.27272728,
+      "totalHits": 3,
+      "successAttempts": 8,
+      "totalAttempts": 11
     },
     {
       "name": "Broken Vessel/Monarch Wings",
       "resets": 1,
-      "successRate": 0.8333333,
-      "averageHits": 0.16666667,
+      "successRate": 0.875,
+      "averageHits": 0.125,
       "totalHits": 1,
-      "successAttempts": 5,
-      "totalAttempts": 6
+      "successAttempts": 7,
+      "totalAttempts": 8
     },
     {
       "name": "Dung Defender",
@@ -316,13 +316,13 @@
       "totalAttempts": 6
     },
     {
-      "name": "I'm Way Too Old For This",
+      "name": "White Palace",
       "resets": 0,
       "successRate": 0.5,
-      "averageHits": 0.5,
-      "totalHits": 2,
-      "successAttempts": 2,
-      "totalAttempts": 4
+      "averageHits": 0.8333333,
+      "totalHits": 5,
+      "successAttempts": 3,
+      "totalAttempts": 6
     },
     {
       "name": "Void Heart",
@@ -341,42 +341,6 @@
       "totalHits": 2,
       "successAttempts": 5,
       "totalAttempts": 6
-    },
-    {
-      "name": "She's Just Eepy Guys",
-      "resets": 0,
-      "successRate": 1.0,
-      "averageHits": 0.0,
-      "totalHits": 0,
-      "successAttempts": 11,
-      "totalAttempts": 11
-    },
-    {
-      "name": "Soul Warrior/Shade Soul (MG)",
-      "resets": 2,
-      "successRate": 0.625,
-      "averageHits": 0.375,
-      "totalHits": 3,
-      "successAttempts": 5,
-      "totalAttempts": 8
-    },
-    {
-      "name": "Broken Vessel",
-      "resets": 0,
-      "successRate": 1.0,
-      "averageHits": 0.0,
-      "totalHits": 0,
-      "successAttempts": 2,
-      "totalAttempts": 2
-    },
-    {
-      "name": "White Palace",
-      "resets": 0,
-      "successRate": 0.5,
-      "averageHits": 1.5,
-      "totalHits": 3,
-      "successAttempts": 1,
-      "totalAttempts": 2
     }
   ]
 }

@@ -34,9 +34,9 @@
       "runLink": null
     },
     {
-      "id": "hollow-knight-no-hit-true-ending",
+      "id": "hollow-knight-no-hit-no-damage-true-ending",
       "game": "Hollow Knight",
-      "category": "No Hit True Ending",
+      "category": "No Hit No Damage True Ending",
       "status": "Completed",
       "attempts": 74,
       "hitPB": 0,
@@ -45,9 +45,9 @@
       "runLink": "https://www.youtube.com/watch?v=E1ZdOd5aGFQ"
     },
     {
-      "id": "hollow-knight-no-hit-sealed-siblings",
+      "id": "hollow-knight-no-hit-no-damage-sealed-siblings",
       "game": "Hollow Knight",
-      "category": "No Hit Sealed Siblings",
+      "category": "No Hit No Damage Sealed Siblings",
       "status": "Paused",
       "attempts": 12,
       "hitPB": 1,
@@ -56,9 +56,9 @@
       "runLink": null
     },
     {
-      "id": "hollow-knight-no-hit-all-skills",
+      "id": "hollow-knight-no-hit-no-damage-all-skills",
       "game": "Hollow Knight",
-      "category": "No Hit All Skills",
+      "category": "No Hit No Damage All Skills",
       "status": "Completed",
       "attempts": 0,
       "hitPB": null,
@@ -67,9 +67,9 @@
       "runLink": "https://www.youtube.com/watch?v=p8VbL8-LUIs"
     },
     {
-      "id": "hollow-knight-no-hit-p5",
+      "id": "hollow-knight-no-hit-no-damage-pantheon-of-hallownest",
       "game": "Hollow Knight",
-      "category": "No Hit P5",
+      "category": "No Hit No Damage Pantheon of Hallownest",
       "status": "Paused",
       "attempts": 82,
       "hitPB": 10,
@@ -78,9 +78,9 @@
       "runLink": null
     },
     {
-      "id": "hades-no-hit-any",
+      "id": "hades-no-hit-no-damage-any",
       "game": "Hades",
-      "category": "No Hit Any%",
+      "category": "No Hit No Damage Any%",
       "status": "Completed",
       "attempts": 0,
       "hitPB": null,
@@ -89,9 +89,9 @@
       "runLink": "https://www.youtube.com/watch?v=sVUtU3omaMQ"
     },
     {
-      "id": "hollow-knight-no-hit-all-main-game-bosses",
+      "id": "hollow-knight-no-hit-no-damage-all-main-game-bosses",
       "game": "Hollow Knight",
-      "category": "No Hit All Main Game Bosses",
+      "category": "No Hit No Damage All Main Game Bosses",
       "status": "Paused",
       "attempts": 1,
       "hitPB": 50,
@@ -100,9 +100,9 @@
       "runLink": null
     },
     {
-      "id": "hollow-knight-no-hit-ghostbusters",
+      "id": "hollow-knight-no-hit-no-damage-ghostbusters",
       "game": "Hollow Knight",
-      "category": "No Hit Ghostbusters",
+      "category": "No Hit No Damage Ghostbusters",
       "status": "Paused",
       "attempts": 3,
       "hitPB": 7,

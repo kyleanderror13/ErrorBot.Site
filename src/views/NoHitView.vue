@@ -74,7 +74,7 @@
               </div>
               <div class="stat-box">
                 <span class="stat-label">Distance PB</span>
-                <span class="stat-value">{{ selectedRun.distancePB }}</span>
+                <span class="stat-value">{{ (selectedRun.distancePB != null ? (selectedRun.distancePB * 100).toFixed(0) + "%" : '-' )}}</span>
               </div>
               <div class="stat-box">
                 <span class="stat-label">Attempts</span>
@@ -85,21 +85,29 @@
             <div class="charts-grid" v-if="summarySplits.length > 0">
               <div class="chart-card">
                 <div class="chart-title">Success Rate</div>
-                <Chart
-                  type="bar"
-                  :data="successRateChartData"
-                  :options="horizontalBarOptions"
-                  class="chart-instance"
-                />
+
+                <div :style="{ height: `${Math.min(Math.max(summarySplits.length * 25, 200), 1200)}px`, position: 'relative' }">
+                  <Chart
+                    type="bar"
+                    :data="successRateChartData"
+                    :options="horizontalBarOptions"
+                    class="chart-instance"
+                    style="height: 100%"
+                  />
+                </div>
               </div>
               <div class="chart-card">
                 <div class="chart-title">Average Hits</div>
-                <Chart
-                  type="bar"
-                  :data="averageHitsChartData"
-                  :options="horizontalBarOptions"
-                  class="chart-instance"
-                />
+
+                <div class="chart-height":style="{ height: `${Math.min(Math.max(summarySplits.length * 25, 200), 1200)}px`, position: 'relative' }">
+                  <Chart
+                    type="bar"
+                    :data="averageHitsChartData"
+                    :options="horizontalBarOptions"
+                    class="chart-instance"
+                    style="height: 100%"
+                  />
+                </div>
               </div>
             </div>
 
@@ -243,7 +251,8 @@ async function loadLog(run: NoHitCatalogRun) {
   try {
     const res = await fetch(`/data/nohit/${run.id}/log.json`)
     const json = await res.json()
-    logRuns.value = json.runs ?? []
+    logRuns.value = json.runs ?? [];
+    logRuns.value = logRuns.value.sort((a, b) => b.attempt - a.attempt);
     loadedLogRunId.value = run.id
   } finally {
     logLoading.value = false
@@ -322,7 +331,7 @@ const horizontalBarOptions = {
       ...baseChartOptions.scales.y,
       ticks: {
         ...baseChartOptions.scales.y.ticks,
-        font: { family: 'JetBrains Mono', size: 10 }
+        font: { family: 'JetBrains Mono', size: 11 }
       }
     }
   }
@@ -597,7 +606,6 @@ const horizontalBarOptions = {
 }
 
 .chart-instance {
-  height: 600px;
 }
 
 .log-section {

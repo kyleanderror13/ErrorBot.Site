@@ -248,8 +248,8 @@
       "date": "2025-06-17T21:43:41.3897757+08:00",
       "hits": 1,
       "progress": 0.114285715,
-      "resetSplitName": null,
-      "pb": true,
+      "resetSplitName": "City of Tears/Hell Room",
+      "pb": false,
       "distance": false
     },
     {
@@ -275,7 +275,7 @@
       "date": "2025-05-13T21:10:58.3246387+08:00",
       "hits": 1,
       "progress": 0.2631579,
-      "resetSplitName": null,
+      "resetSplitName": "Charms (MG)",
       "pb": false,
       "distance": false
     },
@@ -456,7 +456,7 @@
       "hits": 1,
       "progress": 0.84210527,
       "resetSplitName": null,
-      "pb": false,
+      "pb": true,
       "distance": false
     },
     {
@@ -536,7 +536,7 @@
       "date": "2025-07-15T21:08:20.6435467+08:00",
       "hits": 1,
       "progress": 0.114285715,
-      "resetSplitName": null,
+      "resetSplitName": "City of Tears/Hell Room",
       "pb": false,
       "distance": false
     },
@@ -653,7 +653,7 @@
       "date": "2025-05-26T20:53:53.8371075+08:00",
       "hits": 1,
       "progress": 0.55263156,
-      "resetSplitName": null,
+      "resetSplitName": "Kyle's Tinks (LK)",
       "pb": false,
       "distance": false
     },
@@ -689,7 +689,7 @@
       "date": "2025-05-26T22:48:50.4970411+08:00",
       "hits": 1,
       "progress": 0.55263156,
-      "resetSplitName": null,
+      "resetSplitName": "Kyle's Tinks (LK)",
       "pb": false,
       "distance": false
     },
@@ -752,7 +752,7 @@
       "date": "2025-08-10T21:47:42.7174274+08:00",
       "hits": 1,
       "progress": 0.114285715,
-      "resetSplitName": null,
+      "resetSplitName": "City of Tears/Hell Room",
       "pb": false,
       "distance": false
     },
@@ -770,7 +770,7 @@
       "date": "2025-08-10T22:22:20.5471176+08:00",
       "hits": 1,
       "progress": 0.114285715,
-      "resetSplitName": null,
+      "resetSplitName": "City of Tears/Hell Room",
       "pb": false,
       "distance": false
     },
@@ -815,7 +815,7 @@
       "date": "2025-05-27T23:22:51.2199726+08:00",
       "hits": 1,
       "progress": 0.55263156,
-      "resetSplitName": null,
+      "resetSplitName": "Kyle's Tinks (LK)",
       "pb": false,
       "distance": false
     },
@@ -851,7 +851,7 @@
       "date": "2025-03-18T19:52:51.0563903+08:00",
       "hits": 1,
       "progress": 0.05,
-      "resetSplitName": null,
+      "resetSplitName": "Gruz Mother",
       "pb": false,
       "distance": false
     },
@@ -869,7 +869,7 @@
       "date": "2025-08-18T22:40:55.1150467+08:00",
       "hits": 1,
       "progress": 0.114285715,
-      "resetSplitName": null,
+      "resetSplitName": "City of Tears/Hell Room",
       "pb": false,
       "distance": false
     },
@@ -878,7 +878,7 @@
       "date": "2025-03-18T21:11:33.2014485+08:00",
       "hits": 1,
       "progress": 0.3,
-      "resetSplitName": null,
+      "resetSplitName": "Soul Warrior/Shade Soul",
       "pb": false,
       "distance": false
     },
@@ -896,7 +896,7 @@
       "date": "2025-08-21T21:10:55.5499631+08:00",
       "hits": 1,
       "progress": 0.114285715,
-      "resetSplitName": null,
+      "resetSplitName": "City of Tears/Hell Room",
       "pb": false,
       "distance": false
     },
@@ -1175,7 +1175,7 @@
       "date": "2025-03-27T20:32:17.7860371+08:00",
       "hits": 1,
       "progress": 0.05,
-      "resetSplitName": null,
+      "resetSplitName": "Gruz Mother",
       "pb": false,
       "distance": false
     },
@@ -1328,7 +1328,7 @@
       "date": "2025-04-03T22:19:38.3763968+08:00",
       "hits": 1,
       "progress": 0.05,
-      "resetSplitName": null,
+      "resetSplitName": "Gruz Mother",
       "pb": false,
       "distance": false
     },
