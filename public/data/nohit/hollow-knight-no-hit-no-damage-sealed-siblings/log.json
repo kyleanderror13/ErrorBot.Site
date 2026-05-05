@@ -10,30 +10,12 @@
       "distance": true
     },
     {
-      "attempt": 1,
-      "date": "2025-08-18T00:40:07.2433159+08:00",
-      "hits": 4,
-      "progress": 0.74285716,
-      "resetSplitName": null,
-      "pb": false,
-      "distance": true
-    },
-    {
       "attempt": 2,
       "date": "2025-04-28T22:38:55.9443441+08:00",
       "hits": 6,
       "progress": 0.27027026,
       "resetSplitName": null,
       "pb": false,
-      "distance": false
-    },
-    {
-      "attempt": 2,
-      "date": "2025-08-31T23:45:49.1277481+08:00",
-      "hits": 2,
-      "progress": 0.6857143,
-      "resetSplitName": null,
-      "pb": true,
       "distance": false
     },
     {
@@ -123,6 +105,24 @@
       "hits": 1,
       "progress": 0.3243243,
       "resetSplitName": "Broken Vessel/Monarch Wings",
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 13,
+      "date": "2025-08-18T00:40:07.2433159+08:00",
+      "hits": 4,
+      "progress": 0.74285716,
+      "resetSplitName": null,
+      "pb": false,
+      "distance": false
+    },
+    {
+      "attempt": 14,
+      "date": "2025-08-31T23:45:49.1277481+08:00",
+      "hits": 2,
+      "progress": 0.6857143,
+      "resetSplitName": null,
       "pb": false,
       "distance": false
     }

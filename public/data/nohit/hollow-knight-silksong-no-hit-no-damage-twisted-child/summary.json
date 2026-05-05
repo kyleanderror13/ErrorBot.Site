@@ -7,7 +7,8 @@
       "averageHits": 0.0,
       "totalHits": 0,
       "successAttempts": 3,
-      "totalAttempts": 3
+      "totalAttempts": 3,
+      "disabled": false
     },
     {
       "name": "The Marrow",
@@ -16,7 +17,8 @@
       "averageHits": 0.0,
       "totalHits": 0,
       "successAttempts": 3,
-      "totalAttempts": 3
+      "totalAttempts": 3,
+      "disabled": false
     },
     {
       "name": "Silk Spear",
@@ -25,7 +27,8 @@
       "averageHits": 0.0,
       "totalHits": 0,
       "successAttempts": 3,
-      "totalAttempts": 3
+      "totalAttempts": 3,
+      "disabled": false
     },
     {
       "name": "Bell Beast",
@@ -34,7 +37,8 @@
       "averageHits": 0.0,
       "totalHits": 0,
       "successAttempts": 3,
-      "totalAttempts": 3
+      "totalAttempts": 3,
+      "disabled": false
     },
     {
       "name": "Swift Step",
@@ -43,7 +47,8 @@
       "averageHits": 0.0,
       "totalHits": 0,
       "successAttempts": 3,
-      "totalAttempts": 3
+      "totalAttempts": 3,
+      "disabled": false
     },
     {
       "name": "Flea (Swift Step)",
@@ -52,7 +57,8 @@
       "averageHits": 0.0,
       "totalHits": 0,
       "successAttempts": 3,
-      "totalAttempts": 3
+      "totalAttempts": 3,
+      "disabled": false
     },
     {
       "name": "Flea (Deep Docks Bellway)",
@@ -61,7 +67,8 @@
       "averageHits": 0.0,
       "totalHits": 0,
       "successAttempts": 3,
-      "totalAttempts": 3
+      "totalAttempts": 3,
+      "disabled": false
     },
     {
       "name": "Lace (Deep Docks)",
@@ -70,7 +77,8 @@
       "averageHits": 0.0,
       "totalHits": 0,
       "successAttempts": 3,
-      "totalAttempts": 3
+      "totalAttempts": 3,
+      "disabled": false
     },
     {
       "name": "Drifter's Cloak",
@@ -79,7 +87,8 @@
       "averageHits": 0.0,
       "totalHits": 0,
       "successAttempts": 3,
-      "totalAttempts": 3
+      "totalAttempts": 3,
+      "disabled": false
     },
     {
       "name": "Fourth Chorus",
@@ -88,7 +97,8 @@
       "averageHits": 0.0,
       "totalHits": 0,
       "successAttempts": 3,
-      "totalAttempts": 3
+      "totalAttempts": 3,
+      "disabled": false
     },
     {
       "name": "Flea (Far Fields)",
@@ -97,7 +107,8 @@
       "averageHits": 0.0,
       "totalHits": 0,
       "successAttempts": 3,
-      "totalAttempts": 3
+      "totalAttempts": 3,
+      "disabled": false
     },
     {
       "name": "Flea (Hunter's March)",
@@ -106,7 +117,8 @@
       "averageHits": 0.0,
       "totalHits": 0,
       "successAttempts": 3,
-      "totalAttempts": 3
+      "totalAttempts": 3,
+      "disabled": false
     },
     {
       "name": "Flea (The Marrow)",
@@ -115,7 +127,8 @@
       "averageHits": 0.0,
       "totalHits": 0,
       "successAttempts": 3,
-      "totalAttempts": 3
+      "totalAttempts": 3,
+      "disabled": false
     },
     {
       "name": "The Lost Fleas",
@@ -124,7 +137,8 @@
       "averageHits": 0.0,
       "totalHits": 0,
       "successAttempts": 3,
-      "totalAttempts": 3
+      "totalAttempts": 3,
+      "disabled": false
     },
     {
       "name": "Shellwood/Cling Grip",
@@ -133,7 +147,8 @@
       "averageHits": 0.0,
       "totalHits": 0,
       "successAttempts": 4,
-      "totalAttempts": 4
+      "totalAttempts": 4,
+      "disabled": false
     },
     {
       "name": "Pollip Pouch",
@@ -142,7 +157,8 @@
       "averageHits": 0.0,
       "totalHits": 0,
       "successAttempts": 3,
-      "totalAttempts": 3
+      "totalAttempts": 3,
+      "disabled": false
     },
     {
       "name": "Widow/Needolin",
@@ -151,7 +167,8 @@
       "averageHits": 1.0,
       "totalHits": 3,
       "successAttempts": 1,
-      "totalAttempts": 3
+      "totalAttempts": 3,
+      "disabled": false
     },
     {
       "name": "Sharpened Needle",
@@ -160,7 +177,8 @@
       "averageHits": 0.0,
       "totalHits": 0,
       "successAttempts": 3,
-      "totalAttempts": 3
+      "totalAttempts": 3,
+      "disabled": false
     },
     {
       "name": "Shell Satchel",
@@ -169,7 +187,8 @@
       "averageHits": 0.0,
       "totalHits": 0,
       "successAttempts": 3,
-      "totalAttempts": 3
+      "totalAttempts": 3,
+      "disabled": false
     },
     {
       "name": "Evolved Hunter Crest",
@@ -178,7 +197,8 @@
       "averageHits": 0.0,
       "totalHits": 0,
       "successAttempts": 3,
-      "totalAttempts": 3
+      "totalAttempts": 3,
+      "disabled": false
     },
     {
       "name": "Forge Daughter Arena",
@@ -187,7 +207,8 @@
       "averageHits": 0.33333334,
       "totalHits": 1,
       "successAttempts": 2,
-      "totalAttempts": 3
+      "totalAttempts": 3,
+      "disabled": false
     },
     {
       "name": "Greymoor",
@@ -196,7 +217,8 @@
       "averageHits": 0.0,
       "totalHits": 0,
       "successAttempts": 3,
-      "totalAttempts": 3
+      "totalAttempts": 3,
+      "disabled": false
     },
     {
       "name": "Sinner's Road",
@@ -205,7 +227,8 @@
       "averageHits": 0.33333334,
       "totalHits": 1,
       "successAttempts": 2,
-      "totalAttempts": 3
+      "totalAttempts": 3,
+      "disabled": false
     },
     {
       "name": "The Mist",
@@ -214,7 +237,8 @@
       "averageHits": 1.0,
       "totalHits": 3,
       "successAttempts": 1,
-      "totalAttempts": 3
+      "totalAttempts": 3,
+      "disabled": false
     },
     {
       "name": "Phantom",
@@ -223,7 +247,8 @@
       "averageHits": 0.0,
       "totalHits": 0,
       "successAttempts": 3,
-      "totalAttempts": 3
+      "totalAttempts": 3,
+      "disabled": false
     },
     {
       "name": "To Cogwork Dancers",
@@ -232,7 +257,8 @@
       "averageHits": 0.0,
       "totalHits": 0,
       "successAttempts": 3,
-      "totalAttempts": 3
+      "totalAttempts": 3,
+      "disabled": false
     },
     {
       "name": "Cogwork Dancers",
@@ -241,7 +267,8 @@
       "averageHits": 0.0,
       "totalHits": 0,
       "successAttempts": 3,
-      "totalAttempts": 3
+      "totalAttempts": 3,
+      "disabled": false
     },
     {
       "name": "Whispering Vaults Arena",
@@ -250,7 +277,8 @@
       "averageHits": 0.33333334,
       "totalHits": 1,
       "successAttempts": 2,
-      "totalAttempts": 3
+      "totalAttempts": 3,
+      "disabled": false
     },
     {
       "name": "Pale Oil",
@@ -259,7 +287,8 @@
       "averageHits": 0.0,
       "totalHits": 0,
       "successAttempts": 3,
-      "totalAttempts": 3
+      "totalAttempts": 3,
+      "disabled": false
     },
     {
       "name": "Shining Needle",
@@ -268,7 +297,8 @@
       "averageHits": 0.0,
       "totalHits": 0,
       "successAttempts": 3,
-      "totalAttempts": 3
+      "totalAttempts": 3,
+      "disabled": false
     },
     {
       "name": "Trobbio",
@@ -277,7 +307,8 @@
       "averageHits": 1.0,
       "totalHits": 3,
       "successAttempts": 2,
-      "totalAttempts": 3
+      "totalAttempts": 3,
+      "disabled": false
     },
     {
       "name": "Clawline",
@@ -286,7 +317,8 @@
       "averageHits": 0.0,
       "totalHits": 0,
       "successAttempts": 3,
-      "totalAttempts": 3
+      "totalAttempts": 3,
+      "disabled": false
     },
     {
       "name": "Clawline Arena",
@@ -295,7 +327,8 @@
       "averageHits": 0.33333334,
       "totalHits": 1,
       "successAttempts": 2,
-      "totalAttempts": 3
+      "totalAttempts": 3,
+      "disabled": false
     },
     {
       "name": "Sacred Cylinder",
@@ -304,7 +337,8 @@
       "averageHits": 0.33333334,
       "totalHits": 1,
       "successAttempts": 2,
-      "totalAttempts": 3
+      "totalAttempts": 3,
+      "disabled": false
     },
     {
       "name": "Twisted Bud",
@@ -313,7 +347,8 @@
       "averageHits": 0.6666667,
       "totalHits": 2,
       "successAttempts": 1,
-      "totalAttempts": 3
+      "totalAttempts": 3,
+      "disabled": false
     },
     {
       "name": "Vaultkeeper's Melody",
@@ -322,7 +357,8 @@
       "averageHits": 0.0,
       "totalHits": 0,
       "successAttempts": 3,
-      "totalAttempts": 3
+      "totalAttempts": 3,
+      "disabled": false
     },
     {
       "name": "Cogwork Core/Architect's Melody",
@@ -331,7 +367,8 @@
       "averageHits": 0.6666667,
       "totalHits": 2,
       "successAttempts": 2,
-      "totalAttempts": 3
+      "totalAttempts": 3,
+      "disabled": false
     },
     {
       "name": "High Halls",
@@ -340,7 +377,8 @@
       "averageHits": 0.0,
       "totalHits": 0,
       "successAttempts": 3,
-      "totalAttempts": 3
+      "totalAttempts": 3,
+      "disabled": false
     },
     {
       "name": "The Forum/Conductor's Melody",
@@ -349,7 +387,8 @@
       "averageHits": 0.33333334,
       "totalHits": 1,
       "successAttempts": 2,
-      "totalAttempts": 3
+      "totalAttempts": 3,
+      "disabled": false
     },
     {
       "name": "Lace (The Cradle)",
@@ -358,7 +397,8 @@
       "averageHits": 0.0,
       "totalHits": 0,
       "successAttempts": 3,
-      "totalAttempts": 3
+      "totalAttempts": 3,
+      "disabled": false
     },
     {
       "name": "Rite of Rebirth",
@@ -367,7 +407,8 @@
       "averageHits": 0.0,
       "totalHits": 0,
       "successAttempts": 3,
-      "totalAttempts": 3
+      "totalAttempts": 3,
+      "disabled": false
     },
     {
       "name": "Grandmother Silk",
@@ -376,7 +417,8 @@
       "averageHits": 0.6666667,
       "totalHits": 2,
       "successAttempts": 1,
-      "totalAttempts": 3
+      "totalAttempts": 3,
+      "disabled": false
     }
   ]
 }

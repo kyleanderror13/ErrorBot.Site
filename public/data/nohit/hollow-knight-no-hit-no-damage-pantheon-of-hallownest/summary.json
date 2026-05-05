@@ -7,7 +7,8 @@
       "averageHits": 0.0,
       "totalHits": 0,
       "successAttempts": 24,
-      "totalAttempts": 24
+      "totalAttempts": 24,
+      "disabled": false
     },
     {
       "name": "Gruz Mother",
@@ -16,7 +17,8 @@
       "averageHits": 0.125,
       "totalHits": 3,
       "successAttempts": 21,
-      "totalAttempts": 24
+      "totalAttempts": 24,
+      "disabled": false
     },
     {
       "name": "False Knight",
@@ -25,7 +27,8 @@
       "averageHits": 0.0,
       "totalHits": 0,
       "successAttempts": 21,
-      "totalAttempts": 21
+      "totalAttempts": 21,
+      "disabled": false
     },
     {
       "name": "Massive Moss Charger",
@@ -34,7 +37,8 @@
       "averageHits": 0.0,
       "totalHits": 0,
       "successAttempts": 21,
-      "totalAttempts": 21
+      "totalAttempts": 21,
+      "disabled": false
     },
     {
       "name": "Hornet (Protector)",
@@ -43,7 +47,8 @@
       "averageHits": 0.0,
       "totalHits": 0,
       "successAttempts": 21,
-      "totalAttempts": 21
+      "totalAttempts": 21,
+      "disabled": false
     },
     {
       "name": "Gorb",
@@ -52,7 +57,8 @@
       "averageHits": 0.04761905,
       "totalHits": 1,
       "successAttempts": 20,
-      "totalAttempts": 21
+      "totalAttempts": 21,
+      "disabled": false
     },
     {
       "name": "Dung Defender",
@@ -61,7 +67,8 @@
       "averageHits": 0.04761905,
       "totalHits": 1,
       "successAttempts": 20,
-      "totalAttempts": 21
+      "totalAttempts": 21,
+      "disabled": false
     },
     {
       "name": "Soul Warrior",
@@ -70,7 +77,8 @@
       "averageHits": 0.05,
       "totalHits": 1,
       "successAttempts": 19,
-      "totalAttempts": 20
+      "totalAttempts": 20,
+      "disabled": false
     },
     {
       "name": "Brooding Mawlek",
@@ -79,7 +87,8 @@
       "averageHits": 0.31578946,
       "totalHits": 6,
       "successAttempts": 14,
-      "totalAttempts": 19
+      "totalAttempts": 19,
+      "disabled": false
     },
     {
       "name": "Oro & Mato",
@@ -88,7 +97,8 @@
       "averageHits": 0.42105263,
       "totalHits": 8,
       "successAttempts": 13,
-      "totalAttempts": 19
+      "totalAttempts": 19,
+      "disabled": false
     },
     {
       "name": "Xero",
@@ -97,7 +107,8 @@
       "averageHits": 0.3888889,
       "totalHits": 7,
       "successAttempts": 12,
-      "totalAttempts": 18
+      "totalAttempts": 18,
+      "disabled": false
     },
     {
       "name": "Crystal Guardian",
@@ -106,7 +117,8 @@
       "averageHits": 0.11764706,
       "totalHits": 2,
       "successAttempts": 15,
-      "totalAttempts": 17
+      "totalAttempts": 17,
+      "disabled": false
     },
     {
       "name": "Soul Master",
@@ -115,7 +127,8 @@
       "averageHits": 0.11764706,
       "totalHits": 2,
       "successAttempts": 16,
-      "totalAttempts": 17
+      "totalAttempts": 17,
+      "disabled": false
     },
     {
       "name": "Oblobbles",
@@ -124,7 +137,8 @@
       "averageHits": 0.64705884,
       "totalHits": 11,
       "successAttempts": 9,
-      "totalAttempts": 17
+      "totalAttempts": 17,
+      "disabled": false
     },
     {
       "name": "Sisters of Battle",
@@ -133,7 +147,8 @@
       "averageHits": 0.3529412,
       "totalHits": 6,
       "successAttempts": 11,
-      "totalAttempts": 17
+      "totalAttempts": 17,
+      "disabled": false
     },
     {
       "name": "Marmu",
@@ -142,7 +157,8 @@
       "averageHits": 0.88235295,
       "totalHits": 15,
       "successAttempts": 7,
-      "totalAttempts": 17
+      "totalAttempts": 17,
+      "disabled": false
     },
     {
       "name": "Flukemarm",
@@ -151,7 +167,8 @@
       "averageHits": 0.23529412,
       "totalHits": 4,
       "successAttempts": 14,
-      "totalAttempts": 17
+      "totalAttempts": 17,
+      "disabled": false
     },
     {
       "name": "Broken Vessel",
@@ -160,7 +177,8 @@
       "averageHits": 0.0625,
       "totalHits": 1,
       "successAttempts": 15,
-      "totalAttempts": 16
+      "totalAttempts": 16,
+      "disabled": false
     },
     {
       "name": "Galien",
@@ -169,7 +187,8 @@
       "averageHits": 0.375,
       "totalHits": 6,
       "successAttempts": 11,
-      "totalAttempts": 16
+      "totalAttempts": 16,
+      "disabled": false
     },
     {
       "name": "Paintmaster Sheo",
@@ -178,7 +197,8 @@
       "averageHits": 0.0625,
       "totalHits": 1,
       "successAttempts": 15,
-      "totalAttempts": 16
+      "totalAttempts": 16,
+      "disabled": false
     },
     {
       "name": "Hive Knight",
@@ -187,7 +207,8 @@
       "averageHits": 0.625,
       "totalHits": 10,
       "successAttempts": 8,
-      "totalAttempts": 16
+      "totalAttempts": 16,
+      "disabled": false
     },
     {
       "name": "Elder Hu",
@@ -196,7 +217,8 @@
       "averageHits": 0.2,
       "totalHits": 3,
       "successAttempts": 12,
-      "totalAttempts": 15
+      "totalAttempts": 15,
+      "disabled": false
     },
     {
       "name": "The Collector",
@@ -205,7 +227,8 @@
       "averageHits": 0.0,
       "totalHits": 0,
       "successAttempts": 15,
-      "totalAttempts": 15
+      "totalAttempts": 15,
+      "disabled": false
     },
     {
       "name": "God Tamer",
@@ -214,7 +237,8 @@
       "averageHits": 1.1333333,
       "totalHits": 17,
       "successAttempts": 8,
-      "totalAttempts": 15
+      "totalAttempts": 15,
+      "disabled": false
     },
     {
       "name": "Troupe Master Grimm",
@@ -223,7 +247,8 @@
       "averageHits": 0.2,
       "totalHits": 3,
       "successAttempts": 13,
-      "totalAttempts": 15
+      "totalAttempts": 15,
+      "disabled": false
     },
     {
       "name": "Watcher Knights",
@@ -232,7 +257,8 @@
       "averageHits": 0.13333334,
       "totalHits": 2,
       "successAttempts": 14,
-      "totalAttempts": 15
+      "totalAttempts": 15,
+      "disabled": false
     },
     {
       "name": "Uumuu",
@@ -241,7 +267,8 @@
       "averageHits": 0.53333336,
       "totalHits": 8,
       "successAttempts": 9,
-      "totalAttempts": 15
+      "totalAttempts": 15,
+      "disabled": false
     },
     {
       "name": "Winged Nosk",
@@ -250,7 +277,8 @@
       "averageHits": 0.4,
       "totalHits": 6,
       "successAttempts": 9,
-      "totalAttempts": 15
+      "totalAttempts": 15,
+      "disabled": false
     },
     {
       "name": "Great Nailsage Sly",
@@ -259,7 +287,8 @@
       "averageHits": 0.26666668,
       "totalHits": 4,
       "successAttempts": 11,
-      "totalAttempts": 15
+      "totalAttempts": 15,
+      "disabled": false
     },
     {
       "name": "Hornet (Sentinel)",
@@ -268,7 +297,8 @@
       "averageHits": 0.06666667,
       "totalHits": 1,
       "successAttempts": 14,
-      "totalAttempts": 15
+      "totalAttempts": 15,
+      "disabled": false
     },
     {
       "name": "Enraged Guardian",
@@ -277,7 +307,8 @@
       "averageHits": 0.06666667,
       "totalHits": 1,
       "successAttempts": 14,
-      "totalAttempts": 15
+      "totalAttempts": 15,
+      "disabled": false
     },
     {
       "name": "Lost Kin",
@@ -286,7 +317,8 @@
       "averageHits": 0.13333334,
       "totalHits": 2,
       "successAttempts": 13,
-      "totalAttempts": 15
+      "totalAttempts": 15,
+      "disabled": false
     },
     {
       "name": "No Eyes",
@@ -295,7 +327,8 @@
       "averageHits": 0.4,
       "totalHits": 6,
       "successAttempts": 11,
-      "totalAttempts": 15
+      "totalAttempts": 15,
+      "disabled": false
     },
     {
       "name": "Traitor Lord",
@@ -304,7 +337,8 @@
       "averageHits": 0.13333334,
       "totalHits": 2,
       "successAttempts": 13,
-      "totalAttempts": 15
+      "totalAttempts": 15,
+      "disabled": false
     },
     {
       "name": "White Defender",
@@ -313,7 +347,8 @@
       "averageHits": 0.6666667,
       "totalHits": 10,
       "successAttempts": 9,
-      "totalAttempts": 15
+      "totalAttempts": 15,
+      "disabled": false
     },
     {
       "name": "Soul Tyrant",
@@ -322,7 +357,8 @@
       "averageHits": 0.26666668,
       "totalHits": 4,
       "successAttempts": 12,
-      "totalAttempts": 15
+      "totalAttempts": 15,
+      "disabled": false
     },
     {
       "name": "Markoth",
@@ -331,7 +367,8 @@
       "averageHits": 1.6666666,
       "totalHits": 25,
       "successAttempts": 5,
-      "totalAttempts": 15
+      "totalAttempts": 15,
+      "disabled": false
     },
     {
       "name": "Grey Prince Zote",
@@ -340,7 +377,8 @@
       "averageHits": 2.6,
       "totalHits": 39,
       "successAttempts": 2,
-      "totalAttempts": 15
+      "totalAttempts": 15,
+      "disabled": false
     },
     {
       "name": "Failed Champion",
@@ -349,7 +387,8 @@
       "averageHits": 0.4,
       "totalHits": 6,
       "successAttempts": 10,
-      "totalAttempts": 15
+      "totalAttempts": 15,
+      "disabled": false
     },
     {
       "name": "Nightmare King Grimm",
@@ -358,7 +397,8 @@
       "averageHits": 0.71428573,
       "totalHits": 10,
       "successAttempts": 7,
-      "totalAttempts": 14
+      "totalAttempts": 14,
+      "disabled": false
     },
     {
       "name": "Pure Vessel",
@@ -367,7 +407,8 @@
       "averageHits": 1.2857143,
       "totalHits": 18,
       "successAttempts": 6,
-      "totalAttempts": 14
+      "totalAttempts": 14,
+      "disabled": false
     },
     {
       "name": "Absolute Radiance",
@@ -376,7 +417,8 @@
       "averageHits": 6.0,
       "totalHits": 78,
       "successAttempts": 1,
-      "totalAttempts": 13
+      "totalAttempts": 13,
+      "disabled": false
     }
   ]
 }

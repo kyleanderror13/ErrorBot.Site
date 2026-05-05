@@ -7,7 +7,8 @@
       "averageHits": 1.0,
       "totalHits": 2,
       "successAttempts": 0,
-      "totalAttempts": 2
+      "totalAttempts": 2,
+      "disabled": false
     },
     {
       "name": "Trial of the Conqueror",
@@ -16,7 +17,8 @@
       "averageHits": 3.0,
       "totalHits": 6,
       "successAttempts": 0,
-      "totalAttempts": 2
+      "totalAttempts": 2,
+      "disabled": false
     },
     {
       "name": "Trial of the Fool",
@@ -25,7 +27,8 @@
       "averageHits": 11.5,
       "totalHits": 23,
       "successAttempts": 0,
-      "totalAttempts": 2
+      "totalAttempts": 2,
+      "disabled": false
     }
   ]
 }

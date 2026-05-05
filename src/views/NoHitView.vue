@@ -302,10 +302,18 @@ const successRateChartData = computed(() => {
       label: 'Success Rate',
       data: summarySplits.value.map((s) => s.successRate * 100),
       backgroundColor: summarySplits.value.map((s) =>
-        s.successRate > 0.80 ? 'rgba(178, 255, 102, 0.8)' : s.successRate > 0.50 ? 'rgba(255, 255, 102, 0.8)' : s.successRate > 0.25 ? 'rgba(255, 178, 102, 0.8)' : 'rgba(255, 102, 102, 0.8)'
+        s.disabled ? 'rgba(128, 128, 128, 0.8)' :
+        s.successRate > 0.80 ? 'rgba(178, 255, 102, 0.8)' : 
+        s.successRate > 0.50 ? 'rgba(255, 255, 102, 0.8)' : 
+        s.successRate > 0.25 ? 'rgba(255, 178, 102, 0.8)' : 
+          'rgba(255, 102, 102, 0.8)'
       ),
       borderColor: summarySplits.value.map((s) =>
-        s.successRate > 0.80 ? 'rgba(178, 255, 102, 0.6)' : s.successRate > 0.50 ? 'rgba(255, 255, 102, 0.6)' : s.successAttempts > 0.25 ? 'rgba(255, 178, 102, 0.6)' : 'rgba(255, 102, 102, 0.6)'
+        s.disabled ? 'rgba(128, 128, 128, 0.6)' :
+        s.successRate > 0.80 ? 'rgba(128, 128, 128, 0.6)' : 
+        s.successRate > 0.50 ? 'rgba(255, 255, 102, 0.6)' : 
+        s.successAttempts > 0.25 ? 'rgba(255, 178, 102, 0.6)' : 
+          'rgba(255, 102, 102, 0.6)'
       ),      
       borderWidth: 1,
       borderRadius: 2
@@ -321,10 +329,18 @@ const averageHitsChartData = computed(() => {
       label: 'Average Hits',
       data: summarySplits.value.map((s) => s.averageHits),
       backgroundColor: summarySplits.value.map((s) =>
-        s.averageHits < 0.50 ? 'rgba(178, 255, 102, 0.8)' : s.averageHits < 1 ? 'rgba(255, 255, 102, 0.8)' : s.averageHits < 2 ? 'rgba(255, 178, 102, 0.8)' : 'rgba(255, 102, 102, 0.8)'
+        s.disabled ? 'rgba(128, 128, 128, 0.8)' :
+        s.averageHits < 0.50 ? 'rgba(178, 255, 102, 0.8)' : 
+        s.averageHits < 1 ? 'rgba(255, 255, 102, 0.8)' : 
+        s.averageHits < 2 ? 'rgba(255, 178, 102, 0.8)' : 
+          'rgba(255, 102, 102, 0.8)'
       ),
       borderColor: summarySplits.value.map((s) =>
-        s.averageHits < 0.50 ? 'rgba(178, 255, 102, 0.6)' : s.averageHits < 1 ? 'rgba(255, 255, 102, 0.6)' : s.averageHits < 2 ? 'rgba(255, 178, 102, 0.6)' : 'rgba(255, 102, 102, 0.6)'
+        s.disabled ? 'rgba(128, 128, 128, 0.6)' :
+        s.averageHits < 0.50 ? 'rgba(178, 255, 102, 0.6)' : 
+        s.averageHits < 1 ? 'rgba(255, 255, 102, 0.6)' : 
+        s.averageHits < 2 ? 'rgba(255, 178, 102, 0.6)' : 
+          'rgba(255, 102, 102, 0.6)'
       ),      
       borderWidth: 1,
       borderRadius: 4

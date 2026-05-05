@@ -47,6 +47,7 @@ export interface NoHitSummarySplit {
   totalHits: number
   successAttempts: number
   totalAttempts: number
+  disabled: boolean;
 }
 
 export interface NoHitLog {

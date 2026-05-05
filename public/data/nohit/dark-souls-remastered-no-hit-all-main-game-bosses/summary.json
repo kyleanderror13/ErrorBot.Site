@@ -7,7 +7,8 @@
       "averageHits": 0.0,
       "totalHits": 0,
       "successAttempts": 1,
-      "totalAttempts": 1
+      "totalAttempts": 1,
+      "disabled": false
     },
     {
       "name": "Bell Gargoyles",
@@ -16,7 +17,8 @@
       "averageHits": 0.0,
       "totalHits": 0,
       "successAttempts": 1,
-      "totalAttempts": 1
+      "totalAttempts": 1,
+      "disabled": false
     },
     {
       "name": "Chaos Witch Quelaag",
@@ -25,7 +27,8 @@
       "averageHits": 1.0,
       "totalHits": 1,
       "successAttempts": 0,
-      "totalAttempts": 1
+      "totalAttempts": 1,
+      "disabled": false
     },
     {
       "name": "Ceaseless Discharge",
@@ -34,7 +37,8 @@
       "averageHits": 0.0,
       "totalHits": 0,
       "successAttempts": 1,
-      "totalAttempts": 1
+      "totalAttempts": 1,
+      "disabled": false
     },
     {
       "name": "Iron Golem",
@@ -43,7 +47,8 @@
       "averageHits": 0.0,
       "totalHits": 0,
       "successAttempts": 1,
-      "totalAttempts": 1
+      "totalAttempts": 1,
+      "disabled": false
     },
     {
       "name": "Ornstein and Smough",
@@ -52,7 +57,8 @@
       "averageHits": 0.0,
       "totalHits": 0,
       "successAttempts": 1,
-      "totalAttempts": 1
+      "totalAttempts": 1,
+      "disabled": false
     },
     {
       "name": "Pinwheel",
@@ -61,7 +67,8 @@
       "averageHits": 2.0,
       "totalHits": 2,
       "successAttempts": 0,
-      "totalAttempts": 1
+      "totalAttempts": 1,
+      "disabled": false
     },
     {
       "name": "Stray Demon",
@@ -70,7 +77,8 @@
       "averageHits": 0.0,
       "totalHits": 0,
       "successAttempts": 1,
-      "totalAttempts": 1
+      "totalAttempts": 1,
+      "disabled": false
     },
     {
       "name": "Moonlight Butterfly",
@@ -79,7 +87,8 @@
       "averageHits": 0.0,
       "totalHits": 0,
       "successAttempts": 1,
-      "totalAttempts": 1
+      "totalAttempts": 1,
+      "disabled": false
     },
     {
       "name": "Great Grey Wolf Sif",
@@ -88,7 +97,8 @@
       "averageHits": 0.0,
       "totalHits": 0,
       "successAttempts": 1,
-      "totalAttempts": 1
+      "totalAttempts": 1,
+      "disabled": false
     },
     {
       "name": "Four Kings",
@@ -97,7 +107,8 @@
       "averageHits": 1.0,
       "totalHits": 1,
       "successAttempts": 0,
-      "totalAttempts": 1
+      "totalAttempts": 1,
+      "disabled": false
     },
     {
       "name": "Taurus Demon",
@@ -106,7 +117,8 @@
       "averageHits": 0.0,
       "totalHits": 0,
       "successAttempts": 1,
-      "totalAttempts": 1
+      "totalAttempts": 1,
+      "disabled": false
     },
     {
       "name": "Capra Demon",
@@ -115,7 +127,8 @@
       "averageHits": 0.0,
       "totalHits": 0,
       "successAttempts": 1,
-      "totalAttempts": 1
+      "totalAttempts": 1,
+      "disabled": false
     },
     {
       "name": "Gaping Dragon",
@@ -124,7 +137,8 @@
       "averageHits": 1.0,
       "totalHits": 1,
       "successAttempts": 0,
-      "totalAttempts": 1
+      "totalAttempts": 1,
+      "disabled": false
     },
     {
       "name": "Gravelord Nito",
@@ -133,7 +147,8 @@
       "averageHits": 0.0,
       "totalHits": 0,
       "successAttempts": 1,
-      "totalAttempts": 1
+      "totalAttempts": 1,
+      "disabled": false
     },
     {
       "name": "Seath the Scaleless",
@@ -142,7 +157,8 @@
       "averageHits": 1.0,
       "totalHits": 1,
       "successAttempts": 0,
-      "totalAttempts": 1
+      "totalAttempts": 1,
+      "disabled": false
     },
     {
       "name": "Demon Firesage",
@@ -151,7 +167,8 @@
       "averageHits": 0.0,
       "totalHits": 0,
       "successAttempts": 1,
-      "totalAttempts": 1
+      "totalAttempts": 1,
+      "disabled": false
     },
     {
       "name": "Centipede Demon",
@@ -160,7 +177,8 @@
       "averageHits": 1.0,
       "totalHits": 1,
       "successAttempts": 0,
-      "totalAttempts": 1
+      "totalAttempts": 1,
+      "disabled": false
     },
     {
       "name": "Bed of Chaos",
@@ -169,7 +187,8 @@
       "averageHits": 0.0,
       "totalHits": 0,
       "successAttempts": 1,
-      "totalAttempts": 1
+      "totalAttempts": 1,
+      "disabled": false
     },
     {
       "name": "Dark Sun Gwyndolin",
@@ -178,7 +197,8 @@
       "averageHits": 1.0,
       "totalHits": 1,
       "successAttempts": 0,
-      "totalAttempts": 1
+      "totalAttempts": 1,
+      "disabled": false
     },
     {
       "name": "Painted World of Ariandel",
@@ -187,7 +207,8 @@
       "averageHits": 1.0,
       "totalHits": 1,
       "successAttempts": 0,
-      "totalAttempts": 1
+      "totalAttempts": 1,
+      "disabled": false
     },
     {
       "name": "Crossbreed Priscilla",
@@ -196,7 +217,8 @@
       "averageHits": 0.0,
       "totalHits": 0,
       "successAttempts": 1,
-      "totalAttempts": 1
+      "totalAttempts": 1,
+      "disabled": false
     },
     {
       "name": "Gwyn Lord of Cinder",
@@ -205,7 +227,8 @@
       "averageHits": 0.0,
       "totalHits": 0,
       "successAttempts": 1,
-      "totalAttempts": 1
+      "totalAttempts": 1,
+      "disabled": false
     }
   ]
 }
