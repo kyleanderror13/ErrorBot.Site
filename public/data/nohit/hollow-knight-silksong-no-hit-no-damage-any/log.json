@@ -8,7 +8,7 @@
       "resetSplitName": null,
       "pb": true,
       "distance": true,
-      "distanceSplitName": "Deep Docks Bellway"
+      "distanceSplitName": "Flea (Deep Docks Bellway)"
     },
     {
       "attempt": 2,
@@ -35,10 +35,10 @@
       "date": "2025-11-04T20:56:58.3717384+08:00",
       "hits": 1,
       "progress": 0.04347826,
-      "resetSplitName": "Weaver's Stabber",
+      "resetSplitName": "Silk Spear",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Weaver's Stabber"
+      "distanceSplitName": "Silk Spear"
     },
     {
       "attempt": 5,
@@ -48,7 +48,7 @@
       "resetSplitName": null,
       "pb": false,
       "distance": true,
-      "distanceSplitName": "Hornet 1"
+      "distanceSplitName": "Lace (Deep Docks)"
     },
     {
       "attempt": 6,
@@ -108,7 +108,7 @@
       "resetSplitName": null,
       "pb": false,
       "distance": true,
-      "distanceSplitName": "Far Fields Bench/Bellway"
+      "distanceSplitName": "Flea (Far Fields)"
     },
     {
       "attempt": 12,
@@ -188,7 +188,7 @@
       "resetSplitName": null,
       "pb": false,
       "distance": false,
-      "distanceSplitName": "The Monroe"
+      "distanceSplitName": "Drifter's Cloak"
     },
     {
       "attempt": 20,
@@ -208,7 +208,7 @@
       "resetSplitName": null,
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Fifth Chorus"
+      "distanceSplitName": "Fourth Chorus"
     },
     {
       "attempt": 22,
@@ -268,7 +268,7 @@
       "resetSplitName": null,
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Relic Selling + Forge Daughter"
+      "distanceSplitName": "Forge Daughter Arena"
     },
     {
       "attempt": 28,
@@ -278,17 +278,17 @@
       "resetSplitName": null,
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Relic Selling + Forge Daughter"
+      "distanceSplitName": "Forge Daughter Arena"
     },
     {
       "attempt": 29,
       "date": "2025-12-30T20:27:10.5726432+08:00",
       "hits": 1,
       "progress": 0.04347826,
-      "resetSplitName": "Weaver's Stabber",
+      "resetSplitName": "Silk Spear",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Weaver's Stabber"
+      "distanceSplitName": "Silk Spear"
     },
     {
       "attempt": 30,
@@ -325,10 +325,10 @@
       "date": "2026-01-04T21:30:16.1366403+08:00",
       "hits": 1,
       "progress": 0.17391305,
-      "resetSplitName": "Hornet 1",
+      "resetSplitName": "Lace (Deep Docks)",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Hornet 1"
+      "distanceSplitName": "Lace (Deep Docks)"
     },
     {
       "attempt": 34,
@@ -348,7 +348,7 @@
       "resetSplitName": null,
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Shellwood Bench/Bellway"
+      "distanceSplitName": "Shellwood Arena"
     },
     {
       "attempt": 36,
@@ -418,7 +418,7 @@
       "resetSplitName": null,
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Fifth Chorus"
+      "distanceSplitName": "Fourth Chorus"
     },
     {
       "attempt": 43,
@@ -458,7 +458,7 @@
       "resetSplitName": "The Mist",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Hornet 1"
+      "distanceSplitName": "Lace (Deep Docks)"
     },
     {
       "attempt": 47,
@@ -555,20 +555,20 @@
       "date": "2026-03-08T21:26:31.1995509+08:00",
       "hits": 1,
       "progress": 0.51282054,
-      "resetSplitName": "Relic Selling + Forge Daughter",
+      "resetSplitName": "Forge Daughter Arena",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Relic Selling + Forge Daughter"
+      "distanceSplitName": "Forge Daughter Arena"
     },
     {
       "attempt": 57,
       "date": "2026-03-08T21:49:42.4400225+08:00",
       "hits": 1,
       "progress": 0.102564104,
-      "resetSplitName": "Mothwing Cloak",
+      "resetSplitName": "Swift Step",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Mothwing Cloak"
+      "distanceSplitName": "Swift Step"
     },
     {
       "attempt": 58,
@@ -595,10 +595,10 @@
       "date": "2026-03-10T20:46:29.6823377+08:00",
       "hits": 1,
       "progress": 0.102564104,
-      "resetSplitName": "Mothwing Cloak",
+      "resetSplitName": "Swift Step",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Mothwing Cloak"
+      "distanceSplitName": "Swift Step"
     },
     {
       "attempt": 61,
@@ -695,10 +695,10 @@
       "date": "2026-04-19T19:48:11.5237576+08:00",
       "hits": 1,
       "progress": 0.102564104,
-      "resetSplitName": "Mothwing Cloak",
+      "resetSplitName": "Swift Step",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Mothwing Cloak"
+      "distanceSplitName": "Swift Step"
     },
     {
       "attempt": 71,
@@ -725,7 +725,7 @@
       "date": "2026-04-20T00:00:47.6462616+08:00",
       "hits": 1,
       "progress": 0.3846154,
-      "resetSplitName": "Extra Pointy",
+      "resetSplitName": "Sharpened Needle",
       "pb": false,
       "distance": false,
       "distanceSplitName": "Cling Grip"
@@ -735,10 +735,10 @@
       "date": "2026-04-26T20:45:48.9311696+08:00",
       "hits": 1,
       "progress": 0.23076923,
-      "resetSplitName": "Fifth Chorus",
+      "resetSplitName": "Fourth Chorus",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Fifth Chorus"
+      "distanceSplitName": "Fourth Chorus"
     },
     {
       "attempt": 75,
@@ -785,10 +785,10 @@
       "date": "2026-04-30T14:18:43.9669728+08:00",
       "hits": 1,
       "progress": 0.225,
-      "resetSplitName": "Fifth Chorus",
+      "resetSplitName": "Fourth Chorus",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Fifth Chorus"
+      "distanceSplitName": "Fourth Chorus"
     },
     {
       "attempt": 80,
@@ -815,10 +815,10 @@
       "date": "2026-04-30T22:45:42.3722873+08:00",
       "hits": 1,
       "progress": 0.225,
-      "resetSplitName": "Fifth Chorus",
+      "resetSplitName": "Fourth Chorus",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Fifth Chorus"
+      "distanceSplitName": "Fourth Chorus"
     },
     {
       "attempt": 83,
@@ -839,6 +839,26 @@
       "pb": false,
       "distance": false,
       "distanceSplitName": "Sinner's Road"
+    },
+    {
+      "attempt": 85,
+      "date": "2026-05-06T12:04:00.9739092+08:00",
+      "hits": 1,
+      "progress": 0.1,
+      "resetSplitName": "Swift Step",
+      "pb": false,
+      "distance": false,
+      "distanceSplitName": "Swift Step"
+    },
+    {
+      "attempt": 86,
+      "date": "2026-05-06T14:34:23.1687006+08:00",
+      "hits": 7,
+      "progress": 0.5,
+      "resetSplitName": null,
+      "pb": false,
+      "distance": false,
+      "distanceSplitName": "Forge Daughter Arena"
     }
   ]
 }
