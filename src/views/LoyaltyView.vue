@@ -58,58 +58,63 @@
           class="period-detail"
           :class="{ 'panel-full': isMobile }"
         >
-          <template v-if="sortedUsers">
-          <div class="table-wrapper">
-            <DataTable
-              :value="sortedUsers"
-              :virtual-scroller-options="{ itemSize: 46 }"
-              scrollable
-              scroll-height="flex"
-              :global-filter-fields="['userName']"
-              :filters="filters"
-              sort-field="points"
-              :sort-order="-1"
-              class="loyalty-table"
-              size="small"
-              :loading="periodLoading"
-              striped-rows
-              column-resize-mode="fit"
-            >
-              <template #empty>
-                <div class="empty-state">
-                  <i class="pi pi-star-fill empty-icon" />
-                  <p>No loyalty data found.</p>
-                </div>
-              </template>
+          <template v-if="selectedPeriod && sortedUsers">
 
-              <Column field="rank" header="Rank" :sortable="true" style="width: 80px; text-align: center">
-                <template #body="{ data }">
-                  <span class="rank-badge" :class="rankClass(data.rank)">
-                    #{{ data.rank ?? '–' }}
-                  </span>
-                </template>
-              </Column>
+            <div class="detail-header">
+              <span class="detail-title">{{ selectedPeriod.name }}</span>
+            </div>
 
-              <Column field="userName" header="User" :sortable="true">
-                <template #body="{ data }">
-                  <div class="user-cell">
-                    <div class="user-avatar">{{ data.userName[0].toUpperCase() }}</div>
-                    <span class="user-name">{{ data.userName }}</span>
+            <div class="table-wrapper">
+              <DataTable
+                :value="sortedUsers"
+                :virtual-scroller-options="{ itemSize: 46 }"
+                scrollable
+                scroll-height="flex"
+                :global-filter-fields="['userName']"
+                :filters="filters"
+                sort-field="points"
+                :sort-order="-1"
+                class="loyalty-table"
+                size="small"
+                :loading="periodLoading"
+                striped-rows
+                column-resize-mode="fit"
+              >
+                <template #empty>
+                  <div class="empty-state">
+                    <i class="pi pi-star-fill empty-icon" />
+                    <p>No loyalty data found.</p>
                   </div>
                 </template>
-              </Column>
 
-              <Column field="points" header="Points" :sortable="true" style="width: 100px">
-                <template #body="{ data }">
-                  <span class="points-value">
-                    <i class="pi pi-star-fill points-icon" />
-                    {{ data.points.toLocaleString() }}
-                  </span>
-                </template>
-              </Column>
+                <Column field="rank" header="Rank" :sortable="true" style="width: 80px; text-align: center">
+                  <template #body="{ data }">
+                    <span class="rank-badge" :class="rankClass(data.rank)">
+                      #{{ data.rank ?? '–' }}
+                    </span>
+                  </template>
+                </Column>
 
-            </DataTable>
-          </div>
+                <Column field="userName" header="User" :sortable="true">
+                  <template #body="{ data }">
+                    <div class="user-cell">
+                      <div class="user-avatar">{{ data.userName[0].toUpperCase() }}</div>
+                      <span class="user-name">{{ data.userName }}</span>
+                    </div>
+                  </template>
+                </Column>
+
+                <Column field="points" header="Points" :sortable="true" style="width: 100px">
+                  <template #body="{ data }">
+                    <span class="points-value">
+                      <i class="pi pi-star-fill points-icon" />
+                      {{ data.points.toLocaleString() }}
+                    </span>
+                  </template>
+                </Column>
+
+              </DataTable>
+            </div>
           </template>
 
           <div v-else-if="!isMobile" class="empty-detail">
@@ -315,6 +320,8 @@ const sortedUsers = computed(() =>
 .loyalty-table {
   height: 100%;
   width: 100%;
+  padding-left: 12px;
+  padding-right: 12px;
 }
 
 .back-btn {
@@ -508,6 +515,32 @@ const sortedUsers = computed(() =>
 .empty-detail .pi {
   font-size: 28px;
   color: var(--brand-border);
+}
+
+.detail-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 12px 16px 0px;
+}
+
+.detail-header-text {
+  min-width: 0;
+  flex: 1;  
+ }
+
+.detail-title {
+  font-family: var(--font-display);
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--brand-text);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+  margin: 0;
 }
 
 </style>
