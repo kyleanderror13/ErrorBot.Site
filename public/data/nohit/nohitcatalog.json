@@ -155,6 +155,18 @@
       "distancePBSplitName": "Forge Daughter Arena",
       "coverImage": null,
       "runLink": null
+    },
+    {
+      "id": "hollow-knight-no-hit-no-damage-any",
+      "game": "Hollow Knight",
+      "category": "No Hit No Damage Any%",
+      "status": "Completed",
+      "attempts": 0,
+      "hitPB": null,
+      "distancePB": null,
+      "distancePBSplitName": null,
+      "coverImage": null,
+      "runLink": "https://www.youtube.com/watch?v=4aFB6x7XQ_M"
     }
   ]
 }
