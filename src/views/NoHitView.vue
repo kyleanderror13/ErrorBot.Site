@@ -236,7 +236,7 @@ onUnmounted(() => {
 async function loadData() {
   catalogLoading.value = true
   try {
-    const res = await fetch('/data/nohit/nohitcatalog.json')
+    const res = await fetch('/data/nohit/nohit-catalog.json')
     if (!res.ok) throw new Error('Failed to load')
     const json = await res.json()
     catalogRuns.value = json.runs ?? []
@@ -399,7 +399,6 @@ const horizontalBarOptions = {
   background: var(--brand-bg);
 }
 
-/* ── Content area ──────────────────────────────────────────── */
 .content-area {
   flex: 1;
   display: flex;
@@ -407,12 +406,10 @@ const horizontalBarOptions = {
   position: relative;
 }
 
-/* Mobile: clip so sliding panels don't overflow */
 .content-area.mobile-mode {
   overflow: hidden;
 }
 
-/* ── Run list ──────────────────────────────────────────────── */
 .run-list {
   width: 260px;
   min-width: 260px;
@@ -426,7 +423,6 @@ const horizontalBarOptions = {
   flex-shrink: 0;
 }
 
-/* Mobile: full width panel */
 .run-list.panel-full {
   width: 100%;
   min-width: 0;
@@ -747,7 +743,6 @@ const horizontalBarOptions = {
   color: var(--brand-purple-light);
 }
 
-/* ── Panel slide transitions ───────────────────────────────── */
 .panel-left-enter-active,
 .panel-left-leave-active,
 .panel-right-enter-active,
@@ -763,7 +758,6 @@ const horizontalBarOptions = {
 .panel-right-enter-from { transform: translateX(100%); opacity: 0; }
 .panel-right-leave-to   { transform: translateX(100%); opacity: 0; }
 
-/* no-op transition for desktop */
 .none-enter-active,
 .none-leave-active {
   transition: none;

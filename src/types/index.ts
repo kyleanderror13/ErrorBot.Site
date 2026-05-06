@@ -1,16 +1,20 @@
 // Loyalty types
 export interface LoyaltyCatalog {
-  currentPeriodName: string;
-  users: LoyaltyUser[];
+  periods: LoyaltyCatalogPeriod[];
 }
 
-export interface LoyaltyUser {
-  userName: string;
-  totalPeriod: LoyaltyPeriod;
-  currentPeriod: LoyaltyPeriod;
+export interface LoyaltyCatalogPeriod {
+  id: string;
+  name: string;
 }
 
 export interface LoyaltyPeriod {
+  name: string;
+  users: LoyaltyPeriodUser[];
+}
+
+export interface LoyaltyPeriodUser {
+  userName: string;
   rank: number;
   tie: boolean;
   firsts: number;
