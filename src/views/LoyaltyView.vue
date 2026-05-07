@@ -179,7 +179,10 @@ async function loadCatalog() {
     const res = await fetch('/data/loyalty/loyalty-catalog.json')
     if (!res.ok) throw new Error('Failed to load')
     const json = await res.json()
-    periods.value = [{ id: 'total', name: 'All Time' }, ...json.periods];
+    
+    let totalPeriod = { id: 'total', name: 'All Time' };
+    periods.value = [totalPeriod, ...json.periods];
+    selectPeriod(totalPeriod);
   } catch {
     periods.value = []
   } finally {
