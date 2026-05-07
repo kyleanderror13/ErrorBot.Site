@@ -84,10 +84,24 @@
             </div>
 
             <div class="charts-grid" v-if="summarySplits.length > 0">
+              <div class="chart-card" v-if="completedRuns.length > 0">
+                <div class="chart-title">Hits Over Time (Completed Runs Only)</div>
+
+                <div class="chart-height":style="{ height: `${chartHeight}px`, position: 'relative' }">
+                  <Chart
+                    type="line"
+                    :data="completedRunHitsChartData"
+                    :options="completedRunHitsOptions"
+                    class="chart-instance"
+                    style="height: 100%"
+                  />
+                </div>
+              </div>
+
               <div class="chart-card">
                 <div class="chart-title">Success Rate</div>
-
-                <div :style="{ height: `${Math.min(Math.max(summarySplits.length * 25, 200), 1200)}px`, position: 'relative' }">
+                
+                <div :style="{ height: `${chartHeight}px`, position: 'relative' }">
                   <Chart
                     type="bar"
                     :data="successRateChartData"
@@ -97,10 +111,11 @@
                   />
                 </div>
               </div>
+
               <div class="chart-card">
                 <div class="chart-title">Average Hits</div>
 
-                <div class="chart-height":style="{ height: `${Math.min(Math.max(summarySplits.length * 25, 200), 1200)}px`, position: 'relative' }">
+                <div class="chart-height":style="{ height: `${chartHeight}px`, position: 'relative' }">
                   <Chart
                     type="bar"
                     :data="averageHitsChartData"
@@ -193,13 +208,15 @@ import LinkBadge from '@/components/LinkBadge.vue'
 import StatusBadge from '@/components/StatusBadge.vue'
 import ProgressBar from 'primevue/progressbar'
 import Button from 'primevue/button'
-import type {  NoHitCatalogRun,  NoHitSummarySplit,  NoHitLogRun } from '@/types'
+import type { NoHitCatalogRun, NoHitSummarySplit, NoHitCompletedRun, NoHitLogRun, LinearRegressionPoint } from '@/types'
 
 const catalogRuns = ref<NoHitCatalogRun[]>([]);
 const catalogLoading = ref(true);
 const selectedRun = ref<NoHitCatalogRun | null>(null);
 const summarySplits = ref<NoHitSummarySplit[]>([]);
+const completedRuns = ref<NoHitCompletedRun[]>([]);
 const summaryLoading = ref(false);
+let chartHeight: number;
 const logRuns = ref<NoHitLogRun[]>([]);
 const logLoading = ref(false);
 const loadedLogRunId = ref<string | null>(null);
@@ -271,9 +288,19 @@ async function selectRun(run: NoHitCatalogRun) {
   if (isMobile.value) showDetail.value = true
 
   try {
-    const res = await fetch(`/data/nohit/${run.id}/summary.json`);
-    const json = await res.json()
-    summarySplits.value = json.splits ?? []
+    const summaryResource = await fetch(`/data/nohit/${run.id}/summary.json`);
+    const summaryJson = await summaryResource.json();
+    summarySplits.value = summaryJson.splits ?? [];
+
+    const completedResource = await fetch(`/data/nohit/${run.id}/completed.json`);
+    const completedJson = await completedResource.json();
+    completedRuns.value = completedJson.runs ?? [];
+
+    if (completedRuns)
+      completedRuns.value = completedRuns.value.sort((a, b) => a.attempt - b.attempt);
+
+    if (completedRuns && summarySplits)
+      chartHeight = Math.min(Math.max(Math.max(summarySplits.value.length, completedRuns.value.length) * 25, 200), 1200);
   } finally {
     summaryLoading.value = false;
   }
@@ -301,8 +328,39 @@ function formatDate(iso: string): string {
   })
 }
 
+const jetBrainsMonoFont = 'JetBrains Mono';
+
+const baseChartOptions = {
+  responsive: true,
+  maintainAspectRatio: false,
+  plugins: {
+    legend: { display: false },
+    tooltip: { bodyFont: { family: jetBrainsMonoFont } }
+  },
+  scales: {
+    x: {
+      ticks: { color: '#adadb8', font: { family: jetBrainsMonoFont, size: 11 } },
+      grid: { color: 'rgba(255,255,255,0.05)' }
+    },
+    y: {
+      ticks: { color: '#adadb8', font: { family: jetBrainsMonoFont, size: 11 } },
+      grid: { color: 'rgba(255,255,255,0.05)' }
+    }
+  }
+}
+
+const horizontalBarOptions = {
+  ...baseChartOptions,
+  indexAxis: 'y' as const,
+  scales: {
+    x: baseChartOptions.scales.x,
+    y: baseChartOptions.scales.y
+  }
+}
+
 const successRateChartData = computed(() => {
-  if (!summarySplits.value) return {}
+  if (!summarySplits.value) return {};
+
   return {
     labels: summarySplits.value.map((s, _i) => `${s.name}`),
     datasets: [{
@@ -355,39 +413,86 @@ const averageHitsChartData = computed(() => {
   }
 })
 
-const baseChartOptions = {
-  responsive: true,
-  maintainAspectRatio: false,
-  plugins: {
-    legend: { display: false },
-    tooltip: { bodyFont: { family: 'JetBrains Mono' } }
-  },
-  scales: {
-    x: {
-      ticks: { color: '#adadb8', font: { family: 'JetBrains Mono', size: 11 } },
-      grid: { color: 'rgba(255,255,255,0.05)' }
-    },
-    y: {
-      ticks: { color: '#adadb8', font: { family: 'JetBrains Mono', size: 11 } },
-      grid: { color: 'rgba(255,255,255,0.05)' }
-    }
-  }
+function linearRegression(points: LinearRegressionPoint[]) {
+  const n = points.length
+  const sumX = points.reduce((acc, p) => acc + p.x, 0)
+  const sumY = points.reduce((acc, p) => acc + p.y, 0)
+  const sumXY = points.reduce((acc, p) => acc + p.x * p.y, 0)
+  const sumX2 = points.reduce((acc, p) => acc + p.x * p.x, 0)
+
+  const slope = (n * sumXY - sumX * sumY) / (n * sumX2 - sumX * sumX)
+  const intercept = (sumY - slope * sumX) / n
+
+  return { slope, intercept }
 }
 
-const horizontalBarOptions = {
+const completedRunHitsChartData = computed(() => {
+  if (!completedRuns.value) return {}
+
+  var completedRunValue = completedRuns.value;
+
+  const rollingRegressionPoints = completedRunValue.map((_run, index) => {
+    const sample = completedRunValue.slice(Math.max(0, index - 7), index + 1);
+    if (sample.length < 2) return null;
+
+    const points = sample.map((a, i) => ({ x: index - (sample.length - 1 - i), y: a.hits }));
+    const { slope, intercept } = linearRegression(points);
+
+    return {
+      x: Math.max(0, slope * index + intercept),
+      y: index
+    }
+  }).filter(Boolean);
+
+  return {
+    labels: completedRunValue.map((_r, index) => index),
+    datasets: [
+      {
+        label: 'Hits',
+        data: completedRunValue.map((r, index) => ({ x: r.hits, y: index})),
+        fill: false,
+        borderColor: 'rgba(102, 178, 255, 0.8)',
+        backgroundColor: 'rgba(102, 178, 255, 0.8)',
+        tension: 0.2
+      },
+      {
+        label: 'Trend',
+        data: rollingRegressionPoints,
+        borderColor: '#f97316',
+        borderWidth: 2,
+        borderDash: [6, 3],
+        pointRadius: 0,
+        tension: 0.4,
+        fill: false
+      }
+    ]
+  }
+});
+
+const completedRunHitsOptions = computed(() => ({
   ...baseChartOptions,
-  indexAxis: 'y' as const,
+  indexAxis: 'y',
   scales: {
-    x: baseChartOptions.scales.x,
+    ...baseChartOptions.scales,
+    x: {
+      ...baseChartOptions.scales.x,
+      type: 'linear',
+      beginAtZero: true
+    },
     y: {
       ...baseChartOptions.scales.y,
       ticks: {
         ...baseChartOptions.scales.y.ticks,
-        font: { family: 'JetBrains Mono', size: 11 }
+        stepSize: 1,
+        callback: (value: number) => {
+          const run = completedRuns.value.find((_r, index) => index === value)
+          return run ? new Date(run.date).toLocaleDateString('en-AU') : '';
+        }
       }
     }
   }
-}
+}));
+
 </script>
 
 <style scoped>
@@ -620,8 +725,8 @@ const horizontalBarOptions = {
 /* ── Charts: 2-col on wide, stack on narrow ────────────────── */
 .charts-grid {
   display: grid;
-  grid-template-columns: 1fr;
-  gap: 16px;
+  grid-template-columns: repeat(auto-fill, minmax(min(500px, 100%), 1fr));
+  gap: 1.5rem;
 }
 
 @media (max-width: 640px) {

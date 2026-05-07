@@ -1,4 +1,3 @@
-// Loyalty types
 export interface LoyaltyCatalog {
   periods: LoyaltyCatalogPeriod[];
 }
@@ -55,6 +54,16 @@ export interface NoHitSummarySplit {
   disabled: boolean;
 }
 
+export interface NoHitCompleted {
+  runs: NoHitCompletedRun[];
+}
+
+export interface NoHitCompletedRun {
+  attempt: number;
+  date: Date;
+  hits: number;
+}
+
 export interface NoHitLog {
   runs: NoHitLogRun[];
 }
@@ -90,4 +99,9 @@ export interface LibraryGame {
 
 export interface LibraryCatalog {
   games: LibraryGame[];
+}
+
+export interface LinearRegressionPoint {
+  x: number;
+  y: number;
 }
