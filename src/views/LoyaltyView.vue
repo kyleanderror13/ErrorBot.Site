@@ -500,7 +500,6 @@ const sortedUsers = computed(() =>
   width: 100%;
 }
 
-
 .empty-detail {
   flex: 1;
   display: flex;
