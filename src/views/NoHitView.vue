@@ -99,7 +99,17 @@
               </div>
 
               <div class="chart-card">
-                <div class="chart-title">Success Rate</div>
+                <div class="chart-title">
+                  <span>Success Rate</span>
+                  <ToggleButton
+                    class="toggle-button"
+                    v-model="successRateSortOrder"
+                    offLabel="Run Order"
+                    offIcon="pi pi-sort"
+                    onLabel="Rate"
+                    onIcon="pi pi-percentage"
+                  />
+                </div>
                 
                 <div :style="{ height: `${chartHeight}px`, position: 'relative' }">
                   <Chart
@@ -113,7 +123,17 @@
               </div>
 
               <div class="chart-card">
-                <div class="chart-title">Average Hits</div>
+                <div class="chart-title">
+                  <span>Average Hits</span>
+                  <ToggleButton
+                    class="toggle-button"
+                    v-model="averageHitsSortOrder"
+                    offLabel="Run Order"
+                    offIcon="pi pi-sort"
+                    onLabel="Hits"
+                    onIcon="pi pi-percentage"
+                  />
+                </div>
 
                 <div class="chart-height":style="{ height: `${chartHeight}px`, position: 'relative' }">
                   <Chart
@@ -202,6 +222,7 @@
 import { ref, computed, onMounted, onUnmounted } from 'vue'
 import Chart from 'primevue/chart'
 import DataTable from 'primevue/datatable'
+import ToggleButton from 'primevue/togglebutton';
 import Column from 'primevue/column'
 import PageHeader from '@/components/PageHeader.vue'
 import LinkBadge from '@/components/LinkBadge.vue'
@@ -358,22 +379,29 @@ const horizontalBarOptions = {
   }
 }
 
+const successRateSortOrder = ref(false);
 const successRateChartData = computed(() => {
   if (!summarySplits.value) return {};
 
+  let splits = [...summarySplits.value];
+
+  if (successRateSortOrder.value) {
+    splits = splits.sort((a, b) => a.successRate - b.successRate)
+  }
+
   return {
-    labels: summarySplits.value.map((s, _i) => `${s.name}`),
+    labels: splits.map(s => s.name),
     datasets: [{
       label: 'Success Rate',
-      data: summarySplits.value.map((s) => s.successRate * 100),
-      backgroundColor: summarySplits.value.map((s) =>
+      data: splits.map(s => s.successRate * 100),
+      backgroundColor: splits.map(s =>
         s.disabled ? 'rgba(128, 128, 128, 0.8)' :
         s.successRate > 0.80 ? 'rgba(178, 255, 102, 0.8)' : 
         s.successRate > 0.50 ? 'rgba(255, 255, 102, 0.8)' : 
         s.successRate > 0.25 ? 'rgba(255, 178, 102, 0.8)' : 
           'rgba(255, 102, 102, 0.8)'
       ),
-      borderColor: summarySplits.value.map((s) =>
+      borderColor: splits.map(s =>
         s.disabled ? 'rgba(128, 128, 128, 0.6)' :
         s.successRate > 0.80 ? 'rgba(128, 128, 128, 0.6)' : 
         s.successRate > 0.50 ? 'rgba(255, 255, 102, 0.6)' : 
@@ -386,21 +414,29 @@ const successRateChartData = computed(() => {
   }
 })
 
+const averageHitsSortOrder = ref(false);
 const averageHitsChartData = computed(() => {
   if (!summarySplits.value) return {}
+
+  let splits = [...summarySplits.value];
+
+  if (averageHitsSortOrder.value) {
+    splits = splits.sort((a, b) => b.averageHits - a.averageHits)
+  }
+
   return {
-    labels: summarySplits.value.map((s) => s.name),
+    labels: splits.map((s) => s.name),
     datasets: [{
       label: 'Average Hits',
-      data: summarySplits.value.map((s) => s.averageHits),
-      backgroundColor: summarySplits.value.map((s) =>
+      data: splits.map((s) => s.averageHits),
+      backgroundColor: splits.map((s) =>
         s.disabled ? 'rgba(128, 128, 128, 0.8)' :
         s.averageHits < 0.50 ? 'rgba(178, 255, 102, 0.8)' : 
         s.averageHits < 1 ? 'rgba(255, 255, 102, 0.8)' : 
         s.averageHits < 2 ? 'rgba(255, 178, 102, 0.8)' : 
           'rgba(255, 102, 102, 0.8)'
       ),
-      borderColor: summarySplits.value.map((s) =>
+      borderColor: splits.map((s) =>
         s.disabled ? 'rgba(128, 128, 128, 0.6)' :
         s.averageHits < 0.50 ? 'rgba(178, 255, 102, 0.6)' : 
         s.averageHits < 1 ? 'rgba(255, 255, 102, 0.6)' : 
@@ -758,6 +794,15 @@ const completedRunHitsOptions = computed(() => ({
   letter-spacing: 0.05em;
   color: var(--brand-text-muted);
   margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.toggle-button {
+  font-family: var(--font-display);
+  font-size: 12px;
+  text-transform: uppercase;
 }
 
 .log-section {
