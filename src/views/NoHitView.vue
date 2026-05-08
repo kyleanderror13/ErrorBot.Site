@@ -240,7 +240,7 @@ import LinkBadge from '@/components/LinkBadge.vue'
 import StatusBadge from '@/components/StatusBadge.vue'
 import ProgressBar from 'primevue/progressbar'
 import Button from 'primevue/button'
-import type { NoHitCatalogRun, NoHitSummarySplit, NoHitCompletedRun, NoHitLogRun, LinearRegressionPoint } from '@/types'
+import type { NoHitCatalogRun, NoHitSummarySplit, NoHitCompletedRun, NoHitLogRun } from '@/types'
 
 const catalogRuns = ref<NoHitCatalogRun[]>([]);
 const catalogLoading = ref(true);
