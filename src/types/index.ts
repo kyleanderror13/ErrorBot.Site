@@ -35,6 +35,7 @@ export interface NoHitCatalogRun {
   hitPB? : number;
   distancePB?: number;
   distancePBSplitName?: string;
+  distancePBClipLink?: string;
   coverImage?: string;
   runLink?: string;
 }

@@ -71,11 +71,13 @@
                 <span class="stat-label">Hit PB</span>
                 <span class="stat-value">{{ selectedRun.hitPB ?? 0 }}</span>
               </div>
-              <div class="stat-box">
-                <span class="stat-label">Distance PB</span>
-                <span class="stat-value">{{ (selectedRun.distancePB != null ? (selectedRun.distancePB * 100).toFixed(0) + "%" : '-' )}}</span>
-                <span class="stat-label" v-tooltip.bottom="selectedRun.distancePBSplitName?.toUpperCase() ?? '-'">{{ (selectedRun.distancePBSplitName != null ? selectedRun.distancePBSplitName : '-' )}}</span>
-              </div>
+              <a v-if="selectedRun.distancePBClipLink" :href="selectedRun.distancePBClipLink" target="_blank" class="stat-box-link">
+                <div class="stat-box" :class="{ 'stat-box--clickable': selectedRun.distancePBClipLink }">
+                  <span class="stat-label">Distance PB</span>
+                  <span class="stat-value">{{ (selectedRun.distancePB != null ? (selectedRun.distancePB * 100).toFixed(0) + "%" : '-' )}}</span>
+                  <span class="stat-label" v-tooltip.bottom="selectedRun.distancePBSplitName?.toUpperCase() ?? '-'">{{ (selectedRun.distancePBSplitName != null ? selectedRun.distancePBSplitName : '-' )}}</span>
+                </div>
+              </a>
               <div class="stat-box">
                 <span class="stat-label">Attempts</span>
                 <span class="stat-value">{{ selectedRun.attempts }}</span>
@@ -727,6 +729,21 @@ const completedRunHitsOptions = computed(() => ({
   gap: 4px;
   min-width: 90px;
   flex: 1;
+}
+
+.stat-box--clickable {
+  cursor: pointer;
+}
+
+.stat-box--clickable:hover {
+  background-color: var(--p-content-hover-background);
+  transition: background-color 0.2s ease;
+}
+
+.stat-box-link {
+  text-decoration: none;
+  color: inherit;
+  display: contents;
 }
 
 .stat-label {
