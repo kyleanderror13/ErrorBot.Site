@@ -13,15 +13,18 @@
     "@mdi/js": "^7.4.47",
     "@primevue/themes": "^4.0.0",
     "chart.js": "^4.4.0",
+    "module": "^2.0.0",
     "primeflex": "^3.3.1",
     "primeicons": "^7.0.0",
     "primevue": "^4.0.0",
+    "regression": "^2.0.1",
     "simple-icons": "^16.18.0",
     "vue": "^3.4.0",
     "vue-router": "^4.3.0"
   },
   "devDependencies": {
     "@cloudflare/vite-plugin": "^1.35.0",
+    "@types/regression": "^2.0.6",
     "@vitejs/plugin-vue": "^5.2.0",
     "typescript": "^5.4.0",
     "vite": "^6.0.0",

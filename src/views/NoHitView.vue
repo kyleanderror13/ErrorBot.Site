@@ -449,36 +449,23 @@ const averageHitsChartData = computed(() => {
   }
 })
 
-function linearRegression(points: LinearRegressionPoint[]) {
-  const n = points.length
-  const sumX = points.reduce((acc, p) => acc + p.x, 0)
-  const sumY = points.reduce((acc, p) => acc + p.y, 0)
-  const sumXY = points.reduce((acc, p) => acc + p.x * p.y, 0)
-  const sumX2 = points.reduce((acc, p) => acc + p.x * p.x, 0)
-
-  const slope = (n * sumXY - sumX * sumY) / (n * sumX2 - sumX * sumX)
-  const intercept = (sumY - slope * sumX) / n
-
-  return { slope, intercept }
-}
+import regression from 'regression';
+import { DataPoint } from 'regression';
 
 const completedRunHitsChartData = computed(() => {
   if (!completedRuns.value) return {}
 
   var completedRunValue = completedRuns.value;
 
-  const rollingRegressionPoints = completedRunValue.map((_run, index) => {
-    const sample = completedRunValue.slice(Math.max(0, index - 7), index + 1);
-    if (sample.length < 2) return null;
+  const data = completedRuns.value.map((run, index) => [index, run.hits] as DataPoint)
+  const result = regression.polynomial(data, { order: 2 })
 
-    const points = sample.map((a, i) => ({ x: index - (sample.length - 1 - i), y: a.hits }));
-    const { slope, intercept } = linearRegression(points);
-
-    return {
-      x: Math.max(0, slope * index + intercept),
-      y: index
-    }
-  }).filter(Boolean);
+  // Generate smooth curve points
+  const maxIndex = Math.max(...data.map(d => d[0]))
+  const curvePoints = Array.from({ length: 100 }, (_, i) => {
+    const day = (i / 99) * maxIndex
+    return { x: Math.max(0, result.predict(day)[1]), y: day }
+  });
 
   return {
     labels: completedRunValue.map((_r, index) => index),
@@ -493,12 +480,12 @@ const completedRunHitsChartData = computed(() => {
       },
       {
         label: 'Trend',
-        data: rollingRegressionPoints,
+        data: curvePoints,
         borderColor: '#f97316',
         borderWidth: 2,
         borderDash: [6, 3],
         pointRadius: 0,
-        tension: 0.4,
+        tension: 0.1,
         fill: false
       }
     ]
@@ -517,6 +504,8 @@ const completedRunHitsOptions = computed(() => ({
     },
     y: {
       ...baseChartOptions.scales.y,
+      type: 'linear',
+      reverse: true,
       ticks: {
         ...baseChartOptions.scales.y.ticks,
         stepSize: 1,
