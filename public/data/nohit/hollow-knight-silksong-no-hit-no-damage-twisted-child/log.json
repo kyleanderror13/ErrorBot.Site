@@ -8,7 +8,8 @@
       "resetSplitName": null,
       "pb": true,
       "distance": true,
-      "distanceSplitName": "Widow/Needolin"
+      "distanceSplitName": "Widow/Needolin",
+      "clipLink": null
     },
     {
       "attempt": 2,
@@ -18,7 +19,8 @@
       "resetSplitName": null,
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Widow/Needolin"
+      "distanceSplitName": "Widow/Needolin",
+      "clipLink": null
     },
     {
       "attempt": 3,
@@ -28,7 +30,8 @@
       "resetSplitName": null,
       "pb": true,
       "distance": true,
-      "distanceSplitName": "Forge Daughter Arena"
+      "distanceSplitName": "Forge Daughter Arena",
+      "clipLink": null
     }
   ]
 }

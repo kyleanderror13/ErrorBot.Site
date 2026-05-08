@@ -8,7 +8,8 @@
       "resetSplitName": null,
       "pb": true,
       "distance": true,
-      "distanceSplitName": "Basin Ore"
+      "distanceSplitName": "Basin Ore",
+      "clipLink": null
     },
     {
       "attempt": 2,
@@ -18,7 +19,8 @@
       "resetSplitName": null,
       "pb": true,
       "distance": true,
-      "distanceSplitName": "Soul Master"
+      "distanceSplitName": "Soul Master",
+      "clipLink": null
     },
     {
       "attempt": 3,
@@ -28,7 +30,8 @@
       "resetSplitName": null,
       "pb": false,
       "distance": true,
-      "distanceSplitName": "Descending Dark"
+      "distanceSplitName": "Descending Dark",
+      "clipLink": null
     }
   ]
 }

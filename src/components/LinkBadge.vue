@@ -1,7 +1,7 @@
 <template>
   <Button class="link-badge" :class="source" @click="openLink">
     <i :class="`pi ${icon}`" />
-    <span>Watch</span>
+    <span v-if=props.caption>{{ props.caption }}</span>
   </Button>
 </template>
 
@@ -12,7 +12,8 @@ import Button from 'primevue/button'
 
 const props = defineProps<{
   link: string
-  source: string
+  source: string,
+  caption?: string
 }>()
 
 const icon = computed(() => {
@@ -41,7 +42,6 @@ const openLink = () => {
   letter-spacing: 0.06em;
   font-family: var(--font-mono);
   white-space: nowrap;
-  margin-top: 8px;
 }
 
 </style>

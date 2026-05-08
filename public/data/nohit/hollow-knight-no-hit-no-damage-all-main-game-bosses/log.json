@@ -8,7 +8,8 @@
       "resetSplitName": null,
       "pb": true,
       "distance": true,
-      "distanceSplitName": "Mantis Claw"
+      "distanceSplitName": "Mantis Claw",
+      "clipLink": null
     }
   ]
 }

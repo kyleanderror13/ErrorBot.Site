@@ -11,8 +11,7 @@
           class="back-btn"
           @click="showDetail = false"
         >
-          <i class="pi pi-arrow-left" />
-          <span>Runs</span>
+          <i class="pi pi-arrow-up" />
         </button>
       </template>
     </PageHeader>
@@ -61,7 +60,7 @@
               <div class="detail-header-text">
                 <h2 class="detail-title" v-tooltip.bottom="selectedRun.game">{{ selectedRun.game }}</h2>
                 <p class="detail-sub" v-tooltip.bottom="selectedRun.category.toUpperCase()">{{ selectedRun.category.toUpperCase() }}</p>
-                <LinkBadge v-if="selectedRun.runLink != null" :link="selectedRun.runLink" :source="'youtube'" />
+                <LinkBadge v-if="selectedRun.runLink != null" :link="selectedRun.runLink" :source="'youtube'" caption="Watch" style="margin-top: 8px;" />
               </div>
 
               <StatusBadge :status="selectedRun.status" large />
@@ -191,6 +190,11 @@
                       </div>
                       <div class="progress-split-name">{{ (data.distanceSplitName != null ? data.distanceSplitName.toUpperCase() : "COMPLETED") }}</div>
                     </div>
+                  </template>
+                </Column>
+                <Column field="clip" header="" style="width:40px; min-width: 48px; max-width: 48px">
+                  <template #body="{ data }">
+                    <LinkBadge v-if="data.clipLink" :link="data.clipLink" :source="'twitch'" />
                   </template>
                 </Column>
               </DataTable>
@@ -910,6 +914,7 @@ const completedRunHitsOptions = computed(() => ({
 
 .progress-cell {
   min-width: 0;
+  margin-top:4px; 
   width: 100%;
   display: flex;
   flex-direction: column;

@@ -11,14 +11,13 @@
           class="search-input"
           size="small"
         />
-
+        
         <button
           v-if="isMobile && showDetail"
           class="back-btn"
           @click="showDetail = false"
         >
-          <i class="pi pi-arrow-left" />
-          <span>Periods</span>
+          <i class="pi pi-arrow-up" />
         </button>
       </template>
     </PageHeader>
@@ -343,11 +342,12 @@ const sortedUsers = computed(() =>
 }
 
 .search-input {
-  width: 200px;
+  width: 180px;
   background: var(--brand-surface-2) !important;
   border-color: var(--brand-border) !important;
   color: var(--brand-text) !important;
   font-size: 13px !important;
+  margin-left: 8px;
 }
 
 /* Rank badge */

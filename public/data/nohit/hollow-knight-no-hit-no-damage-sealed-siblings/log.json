@@ -8,7 +8,8 @@
       "resetSplitName": null,
       "pb": true,
       "distance": true,
-      "distanceSplitName": "Hornet Sentinel/King's Brand"
+      "distanceSplitName": "Hornet Sentinel/King's Brand",
+      "clipLink": null
     },
     {
       "attempt": 2,
@@ -18,7 +19,8 @@
       "resetSplitName": null,
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Soul Warrior/Shade Soul"
+      "distanceSplitName": "Soul Warrior/Shade Soul",
+      "clipLink": null
     },
     {
       "attempt": 3,
@@ -28,7 +30,8 @@
       "resetSplitName": "Descending Dark",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Descending Dark"
+      "distanceSplitName": "Descending Dark",
+      "clipLink": null
     },
     {
       "attempt": 4,
@@ -38,7 +41,8 @@
       "resetSplitName": null,
       "pb": true,
       "distance": true,
-      "distanceSplitName": "White Palace"
+      "distanceSplitName": "White Palace",
+      "clipLink": null
     },
     {
       "attempt": 5,
@@ -48,7 +52,8 @@
       "resetSplitName": "Hornet Sentinel/King's Brand",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Hornet Sentinel/King's Brand"
+      "distanceSplitName": "Hornet Sentinel/King's Brand",
+      "clipLink": null
     },
     {
       "attempt": 6,
@@ -58,7 +63,8 @@
       "resetSplitName": "Hornet Protector/Mothwing Cloak",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Hornet Protector/Mothwing Cloak"
+      "distanceSplitName": "Hornet Protector/Mothwing Cloak",
+      "clipLink": null
     },
     {
       "attempt": 7,
@@ -68,7 +74,8 @@
       "resetSplitName": "City of Tears (exit)",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "City of Tears (exit)"
+      "distanceSplitName": "City of Tears (exit)",
+      "clipLink": null
     },
     {
       "attempt": 8,
@@ -78,7 +85,8 @@
       "resetSplitName": "Soul Warrior/Shade Soul",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Soul Warrior/Shade Soul"
+      "distanceSplitName": "Soul Warrior/Shade Soul",
+      "clipLink": null
     },
     {
       "attempt": 9,
@@ -88,7 +96,8 @@
       "resetSplitName": "Soul Master/Desolate Dive",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Soul Master/Desolate Dive"
+      "distanceSplitName": "Soul Master/Desolate Dive",
+      "clipLink": null
     },
     {
       "attempt": 10,
@@ -98,7 +107,8 @@
       "resetSplitName": null,
       "pb": false,
       "distance": false,
-      "distanceSplitName": "No Eyes"
+      "distanceSplitName": "No Eyes",
+      "clipLink": null
     },
     {
       "attempt": 11,
@@ -108,7 +118,8 @@
       "resetSplitName": "Soul Warrior/Shade Soul",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Soul Warrior/Shade Soul"
+      "distanceSplitName": "Soul Warrior/Shade Soul",
+      "clipLink": null
     },
     {
       "attempt": 12,
@@ -118,7 +129,8 @@
       "resetSplitName": "Broken Vessel/Monarch Wings",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Broken Vessel/Monarch Wings"
+      "distanceSplitName": "Broken Vessel/Monarch Wings",
+      "clipLink": null
     },
     {
       "attempt": 13,
@@ -128,7 +140,8 @@
       "resetSplitName": null,
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Queen's Gardens"
+      "distanceSplitName": "Queen's Gardens",
+      "clipLink": null
     },
     {
       "attempt": 14,
@@ -138,7 +151,8 @@
       "resetSplitName": null,
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Failed Champion"
+      "distanceSplitName": "Failed Champion",
+      "clipLink": null
     }
   ]
 }

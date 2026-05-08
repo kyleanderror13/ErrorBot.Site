@@ -8,7 +8,8 @@
       "resetSplitName": null,
       "pb": true,
       "distance": true,
-      "distanceSplitName": "Trial of the Warrior"
+      "distanceSplitName": "Trial of the Warrior",
+      "clipLink": null
     },
     {
       "attempt": 2,
@@ -18,7 +19,8 @@
       "resetSplitName": null,
       "pb": true,
       "distance": false,
-      "distanceSplitName": "Trial of the Warrior"
+      "distanceSplitName": "Trial of the Warrior",
+      "clipLink": null
     }
   ]
 }

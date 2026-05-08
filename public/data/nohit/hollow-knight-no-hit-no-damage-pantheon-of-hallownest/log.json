@@ -8,7 +8,8 @@
       "resetSplitName": null,
       "pb": true,
       "distance": true,
-      "distanceSplitName": "Oro & Mato"
+      "distanceSplitName": "Oro & Mato",
+      "clipLink": null
     },
     {
       "attempt": 60,
@@ -18,7 +19,8 @@
       "resetSplitName": null,
       "pb": true,
       "distance": false,
-      "distanceSplitName": "Oro & Mato"
+      "distanceSplitName": "Oro & Mato",
+      "clipLink": null
     },
     {
       "attempt": 61,
@@ -28,7 +30,8 @@
       "resetSplitName": null,
       "pb": false,
       "distance": true,
-      "distanceSplitName": "Marmu"
+      "distanceSplitName": "Marmu",
+      "clipLink": null
     },
     {
       "attempt": 62,
@@ -38,7 +41,8 @@
       "resetSplitName": null,
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Oro & Mato"
+      "distanceSplitName": "Oro & Mato",
+      "clipLink": null
     },
     {
       "attempt": 63,
@@ -48,7 +52,8 @@
       "resetSplitName": "Oro & Mato",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Brooding Mawlek"
+      "distanceSplitName": "Brooding Mawlek",
+      "clipLink": null
     },
     {
       "attempt": 64,
@@ -58,7 +63,8 @@
       "resetSplitName": null,
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Sisters of Battle"
+      "distanceSplitName": "Sisters of Battle",
+      "clipLink": null
     },
     {
       "attempt": 65,
@@ -68,7 +74,8 @@
       "resetSplitName": "Hive Knight",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Oblobbles"
+      "distanceSplitName": "Oblobbles",
+      "clipLink": null
     },
     {
       "attempt": 66,
@@ -78,7 +85,8 @@
       "resetSplitName": null,
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Sisters of Battle"
+      "distanceSplitName": "Sisters of Battle",
+      "clipLink": null
     },
     {
       "attempt": 67,
@@ -88,7 +96,8 @@
       "resetSplitName": "Gruz Mother",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Gruz Mother"
+      "distanceSplitName": "Gruz Mother",
+      "clipLink": null
     },
     {
       "attempt": 68,
@@ -98,7 +107,8 @@
       "resetSplitName": "Soul Warrior",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Soul Warrior"
+      "distanceSplitName": "Soul Warrior",
+      "clipLink": null
     },
     {
       "attempt": 69,
@@ -108,7 +118,8 @@
       "resetSplitName": null,
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Brooding Mawlek"
+      "distanceSplitName": "Brooding Mawlek",
+      "clipLink": null
     },
     {
       "attempt": 70,
@@ -118,7 +129,8 @@
       "resetSplitName": null,
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Oblobbles"
+      "distanceSplitName": "Oblobbles",
+      "clipLink": null
     },
     {
       "attempt": 71,
@@ -128,7 +140,8 @@
       "resetSplitName": "Xero",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Xero"
+      "distanceSplitName": "Xero",
+      "clipLink": null
     },
     {
       "attempt": 72,
@@ -138,7 +151,8 @@
       "resetSplitName": "Dung Defender",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Dung Defender"
+      "distanceSplitName": "Dung Defender",
+      "clipLink": null
     },
     {
       "attempt": 73,
@@ -148,7 +162,8 @@
       "resetSplitName": null,
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Oro & Mato"
+      "distanceSplitName": "Oro & Mato",
+      "clipLink": null
     },
     {
       "attempt": 74,
@@ -158,7 +173,8 @@
       "resetSplitName": "Flukemarm",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Oblobbles"
+      "distanceSplitName": "Oblobbles",
+      "clipLink": null
     },
     {
       "attempt": 75,
@@ -168,7 +184,8 @@
       "resetSplitName": "Gruz Mother",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Gruz Mother"
+      "distanceSplitName": "Gruz Mother",
+      "clipLink": null
     },
     {
       "attempt": 76,
@@ -178,7 +195,8 @@
       "resetSplitName": "Gruz Mother",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Gruz Mother"
+      "distanceSplitName": "Gruz Mother",
+      "clipLink": null
     },
     {
       "attempt": 77,
@@ -188,7 +206,8 @@
       "resetSplitName": "Pure Vessel",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Xero"
+      "distanceSplitName": "Xero",
+      "clipLink": null
     },
     {
       "attempt": 78,
@@ -198,7 +217,8 @@
       "resetSplitName": null,
       "pb": false,
       "distance": true,
-      "distanceSplitName": "Great Nailsage Sly"
+      "distanceSplitName": "Great Nailsage Sly",
+      "clipLink": null
     },
     {
       "attempt": 79,
@@ -208,7 +228,8 @@
       "resetSplitName": null,
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Brooding Mawlek"
+      "distanceSplitName": "Brooding Mawlek",
+      "clipLink": null
     },
     {
       "attempt": 80,
@@ -218,7 +239,8 @@
       "resetSplitName": null,
       "pb": true,
       "distance": false,
-      "distanceSplitName": "Brooding Mawlek"
+      "distanceSplitName": "Brooding Mawlek",
+      "clipLink": null
     },
     {
       "attempt": 81,
@@ -228,7 +250,8 @@
       "resetSplitName": "Failed Champion",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Xero"
+      "distanceSplitName": "Xero",
+      "clipLink": null
     },
     {
       "attempt": 82,
@@ -238,7 +261,8 @@
       "resetSplitName": "Absolute Radiance",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Gorb"
+      "distanceSplitName": "Gorb",
+      "clipLink": null
     }
   ]
 }
