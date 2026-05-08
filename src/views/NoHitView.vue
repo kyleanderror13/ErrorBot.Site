@@ -66,6 +66,11 @@
               <StatusBadge :status="selectedRun.status" large />
             </div>
 
+            <div v-if="!summarySplits.length" class="empty-list">
+              <i class="pi pi-shield" />
+              <p>No runs recorded.</p>
+            </div>
+
             <div class="stats-strip" v-if="summarySplits.length > 0">
               <div class="stat-box">
                 <span class="stat-label">Hit PB</span>
