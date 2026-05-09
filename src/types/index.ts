@@ -55,16 +55,6 @@ export interface NoHitSummarySplit {
   disabled: boolean;
 }
 
-export interface NoHitCompleted {
-  runs: NoHitCompletedRun[];
-}
-
-export interface NoHitCompletedRun {
-  attempt: number;
-  date: Date;
-  hits: number;
-}
-
 export interface NoHitLog {
   runs: NoHitLogRun[];
 }
