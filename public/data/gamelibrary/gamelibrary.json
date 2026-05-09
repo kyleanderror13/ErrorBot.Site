@@ -340,6 +340,11 @@
       "platform": "Steam",
       "completed": "not-started"
     },
+	{
+	  "title": "Arranger: A Role-Puzzling Adventure",
+	  "platform": "Epic",
+	  "completed": "not-started"
+	},
     {
       "title": "art of rally",
       "platform": "Epic",
@@ -5633,6 +5638,11 @@
     {
       "title": "Transistor",
       "platform": "Steam",
+      "completed": "not-started"
+    },
+    {
+      "title": "Trash Goblin",
+      "platform": "Epic",
       "completed": "not-started"
     },
     {
