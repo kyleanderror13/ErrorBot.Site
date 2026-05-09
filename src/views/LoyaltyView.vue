@@ -342,7 +342,7 @@ const sortedUsers = computed(() =>
 }
 
 .search-input {
-  width: 180px;
+  width: 130px;
   background: var(--brand-surface-2) !important;
   border-color: var(--brand-border) !important;
   color: var(--brand-text) !important;
