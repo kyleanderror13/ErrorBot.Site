@@ -3,17 +3,17 @@
   "users": [
     {
       "userName": "Kaeon",
-      "rank": 4,
+      "rank": 6,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
-      "checkIns": 1,
-      "points": 1
+      "checkIns": 2,
+      "points": 2
     },
     {
       "userName": "getyourgloveson",
-      "rank": 3,
-      "tie": false,
+      "rank": 4,
+      "tie": true,
       "firsts": 0,
       "seconds": 1,
       "checkIns": 1,
@@ -21,16 +21,16 @@
     },
     {
       "userName": "Artimage84",
-      "rank": 4,
+      "rank": 6,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
-      "checkIns": 1,
-      "points": 1
+      "checkIns": 2,
+      "points": 2
     },
     {
       "userName": "Doc0713",
-      "rank": 2,
+      "rank": 3,
       "tie": false,
       "firsts": 1,
       "seconds": 0,
@@ -48,16 +48,16 @@
     },
     {
       "userName": "shrimplet23",
-      "rank": 4,
-      "tie": true,
-      "firsts": 0,
+      "rank": 2,
+      "tie": false,
+      "firsts": 1,
       "seconds": 0,
       "checkIns": 1,
-      "points": 1
+      "points": 6
     },
     {
       "userName": "Biostats",
-      "rank": 4,
+      "rank": 8,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
@@ -69,13 +69,40 @@
       "rank": 4,
       "tie": true,
       "firsts": 0,
+      "seconds": 1,
+      "checkIns": 1,
+      "points": 4
+    },
+    {
+      "userName": "OnionDucky",
+      "rank": 8,
+      "tie": true,
+      "firsts": 0,
       "seconds": 0,
       "checkIns": 1,
       "points": 1
     },
     {
-      "userName": "OnionDucky",
-      "rank": 4,
+      "userName": "batpug333",
+      "rank": 8,
+      "tie": true,
+      "firsts": 0,
+      "seconds": 0,
+      "checkIns": 1,
+      "points": 1
+    },
+    {
+      "userName": "nitrosovibrio",
+      "rank": 8,
+      "tie": true,
+      "firsts": 0,
+      "seconds": 0,
+      "checkIns": 1,
+      "points": 1
+    },
+    {
+      "userName": "YOURBLENISISMINE",
+      "rank": 8,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
