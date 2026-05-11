@@ -126,9 +126,9 @@
                     class="toggle-button"
                     v-model="successRateSortOrder"
                     offLabel="Run Order"
-                    offIcon="pi pi-sort"
+                    offIcon="pi pi-sort-numeric-down"
                     onLabel="Rate"
-                    onIcon="pi pi-percentage"
+                    onIcon="pi pi-sort-amount-up-alt"
                   />
                 </div>
                 
@@ -150,9 +150,9 @@
                     class="toggle-button"
                     v-model="averageHitsSortOrder"
                     offLabel="Run Order"
-                    offIcon="pi pi-sort"
+                    offIcon="pi pi-sort-numeric-down"
                     onLabel="Hits"
-                    onIcon="pi pi-percentage"
+                    onIcon="pi pi-sort-amount-up"
                   />
                 </div>
 
