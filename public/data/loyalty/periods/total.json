@@ -6,9 +6,9 @@
       "rank": 1,
       "tie": false,
       "firsts": 34,
-      "seconds": 42,
+      "seconds": 43,
       "checkIns": 110,
-      "points": 406
+      "points": 409
     },
     {
       "userName": "getyourgloveson",
@@ -16,8 +16,8 @@
       "tie": false,
       "firsts": 33,
       "seconds": 34,
-      "checkIns": 94,
-      "points": 361
+      "checkIns": 95,
+      "points": 362
     },
     {
       "userName": "CheyCheyKitty",
@@ -93,7 +93,7 @@
     },
     {
       "userName": "adeeduhs",
-      "rank": 11,
+      "rank": 12,
       "tie": false,
       "firsts": 0,
       "seconds": 0,
@@ -121,7 +121,7 @@
     {
       "userName": "ghitaoo",
       "rank": 15,
-      "tie": false,
+      "tie": true,
       "firsts": 2,
       "seconds": 1,
       "checkIns": 5,
@@ -129,12 +129,12 @@
     },
     {
       "userName": "hfdfa",
-      "rank": 16,
-      "tie": false,
+      "rank": 15,
+      "tie": true,
       "firsts": 1,
       "seconds": 1,
-      "checkIns": 9,
-      "points": 17
+      "checkIns": 10,
+      "points": 18
     },
     {
       "userName": "DhufishHunter",
@@ -147,12 +147,12 @@
     },
     {
       "userName": "shrimplet23",
-      "rank": 12,
+      "rank": 11,
       "tie": false,
-      "firsts": 2,
+      "firsts": 3,
       "seconds": 3,
       "checkIns": 3,
-      "points": 22
+      "points": 27
     },
     {
       "userName": "snowy1876",
@@ -292,7 +292,7 @@
     {
       "userName": "Biostats",
       "rank": 31,
-      "tie": true,
+      "tie": false,
       "firsts": 1,
       "seconds": 0,
       "checkIns": 1,
@@ -444,12 +444,12 @@
     },
     {
       "userName": "mipsthechonkycat",
-      "rank": 31,
-      "tie": true,
+      "rank": 32,
+      "tie": false,
       "firsts": 0,
       "seconds": 1,
-      "checkIns": 3,
-      "points": 6
+      "checkIns": 4,
+      "points": 7
     },
     {
       "userName": "LotusVeil",
@@ -705,6 +705,15 @@
     },
     {
       "userName": "YOURBLENISISMINE",
+      "rank": 51,
+      "tie": true,
+      "firsts": 0,
+      "seconds": 0,
+      "checkIns": 1,
+      "points": 1
+    },
+    {
+      "userName": "arpg_thesecond",
       "rank": 51,
       "tie": true,
       "firsts": 0,
