@@ -263,6 +263,28 @@
       "distance": false,
       "distanceSplitName": "Gorb",
       "clipLink": null
+    },
+    {
+      "attempt": 83,
+      "date": "2026-05-15T22:42:54.1781522+08:00",
+      "hits": 27,
+      "progress": 0.33333334,
+      "resetSplitName": null,
+      "pb": false,
+      "distance": false,
+      "distanceSplitName": "Sisters of Battle",
+      "clipLink": null
+    },
+    {
+      "attempt": 84,
+      "date": "2026-05-16T23:06:54.6490339+08:00",
+      "hits": 11,
+      "progress": 0.35714287,
+      "resetSplitName": null,
+      "pb": false,
+      "distance": false,
+      "distanceSplitName": "Marmu",
+      "clipLink": null
     }
   ]
 }
