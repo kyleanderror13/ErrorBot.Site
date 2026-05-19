@@ -285,6 +285,39 @@
       "distance": false,
       "distanceSplitName": "Marmu",
       "clipLink": null
+    },
+    {
+      "attempt": 85,
+      "date": "2026-05-18T21:58:06.9581409+08:00",
+      "hits": 1,
+      "progress": 0.023809524,
+      "resetSplitName": "Gruz Mother",
+      "pb": false,
+      "distance": false,
+      "distanceSplitName": "Gruz Mother",
+      "clipLink": null
+    },
+    {
+      "attempt": 86,
+      "date": "2026-05-18T22:04:04.4583084+08:00",
+      "hits": 2,
+      "progress": 0.11904762,
+      "resetSplitName": "Dung Defender",
+      "pb": false,
+      "distance": false,
+      "distanceSplitName": "Gorb",
+      "clipLink": null
+    },
+    {
+      "attempt": 87,
+      "date": "2026-05-18T22:52:23.8841693+08:00",
+      "hits": 27,
+      "progress": 0.2857143,
+      "resetSplitName": null,
+      "pb": false,
+      "distance": false,
+      "distanceSplitName": "Soul Master",
+      "clipLink": null
     }
   ]
 }

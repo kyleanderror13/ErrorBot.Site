@@ -21,7 +21,7 @@
     },
     {
       "userName": "7majorx7",
-      "rank": 44,
+      "rank": 45,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
@@ -39,7 +39,7 @@
     },
     {
       "userName": "AgelessRPG",
-      "rank": 44,
+      "rank": 45,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
@@ -86,10 +86,10 @@
       "userName": "Artimage84",
       "rank": 5,
       "tie": false,
-      "firsts": 22,
+      "firsts": 23,
       "seconds": 10,
       "checkIns": 33,
-      "points": 173
+      "points": 178
     },
     {
       "userName": "b1gbadw0lf",
@@ -273,12 +273,12 @@
     },
     {
       "userName": "georgebonkers",
-      "rank": 44,
+      "rank": 41,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
-      "checkIns": 2,
-      "points": 2
+      "checkIns": 3,
+      "points": 3
     },
     {
       "userName": "getyourgloveson",
@@ -286,8 +286,8 @@
       "tie": false,
       "firsts": 34,
       "seconds": 34,
-      "checkIns": 95,
-      "points": 367
+      "checkIns": 96,
+      "points": 368
     },
     {
       "userName": "ghitaoo",
@@ -345,7 +345,7 @@
     },
     {
       "userName": "itsprettynotbad",
-      "rank": 44,
+      "rank": 45,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
@@ -376,8 +376,8 @@
       "tie": false,
       "firsts": 34,
       "seconds": 43,
-      "checkIns": 110,
-      "points": 409
+      "checkIns": 111,
+      "points": 410
     },
     {
       "userName": "karathegamer08",
@@ -390,7 +390,7 @@
     },
     {
       "userName": "kratsel",
-      "rank": 44,
+      "rank": 45,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
@@ -453,7 +453,7 @@
     },
     {
       "userName": "MesianVelari",
-      "rank": 44,
+      "rank": 45,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
@@ -591,9 +591,9 @@
       "rank": 11,
       "tie": false,
       "firsts": 3,
-      "seconds": 3,
+      "seconds": 4,
       "checkIns": 4,
-      "points": 28
+      "points": 31
     },
     {
       "userName": "silksong_player456",
@@ -651,7 +651,7 @@
     },
     {
       "userName": "thatrandomclonetrooper",
-      "rank": 44,
+      "rank": 45,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
@@ -696,7 +696,7 @@
     },
     {
       "userName": "YOURBLENISISMINE",
-      "rank": 44,
+      "rank": 45,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
@@ -714,6 +714,33 @@
     },
     {
       "userName": "zorizaurus",
+      "rank": 52,
+      "tie": true,
+      "firsts": 0,
+      "seconds": 0,
+      "checkIns": 1,
+      "points": 1
+    },
+    {
+      "userName": "drakothalt82",
+      "rank": 52,
+      "tie": true,
+      "firsts": 0,
+      "seconds": 0,
+      "checkIns": 1,
+      "points": 1
+    },
+    {
+      "userName": "mipsgambitchonkvariation",
+      "rank": 52,
+      "tie": true,
+      "firsts": 0,
+      "seconds": 0,
+      "checkIns": 1,
+      "points": 1
+    },
+    {
+      "userName": "Dbagggy",
       "rank": 52,
       "tie": true,
       "firsts": 0,

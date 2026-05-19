@@ -978,6 +978,28 @@
       "distance": false,
       "distanceSplitName": "Widow",
       "clipLink": "https://www.twitch.tv/kyleanderror13/clip/HorribleSpoopyNewtOSfrog-4t7KFGzwctvJaDYp"
+    },
+    {
+      "attempt": 90,
+      "date": "2026-05-19T22:42:30.2183014+08:00",
+      "hits": 4,
+      "progress": 0.575,
+      "resetSplitName": null,
+      "pb": false,
+      "distance": false,
+      "distanceSplitName": "Sinner's Road",
+      "clipLink": "https://www.twitch.tv/kyleanderror13/clip/ImportantSuaveAardvarkKeepo-wfrfZuvHrj56hD2D"
+    },
+    {
+      "attempt": 91,
+      "date": "2026-05-19T23:32:27.501448+08:00",
+      "hits": 1,
+      "progress": 0.4,
+      "resetSplitName": "Widow",
+      "pb": false,
+      "distance": false,
+      "distanceSplitName": "Widow",
+      "clipLink": "https://www.twitch.tv/kyleanderror13/clip/QuaintSpookySaladDoubleRainbow-HysDT1Pc-C90jzYv"
     }
   ]
 }
