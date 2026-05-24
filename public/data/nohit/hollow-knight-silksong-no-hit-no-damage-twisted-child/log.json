@@ -32,6 +32,17 @@
       "distance": true,
       "distanceSplitName": "Forge Daughter Arena",
       "clipLink": null
+    },
+    {
+      "attempt": 4,
+      "date": "2026-05-23T20:20:47.3258315+08:00",
+      "hits": 1,
+      "progress": 0.1904762,
+      "resetSplitName": "Drifter's Cloak",
+      "pb": false,
+      "distance": false,
+      "distanceSplitName": "Drifter's Cloak",
+      "clipLink": null
     }
   ]
 }

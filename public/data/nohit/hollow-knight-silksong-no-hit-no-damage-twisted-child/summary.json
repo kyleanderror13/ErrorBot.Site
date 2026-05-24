@@ -6,8 +6,8 @@
       "successRate": 1.0,
       "averageHits": 0.0,
       "totalHits": 0,
-      "successAttempts": 3,
-      "totalAttempts": 3,
+      "successAttempts": 4,
+      "totalAttempts": 4,
       "disabled": false
     },
     {
@@ -16,8 +16,8 @@
       "successRate": 1.0,
       "averageHits": 0.0,
       "totalHits": 0,
-      "successAttempts": 3,
-      "totalAttempts": 3,
+      "successAttempts": 4,
+      "totalAttempts": 4,
       "disabled": false
     },
     {
@@ -26,8 +26,8 @@
       "successRate": 1.0,
       "averageHits": 0.0,
       "totalHits": 0,
-      "successAttempts": 3,
-      "totalAttempts": 3,
+      "successAttempts": 4,
+      "totalAttempts": 4,
       "disabled": false
     },
     {
@@ -36,8 +36,8 @@
       "successRate": 1.0,
       "averageHits": 0.0,
       "totalHits": 0,
-      "successAttempts": 3,
-      "totalAttempts": 3,
+      "successAttempts": 4,
+      "totalAttempts": 4,
       "disabled": false
     },
     {
@@ -46,8 +46,8 @@
       "successRate": 1.0,
       "averageHits": 0.0,
       "totalHits": 0,
-      "successAttempts": 3,
-      "totalAttempts": 3,
+      "successAttempts": 4,
+      "totalAttempts": 4,
       "disabled": false
     },
     {
@@ -56,8 +56,8 @@
       "successRate": 1.0,
       "averageHits": 0.0,
       "totalHits": 0,
-      "successAttempts": 3,
-      "totalAttempts": 3,
+      "successAttempts": 4,
+      "totalAttempts": 4,
       "disabled": false
     },
     {
@@ -66,8 +66,8 @@
       "successRate": 1.0,
       "averageHits": 0.0,
       "totalHits": 0,
-      "successAttempts": 3,
-      "totalAttempts": 3,
+      "successAttempts": 4,
+      "totalAttempts": 4,
       "disabled": false
     },
     {
@@ -76,18 +76,18 @@
       "successRate": 1.0,
       "averageHits": 0.0,
       "totalHits": 0,
-      "successAttempts": 3,
-      "totalAttempts": 3,
+      "successAttempts": 4,
+      "totalAttempts": 4,
       "disabled": false
     },
     {
       "name": "Drifter's Cloak",
-      "resets": 0,
-      "successRate": 1.0,
-      "averageHits": 0.0,
-      "totalHits": 0,
+      "resets": 1,
+      "successRate": 0.75,
+      "averageHits": 0.25,
+      "totalHits": 1,
       "successAttempts": 3,
-      "totalAttempts": 3,
+      "totalAttempts": 4,
       "disabled": false
     },
     {
