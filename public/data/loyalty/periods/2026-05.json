@@ -12,8 +12,8 @@
     },
     {
       "userName": "Artimage84",
-      "rank": 4,
-      "tie": true,
+      "rank": 5,
+      "tie": false,
       "firsts": 1,
       "seconds": 0,
       "checkIns": 2,
@@ -102,21 +102,21 @@
     },
     {
       "userName": "Kaeon",
-      "rank": 4,
+      "rank": 3,
       "tie": true,
       "firsts": 0,
       "seconds": 1,
-      "checkIns": 4,
-      "points": 7
+      "checkIns": 5,
+      "points": 8
     },
     {
       "userName": "mipsgambitchonkvariation",
-      "rank": 10,
+      "rank": 7,
       "tie": true,
       "firsts": 0,
-      "seconds": 0,
+      "seconds": 1,
       "checkIns": 2,
-      "points": 2
+      "points": 5
     },
     {
       "userName": "mipsthechonkycat",
@@ -149,15 +149,15 @@
       "userName": "shrimplet23",
       "rank": 1,
       "tie": false,
-      "firsts": 2,
+      "firsts": 3,
       "seconds": 1,
       "checkIns": 2,
-      "points": 15
+      "points": 20
     },
     {
       "userName": "TwitchTeppi",
       "rank": 3,
-      "tie": false,
+      "tie": true,
       "firsts": 1,
       "seconds": 1,
       "checkIns": 0,
@@ -165,8 +165,8 @@
     },
     {
       "userName": "YOURBLENISISMINE",
-      "rank": 10,
-      "tie": true,
+      "rank": 11,
+      "tie": false,
       "firsts": 0,
       "seconds": 0,
       "checkIns": 2,

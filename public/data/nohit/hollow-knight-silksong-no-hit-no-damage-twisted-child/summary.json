@@ -6,8 +6,8 @@
       "successRate": 1.0,
       "averageHits": 0.0,
       "totalHits": 0,
-      "successAttempts": 4,
-      "totalAttempts": 4,
+      "successAttempts": 5,
+      "totalAttempts": 5,
       "disabled": false
     },
     {
@@ -16,8 +16,8 @@
       "successRate": 1.0,
       "averageHits": 0.0,
       "totalHits": 0,
-      "successAttempts": 4,
-      "totalAttempts": 4,
+      "successAttempts": 5,
+      "totalAttempts": 5,
       "disabled": false
     },
     {
@@ -26,8 +26,8 @@
       "successRate": 1.0,
       "averageHits": 0.0,
       "totalHits": 0,
-      "successAttempts": 4,
-      "totalAttempts": 4,
+      "successAttempts": 5,
+      "totalAttempts": 5,
       "disabled": false
     },
     {
@@ -36,8 +36,8 @@
       "successRate": 1.0,
       "averageHits": 0.0,
       "totalHits": 0,
-      "successAttempts": 4,
-      "totalAttempts": 4,
+      "successAttempts": 5,
+      "totalAttempts": 5,
       "disabled": false
     },
     {
@@ -46,8 +46,8 @@
       "successRate": 1.0,
       "averageHits": 0.0,
       "totalHits": 0,
-      "successAttempts": 4,
-      "totalAttempts": 4,
+      "successAttempts": 5,
+      "totalAttempts": 5,
       "disabled": false
     },
     {
@@ -56,8 +56,8 @@
       "successRate": 1.0,
       "averageHits": 0.0,
       "totalHits": 0,
-      "successAttempts": 4,
-      "totalAttempts": 4,
+      "successAttempts": 5,
+      "totalAttempts": 5,
       "disabled": false
     },
     {
@@ -66,8 +66,8 @@
       "successRate": 1.0,
       "averageHits": 0.0,
       "totalHits": 0,
-      "successAttempts": 4,
-      "totalAttempts": 4,
+      "successAttempts": 5,
+      "totalAttempts": 5,
       "disabled": false
     },
     {
@@ -76,18 +76,18 @@
       "successRate": 1.0,
       "averageHits": 0.0,
       "totalHits": 0,
-      "successAttempts": 4,
-      "totalAttempts": 4,
+      "successAttempts": 5,
+      "totalAttempts": 5,
       "disabled": false
     },
     {
       "name": "Drifter's Cloak",
       "resets": 1,
-      "successRate": 0.75,
-      "averageHits": 0.25,
+      "successRate": 0.8,
+      "averageHits": 0.2,
       "totalHits": 1,
-      "successAttempts": 3,
-      "totalAttempts": 4,
+      "successAttempts": 4,
+      "totalAttempts": 5,
       "disabled": false
     },
     {
@@ -96,52 +96,12 @@
       "successRate": 1.0,
       "averageHits": 0.0,
       "totalHits": 0,
-      "successAttempts": 3,
-      "totalAttempts": 3,
+      "successAttempts": 4,
+      "totalAttempts": 4,
       "disabled": false
     },
     {
       "name": "Flea (Far Fields)",
-      "resets": 0,
-      "successRate": 1.0,
-      "averageHits": 0.0,
-      "totalHits": 0,
-      "successAttempts": 3,
-      "totalAttempts": 3,
-      "disabled": false
-    },
-    {
-      "name": "Flea (Hunter's March)",
-      "resets": 0,
-      "successRate": 1.0,
-      "averageHits": 0.0,
-      "totalHits": 0,
-      "successAttempts": 3,
-      "totalAttempts": 3,
-      "disabled": false
-    },
-    {
-      "name": "Flea (The Marrow)",
-      "resets": 0,
-      "successRate": 1.0,
-      "averageHits": 0.0,
-      "totalHits": 0,
-      "successAttempts": 3,
-      "totalAttempts": 3,
-      "disabled": false
-    },
-    {
-      "name": "The Lost Fleas",
-      "resets": 0,
-      "successRate": 1.0,
-      "averageHits": 0.0,
-      "totalHits": 0,
-      "successAttempts": 3,
-      "totalAttempts": 3,
-      "disabled": false
-    },
-    {
-      "name": "Shellwood/Cling Grip",
       "resets": 0,
       "successRate": 1.0,
       "averageHits": 0.0,
@@ -151,23 +111,63 @@
       "disabled": false
     },
     {
-      "name": "Pollip Pouch",
+      "name": "Flea (Hunter's March)",
+      "resets": 0,
+      "successRate": 0.75,
+      "averageHits": 0.25,
+      "totalHits": 1,
+      "successAttempts": 3,
+      "totalAttempts": 4,
+      "disabled": false
+    },
+    {
+      "name": "Flea (The Marrow)",
       "resets": 0,
       "successRate": 1.0,
       "averageHits": 0.0,
       "totalHits": 0,
+      "successAttempts": 4,
+      "totalAttempts": 4,
+      "disabled": false
+    },
+    {
+      "name": "The Lost Fleas",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 4,
+      "totalAttempts": 4,
+      "disabled": false
+    },
+    {
+      "name": "Shellwood/Cling Grip",
+      "resets": 0,
+      "successRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 5,
+      "totalAttempts": 5,
+      "disabled": false
+    },
+    {
+      "name": "Pollip Pouch",
+      "resets": 0,
+      "successRate": 0.75,
+      "averageHits": 0.25,
+      "totalHits": 1,
       "successAttempts": 3,
-      "totalAttempts": 3,
+      "totalAttempts": 4,
       "disabled": false
     },
     {
       "name": "Widow/Needolin",
       "resets": 0,
-      "successRate": 0.33333334,
-      "averageHits": 1.0,
+      "successRate": 0.5,
+      "averageHits": 0.75,
       "totalHits": 3,
-      "successAttempts": 1,
-      "totalAttempts": 3,
+      "successAttempts": 2,
+      "totalAttempts": 4,
       "disabled": false
     },
     {
@@ -176,8 +176,8 @@
       "successRate": 1.0,
       "averageHits": 0.0,
       "totalHits": 0,
-      "successAttempts": 3,
-      "totalAttempts": 3,
+      "successAttempts": 4,
+      "totalAttempts": 4,
       "disabled": false
     },
     {
@@ -186,8 +186,8 @@
       "successRate": 1.0,
       "averageHits": 0.0,
       "totalHits": 0,
-      "successAttempts": 3,
-      "totalAttempts": 3,
+      "successAttempts": 4,
+      "totalAttempts": 4,
       "disabled": false
     },
     {
@@ -196,18 +196,18 @@
       "successRate": 1.0,
       "averageHits": 0.0,
       "totalHits": 0,
-      "successAttempts": 3,
-      "totalAttempts": 3,
+      "successAttempts": 4,
+      "totalAttempts": 4,
       "disabled": false
     },
     {
       "name": "Forge Daughter Arena",
       "resets": 0,
-      "successRate": 0.6666667,
-      "averageHits": 0.33333334,
+      "successRate": 0.75,
+      "averageHits": 0.25,
       "totalHits": 1,
-      "successAttempts": 2,
-      "totalAttempts": 3,
+      "successAttempts": 3,
+      "totalAttempts": 4,
       "disabled": false
     },
     {
@@ -216,28 +216,28 @@
       "successRate": 1.0,
       "averageHits": 0.0,
       "totalHits": 0,
-      "successAttempts": 3,
-      "totalAttempts": 3,
+      "successAttempts": 4,
+      "totalAttempts": 4,
       "disabled": false
     },
     {
       "name": "Sinner's Road",
       "resets": 0,
-      "successRate": 0.6666667,
-      "averageHits": 0.33333334,
-      "totalHits": 1,
+      "successRate": 0.5,
+      "averageHits": 0.5,
+      "totalHits": 2,
       "successAttempts": 2,
-      "totalAttempts": 3,
+      "totalAttempts": 4,
       "disabled": false
     },
     {
       "name": "The Mist",
       "resets": 0,
-      "successRate": 0.33333334,
-      "averageHits": 1.0,
+      "successRate": 0.5,
+      "averageHits": 0.75,
       "totalHits": 3,
-      "successAttempts": 1,
-      "totalAttempts": 3,
+      "successAttempts": 2,
+      "totalAttempts": 4,
       "disabled": false
     },
     {
@@ -246,8 +246,8 @@
       "successRate": 1.0,
       "averageHits": 0.0,
       "totalHits": 0,
-      "successAttempts": 3,
-      "totalAttempts": 3,
+      "successAttempts": 4,
+      "totalAttempts": 4,
       "disabled": false
     },
     {
@@ -256,8 +256,8 @@
       "successRate": 1.0,
       "averageHits": 0.0,
       "totalHits": 0,
-      "successAttempts": 3,
-      "totalAttempts": 3,
+      "successAttempts": 4,
+      "totalAttempts": 4,
       "disabled": false
     },
     {
@@ -266,18 +266,18 @@
       "successRate": 1.0,
       "averageHits": 0.0,
       "totalHits": 0,
-      "successAttempts": 3,
-      "totalAttempts": 3,
+      "successAttempts": 4,
+      "totalAttempts": 4,
       "disabled": false
     },
     {
       "name": "Whispering Vaults Arena",
       "resets": 0,
-      "successRate": 0.6666667,
-      "averageHits": 0.33333334,
+      "successRate": 0.75,
+      "averageHits": 0.25,
       "totalHits": 1,
-      "successAttempts": 2,
-      "totalAttempts": 3,
+      "successAttempts": 3,
+      "totalAttempts": 4,
       "disabled": false
     },
     {
@@ -286,8 +286,8 @@
       "successRate": 1.0,
       "averageHits": 0.0,
       "totalHits": 0,
-      "successAttempts": 3,
-      "totalAttempts": 3,
+      "successAttempts": 4,
+      "totalAttempts": 4,
       "disabled": false
     },
     {
@@ -296,18 +296,18 @@
       "successRate": 1.0,
       "averageHits": 0.0,
       "totalHits": 0,
-      "successAttempts": 3,
-      "totalAttempts": 3,
+      "successAttempts": 4,
+      "totalAttempts": 4,
       "disabled": false
     },
     {
       "name": "Trobbio",
       "resets": 0,
-      "successRate": 0.6666667,
-      "averageHits": 1.0,
-      "totalHits": 3,
+      "successRate": 0.5,
+      "averageHits": 1.25,
+      "totalHits": 5,
       "successAttempts": 2,
-      "totalAttempts": 3,
+      "totalAttempts": 4,
       "disabled": false
     },
     {
@@ -316,38 +316,38 @@
       "successRate": 1.0,
       "averageHits": 0.0,
       "totalHits": 0,
-      "successAttempts": 3,
-      "totalAttempts": 3,
+      "successAttempts": 4,
+      "totalAttempts": 4,
       "disabled": false
     },
     {
       "name": "Clawline Arena",
       "resets": 0,
-      "successRate": 0.6666667,
-      "averageHits": 0.33333334,
+      "successRate": 0.75,
+      "averageHits": 0.25,
       "totalHits": 1,
-      "successAttempts": 2,
-      "totalAttempts": 3,
+      "successAttempts": 3,
+      "totalAttempts": 4,
       "disabled": false
     },
     {
       "name": "Sacred Cylinder",
       "resets": 0,
-      "successRate": 0.6666667,
-      "averageHits": 0.33333334,
+      "successRate": 0.75,
+      "averageHits": 0.25,
       "totalHits": 1,
-      "successAttempts": 2,
-      "totalAttempts": 3,
+      "successAttempts": 3,
+      "totalAttempts": 4,
       "disabled": false
     },
     {
       "name": "Twisted Bud",
       "resets": 0,
-      "successRate": 0.33333334,
-      "averageHits": 0.6666667,
+      "successRate": 0.5,
+      "averageHits": 0.5,
       "totalHits": 2,
-      "successAttempts": 1,
-      "totalAttempts": 3,
+      "successAttempts": 2,
+      "totalAttempts": 4,
       "disabled": false
     },
     {
@@ -356,18 +356,18 @@
       "successRate": 1.0,
       "averageHits": 0.0,
       "totalHits": 0,
-      "successAttempts": 3,
-      "totalAttempts": 3,
+      "successAttempts": 4,
+      "totalAttempts": 4,
       "disabled": false
     },
     {
       "name": "Cogwork Core/Architect's Melody",
       "resets": 0,
-      "successRate": 0.6666667,
-      "averageHits": 0.6666667,
-      "totalHits": 2,
+      "successRate": 0.5,
+      "averageHits": 0.75,
+      "totalHits": 3,
       "successAttempts": 2,
-      "totalAttempts": 3,
+      "totalAttempts": 4,
       "disabled": false
     },
     {
@@ -376,18 +376,18 @@
       "successRate": 1.0,
       "averageHits": 0.0,
       "totalHits": 0,
-      "successAttempts": 3,
-      "totalAttempts": 3,
+      "successAttempts": 4,
+      "totalAttempts": 4,
       "disabled": false
     },
     {
       "name": "The Forum/Conductor's Melody",
       "resets": 0,
-      "successRate": 0.6666667,
-      "averageHits": 0.33333334,
-      "totalHits": 1,
+      "successRate": 0.5,
+      "averageHits": 1.0,
+      "totalHits": 4,
       "successAttempts": 2,
-      "totalAttempts": 3,
+      "totalAttempts": 4,
       "disabled": false
     },
     {
@@ -396,28 +396,28 @@
       "successRate": 1.0,
       "averageHits": 0.0,
       "totalHits": 0,
-      "successAttempts": 3,
-      "totalAttempts": 3,
+      "successAttempts": 4,
+      "totalAttempts": 4,
       "disabled": false
     },
     {
       "name": "Rite of Rebirth",
       "resets": 0,
-      "successRate": 1.0,
-      "averageHits": 0.0,
-      "totalHits": 0,
+      "successRate": 0.75,
+      "averageHits": 0.25,
+      "totalHits": 1,
       "successAttempts": 3,
-      "totalAttempts": 3,
+      "totalAttempts": 4,
       "disabled": false
     },
     {
       "name": "Grandmother Silk",
       "resets": 0,
-      "successRate": 0.33333334,
-      "averageHits": 0.6666667,
-      "totalHits": 2,
+      "successRate": 0.25,
+      "averageHits": 0.75,
+      "totalHits": 3,
       "successAttempts": 1,
-      "totalAttempts": 3,
+      "totalAttempts": 4,
       "disabled": false
     }
   ]

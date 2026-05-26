@@ -43,6 +43,17 @@
       "distance": false,
       "distanceSplitName": "Drifter's Cloak",
       "clipLink": null
+    },
+    {
+      "attempt": 5,
+      "date": "2026-05-26T12:06:34.2636633+08:00",
+      "hits": 11,
+      "progress": 0.26190478,
+      "resetSplitName": null,
+      "pb": false,
+      "distance": false,
+      "distanceSplitName": "Flea (Hunter's March)",
+      "clipLink": null
     }
   ]
 }
