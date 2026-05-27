@@ -1706,6 +1706,11 @@
       "completed": "completed-100"
     },
     {
+      "title": "EMUUROM",
+      "platform": "Steam",
+      "completed": "not-started"
+    },
+    {
       "title": "En Garde!",
       "platform": "GOG",
       "completed": "not-started"
@@ -2109,6 +2114,11 @@
       "title": "Gauntlet",
       "platform": "Steam",
       "completed": "not-started"
+    },
+    {
+      "title": "Geometry Dash",
+      "platform": "Steam",
+      "completed": "in-progress"
     },
     {
       "title": "Gears Tactics",
@@ -3126,6 +3136,11 @@
       "completed": "not-started"
     },
     {
+      "title": "Little Nemo and the Guardians of Slumber",
+      "platform": "Steam",
+      "completed": "in-progress"
+    },
+    {
       "title": "Little Nightmares",
       "platform": "Steam",
       "completed": "not-started"
@@ -3199,6 +3214,11 @@
       "title": "Lost Planet 3",
       "platform": "Steam",
       "completed": "not-started"
+    },
+    {
+      "title": "Lost Wiki: Kozlovka",
+      "platform": "Steam",
+      "completed": "completed-100"
     },
     {
       "title": "LOVE",
@@ -3736,6 +3756,11 @@
       "completed": "not-started"
     },
     {
+      "title": "Nocturnal",
+      "platform": "Steam",
+      "completed": "not-started"
+    },
+    {
       "title": "Normal Lost Phone, A",
       "platform": "Steam",
       "completed": "completed-100"
@@ -3789,6 +3814,11 @@
       "title": "Omno",
       "platform": "Steam",
       "completed": "not-started"
+    },
+    {
+      "title": "Once Glorious Artahk",
+      "platform": "Steam",
+      "completed": "in-progress"
     },
     {
       "title": "One Finger Death Punch",
@@ -5421,6 +5451,11 @@
       "completed": "not-started"
     },
     {
+      "title": "Thick As Thieves",
+      "platform": "Steam",
+      "completed": "not-started"
+    },
+    {
       "title": "Thief Gold",
       "platform": "Steam",
       "completed": "not-started"
@@ -5724,6 +5759,11 @@
       "title": "Unavowed",
       "platform": "Steam",
       "completed": "completed-any"
+    },
+    {
+      "title": "UNBEATABLE",
+      "platform": "Steam",
+      "completed": "in-progress"
     },
     {
       "title": "Unboxing the Cryptic Killer",
