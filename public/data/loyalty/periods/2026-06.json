@@ -1,0 +1,41 @@
+{
+  "name": "Jun 2026",
+  "users": [
+    {
+      "userName": "Artimage84",
+      "rank": 3,
+      "tie": true,
+      "firsts": 0,
+      "seconds": 0,
+      "checkIns": 1,
+      "points": 1
+    },
+    {
+      "userName": "DhufishHunter",
+      "rank": 2,
+      "tie": false,
+      "firsts": 0,
+      "seconds": 1,
+      "checkIns": 0,
+      "points": 3
+    },
+    {
+      "userName": "Kaeon",
+      "rank": 3,
+      "tie": true,
+      "firsts": 0,
+      "seconds": 0,
+      "checkIns": 1,
+      "points": 1
+    },
+    {
+      "userName": "shrimplet23",
+      "rank": 1,
+      "tie": false,
+      "firsts": 1,
+      "seconds": 0,
+      "checkIns": 0,
+      "points": 5
+    }
+  ]
+}

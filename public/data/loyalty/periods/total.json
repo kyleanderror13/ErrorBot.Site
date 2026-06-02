@@ -88,8 +88,8 @@
       "tie": false,
       "firsts": 23,
       "seconds": 10,
-      "checkIns": 33,
-      "points": 178
+      "checkIns": 34,
+      "points": 179
     },
     {
       "userName": "b1gbadw0lf",
@@ -165,7 +165,7 @@
     },
     {
       "userName": "Coldhockeyboy",
-      "rank": 13,
+      "rank": 14,
       "tie": false,
       "firsts": 1,
       "seconds": 0,
@@ -201,12 +201,12 @@
     },
     {
       "userName": "DhufishHunter",
-      "rank": 14,
-      "tie": true,
+      "rank": 13,
+      "tie": false,
       "firsts": 2,
-      "seconds": 3,
+      "seconds": 4,
       "checkIns": 0,
-      "points": 19
+      "points": 22
     },
     {
       "userName": "Directing_Titan",
@@ -403,8 +403,8 @@
       "tie": false,
       "firsts": 34,
       "seconds": 43,
-      "checkIns": 113,
-      "points": 412
+      "checkIns": 114,
+      "points": 413
     },
     {
       "userName": "karathegamer08",
@@ -525,8 +525,8 @@
     },
     {
       "userName": "Navi_33623",
-      "rank": 14,
-      "tie": true,
+      "rank": 15,
+      "tie": false,
       "firsts": 2,
       "seconds": 1,
       "checkIns": 6,
@@ -626,10 +626,10 @@
       "userName": "shrimplet23",
       "rank": 11,
       "tie": false,
-      "firsts": 4,
+      "firsts": 5,
       "seconds": 4,
       "checkIns": 4,
-      "points": 36
+      "points": 41
     },
     {
       "userName": "silksong_player456",
