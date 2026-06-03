@@ -3,7 +3,16 @@
   "users": [
     {
       "userName": "Artimage84",
-      "rank": 3,
+      "rank": 1,
+      "tie": false,
+      "firsts": 1,
+      "seconds": 0,
+      "checkIns": 1,
+      "points": 6
+    },
+    {
+      "userName": "Dbagggy",
+      "rank": 5,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
@@ -12,8 +21,26 @@
     },
     {
       "userName": "DhufishHunter",
-      "rank": 2,
-      "tie": false,
+      "rank": 3,
+      "tie": true,
+      "firsts": 0,
+      "seconds": 1,
+      "checkIns": 0,
+      "points": 3
+    },
+    {
+      "userName": "firebro89",
+      "rank": 5,
+      "tie": true,
+      "firsts": 0,
+      "seconds": 0,
+      "checkIns": 1,
+      "points": 1
+    },
+    {
+      "userName": "getyourgloveson",
+      "rank": 3,
+      "tie": true,
       "firsts": 0,
       "seconds": 1,
       "checkIns": 0,
@@ -21,7 +48,16 @@
     },
     {
       "userName": "Kaeon",
-      "rank": 3,
+      "rank": 5,
+      "tie": true,
+      "firsts": 0,
+      "seconds": 0,
+      "checkIns": 1,
+      "points": 1
+    },
+    {
+      "userName": "OnionDucky",
+      "rank": 5,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
@@ -30,7 +66,7 @@
     },
     {
       "userName": "shrimplet23",
-      "rank": 1,
+      "rank": 2,
       "tie": false,
       "firsts": 1,
       "seconds": 0,
