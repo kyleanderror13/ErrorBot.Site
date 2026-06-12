@@ -48,6 +48,7 @@ export interface NoHitSummarySplit {
   name: string;
   resets: number;
   successRate: number;
+  recentSuccessRate: number;
   averageHits: number;
   totalHits: number;
   successAttempts: number;

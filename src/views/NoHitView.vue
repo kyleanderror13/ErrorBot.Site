@@ -122,14 +122,24 @@
               <div class="chart-card">
                 <div class="chart-title">
                   <span>Success Rate</span>
-                  <ToggleButton
-                    class="toggle-button"
-                    v-model="successRateSortOrder"
-                    offLabel="Run Order"
-                    offIcon="pi pi-sort-numeric-down"
-                    onLabel="Rate"
-                    onIcon="pi pi-sort-amount-up-alt"
-                  />
+                  <div class="chart-title-controls">
+                    <ToggleButton
+                      class="toggle-button"
+                      v-model="successRateRecent"
+                      offLabel="All Time"
+                      offIcon="pi pi-history"
+                      onLabel="Recent"
+                      onIcon="pi pi-clock"
+                    />
+                    <ToggleButton
+                      class="toggle-button"
+                      v-model="successRateSortOrder"
+                      offLabel="Run Order"
+                      offIcon="pi pi-sort-numeric-down"
+                      onLabel="Rate"
+                      onIcon="pi pi-sort-amount-up-alt"
+                    />
+                  </div>
                 </div>
                 
                 <div :style="{ height: `${chartHeight}px`, position: 'relative' }">
@@ -388,6 +398,7 @@ const horizontalBarOptions = {
   }
 }
 
+const successRateRecent = ref(false);
 const successRateSortOrder = ref(false);
 const successRateChartData = computed(() => {
   if (!summarySplits.value) return {};
@@ -401,20 +412,20 @@ const successRateChartData = computed(() => {
   return {
     labels: splits.map(s => s.name),
     datasets: [{
-      label: 'Success Rate',
-      data: splits.map(s => s.successRate * 100),
+      label: successRateRecent.value ? 'Recent' :'All-Time',
+      data: splits.map(s => (successRateRecent.value ? s.recentSuccessRate : s.successRate) * 100),
       backgroundColor: splits.map(s =>
         s.disabled ? 'rgba(128, 128, 128, 0.8)' :
-        s.successRate > 0.80 ? 'rgba(178, 255, 102, 0.8)' : 
-        s.successRate > 0.50 ? 'rgba(255, 255, 102, 0.8)' : 
-        s.successRate > 0.25 ? 'rgba(255, 178, 102, 0.8)' : 
+        (successRateRecent.value ? s.recentSuccessRate : s.successRate) > 0.80 ? 'rgba(178, 255, 102, 0.8)' : 
+        (successRateRecent.value ? s.recentSuccessRate : s.successRate) > 0.50 ? 'rgba(255, 255, 102, 0.8)' : 
+        (successRateRecent.value ? s.recentSuccessRate : s.successRate) > 0.25 ? 'rgba(255, 178, 102, 0.8)' : 
           'rgba(255, 102, 102, 0.8)'
       ),
       borderColor: splits.map(s =>
         s.disabled ? 'rgba(128, 128, 128, 0.6)' :
-        s.successRate > 0.80 ? 'rgba(128, 128, 128, 0.6)' : 
-        s.successRate > 0.50 ? 'rgba(255, 255, 102, 0.6)' : 
-        s.successAttempts > 0.25 ? 'rgba(255, 178, 102, 0.6)' : 
+        (successRateRecent.value ? s.recentSuccessRate : s.successRate) > 0.80 ? 'rgba(128, 128, 128, 0.6)' : 
+        (successRateRecent.value ? s.recentSuccessRate : s.successRate) > 0.50 ? 'rgba(255, 255, 102, 0.6)' : 
+        (successRateRecent.value ? s.recentSuccessRate : s.successRate) > 0.25 ? 'rgba(255, 178, 102, 0.6)' : 
           'rgba(255, 102, 102, 0.6)'
       ),      
       borderWidth: 1,
@@ -903,6 +914,12 @@ const distanceOverTimeChartOptions = computed(() => ({
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.chart-title-controls {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 }
 
 .toggle-button {
