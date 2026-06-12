@@ -350,7 +350,6 @@ const sortedUsers = computed(() =>
   margin-left: 8px;
 }
 
-/* Rank badge */
 .rank-badge {
   font-family: var(--font-mono);
   font-size: 15px;

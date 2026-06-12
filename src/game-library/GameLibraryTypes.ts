@@ -1,4 +1,3 @@
-// Game Library types
 export type LibraryPlatform =
   | 'Abandonware'
   | 'Epic'

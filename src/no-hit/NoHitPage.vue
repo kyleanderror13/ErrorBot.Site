@@ -3,7 +3,6 @@
     <PageHeader
       title="No Hit"
       icon="pi-shield"
-      :subtitle="`${catalogRuns.length} runs`"
     >
       <template #actions>
         <button

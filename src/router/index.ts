@@ -15,13 +15,19 @@ const routes: RouteRecordRaw[] = [
   {
     path: '/loyalty',
     name: 'Loyalty',
-    component: () => import('@/loyalty/LoyaltyView.vue'),
+    component: () => import('@/loyalty/LoyaltyPage.vue'),
     meta: { title: 'Loyalty', icon: 'pi-star' }
+  },
+  {
+    path: '/streaks',
+    name: 'Streaks',
+    component: () => import('@/streaks/StreakPage.vue'),
+    meta: { title: 'Streaks', icon: 'pi-gauge' }
   },
   {
     path: '/game-library',
     name: 'GameLibrary',
-    component: () => import('@/game-library/GameLibraryView.vue'),
+    component: () => import('@/game-library/GameLibraryPage.vue'),
     meta: { title: 'Game Library', icon: 'pi-th-large' }
   }
 ]

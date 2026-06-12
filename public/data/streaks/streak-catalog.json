@@ -1,0 +1,39 @@
+{
+  "records": [
+    {
+      "userName": "Artimage84",
+      "streak": 10,
+      "rank": 4
+    },
+    {
+      "userName": "hfdfa",
+      "streak": 7,
+      "rank": 5
+    },
+    {
+      "userName": "Kaeon",
+      "streak": 70,
+      "rank": 2
+    },
+    {
+      "userName": "nitrosovibrio",
+      "streak": 90,
+      "rank": 1
+    },
+    {
+      "userName": "shrimplet23",
+      "streak": 7,
+      "rank": 5
+    },
+    {
+      "userName": "twiggyVi",
+      "streak": 35,
+      "rank": 3
+    },
+    {
+      "userName": "twitchteppi",
+      "streak": 5,
+      "rank": 7
+    }
+  ]
+}

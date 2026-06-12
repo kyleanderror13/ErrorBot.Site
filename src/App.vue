@@ -1,7 +1,6 @@
 <template>
   <div class="dark-mode app-shell">
 
-    <!-- Mobile overlay backdrop -->
     <Transition name="backdrop">
       <div
         v-if="sidebarOpen && isMobile"
@@ -10,7 +9,6 @@
       />
     </Transition>
 
-    <!-- Sidebar -->
     <Transition name="sidebar-slide">
       <aside
         v-show="sidebarOpen || !isMobile"
@@ -51,7 +49,6 @@
       </aside>
     </Transition>
 
-    <!-- Main content area -->
     <main class="main-content">
       <!-- Mobile top bar -->
       <div v-if="isMobile" class="mobile-topbar">

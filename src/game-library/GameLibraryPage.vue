@@ -14,7 +14,6 @@
       </template>
     </PageHeader>
 
-    <!-- Summary bar -->
     <div class="summary-bar">
       <div
         v-for="stat in summaryStats"
@@ -44,7 +43,7 @@
       >
         <template #empty>
           <div class="empty-state">
-            <i class="pi pi-gamepad empty-icon" />
+            <i class="pi pi-star-fill empty-icon" />
             <p>No games found.</p>
           </div>
         </template>
@@ -101,7 +100,7 @@ onMounted(async () => {
 async function loadData() {
   loading.value = true
   try {
-    const res = await fetch('/data/gamelibrary/gamelibrary.json')
+    const res = await fetch('/data/game-library/game-library.json')
     if (!res.ok) throw new Error()
     const json = await res.json()
     games.value = json.games ?? []

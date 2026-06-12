@@ -30,6 +30,7 @@ defineProps<{
   border-bottom: 1px solid var(--brand-border);
   background: var(--brand-surface);
   flex-shrink: 0;
+  min-height: 75px;
 }
 
 .header-left {

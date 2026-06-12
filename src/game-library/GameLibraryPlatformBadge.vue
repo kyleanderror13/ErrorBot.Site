@@ -20,9 +20,6 @@ import { siSteam, siEpicgames, siGogdotcom, siEa } from 'simple-icons'
 import { mdiMicrosoftXbox, mdiMicrosoftWindows } from '@mdi/js'
 import type { LibraryPlatform } from '@/game-library/GameLibraryTypes'
 
-console.log(siEpicgames);
-console.log(siEa);
-
 const props = defineProps<{ platform: LibraryPlatform }>()
 
 const platformKey = computed(() =>
