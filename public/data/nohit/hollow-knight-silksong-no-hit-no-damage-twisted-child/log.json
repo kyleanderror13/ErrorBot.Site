@@ -54,6 +54,28 @@
       "distance": false,
       "distanceSplitName": "Flea (Hunter's March)",
       "clipLink": null
+    },
+    {
+      "attempt": 6,
+      "date": "2026-06-09T16:26:11.795287+08:00",
+      "hits": 2,
+      "progress": 0.21428572,
+      "resetSplitName": "The Lost Fleas",
+      "pb": false,
+      "distance": false,
+      "distanceSplitName": "Fourth Chorus",
+      "clipLink": null
+    },
+    {
+      "attempt": 7,
+      "date": "2026-06-10T13:25:25.8621488+08:00",
+      "hits": 8,
+      "progress": 0.35714287,
+      "resetSplitName": null,
+      "pb": false,
+      "distance": false,
+      "distanceSplitName": "Pollip Pouch",
+      "clipLink": null
     }
   ]
 }

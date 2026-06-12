@@ -78,9 +78,9 @@
       "rank": 5,
       "tie": false,
       "firsts": 24,
-      "seconds": 10,
+      "seconds": 11,
       "checkIns": 34,
-      "points": 184
+      "points": 187
     },
     {
       "userName": "b1gbadw0lf",
@@ -304,13 +304,13 @@
       "tie": false,
       "firsts": 34,
       "seconds": 36,
-      "checkIns": 97,
-      "points": 375
+      "checkIns": 98,
+      "points": 376
     },
     {
       "userName": "ghitaoo",
-      "rank": 16,
-      "tie": true,
+      "rank": 17,
+      "tie": false,
       "firsts": 2,
       "seconds": 1,
       "checkIns": 5,
@@ -345,12 +345,12 @@
     },
     {
       "userName": "hfdfa",
-      "rank": 16,
+      "rank": 15,
       "tie": true,
       "firsts": 1,
       "seconds": 1,
-      "checkIns": 10,
-      "points": 18
+      "checkIns": 11,
+      "points": 19
     },
     {
       "userName": "HollowedDoob",
@@ -403,8 +403,8 @@
       "tie": false,
       "firsts": 34,
       "seconds": 43,
-      "checkIns": 114,
-      "points": 413
+      "checkIns": 115,
+      "points": 414
     },
     {
       "userName": "karathegamer08",
@@ -432,6 +432,15 @@
       "seconds": 0,
       "checkIns": 2,
       "points": 7
+    },
+    {
+      "userName": "LifeNeedsWineToLive",
+      "rank": 55,
+      "tie": true,
+      "firsts": 0,
+      "seconds": 0,
+      "checkIns": 1,
+      "points": 1
     },
     {
       "userName": "LorenzShrek12",
@@ -517,7 +526,7 @@
     {
       "userName": "Navi_33623",
       "rank": 15,
-      "tie": false,
+      "tie": true,
       "firsts": 2,
       "seconds": 1,
       "checkIns": 6,
@@ -615,12 +624,12 @@
     },
     {
       "userName": "shrimplet23",
-      "rank": 11,
+      "rank": 10,
       "tie": false,
-      "firsts": 5,
+      "firsts": 6,
       "seconds": 4,
       "checkIns": 4,
-      "points": 41
+      "points": 46
     },
     {
       "userName": "silksong_player456",
@@ -696,7 +705,7 @@
     },
     {
       "userName": "TwitchTeppi",
-      "rank": 10,
+      "rank": 11,
       "tie": false,
       "firsts": 3,
       "seconds": 5,

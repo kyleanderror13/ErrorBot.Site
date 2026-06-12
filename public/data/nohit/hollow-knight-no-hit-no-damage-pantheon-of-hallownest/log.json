@@ -318,6 +318,94 @@
       "distance": false,
       "distanceSplitName": "Soul Master",
       "clipLink": null
+    },
+    {
+      "attempt": 88,
+      "date": "2026-06-09T22:23:15.6063626+08:00",
+      "hits": 1,
+      "progress": 0.023809524,
+      "resetSplitName": "Gruz Mother",
+      "pb": false,
+      "distance": false,
+      "distanceSplitName": "Gruz Mother",
+      "clipLink": null
+    },
+    {
+      "attempt": 89,
+      "date": "2026-06-09T23:09:34.2970383+08:00",
+      "hits": 18,
+      "progress": 0.16666667,
+      "resetSplitName": null,
+      "pb": false,
+      "distance": false,
+      "distanceSplitName": "Soul Warrior",
+      "clipLink": null
+    },
+    {
+      "attempt": 90,
+      "date": "2026-06-10T16:15:36.7224099+08:00",
+      "hits": 1,
+      "progress": 0.11904762,
+      "resetSplitName": "Gorb",
+      "pb": false,
+      "distance": false,
+      "distanceSplitName": "Gorb",
+      "clipLink": null
+    },
+    {
+      "attempt": 91,
+      "date": "2026-06-10T16:17:48.7252915+08:00",
+      "hits": 1,
+      "progress": 0.023809524,
+      "resetSplitName": "Gruz Mother",
+      "pb": false,
+      "distance": false,
+      "distanceSplitName": "Gruz Mother",
+      "clipLink": null
+    },
+    {
+      "attempt": 92,
+      "date": "2026-06-10T16:22:16.3243213+08:00",
+      "hits": 1,
+      "progress": 0.11904762,
+      "resetSplitName": "Gorb",
+      "pb": false,
+      "distance": false,
+      "distanceSplitName": "Gorb",
+      "clipLink": null
+    },
+    {
+      "attempt": 93,
+      "date": "2026-06-10T16:24:05.1481745+08:00",
+      "hits": 1,
+      "progress": 0.023809524,
+      "resetSplitName": "Gruz Mother",
+      "pb": false,
+      "distance": false,
+      "distanceSplitName": "Gruz Mother",
+      "clipLink": null
+    },
+    {
+      "attempt": 94,
+      "date": "2026-06-10T16:38:23.8791766+08:00",
+      "hits": 1,
+      "progress": 0.14285715,
+      "resetSplitName": "Dung Defender",
+      "pb": false,
+      "distance": false,
+      "distanceSplitName": "Dung Defender",
+      "clipLink": null
+    },
+    {
+      "attempt": 95,
+      "date": "2026-06-11T00:39:15.9652545+08:00",
+      "hits": 17,
+      "progress": 0.23809524,
+      "resetSplitName": "Nightmare King Grimm",
+      "pb": false,
+      "distance": false,
+      "distanceSplitName": "Xero",
+      "clipLink": null
     }
   ]
 }
