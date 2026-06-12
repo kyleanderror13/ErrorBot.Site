@@ -35,7 +35,7 @@
 
             <div class="run-card-sub" v-tooltip.bottom="run.category.toUpperCase()">{{ run.category.toUpperCase() }}</div>
 
-            <StatusBadge :status="run.status" />
+            <NoHitStatusBadge :status="run.status" />
 
             <div v-if="isMobile" class="tap-hint">
               <i class="pi pi-chevron-right" />
@@ -63,7 +63,7 @@
                 <LinkBadge v-if="selectedRun.runLink != null" :link="selectedRun.runLink" :source="'youtube'" caption="Watch" style="margin-top: 8px;" />
               </div>
 
-              <StatusBadge :status="selectedRun.status" large />
+              <NoHitStatusBadge :status="selectedRun.status" large />
             </div>
 
             <div v-if="!summarySplits.length" class="empty-list">
@@ -262,10 +262,10 @@ import ToggleButton from 'primevue/togglebutton';
 import Column from 'primevue/column'
 import PageHeader from '@/components/PageHeader.vue'
 import LinkBadge from '@/components/LinkBadge.vue'
-import StatusBadge from '@/components/StatusBadge.vue'
+import NoHitStatusBadge from '@/no-hit/NoHitStatusBadge.vue'
 import ProgressBar from 'primevue/progressbar'
 import Button from 'primevue/button'
-import type { NoHitCatalogRun, NoHitSummarySplit, NoHitLogRun } from '@/types'
+import type { NoHitCatalogRun, NoHitSummarySplit, NoHitLogRun } from '@/no-hit/NoHitTypes'
 
 const catalogRuns = ref<NoHitCatalogRun[]>([]);
 const catalogLoading = ref(true);

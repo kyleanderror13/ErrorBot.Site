@@ -6,7 +6,7 @@
 
 <script setup lang="ts">
 import { computed } from 'vue'
-import type { LibraryCompletionStatus } from '@/types'
+import type { LibraryCompletionStatus } from '@/game-library/GameLibraryTypes'
 
 const props = defineProps<{ status: LibraryCompletionStatus }>()
 

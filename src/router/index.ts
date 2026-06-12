@@ -9,19 +9,19 @@ const routes: RouteRecordRaw[] = [
   {
     path: '/no-hit',
     name: 'NoHit',
-    component: () => import('@/views/NoHitView.vue'),
+    component: () => import('@/no-hit/NoHitPage.vue'),
     meta: { title: 'No Hit', icon: 'pi-shield' }
   },
   {
     path: '/loyalty',
     name: 'Loyalty',
-    component: () => import('@/views/LoyaltyView.vue'),
+    component: () => import('@/loyalty/LoyaltyView.vue'),
     meta: { title: 'Loyalty', icon: 'pi-star' }
   },
   {
     path: '/game-library',
     name: 'GameLibrary',
-    component: () => import('@/views/GameLibraryView.vue'),
+    component: () => import('@/game-library/GameLibraryView.vue'),
     meta: { title: 'Game Library', icon: 'pi-th-large' }
   }
 ]

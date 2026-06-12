@@ -1,27 +1,3 @@
-export interface LoyaltyCatalog {
-  periods: LoyaltyCatalogPeriod[];
-}
-
-export interface LoyaltyCatalogPeriod {
-  id: string;
-  name: string;
-}
-
-export interface LoyaltyPeriod {
-  name: string;
-  users: LoyaltyPeriodUser[];
-}
-
-export interface LoyaltyPeriodUser {
-  userName: string;
-  rank: number;
-  tie: boolean;
-  firsts: number;
-  seconds: number;
-  checkIns: number;
-  points: number;
-}
-
 export interface NoHitCatalog {
   runs: NoHitCatalogRun[];
 }
@@ -69,31 +45,4 @@ export interface NoHitLogRun {
   pb: boolean;
   distance: boolean;
   distanceSplitName?: string;
-}
-
-// Game Library types
-export type LibraryPlatform =
-  | 'Abandonware'
-  | 'Epic'
-  | 'GOG'
-  | 'Microsoft'
-  | 'Origin'
-  | 'Steam'
-  | 'Xbox';
-  
-export type LibraryCompletionStatus = 'completed-100' | 'completed-any' | 'in-progress' | 'not-started';
-
-export interface LibraryGame {
-  title: string;
-  platform: LibraryPlatform;
-  completed: LibraryCompletionStatus;
-}
-
-export interface LibraryCatalog {
-  games: LibraryGame[];
-}
-
-export interface LinearRegressionPoint {
-  x: number;
-  y: number;
 }

@@ -18,7 +18,7 @@
 import { computed } from 'vue'
 import { siSteam, siEpicgames, siGogdotcom, siEa } from 'simple-icons'
 import { mdiMicrosoftXbox, mdiMicrosoftWindows } from '@mdi/js'
-import type { LibraryPlatform } from '@/types'
+import type { LibraryPlatform } from '@/game-library/GameLibraryTypes'
 
 console.log(siEpicgames);
 console.log(siEa);

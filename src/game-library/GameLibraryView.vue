@@ -51,7 +51,7 @@
 
         <Column field="platform" header="" style="width: 24px">
           <template #body="{ data }">
-            <PlatformBadge :platform="data.platform" />
+            <GameLibraryPlatformBadge :platform="data.platform" />
           </template>
         </Column>
 
@@ -69,7 +69,7 @@
         >
           <template #body="{ data }">
             <div style="display:flex; justify-content: flex-end">
-              <CompletionBadge :status="data.completed" />
+              <GameLibraryCompletionBadge :status="data.completed" />
             </div>
           </template>
         </Column>
@@ -84,9 +84,9 @@ import DataTable from 'primevue/datatable'
 import Column from 'primevue/column'
 import InputText from 'primevue/inputtext'
 import PageHeader from '@/components/PageHeader.vue'
-import PlatformBadge from '@/components/PlatformBadge.vue'
-import CompletionBadge from '@/components/CompletionBadge.vue'
-import type { LibraryGame, LibraryCompletionStatus } from '@/types'
+import GameLibraryPlatformBadge from '@/game-library/GameLibraryPlatformBadge.vue'
+import GameLibraryCompletionBadge from '@/game-library/GameLibraryCompletionBadge.vue'
+import type { LibraryGame, LibraryCompletionStatus } from '@/game-library/GameLibraryTypes'
 
 const games = ref<LibraryGame[]>([])
 const loading = ref(true)

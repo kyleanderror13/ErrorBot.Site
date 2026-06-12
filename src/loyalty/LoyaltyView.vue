@@ -133,7 +133,7 @@ import DataTable from 'primevue/datatable'
 import Column from 'primevue/column'
 import InputText from 'primevue/inputtext'
 import PageHeader from '@/components/PageHeader.vue'
-import type { LoyaltyCatalogPeriod, LoyaltyPeriodUser } from '@/types'
+import type { LoyaltyCatalogPeriod, LoyaltyPeriodUser } from '@/loyalty/LoyaltyTypes'
 
 const periods = ref<LoyaltyCatalogPeriod[]>([]);
 const catalogLoading = ref(true);

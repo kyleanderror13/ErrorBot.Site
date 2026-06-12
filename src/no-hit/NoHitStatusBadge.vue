@@ -7,7 +7,7 @@
 
 <script setup lang="ts">
 import { computed } from 'vue'
-import type { NoHitCatalogRun } from '@/types'
+import type { NoHitCatalogRun } from '@/no-hit/NoHitTypes'
 
 const props = defineProps<{
   status: NoHitCatalogRun['status']
