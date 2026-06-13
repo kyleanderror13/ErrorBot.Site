@@ -35,3 +35,14 @@ export const chartTickColor = '#adadb8';
 export const chartTickFont = { family: chartMainFont, size: 11 };
 
 export const chartGridLineColor = 'rgba(255,255,255,0.05)';
+
+export const chartDisabledBackgroundColor = 'rgba(128, 128, 128, 0.8)';
+export const chartDisabledBorderColor = 'rgba(128, 128, 128, 0.6)';
+export const chartExcellentBackgroundColor = 'rgba(178, 255, 102, 0.8)';
+export const chartExcellentBorderColor = 'rgba(178, 255, 102, 0.6)';
+export const chartMediumBackgroundColor = 'rgba(255, 255, 102, 0.8)';
+export const chartMediumBorderColor = 'rgba(255, 255, 102, 0.6)';
+export const chartPoorBackgroundColor = 'rgba(255, 178, 102, 0.8)';
+export const chartPoorBorderColor = 'rgba(255, 178, 102, 0.6)';
+export const chartDangerBackgroundColor = 'rgba(255, 102, 102, 0.8)';
+export const chartDangerBorderColor = 'rgba(255, 102, 102, 0.6)';

@@ -1,19 +1,18 @@
 <template>
-  <div class="chart-title">Hits Over Time (Completed Runs Only)</div>
-
-  <div :style="{ height: `${props.height}px` }">
+  <NoHitChart title="Hits Over Time (Completed Runs Only)" :height="props.height">
     <Chart
       type="line"
       :data="chartData"
       :options="chartOptions"
       style="height: 100%"
     />
-  </div>
+  </NoHitChart>
 </template>
 
 <script setup lang="ts">
 import { computed, onMounted, ref, watch } from 'vue';
 import { NoHitLogRun } from '@/no-hit/NoHitTypes';
+import NoHitChart from '@/no-hit/NoHitChart.vue'
 import Chart from 'primevue/chart';
 
 const props = defineProps<{

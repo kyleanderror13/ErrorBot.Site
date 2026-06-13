@@ -1,20 +1,19 @@
 <template>
-  <div class="chart-title">Distance Over Time</div>
-
-  <div :style="{ height: `${props.height}px` }">
+  <NoHitChart title="Distance Over Time" :height="props.height">
     <Chart
       type="line"
       :data="chartData"
       :options="chartOptions"
       style="height: 100%"
     />
-  </div>
+  </NoHitChart>
 </template>
 
 <script setup lang="ts">
 import { computed, onMounted, ref, watch } from 'vue';
 import { NoHitLogRun } from '@/no-hit/NoHitTypes';
 import Chart from 'primevue/chart';
+import NoHitChart from '@/no-hit/NoHitChart.vue'
 
 const props = defineProps<{
   height: number,

@@ -32,7 +32,7 @@
           >
             <span class="run-game" v-tooltip.bottom="run.game">{{ run.game }}</span>
 
-            <div class="run-card-sub" v-tooltip.bottom="run.category.toUpperCase()">{{ run.category.toUpperCase() }}</div>
+            <div class="run-category" v-tooltip.bottom="run.category.toUpperCase()">{{ run.category.toUpperCase() }}</div>
 
             <NoHitStatusBadge :status="run.status" />
 
@@ -89,72 +89,13 @@
             </div>
 
             <div class="charts-grid" v-if="summarySplits.length > 0">
-              
-              <div class="chart-card" v-if="chartCompletedRuns.length > 0">
-                <NoHitHitsOverTimeChart :runId="selectedRun.id" :height="chartHeight" />
-              </div>
+              <NoHitHitsOverTimeChart v-if="chartCompletedRuns.length > 0" :runId="selectedRun.id" :height="chartHeight" />
 
-              <div class="chart-card" v-if="chartAllRuns.length > 0">
-                <NoHitDistanceOverTimeChart :runId="selectedRun.id" :height="chartHeight" />
-              </div>
+              <NoHitDistanceOverTimeChart v-if="chartAllRuns.length > 0" :runId="selectedRun.id" :height="chartHeight" />
 
-              <div class="chart-card">
-                <div class="chart-title">
-                  <span>Success Rate</span>
-                  <div class="chart-title-controls">
-                    <ToggleButton
-                      class="toggle-button"
-                      v-model="successRateRecent"
-                      offLabel="All Time"
-                      offIcon="pi pi-history"
-                      onLabel="Recent"
-                      onIcon="pi pi-clock"
-                    />
-                    <ToggleButton
-                      class="toggle-button"
-                      v-model="successRateSortOrder"
-                      offLabel="Run Order"
-                      offIcon="pi pi-sort-numeric-down"
-                      onLabel="Rate"
-                      onIcon="pi pi-sort-amount-up-alt"
-                    />
-                  </div>
-                </div>
-                
-                <div :style="{ height: `${chartHeight}px`, position: 'relative' }">
-                  <Chart
-                    type="bar"
-                    :data="successRateChartData"
-                    :options="horizontalBarOptions"
-                    class="chart-instance"
-                    style="height: 100%"
-                  />
-                </div>
-              </div>
+              <NoHitSuccessRateChart v-if="summarySplits.length > 0" :runId="selectedRun.id" :height="chartHeight" />
 
-              <div class="chart-card">
-                <div class="chart-title">
-                  <span>Average Hits</span>
-                  <ToggleButton
-                    class="toggle-button"
-                    v-model="averageHitsSortOrder"
-                    offLabel="Run Order"
-                    offIcon="pi pi-sort-numeric-down"
-                    onLabel="Hits"
-                    onIcon="pi pi-sort-amount-up"
-                  />
-                </div>
-
-                <div class="chart-height":style="{ height: `${chartHeight}px`, position: 'relative' }">
-                  <Chart
-                    type="bar"
-                    :data="averageHitsChartData"
-                    :options="horizontalBarOptions"
-                    class="chart-instance"
-                    style="height: 100%"
-                  />
-                </div>
-              </div>
+              <NoHitAverageHitsChart v-if="summarySplits.length > 0" :runId="selectedRun.id" :height="chartHeight" />
             </div>
 
             <div class="log-section" v-if="visibleLogRuns.length > 0">
@@ -235,9 +176,7 @@
 
 <script setup lang="ts">
 import { ref, computed, onMounted, onUnmounted } from 'vue'
-import Chart from 'primevue/chart'
 import DataTable from 'primevue/datatable'
-import ToggleButton from 'primevue/togglebutton';
 import Column from 'primevue/column'
 import PageHeader from '@/components/PageHeader.vue'
 import LinkBadge from '@/components/LinkBadge.vue'
@@ -247,6 +186,8 @@ import NoHitDistanceOverTimeChart from '@/no-hit/NoHitDistanceOverTimeChart.vue'
 import ProgressBar from 'primevue/progressbar'
 import Button from 'primevue/button'
 import type { NoHitCatalogRun, NoHitSummarySplit, NoHitLogRun } from '@/no-hit/NoHitTypes'
+import NoHitSuccessRateChart from './NoHitSuccessRateChart.vue';
+import NoHitAverageHitsChart from './NoHitAverageHitsChart.vue';
 
 const catalogRuns = ref<NoHitCatalogRun[]>([]);
 const catalogLoading = ref(true);
@@ -326,7 +267,9 @@ async function selectRun(run: NoHitCatalogRun) {
   try {
     const summaryResource = await fetch(`/data/nohit/${run.id}/summary.json`);
     const summaryJson = await summaryResource.json();
-    summarySplits.value = summaryJson.splits ?? [];
+
+    // set the chartHeight first as otherwise it is not set by the time the computed visibility checks occur.
+    var localSummarySplits = summaryJson.splits ?? [];
 
     const logRes = await fetch(`/data/nohit/${run.id}/log.json`)
     const logJson = await logRes.json()
@@ -336,8 +279,10 @@ async function selectRun(run: NoHitCatalogRun) {
     chartCompletedRuns.value = [...logRuns.value].filter(r => r.resetSplitName == null).sort((a, b) => a.attempt - b.attempt);
     chartAllRuns.value = [...logRuns.value].sort((a, b) => a.attempt - b.attempt);
 
-    if (chartCompletedRuns && summarySplits && chartAllRuns)
-      chartHeight = Math.min(Math.max(Math.max(summarySplits.value.length, chartCompletedRuns.value.length, chartAllRuns.value.length) * 30, 200), 1200);
+    if (chartCompletedRuns && localSummarySplits && chartAllRuns)
+      chartHeight = Math.min(Math.max(Math.max(localSummarySplits.length, chartCompletedRuns.value.length, chartAllRuns.value.length) * 30, 200), 1200);
+
+    summarySplits.value = localSummarySplits;
   } finally {
     summaryLoading.value = false;
   }
@@ -348,107 +293,6 @@ function formatDate(iso: string): string {
     day: '2-digit', month: 'short', year: 'numeric'
   })
 }
-
-const jetBrainsMonoFont = 'JetBrains Mono';
-
-const baseChartOptions = {
-  responsive: true,
-  maintainAspectRatio: false,
-  plugins: {
-    legend: { display: false },
-    tooltip: { bodyFont: { family: jetBrainsMonoFont } }
-  },
-  scales: {
-    x: {
-      ticks: { color: '#adadb8', font: { family: jetBrainsMonoFont, size: 11 } },
-      grid: { color: 'rgba(255,255,255,0.05)' }
-    },
-    y: {
-      ticks: { color: '#adadb8', font: { family: jetBrainsMonoFont, size: 11 } },
-      grid: { color: 'rgba(255,255,255,0.05)' }
-    }
-  }
-}
-
-const horizontalBarOptions = {
-  ...baseChartOptions,
-  indexAxis: 'y' as const,
-  scales: {
-    x: baseChartOptions.scales.x,
-    y: baseChartOptions.scales.y
-  }
-}
-
-const successRateRecent = ref(false);
-const successRateSortOrder = ref(false);
-const successRateChartData = computed(() => {
-  if (!summarySplits.value) return {};
-
-  let splits = [...summarySplits.value];
-
-  if (successRateSortOrder.value) {
-    splits.sort((a, b) => a.successRate - b.successRate)
-  }
-
-  return {
-    labels: splits.map(s => s.name),
-    datasets: [{
-      label: successRateRecent.value ? 'Recent' :'All-Time',
-      data: splits.map(s => (successRateRecent.value ? s.recentSuccessRate : s.successRate) * 100),
-      backgroundColor: splits.map(s =>
-        s.disabled ? 'rgba(128, 128, 128, 0.8)' :
-        (successRateRecent.value ? s.recentSuccessRate : s.successRate) > 0.80 ? 'rgba(178, 255, 102, 0.8)' : 
-        (successRateRecent.value ? s.recentSuccessRate : s.successRate) > 0.50 ? 'rgba(255, 255, 102, 0.8)' : 
-        (successRateRecent.value ? s.recentSuccessRate : s.successRate) > 0.25 ? 'rgba(255, 178, 102, 0.8)' : 
-          'rgba(255, 102, 102, 0.8)'
-      ),
-      borderColor: splits.map(s =>
-        s.disabled ? 'rgba(128, 128, 128, 0.6)' :
-        (successRateRecent.value ? s.recentSuccessRate : s.successRate) > 0.80 ? 'rgba(128, 128, 128, 0.6)' : 
-        (successRateRecent.value ? s.recentSuccessRate : s.successRate) > 0.50 ? 'rgba(255, 255, 102, 0.6)' : 
-        (successRateRecent.value ? s.recentSuccessRate : s.successRate) > 0.25 ? 'rgba(255, 178, 102, 0.6)' : 
-          'rgba(255, 102, 102, 0.6)'
-      ),      
-      borderWidth: 1,
-      borderRadius: 2
-    }]
-  }
-})
-
-const averageHitsSortOrder = ref(false);
-const averageHitsChartData = computed(() => {
-  if (!summarySplits.value) return {}
-
-  let splits = [...summarySplits.value];
-
-  if (averageHitsSortOrder.value) {
-    splits.sort((a, b) => b.averageHits - a.averageHits)
-  }
-
-  return {
-    labels: splits.map((s) => s.name),
-    datasets: [{
-      label: 'Average Hits',
-      data: splits.map((s) => s.averageHits),
-      backgroundColor: splits.map((s) =>
-        s.disabled ? 'rgba(128, 128, 128, 0.8)' :
-        s.averageHits < 0.50 ? 'rgba(178, 255, 102, 0.8)' : 
-        s.averageHits < 1 ? 'rgba(255, 255, 102, 0.8)' : 
-        s.averageHits < 2 ? 'rgba(255, 178, 102, 0.8)' : 
-          'rgba(255, 102, 102, 0.8)'
-      ),
-      borderColor: splits.map((s) =>
-        s.disabled ? 'rgba(128, 128, 128, 0.6)' :
-        s.averageHits < 0.50 ? 'rgba(178, 255, 102, 0.6)' : 
-        s.averageHits < 1 ? 'rgba(255, 255, 102, 0.6)' : 
-        s.averageHits < 2 ? 'rgba(255, 178, 102, 0.6)' : 
-          'rgba(255, 102, 102, 0.6)'
-      ),      
-      borderWidth: 1,
-      borderRadius: 4
-    }]
-  }
-})
 
 </script>
 
@@ -473,8 +317,8 @@ const averageHitsChartData = computed(() => {
 }
 
 .run-list {
-  width: 260px;
-  min-width: 260px;
+  width: 360px;
+  min-width: 360px;
   border-right: 1px solid var(--brand-border);
   overflow-y: auto;
   padding: 8px;
@@ -533,7 +377,7 @@ const averageHitsChartData = computed(() => {
   display: block;
 }
 
-.run-card-sub {
+.run-category {
   font-size: 12px;
   color: var(--brand-text-muted);
   margin-top: 2px;
@@ -542,19 +386,6 @@ const averageHitsChartData = computed(() => {
   overflow: hidden;
   text-overflow: ellipsis;
   display: block;  
-}
-
-.run-card-meta {
-  display: flex;
-  gap: 12px;
-  font-size: 11px;
-  color: var(--brand-text-muted);
-  font-family: var(--font-mono);
-}
-
-.run-card-meta .pi {
-  font-size: 10px;
-  margin-right: 3px;
 }
 
 .tap-hint {
@@ -567,7 +398,6 @@ const averageHitsChartData = computed(() => {
   opacity: 0.5;
 }
 
-/* ── Detail panel ──────────────────────────────────────────── */
 .run-detail {
   flex: 1;
   overflow-y: auto;
@@ -638,7 +468,6 @@ const averageHitsChartData = computed(() => {
   display: block;
 }
 
-/* ── Stats strip ───────────────────────────────────────────── */
 .stats-strip {
   display: flex;
   gap: 10px;
@@ -690,10 +519,6 @@ const averageHitsChartData = computed(() => {
   color: var(--brand-text);
 }
 
-.stat-value.deaths {
-  color: var(--brand-accent-red);
-}
-
 .charts-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(min(750px, 100%), 1fr));
@@ -712,38 +537,6 @@ const averageHitsChartData = computed(() => {
   .run-detail.panel-full {
     padding: 12px;
   }
-}
-
-.chart-card {
-  background: var(--brand-surface);
-  border: 1px solid var(--brand-border);
-  border-radius: 10px;
-  padding: 16px;
-  min-width: 0;
-}
-
-.chart-title {
-  font-family: var(--font-display);
-  font-size: 13px;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  color: var(--brand-text-muted);
-  margin-bottom: 12px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.chart-title-controls {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-}
-
-.toggle-button {
-  font-family: var(--font-display);
-  font-size: 12px;
-  text-transform: uppercase;
 }
 
 .log-section {
@@ -782,12 +575,6 @@ const averageHitsChartData = computed(() => {
   flex: 1;
   overflow: hidden;
   max-width: 0;
-}
-
-.notes-text {
-  font-size: 12px;
-  color: var(--brand-text-muted);
-  font-style: italic;
 }
 
 .empty-list {
