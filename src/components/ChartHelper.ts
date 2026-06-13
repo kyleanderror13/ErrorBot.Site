@@ -2,6 +2,13 @@ export const chartMainFont = 'JetBrains Mono';
 
 export const chartMainSeriesColour = 'rgba(102, 178, 255, 0.8)';
 
+export const chartMainLineSeries = {
+  fill: false,
+  borderColor: chartMainSeriesColour,
+  backgroundColor: chartMainSeriesColour,
+  tension: 0.2
+}
+
 export const chartTrendLineSeries = {
   borderColor: '#f97316',
   borderWidth: 2,

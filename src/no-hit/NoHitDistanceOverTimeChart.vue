@@ -1,5 +1,5 @@
 <template>
-  <div class="chart-title">Hits Over Time (Completed Runs Only)</div>
+  <div class="chart-title">Distance Over Time</div>
 
   <div :style="{ height: `${props.height}px` }">
     <Chart
@@ -39,7 +39,7 @@ async function load() {
     const logRes = await fetch(`/data/nohit/${props.runId}/log.json`)
     const logJson = await logRes.json()
     logRuns.value = logJson.runs ?? [];
-    logRuns.value = logRuns.value.filter(r => r.resetSplitName == null).sort((a, b) => a.attempt - b.attempt);
+    logRuns.value.sort((a, b) => a.attempt - b.attempt);
   } finally {
     loading.value = false;
   }
@@ -47,7 +47,6 @@ async function load() {
 
 import { 
   chartMainLineSeries,
-  chartTrendLineSeries,
   chartPBStaircaseSeries,
   chartTooltipFont,
   chartTickColor,
@@ -55,47 +54,29 @@ import {
   chartGridLineColor
 } from '@/components/ChartHelper.ts';
 
-import regression from 'regression';
-import { DataPoint } from 'regression';
-
 const chartData = computed(() => {
   if (!logRuns.value) return {}
 
-  var completedRunValue = logRuns.value;
+  var logRunsValue = logRuns.value;
 
-  const dataPointArray = completedRunValue.map((run, index) => [index, run.hits] as DataPoint)
-  const regressionResult = regression.polynomial(dataPointArray, { order: 2 })
-
-  // Generate smooth curve points
-  const maxIndex = Math.max(...dataPointArray.map(d => d[0]))
-  const curvePoints = Array.from({ length: 100 }, (_, i) => {
-    const day = (i / 99) * maxIndex
-    return { x: Math.max(0, regressionResult.predict(day)[1]), y: day }
-  });
-
-  let runningMin = Number.MAX_VALUE;
-  const pbStaircase = completedRunValue.map((run, index) => {
-    runningMin = Math.min(runningMin, run.hits)
-    return { x: runningMin, y: index }
+  let runningMax = 0
+  const pbStaircase = logRunsValue.map((run, index) => {
+    runningMax = Math.max(runningMax, run.progress)
+    return { x: runningMax, y: index }
   })
 
   return {
-    labels: completedRunValue.map((_r, index) => index),
+    labels: logRunsValue.map((_r, index) => index),
     datasets: [
       {
         ...chartMainLineSeries,
-        label: 'Hits',
-        data: completedRunValue.map((r, index) => ({ x: r.hits, y: index}))
+        label: 'Distance',
+        data: logRunsValue.map((r, index) => ({ x: r.progress, y: index}))
       },
       {
-        ...chartTrendLineSeries,
-        label: 'Trend',
-        data: curvePoints
-      },
-      {
-        label: 'PB',
-        data: pbStaircase,
-        ...chartPBStaircaseSeries
+        ...chartPBStaircaseSeries,
+        label: 'Distance PB',
+        data: pbStaircase
       }
     ]
   }
@@ -112,19 +93,23 @@ const chartOptions = computed(() => ({
   scales: {
     x: {
       type: 'linear',
-      beginAtZero: true,
-      ticks: { color: chartTickColor, font: chartTickFont },
-      grid: { color: chartGridLineColor }
+      min: 0,
+      max: 1,
+      ticks: {
+        ticks: { color: chartTickColor, font: chartTickFont },
+        grid: { color: chartGridLineColor },
+        format: { style: 'percent' }
+      }
     },
     y: {
       type: 'linear',
       reverse: true,
-      ticks: { 
+      ticks: {
         color: chartTickColor, 
         font: chartTickFont,
         stepSize: 1,
         callback: (value: number) => {
-          const run = logRuns.value.find((_r, index) => index === value)
+          const run = logRuns.value?.[value];
           return run ? new Date(run.date).toLocaleDateString('en-AU') : '';
         }
       },
@@ -132,5 +117,4 @@ const chartOptions = computed(() => ({
     }
   }
 }));
-
 </script>

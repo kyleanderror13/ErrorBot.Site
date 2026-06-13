@@ -91,25 +91,11 @@
             <div class="charts-grid" v-if="summarySplits.length > 0">
               
               <div class="chart-card" v-if="chartCompletedRuns.length > 0">
-                <div class="chart-title">Hits Over Time (Completed Runs Only)</div>
-
-                <div class="chart-height":style="{ height: `${chartHeight}px`, position: 'relative' }">
-                  <NoHitHitsOverTimeChart :runId="selectedRun.id" />
-                </div>
+                <NoHitHitsOverTimeChart :runId="selectedRun.id" :height="chartHeight" />
               </div>
 
               <div class="chart-card" v-if="chartAllRuns.length > 0">
-                <div class="chart-title">Distance Over Time</div>
-
-                <div class="chart-height":style="{ height: `${chartHeight}px`, position: 'relative' }">
-                  <Chart
-                    type="line"
-                    :data="distanceOverTimeChartData"
-                    :options="distanceOverTimeChartOptions"
-                    class="chart-instance"
-                    style="height: 100%"
-                  />
-                </div>
+                <NoHitDistanceOverTimeChart :runId="selectedRun.id" :height="chartHeight" />
               </div>
 
               <div class="chart-card">
@@ -257,6 +243,7 @@ import PageHeader from '@/components/PageHeader.vue'
 import LinkBadge from '@/components/LinkBadge.vue'
 import NoHitStatusBadge from '@/no-hit/NoHitStatusBadge.vue'
 import NoHitHitsOverTimeChart from '@/no-hit/NoHitHitsOverTimeChart.vue'
+import NoHitDistanceOverTimeChart from '@/no-hit/NoHitDistanceOverTimeChart.vue';
 import ProgressBar from 'primevue/progressbar'
 import Button from 'primevue/button'
 import type { NoHitCatalogRun, NoHitSummarySplit, NoHitLogRun } from '@/no-hit/NoHitTypes'
@@ -280,7 +267,7 @@ const visibleLogRuns = computed(() =>
 const isMobile = ref(false)
 const showDetail = ref(false)
 
-const MOBILE_BREAKPOINT = 768
+const MOBILE_BREAKPOINT = 1024
 
 function checkMobile() {
   isMobile.value = window.innerWidth < MOBILE_BREAKPOINT
@@ -350,7 +337,7 @@ async function selectRun(run: NoHitCatalogRun) {
     chartAllRuns.value = [...logRuns.value].sort((a, b) => a.attempt - b.attempt);
 
     if (chartCompletedRuns && summarySplits && chartAllRuns)
-      chartHeight = Math.min(Math.max(Math.max(summarySplits.value.length, chartCompletedRuns.value.length, chartAllRuns.value.length) * 25, 200), 1200);
+      chartHeight = Math.min(Math.max(Math.max(summarySplits.value.length, chartCompletedRuns.value.length, chartAllRuns.value.length) * 30, 200), 1200);
   } finally {
     summaryLoading.value = false;
   }
@@ -462,78 +449,6 @@ const averageHitsChartData = computed(() => {
     }]
   }
 })
-
-const distanceOverTimeChartData = computed(() => {
-  if (!chartAllRuns.value) return {}
-
-  var chartAllRunsValue = chartAllRuns.value;
-
-  let runningMax = 0
-  const pbStaircase = chartAllRunsValue.map((run, index) => {
-    runningMax = Math.max(runningMax, run.progress)
-    return { x: runningMax, y: index }
-  })
-
-  return {
-    labels: chartAllRunsValue.map((_r, index) => index),
-    datasets: [
-      {
-        label: 'Distance',
-        data: chartAllRunsValue.map((r, index) => ({ x: r.progress, y: index})),
-        fill: false,
-        borderColor: 'rgba(102, 178, 255, 0.8)',
-        backgroundColor: 'rgba(102, 178, 255, 0.8)',
-        tension: 0.2
-      },
-      {
-        label: 'Distance PB',
-        data: pbStaircase,
-        borderColor: '#00fa9a',
-        borderWidth: 2,
-        borderDash: [6, 3],
-        pointRadius: 0,
-        tension: 0,
-        fill: false,
-        stepped: 'before'
-      }
-    ]
-  }
-});
-
-const distanceOverTimeChartOptions = computed(() => ({
-  ...baseChartOptions,
-  indexAxis: 'y',
-  plugins: {
-    ...baseChartOptions.plugins,
-    legend: { display: true }
-  },
-  scales: {
-    ...baseChartOptions.scales,
-    x: {
-      ...baseChartOptions.scales.x,
-      type: 'linear',
-      min: 0,
-      max: 1,
-      ticks: {
-        ...baseChartOptions.scales.x.ticks,
-        format: { style: 'percent' }
-      }
-    },
-    y: {
-      ...baseChartOptions.scales.y,
-      type: 'linear',
-      reverse: true,
-      ticks: {
-        ...baseChartOptions.scales.y.ticks,
-        stepSize: 1,
-        callback: (value: number) => {
-          const run = chartAllRuns.value?.[value];
-          return run ? new Date(run.date).toLocaleDateString('en-AU') : '';
-        }
-      }
-    }
-  }
-}));
 
 </script>
 
@@ -779,10 +694,9 @@ const distanceOverTimeChartOptions = computed(() => ({
   color: var(--brand-accent-red);
 }
 
-/* ── Charts: 2-col on wide, stack on narrow ────────────────── */
 .charts-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(min(500px, 100%), 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(min(750px, 100%), 1fr));
   gap: 1.5rem;
 }
 
