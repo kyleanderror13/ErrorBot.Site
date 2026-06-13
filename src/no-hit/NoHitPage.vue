@@ -96,6 +96,8 @@
               <NoHitSuccessRateChart v-if="summarySplits.length > 0" :runId="selectedRun.id" :height="chartHeight" />
 
               <NoHitAverageHitsChart v-if="summarySplits.length > 0" :runId="selectedRun.id" :height="chartHeight" />
+
+              <NoHitSplitResetFrequencyChart v-if="summarySplits.length > 0" :runId="selectedRun.id" :height="chartHeight" />
             </div>
 
             <div class="log-section" v-if="visibleLogRuns.length > 0">
@@ -188,6 +190,7 @@ import Button from 'primevue/button'
 import type { NoHitCatalogRun, NoHitSummarySplit, NoHitLogRun } from '@/no-hit/NoHitTypes'
 import NoHitSuccessRateChart from './NoHitSuccessRateChart.vue';
 import NoHitAverageHitsChart from './NoHitAverageHitsChart.vue';
+import NoHitSplitResetFrequencyChart from './NoHitSplitResetFrequencyChart.vue';
 
 const catalogRuns = ref<NoHitCatalogRun[]>([]);
 const catalogLoading = ref(true);

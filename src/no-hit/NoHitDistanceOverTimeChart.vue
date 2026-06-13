@@ -50,7 +50,7 @@ import {
   chartTooltipFont,
   chartTickColor,
   chartTickFont,
-  chartGridLineColor
+  chartGridLineColour
 } from '@/components/ChartHelper.ts';
 
 const chartData = computed(() => {
@@ -96,7 +96,7 @@ const chartOptions = computed(() => ({
       max: 1,
       ticks: {
         ticks: { color: chartTickColor, font: chartTickFont },
-        grid: { color: chartGridLineColor },
+        grid: { color: chartGridLineColour },
         format: { style: 'percent' }
       }
     },
@@ -112,7 +112,7 @@ const chartOptions = computed(() => ({
           return run ? new Date(run.date).toLocaleDateString('en-AU') : '';
         }
       },
-      grid: { color: chartGridLineColor }
+      grid: { color: chartGridLineColour }
     }
   }
 }));

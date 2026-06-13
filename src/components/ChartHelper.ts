@@ -1,11 +1,12 @@
 export const chartMainFont = 'JetBrains Mono';
 
-export const chartMainSeriesColour = 'rgba(102, 178, 255, 0.8)';
+export const chartMainSeriesBackgroundColour = 'rgba(102, 178, 255, 0.8)';
+export const chartMainSeriesBorderColour = 'rgba(102, 178, 255, 0.6)';
 
 export const chartMainLineSeries = {
   fill: false,
-  borderColor: chartMainSeriesColour,
-  backgroundColor: chartMainSeriesColour,
+  borderColor: chartMainSeriesBackgroundColour,
+  backgroundColor: chartMainSeriesBackgroundColour,
   tension: 0.2
 }
 
@@ -34,15 +35,15 @@ export const chartTickColor = '#adadb8';
 
 export const chartTickFont = { family: chartMainFont, size: 11 };
 
-export const chartGridLineColor = 'rgba(255,255,255,0.05)';
+export const chartGridLineColour = 'rgba(255,255,255,0.05)';
 
-export const chartDisabledBackgroundColor = 'rgba(128, 128, 128, 0.8)';
-export const chartDisabledBorderColor = 'rgba(128, 128, 128, 0.6)';
-export const chartExcellentBackgroundColor = 'rgba(178, 255, 102, 0.8)';
-export const chartExcellentBorderColor = 'rgba(178, 255, 102, 0.6)';
-export const chartMediumBackgroundColor = 'rgba(255, 255, 102, 0.8)';
-export const chartMediumBorderColor = 'rgba(255, 255, 102, 0.6)';
-export const chartPoorBackgroundColor = 'rgba(255, 178, 102, 0.8)';
-export const chartPoorBorderColor = 'rgba(255, 178, 102, 0.6)';
-export const chartDangerBackgroundColor = 'rgba(255, 102, 102, 0.8)';
-export const chartDangerBorderColor = 'rgba(255, 102, 102, 0.6)';
+export const chartDisabledBackgroundColour = 'rgba(128, 128, 128, 0.8)';
+export const chartDisabledBorderColour = 'rgba(128, 128, 128, 0.6)';
+export const chartExcellentBackgroundColour = 'rgba(178, 255, 102, 0.8)';
+export const chartExcellentBorderColour = 'rgba(178, 255, 102, 0.6)';
+export const chartMediumBackgroundColour = 'rgba(255, 255, 102, 0.8)';
+export const chartMediumBorderColour = 'rgba(255, 255, 102, 0.6)';
+export const chartPoorBackgroundColour = 'rgba(255, 178, 102, 0.8)';
+export const chartPoorBorderColour = 'rgba(255, 178, 102, 0.6)';
+export const chartDangerBackgroundColour = 'rgba(255, 102, 102, 0.8)';
+export const chartDangerBorderColour = 'rgba(255, 102, 102, 0.6)';

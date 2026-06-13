@@ -1,21 +1,13 @@
 <template>
-  <NoHitChart title="Success Rate" :height="props.height">
+  <NoHitChart title="Reset Frequency" :height="props.height">
     <template #header-controls>
-      <ToggleButton
-        class="chart-toggle-button"
-        v-model="recent"
-        offLabel="All Time"
-        offIcon="pi pi-history"
-        onLabel="Recent"
-        onIcon="pi pi-clock"
-      />
       <ToggleButton
         class="chart-toggle-button"
         v-model="sortOrder"
         offLabel="Run Order"
         offIcon="pi pi-sort-numeric-down"
-        onLabel="Rate"
-        onIcon="pi pi-sort-amount-up-alt"
+        onLabel="Resets"
+        onIcon="pi pi-sort-amount-up"
       />
     </template>
 
@@ -63,55 +55,37 @@ async function load() {
   }
 }
 
+const sortOrder = ref(false);
+
 import {
   chartTooltipFont,
   chartTickColor,
   chartTickFont,
   chartGridLineColour,
+  chartMainSeriesBackgroundColour,
+  chartMainSeriesBorderColour,
   chartDisabledBackgroundColour,
   chartDisabledBorderColour,
-  chartExcellentBackgroundColour,
-  chartExcellentBorderColour,
-  chartMediumBackgroundColour,
-  chartMediumBorderColour,
-  chartPoorBackgroundColour,
-  chartPoorBorderColour,
-  chartDangerBackgroundColour,
-  chartDangerBorderColour
 } from '@/components/ChartHelper.ts';
 
-const recent = ref(false);
-const sortOrder = ref(false);
 const chartData = computed(() => {
-  if (!summarySplits.value) return {};
+  if (!summarySplits.value) return {}
 
   let splits = [...summarySplits.value];
 
   if (sortOrder.value) {
-    splits.sort((a, b) => (recent.value ? a.recentSuccessRate - b.recentSuccessRate : a.successRate - b.successRate))
+    splits.sort((a, b) => b.resets - a.resets)
   }
 
   return {
-    labels: splits.map(s => s.name),
+    labels: splits.map((s) => s.name),
     datasets: [{
-      label: recent.value ? 'Recent' :'All-Time',
-      data: splits.map(s => (recent.value ? s.recentSuccessRate : s.successRate) * 100),
-      backgroundColor: splits.map(s =>
-        s.disabled ? chartDisabledBackgroundColour :
-        (recent.value ? s.recentSuccessRate : s.successRate) > 0.80 ? chartExcellentBackgroundColour : 
-        (recent.value ? s.recentSuccessRate : s.successRate) > 0.50 ? chartMediumBackgroundColour : 
-        (recent.value ? s.recentSuccessRate : s.successRate) > 0.25 ? chartPoorBackgroundColour : 
-          chartDangerBackgroundColour
-      ),
-      borderColor: splits.map(s =>
-        s.disabled ? chartDisabledBorderColour :
-        (recent.value ? s.recentSuccessRate : s.successRate) > 0.80 ? chartExcellentBorderColour : 
-        (recent.value ? s.recentSuccessRate : s.successRate) > 0.50 ? chartMediumBorderColour : 
-        (recent.value ? s.recentSuccessRate : s.successRate) > 0.25 ? chartPoorBorderColour : 
-          chartDangerBorderColour
-      ),      
+      label: 'Resets',
+      data: splits.map((s) => s.resets),
+      backgroundColor: splits.map((s) => s.disabled ? chartDisabledBackgroundColour : chartMainSeriesBackgroundColour),
+      borderColor: splits.map((s) => s.disabled ? chartDisabledBorderColour : chartMainSeriesBorderColour),
       borderWidth: 2,
-      borderRadius: 2
+      borderRadius: 4
     }]
   }
 })

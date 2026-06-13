@@ -51,7 +51,7 @@ import {
   chartTooltipFont,
   chartTickColor,
   chartTickFont,
-  chartGridLineColor
+  chartGridLineColour
 } from '@/components/ChartHelper.ts';
 
 import regression from 'regression';
@@ -113,7 +113,7 @@ const chartOptions = computed(() => ({
       type: 'linear',
       beginAtZero: true,
       ticks: { color: chartTickColor, font: chartTickFont },
-      grid: { color: chartGridLineColor }
+      grid: { color: chartGridLineColour }
     },
     y: {
       type: 'linear',
@@ -127,7 +127,7 @@ const chartOptions = computed(() => ({
           return run ? new Date(run.date).toLocaleDateString('en-AU') : '';
         }
       },
-      grid: { color: chartGridLineColor }
+      grid: { color: chartGridLineColour }
     }
   }
 }));

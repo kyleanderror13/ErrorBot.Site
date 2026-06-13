@@ -61,17 +61,17 @@ import {
   chartTooltipFont,
   chartTickColor,
   chartTickFont,
-  chartGridLineColor,
-  chartDisabledBackgroundColor,
-  chartDisabledBorderColor,
-  chartExcellentBackgroundColor,
-  chartExcellentBorderColor,
-  chartMediumBackgroundColor,
-  chartMediumBorderColor,
-  chartPoorBackgroundColor,
-  chartPoorBorderColor,
-  chartDangerBackgroundColor,
-  chartDangerBorderColor
+  chartGridLineColour,
+  chartDisabledBackgroundColour,
+  chartDisabledBorderColour,
+  chartExcellentBackgroundColour,
+  chartExcellentBorderColour,
+  chartMediumBackgroundColour,
+  chartMediumBorderColour,
+  chartPoorBackgroundColour,
+  chartPoorBorderColour,
+  chartDangerBackgroundColour,
+  chartDangerBorderColour
 } from '@/components/ChartHelper.ts';
 
 const chartData = computed(() => {
@@ -89,18 +89,18 @@ const chartData = computed(() => {
       label: 'Average Hits',
       data: splits.map((s) => s.averageHits),
       backgroundColor: splits.map((s) =>
-        s.disabled ? chartDisabledBackgroundColor :
-        s.averageHits < 0.50 ? chartExcellentBackgroundColor : 
-        s.averageHits < 1 ? chartMediumBackgroundColor : 
-        s.averageHits < 2 ? chartPoorBackgroundColor : 
-          chartDangerBackgroundColor
+        s.disabled ? chartDisabledBackgroundColour :
+        s.averageHits < 0.50 ? chartExcellentBackgroundColour : 
+        s.averageHits < 1 ? chartMediumBackgroundColour : 
+        s.averageHits < 2 ? chartPoorBackgroundColour : 
+          chartDangerBackgroundColour
       ),
       borderColor: splits.map((s) =>
-        s.disabled ? chartDisabledBorderColor :
-        s.averageHits < 0.50 ? chartExcellentBorderColor : 
-        s.averageHits < 1 ? chartMediumBorderColor : 
-        s.averageHits < 2 ? chartPoorBorderColor : 
-          chartDangerBorderColor
+        s.disabled ? chartDisabledBorderColour :
+        s.averageHits < 0.50 ? chartExcellentBorderColour : 
+        s.averageHits < 1 ? chartMediumBorderColour : 
+        s.averageHits < 2 ? chartPoorBorderColour : 
+          chartDangerBorderColour
       ),      
       borderWidth: 2,
       borderRadius: 4
@@ -119,11 +119,11 @@ const chartOptions = {
   scales: {
     x: {
       ticks: { color: chartTickColor, font: chartTickFont },
-      grid: { color: chartGridLineColor }
+      grid: { color: chartGridLineColour }
     },
     y: {
       ticks: { color: chartTickColor, font: chartTickFont },
-      grid: { color: chartGridLineColor }
+      grid: { color: chartGridLineColour }
     }
   }
 }
