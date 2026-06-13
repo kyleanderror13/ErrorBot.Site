@@ -50,6 +50,7 @@ async function load() {
     const summaryResource = await fetch(`/data/nohit/${props.runId}/summary.json`);
     const summaryJson = await summaryResource.json();
     summarySplits.value = summaryJson.splits ?? [];
+    summarySplits.value = summarySplits.value.filter(s => !s.disabled || s.resets > 0);
   } finally {
     loading.value = false;
   }
