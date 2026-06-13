@@ -94,13 +94,7 @@
                 <div class="chart-title">Hits Over Time (Completed Runs Only)</div>
 
                 <div class="chart-height":style="{ height: `${chartHeight}px`, position: 'relative' }">
-                  <Chart
-                    type="line"
-                    :data="hitsOverTimeChartData"
-                    :options="hitsOverTimeChartOptions"
-                    class="chart-instance"
-                    style="height: 100%"
-                  />
+                  <NoHitHitsOverTimeChart :runId="selectedRun.id" />
                 </div>
               </div>
 
@@ -262,6 +256,7 @@ import Column from 'primevue/column'
 import PageHeader from '@/components/PageHeader.vue'
 import LinkBadge from '@/components/LinkBadge.vue'
 import NoHitStatusBadge from '@/no-hit/NoHitStatusBadge.vue'
+import NoHitHitsOverTimeChart from '@/no-hit/NoHitHitsOverTimeChart.vue'
 import ProgressBar from 'primevue/progressbar'
 import Button from 'primevue/button'
 import type { NoHitCatalogRun, NoHitSummarySplit, NoHitLogRun } from '@/no-hit/NoHitTypes'
@@ -467,96 +462,6 @@ const averageHitsChartData = computed(() => {
     }]
   }
 })
-
-import regression from 'regression';
-import { DataPoint } from 'regression';
-
-const hitsOverTimeChartData = computed(() => {
-  if (!chartCompletedRuns.value) return {}
-
-  var chartCompletedRunValue = chartCompletedRuns.value;
-
-  const data = chartCompletedRunValue.map((run, index) => [index, run.hits] as DataPoint)
-  const result = regression.polynomial(data, { order: 2 })
-
-  // Generate smooth curve points
-  const maxIndex = Math.max(...data.map(d => d[0]))
-  const curvePoints = Array.from({ length: 100 }, (_, i) => {
-    const day = (i / 99) * maxIndex
-    return { x: Math.max(0, result.predict(day)[1]), y: day }
-  });
-
-  let runningMin = Number.MAX_VALUE;
-  const pbStaircase = chartCompletedRunValue.map((run, index) => {
-    runningMin = Math.min(runningMin, run.hits)
-    return { x: runningMin, y: index }
-  })
-
-  return {
-    labels: chartCompletedRunValue.map((_r, index) => index),
-    datasets: [
-      {
-        label: 'Hits',
-        data: chartCompletedRunValue.map((r, index) => ({ x: r.hits, y: index})),
-        fill: false,
-        borderColor: 'rgba(102, 178, 255, 0.8)',
-        backgroundColor: 'rgba(102, 178, 255, 0.8)',
-        tension: 0.2
-      },
-      {
-        label: 'Trend',
-        data: curvePoints,
-        borderColor: '#f97316',
-        borderWidth: 2,
-        borderDash: [6, 3],
-        pointRadius: 0,
-        tension: 0.1,
-        fill: false
-      },
-      {
-        label: 'PB',
-        data: pbStaircase,
-        borderColor: '#00fa9a',
-        borderWidth: 2,
-        borderDash: [6, 3],
-        pointRadius: 0,
-        tension: 0,
-        fill: false,
-        stepped: 'before'
-      }
-    ]
-  }
-});
-
-const hitsOverTimeChartOptions = computed(() => ({
-  ...baseChartOptions,
-  indexAxis: 'y',
-  plugins: {
-    ...baseChartOptions.plugins,
-    legend: { display: true }
-  },
-  scales: {
-    ...baseChartOptions.scales,
-    x: {
-      ...baseChartOptions.scales.x,
-      type: 'linear',
-      beginAtZero: true
-    },
-    y: {
-      ...baseChartOptions.scales.y,
-      type: 'linear',
-      reverse: true,
-      ticks: {
-        ...baseChartOptions.scales.y.ticks,
-        stepSize: 1,
-        callback: (value: number) => {
-          const run = chartCompletedRuns.value.find((_r, index) => index === value)
-          return run ? new Date(run.date).toLocaleDateString('en-AU') : '';
-        }
-      }
-    }
-  }
-}));
 
 const distanceOverTimeChartData = computed(() => {
   if (!chartAllRuns.value) return {}
