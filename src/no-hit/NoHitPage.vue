@@ -97,6 +97,8 @@
 
               <NoHitAverageHitsChart v-if="summarySplits.length > 0" :runId="selectedRun.id" :height="chartHeight" />
 
+              <NoHitTotalHitFrequencyChart v-if="summarySplits.length > 0" :runId="selectedRun.id" :height="chartHeight" />
+
               <NoHitSplitResetFrequencyChart v-if="summarySplits.length > 0" :runId="selectedRun.id" :height="chartHeight" />
             </div>
 
@@ -187,10 +189,12 @@ import NoHitHitsOverTimeChart from '@/no-hit/NoHitHitsOverTimeChart.vue'
 import NoHitDistanceOverTimeChart from '@/no-hit/NoHitDistanceOverTimeChart.vue';
 import ProgressBar from 'primevue/progressbar'
 import Button from 'primevue/button'
+import { plural } from '@/components/StringHelper.ts';
 import type { NoHitCatalogRun, NoHitSummarySplit, NoHitLogRun } from '@/no-hit/NoHitTypes'
 import NoHitSuccessRateChart from './NoHitSuccessRateChart.vue';
 import NoHitAverageHitsChart from './NoHitAverageHitsChart.vue';
 import NoHitSplitResetFrequencyChart from './NoHitSplitResetFrequencyChart.vue';
+import NoHitTotalHitFrequencyChart from './NoHitTotalHitFrequencyChart.vue';
 
 const catalogRuns = ref<NoHitCatalogRun[]>([]);
 const catalogLoading = ref(true);
@@ -215,10 +219,6 @@ const MOBILE_BREAKPOINT = 1024
 
 function checkMobile() {
   isMobile.value = window.innerWidth < MOBILE_BREAKPOINT
-}
-
-function plural(text: string, count: number): string {
-  return count === 1 ? text : text + 's'
 }
 
 onMounted(async () => {
