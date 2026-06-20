@@ -76,6 +76,28 @@
       "distance": false,
       "distanceSplitName": "Pollip Pouch",
       "clipLink": null
+    },
+    {
+      "attempt": 8,
+      "date": "2026-06-20T11:59:21.6571396+08:00",
+      "hits": 1,
+      "progress": 0.023809524,
+      "resetSplitName": "The Marrow",
+      "pb": false,
+      "distance": false,
+      "distanceSplitName": "The Marrow",
+      "clipLink": null
+    },
+    {
+      "attempt": 9,
+      "date": "2026-06-20T15:03:40.8509027+08:00",
+      "hits": 5,
+      "progress": 0.54761904,
+      "resetSplitName": null,
+      "pb": false,
+      "distance": true,
+      "distanceSplitName": "The Mist",
+      "clipLink": null
     }
   ]
 }
