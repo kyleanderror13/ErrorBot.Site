@@ -656,6 +656,11 @@
       "completed": "not-started"
     },
     {
+      "title": "Blasphemous 2 - Mea Culpa Edition",
+      "platform": "Steam",
+      "completed": "not-started"
+    },
+    {
       "title": "Blood: Fresh Supply",
       "platform": "Steam",
       "completed": "not-started"
@@ -834,6 +839,11 @@
       "title": "Card Hunter",
       "platform": "Steam",
       "completed": "not-started"
+    },
+    {
+      "title": "Carrion",
+      "platform": "Steam",
+      "completed": "in-progress"
     },
     {
       "title": "Carto",
@@ -2114,11 +2124,6 @@
       "title": "Gauntlet",
       "platform": "Steam",
       "completed": "not-started"
-    },
-    {
-      "title": "Geometry Dash",
-      "platform": "Steam",
-      "completed": "in-progress"
     },
     {
       "title": "Gears Tactics",
