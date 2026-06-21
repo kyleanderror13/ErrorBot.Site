@@ -406,6 +406,28 @@
       "distance": false,
       "distanceSplitName": "Xero",
       "clipLink": null
+    },
+    {
+      "attempt": 96,
+      "date": "2026-06-20T18:44:52.7750573+08:00",
+      "hits": 1,
+      "progress": 0.023809524,
+      "resetSplitName": "Gruz Mother",
+      "pb": false,
+      "distance": false,
+      "distanceSplitName": "Gruz Mother",
+      "clipLink": null
+    },
+    {
+      "attempt": 97,
+      "date": "2026-06-20T19:11:42.3354845+08:00",
+      "hits": 10,
+      "progress": 0.21428572,
+      "resetSplitName": "Hornet (Sentinel)",
+      "pb": false,
+      "distance": false,
+      "distanceSplitName": "Oro & Mato",
+      "clipLink": null
     }
   ]
 }
