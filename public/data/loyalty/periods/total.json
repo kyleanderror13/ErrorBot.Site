@@ -75,12 +75,12 @@
     },
     {
       "userName": "Artimage84",
-      "rank": 5,
-      "tie": false,
+      "rank": 4,
+      "tie": true,
       "firsts": 24,
       "seconds": 11,
-      "checkIns": 35,
-      "points": 188
+      "checkIns": 36,
+      "points": 189
     },
     {
       "userName": "b1gbadw0lf",
@@ -156,8 +156,8 @@
     },
     {
       "userName": "Coldhockeyboy",
-      "rank": 14,
-      "tie": true,
+      "rank": 15,
+      "tie": false,
       "firsts": 1,
       "seconds": 0,
       "checkIns": 15,
@@ -192,7 +192,7 @@
     },
     {
       "userName": "DhufishHunter",
-      "rank": 13,
+      "rank": 14,
       "tie": false,
       "firsts": 2,
       "seconds": 4,
@@ -304,8 +304,8 @@
       "tie": false,
       "firsts": 34,
       "seconds": 36,
-      "checkIns": 98,
-      "points": 376
+      "checkIns": 99,
+      "points": 377
     },
     {
       "userName": "ghitaoo",
@@ -345,12 +345,12 @@
     },
     {
       "userName": "hfdfa",
-      "rank": 14,
-      "tie": true,
+      "rank": 13,
+      "tie": false,
       "firsts": 1,
-      "seconds": 1,
+      "seconds": 2,
       "checkIns": 12,
-      "points": 20
+      "points": 23
     },
     {
       "userName": "HollowedDoob",
@@ -481,7 +481,7 @@
     {
       "userName": "melomayhem",
       "rank": 4,
-      "tie": false,
+      "tie": true,
       "firsts": 17,
       "seconds": 20,
       "checkIns": 44,
@@ -571,7 +571,7 @@
     {
       "userName": "richelle_png",
       "rank": 9,
-      "tie": false,
+      "tie": true,
       "firsts": 7,
       "seconds": 2,
       "checkIns": 11,
@@ -624,12 +624,12 @@
     },
     {
       "userName": "shrimplet23",
-      "rank": 10,
-      "tie": false,
-      "firsts": 6,
+      "rank": 9,
+      "tie": true,
+      "firsts": 7,
       "seconds": 4,
       "checkIns": 5,
-      "points": 47
+      "points": 52
     },
     {
       "userName": "silksong_player456",
@@ -709,8 +709,8 @@
       "tie": false,
       "firsts": 3,
       "seconds": 6,
-      "checkIns": 13,
-      "points": 46
+      "checkIns": 14,
+      "points": 47
     },
     {
       "userName": "weswaynes",

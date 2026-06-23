@@ -7,8 +7,8 @@
       "tie": false,
       "firsts": 1,
       "seconds": 1,
-      "checkIns": 2,
-      "points": 10
+      "checkIns": 3,
+      "points": 11
     },
     {
       "userName": "Dbagggy",
@@ -21,7 +21,7 @@
     },
     {
       "userName": "DhufishHunter",
-      "rank": 7,
+      "rank": 8,
       "tie": false,
       "firsts": 0,
       "seconds": 1,
@@ -43,8 +43,8 @@
       "tie": true,
       "firsts": 0,
       "seconds": 1,
-      "checkIns": 1,
-      "points": 4
+      "checkIns": 2,
+      "points": 5
     },
     {
       "userName": "greyfirey",
@@ -57,12 +57,12 @@
     },
     {
       "userName": "hfdfa",
-      "rank": 8,
+      "rank": 5,
       "tie": true,
       "firsts": 0,
-      "seconds": 0,
+      "seconds": 1,
       "checkIns": 2,
-      "points": 2
+      "points": 5
     },
     {
       "userName": "Kaeon",
@@ -84,8 +84,8 @@
     },
     {
       "userName": "nitrosovibrio",
-      "rank": 8,
-      "tie": true,
+      "rank": 9,
+      "tie": false,
       "firsts": 0,
       "seconds": 0,
       "checkIns": 2,
@@ -104,10 +104,10 @@
       "userName": "shrimplet23",
       "rank": 1,
       "tie": false,
-      "firsts": 2,
+      "firsts": 3,
       "seconds": 0,
       "checkIns": 1,
-      "points": 11
+      "points": 16
     },
     {
       "userName": "TwitchTeppi",
@@ -115,8 +115,8 @@
       "tie": true,
       "firsts": 0,
       "seconds": 1,
-      "checkIns": 1,
-      "points": 4
+      "checkIns": 2,
+      "points": 5
     }
   ]
 }

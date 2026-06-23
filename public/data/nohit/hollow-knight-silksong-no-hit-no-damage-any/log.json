@@ -1176,6 +1176,17 @@
       "distance": false,
       "distanceSplitName": "The Mist",
       "clipLink": "https://www.twitch.tv/kyleanderror13/clip/SwissBetterConsoleYouWHY-_DfgjNgG7ntsNU58"
+    },
+    {
+      "attempt": 108,
+      "date": "2026-06-23T23:06:34.3103481+08:00",
+      "hits": 2,
+      "progress": 0.95,
+      "resetSplitName": null,
+      "pb": false,
+      "distance": true,
+      "distanceSplitName": "Lace (The Cradle)",
+      "clipLink": "https://www.twitch.tv/kyleanderror13/clip/EasyDistinctWolverineJonCarnage-GedLcnhb8NiFEuMn"
     }
   ]
 }
