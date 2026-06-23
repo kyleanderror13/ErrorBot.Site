@@ -12,7 +12,7 @@
     },
     {
       "userName": "Dbagggy",
-      "rank": 8,
+      "rank": 10,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
@@ -21,8 +21,8 @@
     },
     {
       "userName": "DhufishHunter",
-      "rank": 5,
-      "tie": true,
+      "rank": 7,
+      "tie": false,
       "firsts": 0,
       "seconds": 1,
       "checkIns": 0,
@@ -30,7 +30,7 @@
     },
     {
       "userName": "firebro89",
-      "rank": 8,
+      "rank": 10,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
@@ -39,8 +39,8 @@
     },
     {
       "userName": "getyourgloveson",
-      "rank": 4,
-      "tie": false,
+      "rank": 5,
+      "tie": true,
       "firsts": 0,
       "seconds": 1,
       "checkIns": 1,
@@ -48,17 +48,17 @@
     },
     {
       "userName": "greyfirey",
-      "rank": 5,
+      "rank": 3,
       "tie": true,
-      "firsts": 0,
+      "firsts": 1,
       "seconds": 1,
       "checkIns": 0,
-      "points": 3
+      "points": 8
     },
     {
       "userName": "hfdfa",
-      "rank": 7,
-      "tie": false,
+      "rank": 8,
+      "tie": true,
       "firsts": 0,
       "seconds": 0,
       "checkIns": 2,
@@ -67,15 +67,15 @@
     {
       "userName": "Kaeon",
       "rank": 3,
-      "tie": false,
+      "tie": true,
       "firsts": 1,
       "seconds": 0,
-      "checkIns": 2,
-      "points": 7
+      "checkIns": 3,
+      "points": 8
     },
     {
       "userName": "LifeNeedsWineToLive",
-      "rank": 8,
+      "rank": 10,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
@@ -88,12 +88,12 @@
       "tie": true,
       "firsts": 0,
       "seconds": 0,
-      "checkIns": 1,
-      "points": 1
+      "checkIns": 2,
+      "points": 2
     },
     {
       "userName": "OnionDucky",
-      "rank": 8,
+      "rank": 10,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
@@ -111,12 +111,12 @@
     },
     {
       "userName": "TwitchTeppi",
-      "rank": 8,
+      "rank": 5,
       "tie": true,
       "firsts": 0,
-      "seconds": 0,
+      "seconds": 1,
       "checkIns": 1,
-      "points": 1
+      "points": 4
     }
   ]
 }
