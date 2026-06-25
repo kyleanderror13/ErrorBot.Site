@@ -3,7 +3,7 @@
   "users": [
     {
       "userName": "Artimage84",
-      "rank": 2,
+      "rank": 3,
       "tie": false,
       "firsts": 1,
       "seconds": 1,
@@ -11,8 +11,17 @@
       "points": 11
     },
     {
+      "userName": "DarthChurros",
+      "rank": 8,
+      "tie": true,
+      "firsts": 0,
+      "seconds": 1,
+      "checkIns": 0,
+      "points": 3
+    },
+    {
       "userName": "Dbagggy",
-      "rank": 10,
+      "rank": 11,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
@@ -22,7 +31,7 @@
     {
       "userName": "DhufishHunter",
       "rank": 8,
-      "tie": false,
+      "tie": true,
       "firsts": 0,
       "seconds": 1,
       "checkIns": 0,
@@ -30,7 +39,7 @@
     },
     {
       "userName": "firebro89",
-      "rank": 10,
+      "rank": 11,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
@@ -43,17 +52,17 @@
       "tie": true,
       "firsts": 0,
       "seconds": 1,
-      "checkIns": 2,
-      "points": 5
+      "checkIns": 3,
+      "points": 6
     },
     {
       "userName": "greyfirey",
-      "rank": 3,
-      "tie": true,
-      "firsts": 1,
+      "rank": 2,
+      "tie": false,
+      "firsts": 2,
       "seconds": 1,
       "checkIns": 0,
-      "points": 8
+      "points": 13
     },
     {
       "userName": "hfdfa",
@@ -61,21 +70,21 @@
       "tie": true,
       "firsts": 0,
       "seconds": 1,
-      "checkIns": 2,
-      "points": 5
+      "checkIns": 3,
+      "points": 6
     },
     {
       "userName": "Kaeon",
-      "rank": 3,
-      "tie": true,
+      "rank": 4,
+      "tie": false,
       "firsts": 1,
       "seconds": 0,
-      "checkIns": 3,
-      "points": 8
+      "checkIns": 4,
+      "points": 9
     },
     {
       "userName": "LifeNeedsWineToLive",
-      "rank": 10,
+      "rank": 11,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
@@ -84,7 +93,7 @@
     },
     {
       "userName": "nitrosovibrio",
-      "rank": 9,
+      "rank": 10,
       "tie": false,
       "firsts": 0,
       "seconds": 0,
@@ -93,7 +102,7 @@
     },
     {
       "userName": "OnionDucky",
-      "rank": 10,
+      "rank": 11,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
@@ -106,8 +115,8 @@
       "tie": false,
       "firsts": 3,
       "seconds": 0,
-      "checkIns": 1,
-      "points": 16
+      "checkIns": 2,
+      "points": 17
     },
     {
       "userName": "TwitchTeppi",
@@ -115,8 +124,8 @@
       "tie": true,
       "firsts": 0,
       "seconds": 1,
-      "checkIns": 2,
-      "points": 5
+      "checkIns": 3,
+      "points": 6
     }
   ]
 }
