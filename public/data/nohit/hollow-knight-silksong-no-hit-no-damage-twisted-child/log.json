@@ -98,6 +98,17 @@
       "distance": true,
       "distanceSplitName": "The Mist",
       "clipLink": null
+    },
+    {
+      "attempt": 10,
+      "date": "2026-06-30T15:39:27.3432598+08:00",
+      "hits": 6,
+      "progress": 0.7380952,
+      "resetSplitName": null,
+      "pb": false,
+      "distance": true,
+      "distanceSplitName": "Clawline",
+      "clipLink": null
     }
   ]
 }
