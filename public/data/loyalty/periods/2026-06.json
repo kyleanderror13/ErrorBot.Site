@@ -7,17 +7,17 @@
       "tie": false,
       "firsts": 1,
       "seconds": 1,
-      "checkIns": 3,
-      "points": 11
+      "checkIns": 4,
+      "points": 12
     },
     {
       "userName": "DarthChurros",
       "rank": 8,
-      "tie": true,
+      "tie": false,
       "firsts": 0,
       "seconds": 1,
-      "checkIns": 0,
-      "points": 3
+      "checkIns": 1,
+      "points": 4
     },
     {
       "userName": "Dbagggy",
@@ -30,8 +30,8 @@
     },
     {
       "userName": "DhufishHunter",
-      "rank": 8,
-      "tie": true,
+      "rank": 9,
+      "tie": false,
       "firsts": 0,
       "seconds": 1,
       "checkIns": 0,
@@ -48,7 +48,7 @@
     },
     {
       "userName": "getyourgloveson",
-      "rank": 5,
+      "rank": 6,
       "tie": true,
       "firsts": 0,
       "seconds": 1,
@@ -60,18 +60,18 @@
       "rank": 2,
       "tie": false,
       "firsts": 2,
-      "seconds": 1,
+      "seconds": 2,
       "checkIns": 0,
-      "points": 13
+      "points": 16
     },
     {
       "userName": "hfdfa",
       "rank": 5,
-      "tie": true,
+      "tie": false,
       "firsts": 0,
       "seconds": 1,
-      "checkIns": 3,
-      "points": 6
+      "checkIns": 4,
+      "points": 7
     },
     {
       "userName": "Kaeon",
@@ -79,8 +79,8 @@
       "tie": false,
       "firsts": 1,
       "seconds": 0,
-      "checkIns": 4,
-      "points": 9
+      "checkIns": 5,
+      "points": 10
     },
     {
       "userName": "LifeNeedsWineToLive",
@@ -113,14 +113,14 @@
       "userName": "shrimplet23",
       "rank": 1,
       "tie": false,
-      "firsts": 3,
+      "firsts": 4,
       "seconds": 0,
       "checkIns": 2,
-      "points": 17
+      "points": 22
     },
     {
       "userName": "TwitchTeppi",
-      "rank": 5,
+      "rank": 6,
       "tie": true,
       "firsts": 0,
       "seconds": 1,
