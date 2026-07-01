@@ -1,0 +1,77 @@
+{
+  "name": "Jul 2026",
+  "users": [
+    {
+      "userName": "Artimage84",
+      "rank": 1,
+      "tie": false,
+      "firsts": 1,
+      "seconds": 0,
+      "checkIns": 0,
+      "points": 5
+    },
+    {
+      "userName": "cboi_9245",
+      "rank": 3,
+      "tie": true,
+      "firsts": 0,
+      "seconds": 0,
+      "checkIns": 1,
+      "points": 1
+    },
+    {
+      "userName": "Doc0713",
+      "rank": 3,
+      "tie": true,
+      "firsts": 0,
+      "seconds": 0,
+      "checkIns": 1,
+      "points": 1
+    },
+    {
+      "userName": "getyourgloveson",
+      "rank": 3,
+      "tie": true,
+      "firsts": 0,
+      "seconds": 0,
+      "checkIns": 1,
+      "points": 1
+    },
+    {
+      "userName": "greyfirey",
+      "rank": 2,
+      "tie": false,
+      "firsts": 0,
+      "seconds": 1,
+      "checkIns": 0,
+      "points": 3
+    },
+    {
+      "userName": "LifeNeedsWineToLive",
+      "rank": 3,
+      "tie": true,
+      "firsts": 0,
+      "seconds": 0,
+      "checkIns": 1,
+      "points": 1
+    },
+    {
+      "userName": "mastapeet",
+      "rank": 3,
+      "tie": true,
+      "firsts": 0,
+      "seconds": 0,
+      "checkIns": 1,
+      "points": 1
+    },
+    {
+      "userName": "TwitchTeppi",
+      "rank": 3,
+      "tie": true,
+      "firsts": 0,
+      "seconds": 0,
+      "checkIns": 1,
+      "points": 1
+    }
+  ]
+}
