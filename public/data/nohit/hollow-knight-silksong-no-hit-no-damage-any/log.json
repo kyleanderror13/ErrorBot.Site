@@ -1297,6 +1297,50 @@
       "distance": false,
       "distanceSplitName": "Trobbio",
       "clipLink": "https://www.twitch.tv/kyleanderror13/clip/InexpensiveDaintyChowderOpieOP-ibY-1E-XO88JKjhj"
+    },
+    {
+      "attempt": 119,
+      "date": "2026-07-05T20:24:52.9963183+08:00",
+      "hits": 1,
+      "progress": 0.0,
+      "resetSplitName": "Moss Mother",
+      "pb": false,
+      "distance": false,
+      "distanceSplitName": "Moss Mother",
+      "clipLink": "https://www.twitch.tv/kyleanderror13/clip/AgitatedHelpfulKittenRickroll-0n9E2sdSkeakvyok"
+    },
+    {
+      "attempt": 120,
+      "date": "2026-07-05T21:58:57.2384149+08:00",
+      "hits": 1,
+      "progress": 0.675,
+      "resetSplitName": "Cogwork Dancers",
+      "pb": false,
+      "distance": false,
+      "distanceSplitName": "Cogwork Dancers",
+      "clipLink": null
+    },
+    {
+      "attempt": 121,
+      "date": "2026-07-05T22:08:59.9856203+08:00",
+      "hits": 1,
+      "progress": 0.075,
+      "resetSplitName": "Bell Beast",
+      "pb": false,
+      "distance": false,
+      "distanceSplitName": "Bell Beast",
+      "clipLink": null
+    },
+    {
+      "attempt": 122,
+      "date": "2026-07-06T00:30:58.6697768+08:00",
+      "hits": 1,
+      "progress": 0.975,
+      "resetSplitName": null,
+      "pb": false,
+      "distance": true,
+      "distanceSplitName": "Grand Mother Silk",
+      "clipLink": "https://www.twitch.tv/kyleanderror13/clip/AdventurousJazzySpaghettiTBTacoLeft-jxuGGWxqxM0IKAhc"
     }
   ]
 }
