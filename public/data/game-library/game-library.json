@@ -3551,6 +3551,11 @@
       "completed": "completed-100"
     },
     {
+      "title": "Mosaic of the Pharaohs",
+      "platform": "Steam",
+      "completed": "completed-100"
+    },
+    {
       "title": "Mothergunship",
       "platform": "Epic",
       "completed": "not-started"
@@ -3834,6 +3839,11 @@
       "title": "OneShot",
       "platform": "Steam",
       "completed": "completed-any"
+    },
+    {
+      "title": "Öoo",
+      "platform": "Steam",
+      "completed": "not-started"
     },
     {
       "title": "Operator, The",
@@ -4124,6 +4134,11 @@
       "title": "Polimines",
       "platform": "Steam",
       "completed": "completed-100"
+    },
+    {
+      "title": "Polimines 2",
+      "platform": "Steam",
+      "completed": "in-progress"
     },
     {
       "title": "Pony Island",
@@ -4834,6 +4849,11 @@
       "title": "Silent Age, The",
       "platform": "Steam",
       "completed": "completed-100"
+    },
+    {
+      "title": "Sisyphus Is a Bug",
+      "platform": "Steam",
+      "completed": "not-started"
     },
     {
       "title": "Size Matters",
@@ -5899,6 +5919,11 @@
       "title": "Volume",
       "platform": "Steam",
       "completed": "completed-100"
+    },
+    {
+      "title": "Voxelgram",
+      "platform": "Steam",
+      "completed": "in-progress"
     },
     {
       "title": "VVVVVV",
