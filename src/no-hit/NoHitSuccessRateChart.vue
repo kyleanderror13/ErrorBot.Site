@@ -87,6 +87,10 @@ const chartData = computed(() => {
 
   let splits = [...summarySplits.value];
 
+  // don't show disabled splits on recent chart.
+  if (recent.value)
+    splits = splits.filter(r => !r.disabled);
+
   if (sortOrder.value) {
     splits.sort((a, b) => (recent.value ? a.recentSuccessRate - b.recentSuccessRate : a.successRate - b.successRate))
   }
