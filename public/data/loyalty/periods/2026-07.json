@@ -3,7 +3,7 @@
   "users": [
     {
       "userName": "adeeduhs",
-      "rank": 15,
+      "rank": 16,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
@@ -16,12 +16,12 @@
       "tie": false,
       "firsts": 1,
       "seconds": 0,
-      "checkIns": 6,
-      "points": 11
+      "checkIns": 7,
+      "points": 12
     },
     {
       "userName": "cboi_9245",
-      "rank": 15,
+      "rank": 16,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
@@ -30,7 +30,7 @@
     },
     {
       "userName": "DarthChurros",
-      "rank": 11,
+      "rank": 12,
       "tie": true,
       "firsts": 0,
       "seconds": 1,
@@ -39,7 +39,7 @@
     },
     {
       "userName": "Doc0713",
-      "rank": 13,
+      "rank": 14,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
@@ -48,17 +48,17 @@
     },
     {
       "userName": "getyourgloveson",
-      "rank": 5,
+      "rank": 6,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
-      "checkIns": 6,
-      "points": 6
+      "checkIns": 7,
+      "points": 7
     },
     {
       "userName": "greyfirey",
       "rank": 4,
-      "tie": false,
+      "tie": true,
       "firsts": 0,
       "seconds": 3,
       "checkIns": 0,
@@ -67,33 +67,33 @@
     {
       "userName": "hfdfa",
       "rank": 8,
-      "tie": false,
+      "tie": true,
       "firsts": 0,
       "seconds": 0,
-      "checkIns": 5,
-      "points": 5
+      "checkIns": 6,
+      "points": 6
     },
     {
       "userName": "JCD101315",
-      "rank": 9,
+      "rank": 4,
       "tie": true,
-      "firsts": 0,
+      "firsts": 1,
       "seconds": 1,
       "checkIns": 1,
-      "points": 4
+      "points": 9
     },
     {
       "userName": "Kaeon",
       "rank": 11,
-      "tie": true,
+      "tie": false,
       "firsts": 0,
       "seconds": 0,
-      "checkIns": 3,
-      "points": 3
+      "checkIns": 4,
+      "points": 4
     },
     {
       "userName": "LifeNeedsWineToLive",
-      "rank": 5,
+      "rank": 8,
       "tie": true,
       "firsts": 1,
       "seconds": 0,
@@ -102,16 +102,7 @@
     },
     {
       "userName": "Madss__42",
-      "rank": 15,
-      "tie": true,
-      "firsts": 0,
-      "seconds": 0,
-      "checkIns": 1,
-      "points": 1
-    },
-    {
-      "userName": "mastapeet",
-      "rank": 13,
+      "rank": 14,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
@@ -119,8 +110,17 @@
       "points": 2
     },
     {
+      "userName": "mastapeet",
+      "rank": 12,
+      "tie": true,
+      "firsts": 0,
+      "seconds": 0,
+      "checkIns": 3,
+      "points": 3
+    },
+    {
       "userName": "mipsgambitchonkvariation",
-      "rank": 15,
+      "rank": 16,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
@@ -129,16 +129,16 @@
     },
     {
       "userName": "mysterydip",
-      "rank": 9,
-      "tie": true,
+      "rank": 10,
+      "tie": false,
       "firsts": 0,
       "seconds": 0,
-      "checkIns": 4,
-      "points": 4
+      "checkIns": 5,
+      "points": 5
     },
     {
       "userName": "Navi_33623",
-      "rank": 15,
+      "rank": 16,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
@@ -147,16 +147,16 @@
     },
     {
       "userName": "nitrosovibrio",
-      "rank": 5,
+      "rank": 6,
       "tie": true,
       "firsts": 0,
       "seconds": 1,
-      "checkIns": 3,
-      "points": 6
+      "checkIns": 4,
+      "points": 7
     },
     {
       "userName": "rtist21",
-      "rank": 15,
+      "rank": 16,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
@@ -174,7 +174,7 @@
     },
     {
       "userName": "thatrandomclonetrooper",
-      "rank": 15,
+      "rank": 16,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
@@ -183,7 +183,7 @@
     },
     {
       "userName": "TheSilksong1sreal",
-      "rank": 15,
+      "rank": 16,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
@@ -195,9 +195,9 @@
       "rank": 2,
       "tie": false,
       "firsts": 1,
-      "seconds": 1,
+      "seconds": 2,
       "checkIns": 5,
-      "points": 13
+      "points": 16
     }
   ]
 }
