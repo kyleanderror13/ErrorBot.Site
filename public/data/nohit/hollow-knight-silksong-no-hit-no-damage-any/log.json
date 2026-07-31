@@ -1671,6 +1671,50 @@
       "distance": false,
       "distanceSplitName": "Cogwork Core/Architect's Melody",
       "clipLink": "https://www.twitch.tv/kyleanderror13/clip/StupidObliviousDonkeyShadyLulu-TIkzKRS_sFMK6M6r"
+    },
+    {
+      "attempt": 153,
+      "date": "2026-07-31T20:44:06.6862774+08:00",
+      "hits": 2,
+      "progress": 0.7,
+      "resetSplitName": "Whispering Vaults Arena",
+      "pb": false,
+      "distance": false,
+      "distanceSplitName": "Whispering Vaults Arena",
+      "clipLink": "https://www.twitch.tv/kyleanderror13/clip/VibrantCrispyCobblerAliens-cgouuPLpPe6N-tVU"
+    },
+    {
+      "attempt": 154,
+      "date": "2026-07-31T20:59:54.8283516+08:00",
+      "hits": 1,
+      "progress": 0.1,
+      "resetSplitName": "Swift Step",
+      "pb": false,
+      "distance": false,
+      "distanceSplitName": "Swift Step",
+      "clipLink": "https://www.twitch.tv/kyleanderror13/clip/GlutenFreeMushyFiddleheadsBleedPurple-w3xemUxntWgBMWX0"
+    },
+    {
+      "attempt": 155,
+      "date": "2026-07-31T21:04:27.0523734+08:00",
+      "hits": 1,
+      "progress": 0.0,
+      "resetSplitName": "Moss Mother",
+      "pb": false,
+      "distance": false,
+      "distanceSplitName": "Moss Mother",
+      "clipLink": "https://www.twitch.tv/kyleanderror13/clip/TenuousFantasticGoshawkPrimeMe-BExuyfw2udmV17BJ"
+    },
+    {
+      "attempt": 156,
+      "date": "2026-07-31T23:34:02.8378983+08:00",
+      "hits": 0,
+      "progress": 1.0,
+      "resetSplitName": null,
+      "pb": true,
+      "distance": true,
+      "distanceSplitName": null,
+      "clipLink": null
     }
   ]
 }
