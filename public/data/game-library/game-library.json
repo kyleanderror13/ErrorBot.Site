@@ -3881,6 +3881,11 @@
       "completed": "not-started"
     },
     {
+      "title": "OTXO",
+      "platform": "Epic",
+      "completed": "not-started"
+    },
+    {
       "title": "Out of Space",
       "platform": "Steam",
       "completed": "not-started"
@@ -4918,6 +4923,11 @@
     {
       "title": "Sokobond",
       "platform": "Steam",
+      "completed": "not-started"
+    },
+    {
+      "title": "Sol Cesto",
+      "platform": "Epic",
       "completed": "not-started"
     },
     {
