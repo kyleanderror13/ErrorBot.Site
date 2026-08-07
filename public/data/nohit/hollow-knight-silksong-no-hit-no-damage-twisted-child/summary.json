@@ -2,28 +2,50 @@
   "splits": [
     {
       "name": "Moss Mother",
-      "resets": 1,
-      "successRate": 0.875,
-      "recentSuccessRate": 0.6,
-      "averageHits": 0.125,
-      "totalHits": 2,
-      "successAttempts": 14,
-      "totalAttempts": 16,
+      "resets": 2,
+      "successRate": 0.84210527,
+      "recentSuccessRate": 0.8,
+      "averageHits": 0.15789473,
+      "totalHits": 3,
+      "successAttempts": 16,
+      "totalAttempts": 19,
       "disabled": false
     },
     {
       "name": "The Marrow",
-      "resets": 2,
-      "successRate": 0.93333334,
-      "recentSuccessRate": 1.0,
-      "averageHits": 0.06666667,
-      "totalHits": 1,
-      "successAttempts": 14,
-      "totalAttempts": 15,
+      "resets": 3,
+      "successRate": 0.88235295,
+      "recentSuccessRate": 0.8,
+      "averageHits": 0.11764706,
+      "totalHits": 2,
+      "successAttempts": 15,
+      "totalAttempts": 17,
       "disabled": false
     },
     {
       "name": "Silk Spear",
+      "resets": 0,
+      "successRate": 1.0,
+      "recentSuccessRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 14,
+      "totalAttempts": 14,
+      "disabled": false
+    },
+    {
+      "name": "Bell Beast",
+      "resets": 1,
+      "successRate": 0.9285714,
+      "recentSuccessRate": 0.8,
+      "averageHits": 0.071428575,
+      "totalHits": 1,
+      "successAttempts": 13,
+      "totalAttempts": 14,
+      "disabled": false
+    },
+    {
+      "name": "Swift Step",
       "resets": 0,
       "successRate": 1.0,
       "recentSuccessRate": 1.0,
@@ -34,36 +56,14 @@
       "disabled": false
     },
     {
-      "name": "Bell Beast",
-      "resets": 1,
-      "successRate": 0.9230769,
-      "recentSuccessRate": 0.8,
-      "averageHits": 0.07692308,
-      "totalHits": 1,
-      "successAttempts": 12,
-      "totalAttempts": 13,
-      "disabled": false
-    },
-    {
-      "name": "Swift Step",
-      "resets": 0,
-      "successRate": 1.0,
-      "recentSuccessRate": 1.0,
-      "averageHits": 0.0,
-      "totalHits": 0,
-      "successAttempts": 12,
-      "totalAttempts": 12,
-      "disabled": false
-    },
-    {
       "name": "Flea (Swift Step)",
       "resets": 0,
       "successRate": 1.0,
       "recentSuccessRate": 1.0,
       "averageHits": 0.0,
       "totalHits": 0,
-      "successAttempts": 12,
-      "totalAttempts": 12,
+      "successAttempts": 13,
+      "totalAttempts": 13,
       "disabled": false
     },
     {
@@ -73,8 +73,19 @@
       "recentSuccessRate": 1.0,
       "averageHits": 0.0,
       "totalHits": 0,
-      "successAttempts": 12,
-      "totalAttempts": 12,
+      "successAttempts": 13,
+      "totalAttempts": 13,
+      "disabled": false
+    },
+    {
+      "name": "Forge Daughter Arena",
+      "resets": 0,
+      "successRate": 0.90909094,
+      "recentSuccessRate": 1.0,
+      "averageHits": 0.09090909,
+      "totalHits": 1,
+      "successAttempts": 10,
+      "totalAttempts": 11,
       "disabled": false
     },
     {
@@ -84,7 +95,18 @@
       "recentSuccessRate": 1.0,
       "averageHits": 0.0,
       "totalHits": 0,
-      "successAttempts": 12,
+      "successAttempts": 13,
+      "totalAttempts": 13,
+      "disabled": false
+    },
+    {
+      "name": "Flea (Far Fields)",
+      "resets": 1,
+      "successRate": 0.9166667,
+      "recentSuccessRate": 0.8,
+      "averageHits": 0.083333336,
+      "totalHits": 1,
+      "successAttempts": 11,
       "totalAttempts": 12,
       "disabled": false
     },
@@ -107,17 +129,6 @@
       "averageHits": 0.09090909,
       "totalHits": 1,
       "successAttempts": 10,
-      "totalAttempts": 11,
-      "disabled": false
-    },
-    {
-      "name": "Flea (Far Fields)",
-      "resets": 0,
-      "successRate": 1.0,
-      "recentSuccessRate": 1.0,
-      "averageHits": 0.0,
-      "totalHits": 0,
-      "successAttempts": 11,
       "totalAttempts": 11,
       "disabled": false
     },
@@ -217,17 +228,6 @@
       "averageHits": 0.0,
       "totalHits": 0,
       "successAttempts": 10,
-      "totalAttempts": 10,
-      "disabled": false
-    },
-    {
-      "name": "Forge Daughter Arena",
-      "resets": 0,
-      "successRate": 0.9,
-      "recentSuccessRate": 1.0,
-      "averageHits": 0.1,
-      "totalHits": 1,
-      "successAttempts": 9,
       "totalAttempts": 10,
       "disabled": false
     },
