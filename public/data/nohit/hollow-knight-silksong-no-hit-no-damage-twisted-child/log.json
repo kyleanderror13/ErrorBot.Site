@@ -208,6 +208,61 @@
       "distance": false,
       "distanceSplitName": "The Marrow",
       "clipLink": null
+    },
+    {
+      "attempt": 20,
+      "date": "2026-08-08T20:30:03.7513863+08:00",
+      "hits": 2,
+      "progress": 0.09756097,
+      "resetSplitName": "Swift Step",
+      "pb": false,
+      "distance": false,
+      "distanceSplitName": "Swift Step",
+      "clipLink": null
+    },
+    {
+      "attempt": 21,
+      "date": "2026-08-08T20:31:48.2532846+08:00",
+      "hits": 1,
+      "progress": 0.0,
+      "resetSplitName": "Moss Mother",
+      "pb": false,
+      "distance": false,
+      "distanceSplitName": "Moss Mother",
+      "clipLink": null
+    },
+    {
+      "attempt": 22,
+      "date": "2026-08-08T20:53:17.3193163+08:00",
+      "hits": 1,
+      "progress": 0.17073171,
+      "resetSplitName": "Forge Daughter Arena",
+      "pb": false,
+      "distance": false,
+      "distanceSplitName": "Forge Daughter Arena",
+      "clipLink": null
+    },
+    {
+      "attempt": 23,
+      "date": "2026-08-09T14:53:58.2429967+08:00",
+      "hits": 1,
+      "progress": 0.0,
+      "resetSplitName": "Moss Mother",
+      "pb": false,
+      "distance": false,
+      "distanceSplitName": "Moss Mother",
+      "clipLink": null
+    },
+    {
+      "attempt": 24,
+      "date": "2026-08-09T15:15:13.4043786+08:00",
+      "hits": 1,
+      "progress": 0.17073171,
+      "resetSplitName": "Forge Daughter Arena",
+      "pb": false,
+      "distance": false,
+      "distanceSplitName": "Forge Daughter Arena",
+      "clipLink": null
     }
   ]
 }
