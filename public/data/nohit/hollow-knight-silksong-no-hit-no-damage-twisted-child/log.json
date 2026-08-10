@@ -263,6 +263,17 @@
       "distance": false,
       "distanceSplitName": "Forge Daughter Arena",
       "clipLink": null
+    },
+    {
+      "attempt": 25,
+      "date": "2026-08-10T23:46:07.5786682+08:00",
+      "hits": 2,
+      "progress": 0.902439,
+      "resetSplitName": null,
+      "pb": false,
+      "distance": false,
+      "distanceSplitName": "The Forum/Conductor's Melody",
+      "clipLink": null
     }
   ]
 }
