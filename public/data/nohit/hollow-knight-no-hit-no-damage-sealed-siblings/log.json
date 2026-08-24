@@ -5,22 +5,18 @@
       "date": "2025-04-11T19:50:29.6836531+08:00",
       "hits": 3,
       "progress": 0.4864865,
-      "resetSplitName": null,
       "pb": true,
       "distance": true,
-      "distanceSplitName": "Hornet Sentinel/King's Brand",
-      "clipLink": null
+      "distanceSplitName": "Hornet Sentinel/King's Brand"
     },
     {
       "attempt": 2,
       "date": "2025-04-28T22:38:55.9443441+08:00",
       "hits": 6,
       "progress": 0.27027026,
-      "resetSplitName": null,
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Soul Warrior/Shade Soul",
-      "clipLink": null
+      "distanceSplitName": "Soul Warrior/Shade Soul"
     },
     {
       "attempt": 3,
@@ -30,19 +26,16 @@
       "resetSplitName": "Descending Dark",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Descending Dark",
-      "clipLink": null
+      "distanceSplitName": "Descending Dark"
     },
     {
       "attempt": 4,
       "date": "2025-05-03T18:59:22.7243357+08:00",
       "hits": 1,
       "progress": 0.9189189,
-      "resetSplitName": null,
       "pb": true,
       "distance": true,
-      "distanceSplitName": "White Palace",
-      "clipLink": null
+      "distanceSplitName": "White Palace"
     },
     {
       "attempt": 5,
@@ -52,8 +45,7 @@
       "resetSplitName": "Hornet Sentinel/King's Brand",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Hornet Sentinel/King's Brand",
-      "clipLink": null
+      "distanceSplitName": "Hornet Sentinel/King's Brand"
     },
     {
       "attempt": 6,
@@ -63,8 +55,7 @@
       "resetSplitName": "Hornet Protector/Mothwing Cloak",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Hornet Protector/Mothwing Cloak",
-      "clipLink": null
+      "distanceSplitName": "Hornet Protector/Mothwing Cloak"
     },
     {
       "attempt": 7,
@@ -74,8 +65,7 @@
       "resetSplitName": "City of Tears (exit)",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "City of Tears (exit)",
-      "clipLink": null
+      "distanceSplitName": "City of Tears (exit)"
     },
     {
       "attempt": 8,
@@ -85,8 +75,7 @@
       "resetSplitName": "Soul Warrior/Shade Soul",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Soul Warrior/Shade Soul",
-      "clipLink": null
+      "distanceSplitName": "Soul Warrior/Shade Soul"
     },
     {
       "attempt": 9,
@@ -96,19 +85,16 @@
       "resetSplitName": "Soul Master/Desolate Dive",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Soul Master/Desolate Dive",
-      "clipLink": null
+      "distanceSplitName": "Soul Master/Desolate Dive"
     },
     {
       "attempt": 10,
       "date": "2025-05-12T23:15:17.5128036+08:00",
       "hits": 1,
       "progress": 0.7297297,
-      "resetSplitName": null,
       "pb": false,
       "distance": false,
-      "distanceSplitName": "No Eyes",
-      "clipLink": null
+      "distanceSplitName": "No Eyes"
     },
     {
       "attempt": 11,
@@ -118,8 +104,7 @@
       "resetSplitName": "Soul Warrior/Shade Soul",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Soul Warrior/Shade Soul",
-      "clipLink": null
+      "distanceSplitName": "Soul Warrior/Shade Soul"
     },
     {
       "attempt": 12,
@@ -129,30 +114,25 @@
       "resetSplitName": "Broken Vessel/Monarch Wings",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Broken Vessel/Monarch Wings",
-      "clipLink": null
+      "distanceSplitName": "Broken Vessel/Monarch Wings"
     },
     {
       "attempt": 13,
       "date": "2025-08-18T00:40:07.2433159+08:00",
       "hits": 4,
       "progress": 0.74285716,
-      "resetSplitName": null,
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Queen's Gardens",
-      "clipLink": null
+      "distanceSplitName": "Queen's Gardens"
     },
     {
       "attempt": 14,
       "date": "2025-08-31T23:45:49.1277481+08:00",
       "hits": 2,
       "progress": 0.6857143,
-      "resetSplitName": null,
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Failed Champion",
-      "clipLink": null
+      "distanceSplitName": "Failed Champion"
     }
   ]
 }

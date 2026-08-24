@@ -56,28 +56,6 @@
       "disabled": false
     },
     {
-      "name": "Flea (Swift Step)",
-      "resets": 0,
-      "successRate": 1.0,
-      "recentSuccessRate": 1.0,
-      "averageHits": 0.0,
-      "totalHits": 0,
-      "successAttempts": 16,
-      "totalAttempts": 16,
-      "disabled": false
-    },
-    {
-      "name": "Flea (Deep Docks Bellway)",
-      "resets": 0,
-      "successRate": 1.0,
-      "recentSuccessRate": 1.0,
-      "averageHits": 0.0,
-      "totalHits": 0,
-      "successAttempts": 16,
-      "totalAttempts": 16,
-      "disabled": false
-    },
-    {
       "name": "Forge Daughter Arena",
       "resets": 2,
       "successRate": 0.78571427,
@@ -97,17 +75,6 @@
       "totalHits": 0,
       "successAttempts": 14,
       "totalAttempts": 14,
-      "disabled": false
-    },
-    {
-      "name": "Flea (Far Fields)",
-      "resets": 1,
-      "successRate": 0.9230769,
-      "recentSuccessRate": 0.8,
-      "averageHits": 0.07692308,
-      "totalHits": 1,
-      "successAttempts": 12,
-      "totalAttempts": 13,
       "disabled": false
     },
     {
@@ -133,36 +100,14 @@
       "disabled": false
     },
     {
-      "name": "Flea (Hunter's March)",
+      "name": "Moorwing",
       "resets": 0,
-      "successRate": 0.9166667,
-      "recentSuccessRate": 1.0,
-      "averageHits": 0.083333336,
-      "totalHits": 1,
-      "successAttempts": 11,
-      "totalAttempts": 12,
-      "disabled": false
-    },
-    {
-      "name": "Flea (The Marrow)",
-      "resets": 0,
-      "successRate": 1.0,
-      "recentSuccessRate": 1.0,
+      "successRate": "NaN",
+      "recentSuccessRate": 0.0,
       "averageHits": 0.0,
       "totalHits": 0,
-      "successAttempts": 12,
-      "totalAttempts": 12,
-      "disabled": false
-    },
-    {
-      "name": "The Lost Fleas",
-      "resets": 1,
-      "successRate": 0.9166667,
-      "recentSuccessRate": 1.0,
-      "averageHits": 0.083333336,
-      "totalHits": 1,
-      "successAttempts": 11,
-      "totalAttempts": 12,
+      "successAttempts": 0,
+      "totalAttempts": 0,
       "disabled": false
     },
     {
@@ -364,17 +309,6 @@
       "disabled": false
     },
     {
-      "name": "Twisted Bud",
-      "resets": 0,
-      "successRate": 0.72727275,
-      "recentSuccessRate": 1.0,
-      "averageHits": 0.27272728,
-      "totalHits": 3,
-      "successAttempts": 8,
-      "totalAttempts": 11,
-      "disabled": false
-    },
-    {
       "name": "Vaultkeeper's Melody",
       "resets": 0,
       "successRate": 1.0,
@@ -382,6 +316,17 @@
       "averageHits": 0.0,
       "totalHits": 0,
       "successAttempts": 11,
+      "totalAttempts": 11,
+      "disabled": false
+    },
+    {
+      "name": "Twisted Bud",
+      "resets": 0,
+      "successRate": 0.72727275,
+      "recentSuccessRate": 1.0,
+      "averageHits": 0.27272728,
+      "totalHits": 3,
+      "successAttempts": 8,
       "totalAttempts": 11,
       "disabled": false
     },
@@ -460,6 +405,72 @@
       "totalHits": 1,
       "successAttempts": 6,
       "totalAttempts": 7,
+      "disabled": true
+    },
+    {
+      "name": "Flea (Swift Step)",
+      "resets": 0,
+      "successRate": 1.0,
+      "recentSuccessRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 16,
+      "totalAttempts": 16,
+      "disabled": true
+    },
+    {
+      "name": "Flea (Deep Docks Bellway)",
+      "resets": 0,
+      "successRate": 1.0,
+      "recentSuccessRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 16,
+      "totalAttempts": 16,
+      "disabled": true
+    },
+    {
+      "name": "Flea (Far Fields)",
+      "resets": 1,
+      "successRate": 0.9230769,
+      "recentSuccessRate": 0.8,
+      "averageHits": 0.07692308,
+      "totalHits": 1,
+      "successAttempts": 12,
+      "totalAttempts": 13,
+      "disabled": true
+    },
+    {
+      "name": "Flea (Hunter's March)",
+      "resets": 0,
+      "successRate": 0.9166667,
+      "recentSuccessRate": 1.0,
+      "averageHits": 0.083333336,
+      "totalHits": 1,
+      "successAttempts": 11,
+      "totalAttempts": 12,
+      "disabled": true
+    },
+    {
+      "name": "Flea (The Marrow)",
+      "resets": 0,
+      "successRate": 1.0,
+      "recentSuccessRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 12,
+      "totalAttempts": 12,
+      "disabled": true
+    },
+    {
+      "name": "The Lost Fleas",
+      "resets": 1,
+      "successRate": 0.9166667,
+      "recentSuccessRate": 1.0,
+      "averageHits": 0.083333336,
+      "totalHits": 1,
+      "successAttempts": 11,
+      "totalAttempts": 12,
       "disabled": true
     }
   ]

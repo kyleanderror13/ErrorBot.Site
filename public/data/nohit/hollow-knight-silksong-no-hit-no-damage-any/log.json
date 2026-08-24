@@ -5,22 +5,18 @@
       "date": "2025-10-27T23:35:25.0273738+08:00",
       "hits": 23,
       "progress": 0.1521739,
-      "resetSplitName": null,
       "pb": true,
       "distance": true,
-      "distanceSplitName": "Flea (Deep Docks Bellway)",
-      "clipLink": null
+      "distanceSplitName": "Flea (Deep Docks Bellway)"
     },
     {
       "attempt": 2,
       "date": "2025-10-30T23:39:42.2419362+08:00",
       "hits": 33,
       "progress": 0.10869565,
-      "resetSplitName": null,
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Swift Step",
-      "clipLink": null
+      "distanceSplitName": "Swift Step"
     },
     {
       "attempt": 3,
@@ -30,8 +26,7 @@
       "resetSplitName": "Swift Step",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Swift Step",
-      "clipLink": null
+      "distanceSplitName": "Swift Step"
     },
     {
       "attempt": 4,
@@ -41,30 +36,25 @@
       "resetSplitName": "Silk Spear",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Silk Spear",
-      "clipLink": null
+      "distanceSplitName": "Silk Spear"
     },
     {
       "attempt": 5,
       "date": "2025-11-09T18:30:28.5376645+08:00",
       "hits": 34,
       "progress": 0.17391305,
-      "resetSplitName": null,
       "pb": false,
       "distance": true,
-      "distanceSplitName": "Lace (Deep Docks)",
-      "clipLink": null
+      "distanceSplitName": "Lace (Deep Docks)"
     },
     {
       "attempt": 6,
       "date": "2025-11-09T23:51:33.3944682+08:00",
       "hits": 20,
       "progress": 0.08695652,
-      "resetSplitName": null,
       "pb": true,
       "distance": false,
-      "distanceSplitName": "Swift Step",
-      "clipLink": null
+      "distanceSplitName": "Swift Step"
     },
     {
       "attempt": 7,
@@ -74,8 +64,7 @@
       "resetSplitName": "Moss Mother",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Moss Mother",
-      "clipLink": null
+      "distanceSplitName": "Moss Mother"
     },
     {
       "attempt": 8,
@@ -85,8 +74,7 @@
       "resetSplitName": "The Marrow",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "The Marrow",
-      "clipLink": null
+      "distanceSplitName": "The Marrow"
     },
     {
       "attempt": 9,
@@ -96,8 +84,7 @@
       "resetSplitName": "The Marrow",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "The Marrow",
-      "clipLink": null
+      "distanceSplitName": "The Marrow"
     },
     {
       "attempt": 10,
@@ -107,19 +94,16 @@
       "resetSplitName": "Moss Mother",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Moss Mother",
-      "clipLink": null
+      "distanceSplitName": "Moss Mother"
     },
     {
       "attempt": 11,
       "date": "2025-11-13T20:50:58.1173267+08:00",
       "hits": 24,
       "progress": 0.23913044,
-      "resetSplitName": null,
       "pb": false,
       "distance": true,
-      "distanceSplitName": "Flea (Far Fields)",
-      "clipLink": null
+      "distanceSplitName": "Flea (Far Fields)"
     },
     {
       "attempt": 12,
@@ -129,8 +113,7 @@
       "resetSplitName": "Moss Mother",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Moss Mother",
-      "clipLink": null
+      "distanceSplitName": "Moss Mother"
     },
     {
       "attempt": 13,
@@ -140,41 +123,34 @@
       "resetSplitName": "Moss Mother",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Moss Mother",
-      "clipLink": null
+      "distanceSplitName": "Moss Mother"
     },
     {
       "attempt": 14,
       "date": "2025-11-19T00:10:50.2989778+08:00",
       "hits": 12,
       "progress": 0.3478261,
-      "resetSplitName": null,
       "pb": true,
       "distance": true,
-      "distanceSplitName": "Shellwood Arena",
-      "clipLink": null
+      "distanceSplitName": "Shellwood Arena"
     },
     {
       "attempt": 15,
       "date": "2025-11-23T23:15:27.7401272+08:00",
       "hits": 10,
       "progress": 0.39130434,
-      "resetSplitName": null,
       "pb": true,
       "distance": true,
-      "distanceSplitName": "Cling Grip",
-      "clipLink": null
+      "distanceSplitName": "Cling Grip"
     },
     {
       "attempt": 16,
       "date": "2025-11-25T23:47:55.9001509+08:00",
       "hits": 8,
       "progress": 0.32608697,
-      "resetSplitName": null,
       "pb": true,
       "distance": false,
-      "distanceSplitName": "The Lost Fleas",
-      "clipLink": null
+      "distanceSplitName": "The Lost Fleas"
     },
     {
       "attempt": 17,
@@ -184,8 +160,7 @@
       "resetSplitName": "Swift Step",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Swift Step",
-      "clipLink": null
+      "distanceSplitName": "Swift Step"
     },
     {
       "attempt": 18,
@@ -195,19 +170,16 @@
       "resetSplitName": "Moss Mother",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Moss Mother",
-      "clipLink": null
+      "distanceSplitName": "Moss Mother"
     },
     {
       "attempt": 19,
       "date": "2025-12-02T19:25:37.8163849+08:00",
       "hits": 19,
       "progress": 0.19565217,
-      "resetSplitName": null,
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Drifter's Cloak",
-      "clipLink": null
+      "distanceSplitName": "Drifter's Cloak"
     },
     {
       "attempt": 20,
@@ -217,41 +189,34 @@
       "resetSplitName": "Pollip Pouch",
       "pb": false,
       "distance": true,
-      "distanceSplitName": "Pollip Pouch",
-      "clipLink": null
+      "distanceSplitName": "Pollip Pouch"
     },
     {
       "attempt": 21,
       "date": "2025-12-03T00:14:26.7286559+08:00",
       "hits": 17,
       "progress": 0.2173913,
-      "resetSplitName": null,
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Fourth Chorus",
-      "clipLink": null
+      "distanceSplitName": "Fourth Chorus"
     },
     {
       "attempt": 22,
       "date": "2025-12-09T19:05:31.9868995+08:00",
       "hits": 12,
       "progress": 0.6956522,
-      "resetSplitName": null,
       "pb": false,
       "distance": true,
-      "distanceSplitName": "Cogwork Dancers",
-      "clipLink": null
+      "distanceSplitName": "Cogwork Dancers"
     },
     {
       "attempt": 23,
       "date": "2025-12-09T23:42:10.6672842+08:00",
       "hits": 6,
       "progress": 0.7173913,
-      "resetSplitName": null,
       "pb": true,
       "distance": true,
-      "distanceSplitName": "Whispering Vaults Arena",
-      "clipLink": null
+      "distanceSplitName": "Whispering Vaults Arena"
     },
     {
       "attempt": 24,
@@ -261,8 +226,7 @@
       "resetSplitName": "Shellwood Arena",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Flea (Hunter's March)",
-      "clipLink": null
+      "distanceSplitName": "Flea (Hunter's March)"
     },
     {
       "attempt": 25,
@@ -272,41 +236,34 @@
       "resetSplitName": "Swift Step",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Swift Step",
-      "clipLink": null
+      "distanceSplitName": "Swift Step"
     },
     {
       "attempt": 26,
       "date": "2025-12-15T00:25:24.8247029+08:00",
       "hits": 19,
       "progress": 0.3478261,
-      "resetSplitName": null,
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Shellwood Arena",
-      "clipLink": null
+      "distanceSplitName": "Shellwood Arena"
     },
     {
       "attempt": 27,
       "date": "2025-12-18T23:59:25.91694+08:00",
       "hits": 13,
       "progress": 0.54347825,
-      "resetSplitName": null,
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Forge Daughter Arena",
-      "clipLink": null
+      "distanceSplitName": "Forge Daughter Arena"
     },
     {
       "attempt": 28,
       "date": "2025-12-19T00:00:00.4799168+08:00",
       "hits": 13,
       "progress": 0.54347825,
-      "resetSplitName": null,
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Forge Daughter Arena",
-      "clipLink": null
+      "distanceSplitName": "Forge Daughter Arena"
     },
     {
       "attempt": 29,
@@ -316,8 +273,7 @@
       "resetSplitName": "Silk Spear",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Silk Spear",
-      "clipLink": null
+      "distanceSplitName": "Silk Spear"
     },
     {
       "attempt": 30,
@@ -327,19 +283,16 @@
       "resetSplitName": "Bell Beast",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Bell Beast",
-      "clipLink": null
+      "distanceSplitName": "Bell Beast"
     },
     {
       "attempt": 31,
       "date": "2025-12-30T23:26:51.3989187+08:00",
       "hits": 15,
       "progress": 0.08695652,
-      "resetSplitName": null,
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Swift Step",
-      "clipLink": null
+      "distanceSplitName": "Swift Step"
     },
     {
       "attempt": 32,
@@ -349,8 +302,7 @@
       "resetSplitName": "Moss Mother",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Moss Mother",
-      "clipLink": null
+      "distanceSplitName": "Moss Mother"
     },
     {
       "attempt": 33,
@@ -360,8 +312,7 @@
       "resetSplitName": "Lace (Deep Docks)",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Lace (Deep Docks)",
-      "clipLink": null
+      "distanceSplitName": "Lace (Deep Docks)"
     },
     {
       "attempt": 34,
@@ -371,30 +322,25 @@
       "resetSplitName": "The Marrow",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "The Marrow",
-      "clipLink": null
+      "distanceSplitName": "The Marrow"
     },
     {
       "attempt": 35,
       "date": "2026-01-05T00:33:17.7410488+08:00",
       "hits": 14,
       "progress": 0.36956522,
-      "resetSplitName": null,
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Shellwood Arena",
-      "clipLink": null
+      "distanceSplitName": "Shellwood Arena"
     },
     {
       "attempt": 36,
       "date": "2026-01-07T23:13:04.6044879+08:00",
       "hits": 6,
       "progress": 0.075,
-      "resetSplitName": null,
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Bell Beast",
-      "clipLink": null
+      "distanceSplitName": "Bell Beast"
     },
     {
       "attempt": 37,
@@ -404,19 +350,16 @@
       "resetSplitName": "Moss Mother",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Moss Mother",
-      "clipLink": null
+      "distanceSplitName": "Moss Mother"
     },
     {
       "attempt": 38,
       "date": "2026-01-11T22:28:42.5114808+08:00",
       "hits": 8,
       "progress": 0.25,
-      "resetSplitName": null,
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Flea (Far Fields)",
-      "clipLink": null
+      "distanceSplitName": "Flea (Far Fields)"
     },
     {
       "attempt": 39,
@@ -426,19 +369,16 @@
       "resetSplitName": "The Marrow",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "The Marrow",
-      "clipLink": null
+      "distanceSplitName": "The Marrow"
     },
     {
       "attempt": 40,
       "date": "2026-01-14T23:08:45.1789139+08:00",
       "hits": 12,
       "progress": 0.6,
-      "resetSplitName": null,
       "pb": false,
       "distance": false,
-      "distanceSplitName": "The Mist",
-      "clipLink": null
+      "distanceSplitName": "The Mist"
     },
     {
       "attempt": 41,
@@ -448,30 +388,25 @@
       "resetSplitName": "The Marrow",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "The Marrow",
-      "clipLink": null
+      "distanceSplitName": "The Marrow"
     },
     {
       "attempt": 42,
       "date": "2026-01-20T23:18:58.8864477+08:00",
       "hits": 15,
       "progress": 0.225,
-      "resetSplitName": null,
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Fourth Chorus",
-      "clipLink": null
+      "distanceSplitName": "Fourth Chorus"
     },
     {
       "attempt": 43,
       "date": "2026-01-25T22:10:50.5085391+08:00",
       "hits": 8,
       "progress": 0.3,
-      "resetSplitName": null,
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Flea (The Marrow)",
-      "clipLink": null
+      "distanceSplitName": "Flea (The Marrow)"
     },
     {
       "attempt": 44,
@@ -481,19 +416,16 @@
       "resetSplitName": "The Marrow",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "The Marrow",
-      "clipLink": null
+      "distanceSplitName": "The Marrow"
     },
     {
       "attempt": 45,
       "date": "2026-02-08T22:32:14.3189186+08:00",
       "hits": 12,
       "progress": 0.3,
-      "resetSplitName": null,
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Flea (The Marrow)",
-      "clipLink": null
+      "distanceSplitName": "Flea (The Marrow)"
     },
     {
       "attempt": 46,
@@ -503,8 +435,7 @@
       "resetSplitName": "The Mist",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Lace (Deep Docks)",
-      "clipLink": null
+      "distanceSplitName": "Lace (Deep Docks)"
     },
     {
       "attempt": 47,
@@ -514,8 +445,7 @@
       "resetSplitName": "Swift Step",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Swift Step",
-      "clipLink": null
+      "distanceSplitName": "Swift Step"
     },
     {
       "attempt": 48,
@@ -525,8 +455,7 @@
       "resetSplitName": "Moss Mother",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Moss Mother",
-      "clipLink": null
+      "distanceSplitName": "Moss Mother"
     },
     {
       "attempt": 49,
@@ -536,8 +465,7 @@
       "resetSplitName": "The Mist",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Widow",
-      "clipLink": null
+      "distanceSplitName": "Widow"
     },
     {
       "attempt": 50,
@@ -547,41 +475,34 @@
       "resetSplitName": "Whispering Vaults Arena",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Shellwood Arena",
-      "clipLink": null
+      "distanceSplitName": "Shellwood Arena"
     },
     {
       "attempt": 51,
       "date": "2026-02-18T19:27:01.2211997+08:00",
       "hits": 11,
       "progress": 0.41025642,
-      "resetSplitName": null,
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Widow",
-      "clipLink": null
+      "distanceSplitName": "Widow"
     },
     {
       "attempt": 52,
       "date": "2026-02-24T23:24:15.8231102+08:00",
       "hits": 2,
       "progress": 0.6666667,
-      "resetSplitName": null,
       "pb": true,
       "distance": false,
-      "distanceSplitName": "Cogwork Dancers",
-      "clipLink": null
+      "distanceSplitName": "Cogwork Dancers"
     },
     {
       "attempt": 53,
       "date": "2026-03-03T22:27:21.1111538+08:00",
       "hits": 8,
       "progress": 0.53846157,
-      "resetSplitName": null,
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Greymoor Memory Locket",
-      "clipLink": null
+      "distanceSplitName": "Greymoor Memory Locket"
     },
     {
       "attempt": 54,
@@ -591,15 +512,13 @@
       "resetSplitName": "Moss Mother",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Moss Mother",
-      "clipLink": null
+      "distanceSplitName": "Moss Mother"
     },
     {
       "attempt": 55,
       "date": "2026-03-05T21:13:06.4965188+08:00",
       "hits": 1,
       "progress": 0.9230769,
-      "resetSplitName": null,
       "pb": true,
       "distance": true,
       "distanceSplitName": "The Forum/Conductor's Melody",
@@ -613,8 +532,7 @@
       "resetSplitName": "Forge Daughter Arena",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Forge Daughter Arena",
-      "clipLink": null
+      "distanceSplitName": "Forge Daughter Arena"
     },
     {
       "attempt": 57,
@@ -624,8 +542,7 @@
       "resetSplitName": "Swift Step",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Swift Step",
-      "clipLink": null
+      "distanceSplitName": "Swift Step"
     },
     {
       "attempt": 58,
@@ -635,8 +552,7 @@
       "resetSplitName": "Bell Beast",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Bell Beast",
-      "clipLink": null
+      "distanceSplitName": "Bell Beast"
     },
     {
       "attempt": 59,
@@ -646,8 +562,7 @@
       "resetSplitName": "Sinner's Road",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Sinner's Road",
-      "clipLink": null
+      "distanceSplitName": "Sinner's Road"
     },
     {
       "attempt": 60,
@@ -657,8 +572,7 @@
       "resetSplitName": "Swift Step",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Swift Step",
-      "clipLink": null
+      "distanceSplitName": "Swift Step"
     },
     {
       "attempt": 61,
@@ -668,8 +582,7 @@
       "resetSplitName": "The Mist",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "The Mist",
-      "clipLink": null
+      "distanceSplitName": "The Mist"
     },
     {
       "attempt": 62,
@@ -679,8 +592,7 @@
       "resetSplitName": "Bell Beast",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Bell Beast",
-      "clipLink": null
+      "distanceSplitName": "Bell Beast"
     },
     {
       "attempt": 63,
@@ -690,8 +602,7 @@
       "resetSplitName": "Moss Mother",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Moss Mother",
-      "clipLink": null
+      "distanceSplitName": "Moss Mother"
     },
     {
       "attempt": 64,
@@ -701,8 +612,7 @@
       "resetSplitName": "Flea (Swift Step)",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Flea (Swift Step)",
-      "clipLink": null
+      "distanceSplitName": "Flea (Swift Step)"
     },
     {
       "attempt": 65,
@@ -712,19 +622,16 @@
       "resetSplitName": "Moss Mother",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Moss Mother",
-      "clipLink": null
+      "distanceSplitName": "Moss Mother"
     },
     {
       "attempt": 66,
       "date": "2026-04-05T22:19:13.4886115+08:00",
       "hits": 8,
       "progress": 0.41025642,
-      "resetSplitName": null,
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Widow",
-      "clipLink": null
+      "distanceSplitName": "Widow"
     },
     {
       "attempt": 67,
@@ -734,19 +641,16 @@
       "resetSplitName": "Widow",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Widow",
-      "clipLink": null
+      "distanceSplitName": "Widow"
     },
     {
       "attempt": 68,
       "date": "2026-04-18T15:48:18.1034197+08:00",
       "hits": 9,
       "progress": 0.41025642,
-      "resetSplitName": null,
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Widow",
-      "clipLink": null
+      "distanceSplitName": "Widow"
     },
     {
       "attempt": 69,
@@ -756,8 +660,7 @@
       "resetSplitName": "The Marrow",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "The Marrow",
-      "clipLink": null
+      "distanceSplitName": "The Marrow"
     },
     {
       "attempt": 70,
@@ -767,8 +670,7 @@
       "resetSplitName": "Swift Step",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Swift Step",
-      "clipLink": null
+      "distanceSplitName": "Swift Step"
     },
     {
       "attempt": 71,
@@ -778,19 +680,16 @@
       "resetSplitName": "Cling Grip",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Cling Grip",
-      "clipLink": null
+      "distanceSplitName": "Cling Grip"
     },
     {
       "attempt": 72,
       "date": "2026-04-19T23:09:34.134491+08:00",
       "hits": 11,
       "progress": 0.5897436,
-      "resetSplitName": null,
       "pb": false,
       "distance": false,
-      "distanceSplitName": "The Mist",
-      "clipLink": null
+      "distanceSplitName": "The Mist"
     },
     {
       "attempt": 73,
@@ -800,8 +699,7 @@
       "resetSplitName": "Sharpened Needle",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Cling Grip",
-      "clipLink": null
+      "distanceSplitName": "Cling Grip"
     },
     {
       "attempt": 74,
@@ -811,30 +709,25 @@
       "resetSplitName": "Fourth Chorus",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Fourth Chorus",
-      "clipLink": null
+      "distanceSplitName": "Fourth Chorus"
     },
     {
       "attempt": 75,
       "date": "2026-04-26T23:04:45.0801297+08:00",
       "hits": 12,
       "progress": 0.25641027,
-      "resetSplitName": null,
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Flea (Far Fields)",
-      "clipLink": null
+      "distanceSplitName": "Flea (Far Fields)"
     },
     {
       "attempt": 76,
       "date": "2026-04-29T00:11:41.2452634+08:00",
       "hits": 6,
       "progress": 0.55,
-      "resetSplitName": null,
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Reaper Crest",
-      "clipLink": null
+      "distanceSplitName": "Reaper Crest"
     },
     {
       "attempt": 77,
@@ -852,7 +745,6 @@
       "date": "2026-04-30T13:51:02.1218765+08:00",
       "hits": 8,
       "progress": 0.6,
-      "resetSplitName": null,
       "pb": false,
       "distance": false,
       "distanceSplitName": "The Mist",
@@ -899,8 +791,7 @@
       "resetSplitName": "Fourth Chorus",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Fourth Chorus",
-      "clipLink": null
+      "distanceSplitName": "Fourth Chorus"
     },
     {
       "attempt": 83,
@@ -918,7 +809,6 @@
       "date": "2026-05-04T00:00:28.7817579+08:00",
       "hits": 3,
       "progress": 0.575,
-      "resetSplitName": null,
       "pb": false,
       "distance": false,
       "distanceSplitName": "Sinner's Road",
@@ -940,7 +830,6 @@
       "date": "2026-05-06T14:34:23.1687006+08:00",
       "hits": 7,
       "progress": 0.5,
-      "resetSplitName": null,
       "pb": false,
       "distance": false,
       "distanceSplitName": "Forge Daughter Arena",
@@ -962,7 +851,6 @@
       "date": "2026-05-12T22:59:05.5160964+08:00",
       "hits": 7,
       "progress": 0.675,
-      "resetSplitName": null,
       "pb": false,
       "distance": false,
       "distanceSplitName": "Cogwork Dancers",
@@ -984,7 +872,6 @@
       "date": "2026-05-19T22:42:30.2183014+08:00",
       "hits": 4,
       "progress": 0.575,
-      "resetSplitName": null,
       "pb": false,
       "distance": false,
       "distanceSplitName": "Sinner's Road",
@@ -1006,7 +893,6 @@
       "date": "2026-05-24T22:47:22.3289698+08:00",
       "hits": 4,
       "progress": 0.4,
-      "resetSplitName": null,
       "pb": false,
       "distance": false,
       "distanceSplitName": "Widow",
@@ -1028,7 +914,6 @@
       "date": "2026-05-26T22:42:23.4876416+08:00",
       "hits": 3,
       "progress": 0.4,
-      "resetSplitName": null,
       "pb": false,
       "distance": false,
       "distanceSplitName": "Widow",
@@ -1061,7 +946,6 @@
       "date": "2026-06-02T22:48:52.4580032+08:00",
       "hits": 5,
       "progress": 0.6,
-      "resetSplitName": null,
       "pb": false,
       "distance": false,
       "distanceSplitName": "The Mist",
@@ -1094,7 +978,6 @@
       "date": "2026-06-03T13:42:14.6383884+08:00",
       "hits": 2,
       "progress": 0.275,
-      "resetSplitName": null,
       "pb": false,
       "distance": false,
       "distanceSplitName": "Flea (Hunter's March)",
@@ -1116,7 +999,6 @@
       "date": "2026-06-11T23:13:43.5784836+08:00",
       "hits": 2,
       "progress": 0.825,
-      "resetSplitName": null,
       "pb": false,
       "distance": false,
       "distanceSplitName": "Clawline Arena",
@@ -1127,7 +1009,6 @@
       "date": "2026-06-21T22:15:40.4979307+08:00",
       "hits": 2,
       "progress": 0.575,
-      "resetSplitName": null,
       "pb": false,
       "distance": false,
       "distanceSplitName": "Sinner's Road",
@@ -1182,7 +1063,6 @@
       "date": "2026-06-23T23:06:34.3103481+08:00",
       "hits": 2,
       "progress": 0.95,
-      "resetSplitName": null,
       "pb": false,
       "distance": true,
       "distanceSplitName": "Lace (The Cradle)",
@@ -1204,7 +1084,6 @@
       "date": "2026-06-25T23:00:09.0921601+08:00",
       "hits": 2,
       "progress": 0.8,
-      "resetSplitName": null,
       "pb": false,
       "distance": false,
       "distanceSplitName": "Clawline",
@@ -1259,7 +1138,6 @@
       "date": "2026-06-30T23:17:29.4018577+08:00",
       "hits": 1,
       "progress": 0.925,
-      "resetSplitName": null,
       "pb": false,
       "distance": false,
       "distanceSplitName": "The Forum/Conductor's Melody",
@@ -1281,7 +1159,6 @@
       "date": "2026-07-01T22:26:03.7790644+08:00",
       "hits": 3,
       "progress": 0.925,
-      "resetSplitName": null,
       "pb": false,
       "distance": false,
       "distanceSplitName": "The Forum/Conductor's Melody",
@@ -1317,8 +1194,7 @@
       "resetSplitName": "Cogwork Dancers",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Cogwork Dancers",
-      "clipLink": null
+      "distanceSplitName": "Cogwork Dancers"
     },
     {
       "attempt": 121,
@@ -1328,15 +1204,13 @@
       "resetSplitName": "Bell Beast",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Bell Beast",
-      "clipLink": null
+      "distanceSplitName": "Bell Beast"
     },
     {
       "attempt": 122,
       "date": "2026-07-06T00:30:58.6697768+08:00",
       "hits": 1,
       "progress": 0.975,
-      "resetSplitName": null,
       "pb": false,
       "distance": true,
       "distanceSplitName": "Grand Mother Silk",
@@ -1350,8 +1224,7 @@
       "resetSplitName": "The Marrow",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "The Marrow",
-      "clipLink": null
+      "distanceSplitName": "The Marrow"
     },
     {
       "attempt": 124,
@@ -1361,8 +1234,7 @@
       "resetSplitName": "Drifter's Cloak",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Drifter's Cloak",
-      "clipLink": null
+      "distanceSplitName": "Drifter's Cloak"
     },
     {
       "attempt": 125,
@@ -1372,26 +1244,22 @@
       "resetSplitName": "Drifter's Cloak",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Drifter's Cloak",
-      "clipLink": null
+      "distanceSplitName": "Drifter's Cloak"
     },
     {
       "attempt": 126,
       "date": "2026-07-07T22:14:17.8357874+08:00",
       "hits": 3,
       "progress": 0.925,
-      "resetSplitName": null,
       "pb": false,
       "distance": false,
-      "distanceSplitName": "The Forum/Conductor's Melody",
-      "clipLink": null
+      "distanceSplitName": "The Forum/Conductor's Melody"
     },
     {
       "attempt": 127,
       "date": "2026-07-08T00:52:08.0280817+08:00",
       "hits": 1,
       "progress": 0.975,
-      "resetSplitName": null,
       "pb": false,
       "distance": false,
       "distanceSplitName": "Grand Mother Silk",
@@ -1413,7 +1281,6 @@
       "date": "2026-07-12T22:29:13.3095177+08:00",
       "hits": 2,
       "progress": 0.9,
-      "resetSplitName": null,
       "pb": false,
       "distance": false,
       "distanceSplitName": "High Halls",
@@ -1468,7 +1335,6 @@
       "date": "2026-07-14T23:06:13.7238635+08:00",
       "hits": 1,
       "progress": 0.925,
-      "resetSplitName": null,
       "pb": false,
       "distance": false,
       "distanceSplitName": "The Forum/Conductor's Melody",
@@ -1482,8 +1348,7 @@
       "resetSplitName": "Swift Step",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Swift Step",
-      "clipLink": null
+      "distanceSplitName": "Swift Step"
     },
     {
       "attempt": 136,
@@ -1493,8 +1358,7 @@
       "resetSplitName": "Fourth Chorus",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Fourth Chorus",
-      "clipLink": null
+      "distanceSplitName": "Fourth Chorus"
     },
     {
       "attempt": 137,
@@ -1537,8 +1401,7 @@
       "resetSplitName": "Flea (Hunter's March)",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Flea (Hunter's March)",
-      "clipLink": null
+      "distanceSplitName": "Flea (Hunter's March)"
     },
     {
       "attempt": 141,
@@ -1556,7 +1419,6 @@
       "date": "2026-07-21T22:53:36.7226492+08:00",
       "hits": 1,
       "progress": 0.925,
-      "resetSplitName": null,
       "pb": false,
       "distance": false,
       "distanceSplitName": "The Forum/Conductor's Melody",
@@ -1633,7 +1495,6 @@
       "date": "2026-07-26T22:32:51.9366005+08:00",
       "hits": 1,
       "progress": 0.625,
-      "resetSplitName": null,
       "pb": false,
       "distance": false,
       "distanceSplitName": "Phantom",
@@ -1666,7 +1527,6 @@
       "date": "2026-07-28T23:08:01.3133501+08:00",
       "hits": 1,
       "progress": 0.875,
-      "resetSplitName": null,
       "pb": false,
       "distance": false,
       "distanceSplitName": "Cogwork Core/Architect's Melody",
@@ -1710,11 +1570,8 @@
       "date": "2026-07-31T23:34:02.8378983+08:00",
       "hits": 0,
       "progress": 1.0,
-      "resetSplitName": null,
       "pb": true,
-      "distance": true,
-      "distanceSplitName": null,
-      "clipLink": null
+      "distance": true
     }
   ]
 }

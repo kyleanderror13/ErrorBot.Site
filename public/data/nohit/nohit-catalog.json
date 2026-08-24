@@ -6,11 +6,6 @@
       "category": "No Hit Any%",
       "status": "Completed",
       "attempts": 0,
-      "hitPB": null,
-      "distancePB": null,
-      "distancePBSplitName": null,
-      "distancePBClipLink": null,
-      "coverImage": null,
       "runLink": "https://www.youtube.com/watch?v=lWkV7oV6rYI"
     },
     {
@@ -21,10 +16,7 @@
       "attempts": 12,
       "hitPB": 9,
       "distancePB": 0.08695652,
-      "distancePBSplitName": "Chaos Witch Quelaag",
-      "distancePBClipLink": null,
-      "coverImage": null,
-      "runLink": null
+      "distancePBSplitName": "Chaos Witch Quelaag"
     },
     {
       "id": "dark-souls-remastered-no-hit-any",
@@ -32,11 +24,6 @@
       "category": "No Hit Any%",
       "status": "Completed",
       "attempts": 0,
-      "hitPB": null,
-      "distancePB": null,
-      "distancePBSplitName": null,
-      "distancePBClipLink": null,
-      "coverImage": null,
       "runLink": "https://www.youtube.com/watch?v=THNwoJx2XkU"
     },
     {
@@ -45,11 +32,6 @@
       "category": "No Hit No Damage Any%",
       "status": "Completed",
       "attempts": 0,
-      "hitPB": null,
-      "distancePB": null,
-      "distancePBSplitName": null,
-      "distancePBClipLink": null,
-      "coverImage": null,
       "runLink": "https://www.youtube.com/watch?v=sVUtU3omaMQ"
     },
     {
@@ -60,10 +42,7 @@
       "attempts": 1,
       "hitPB": 50,
       "distancePB": 0.07575758,
-      "distancePBSplitName": "Mantis Claw",
-      "distancePBClipLink": null,
-      "coverImage": null,
-      "runLink": null
+      "distancePBSplitName": "Mantis Claw"
     },
     {
       "id": "hollow-knight-no-hit-no-damage-all-skills",
@@ -71,11 +50,6 @@
       "category": "No Hit No Damage All Skills",
       "status": "Completed",
       "attempts": 0,
-      "hitPB": null,
-      "distancePB": null,
-      "distancePBSplitName": null,
-      "distancePBClipLink": null,
-      "coverImage": null,
       "runLink": "https://www.youtube.com/watch?v=p8VbL8-LUIs"
     },
     {
@@ -84,11 +58,6 @@
       "category": "No Hit No Damage Any%",
       "status": "Completed",
       "attempts": 0,
-      "hitPB": null,
-      "distancePB": null,
-      "distancePBSplitName": null,
-      "distancePBClipLink": null,
-      "coverImage": null,
       "runLink": "https://www.youtube.com/watch?v=4aFB6x7XQ_M"
     },
     {
@@ -99,10 +68,7 @@
       "attempts": 2,
       "hitPB": 10,
       "distancePB": 0.0,
-      "distancePBSplitName": "Trial of the Warrior",
-      "distancePBClipLink": null,
-      "coverImage": null,
-      "runLink": null
+      "distancePBSplitName": "Trial of the Warrior"
     },
     {
       "id": "hollow-knight-no-hit-no-damage-ghostbusters",
@@ -112,10 +78,7 @@
       "attempts": 3,
       "hitPB": 7,
       "distancePB": 0.375,
-      "distancePBSplitName": "Descending Dark",
-      "distancePBClipLink": null,
-      "coverImage": null,
-      "runLink": null
+      "distancePBSplitName": "Descending Dark"
     },
     {
       "id": "hollow-knight-no-hit-no-damage-pantheon-of-hallownest",
@@ -125,10 +88,7 @@
       "attempts": 97,
       "hitPB": 10,
       "distancePB": 0.6666667,
-      "distancePBSplitName": "Great Nailsage Sly",
-      "distancePBClipLink": null,
-      "coverImage": null,
-      "runLink": null
+      "distancePBSplitName": "Great Nailsage Sly"
     },
     {
       "id": "hollow-knight-no-hit-no-damage-sealed-siblings",
@@ -138,10 +98,7 @@
       "attempts": 14,
       "hitPB": 1,
       "distancePB": 0.9189189,
-      "distancePBSplitName": "White Palace",
-      "distancePBClipLink": null,
-      "coverImage": null,
-      "runLink": null
+      "distancePBSplitName": "White Palace"
     },
     {
       "id": "hollow-knight-no-hit-no-damage-true-ending",
@@ -151,9 +108,6 @@
       "attempts": 207,
       "hitPB": 0,
       "distancePB": 1.0,
-      "distancePBSplitName": null,
-      "distancePBClipLink": null,
-      "coverImage": null,
       "runLink": "https://www.youtube.com/watch?v=E1ZdOd5aGFQ"
     },
     {
@@ -164,9 +118,6 @@
       "attempts": 156,
       "hitPB": 0,
       "distancePB": 1.0,
-      "distancePBSplitName": null,
-      "distancePBClipLink": null,
-      "coverImage": null,
       "runLink": "https://www.youtube.com/watch?v=1mFB1vXzLZY"
     },
     {
@@ -177,10 +128,7 @@
       "attempts": 25,
       "hitPB": 1,
       "distancePB": 0.902439,
-      "distancePBSplitName": "The Forum/Conductor's Melody",
-      "distancePBClipLink": null,
-      "coverImage": null,
-      "runLink": null
+      "distancePBSplitName": "The Forum/Conductor's Melody"
     }
   ]
 }

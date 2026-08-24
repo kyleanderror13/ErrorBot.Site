@@ -5,33 +5,27 @@
       "date": "2026-04-18T22:06:41.6935036+08:00",
       "hits": 7,
       "progress": 0.39534885,
-      "resetSplitName": null,
       "pb": true,
       "distance": true,
-      "distanceSplitName": "Widow/Needolin",
-      "clipLink": null
+      "distanceSplitName": "Widow/Needolin"
     },
     {
       "attempt": 2,
       "date": "2026-04-27T22:16:52.9424465+08:00",
       "hits": 12,
       "progress": 0.3809524,
-      "resetSplitName": null,
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Widow/Needolin",
-      "clipLink": null
+      "distanceSplitName": "Widow/Needolin"
     },
     {
       "attempt": 3,
       "date": "2026-04-29T14:45:07.1402393+08:00",
       "hits": 2,
       "progress": 0.47619048,
-      "resetSplitName": null,
       "pb": true,
       "distance": true,
-      "distanceSplitName": "Forge Daughter Arena",
-      "clipLink": null
+      "distanceSplitName": "Forge Daughter Arena"
     },
     {
       "attempt": 4,
@@ -41,19 +35,16 @@
       "resetSplitName": "Drifter's Cloak",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Drifter's Cloak",
-      "clipLink": null
+      "distanceSplitName": "Drifter's Cloak"
     },
     {
       "attempt": 5,
       "date": "2026-05-26T12:06:34.2636633+08:00",
       "hits": 11,
       "progress": 0.26190478,
-      "resetSplitName": null,
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Flea (Hunter's March)",
-      "clipLink": null
+      "distanceSplitName": "Flea (Hunter's March)"
     },
     {
       "attempt": 6,
@@ -63,19 +54,16 @@
       "resetSplitName": "The Lost Fleas",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Fourth Chorus",
-      "clipLink": null
+      "distanceSplitName": "Fourth Chorus"
     },
     {
       "attempt": 7,
       "date": "2026-06-10T13:25:25.8621488+08:00",
       "hits": 8,
       "progress": 0.35714287,
-      "resetSplitName": null,
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Pollip Pouch",
-      "clipLink": null
+      "distanceSplitName": "Pollip Pouch"
     },
     {
       "attempt": 8,
@@ -85,30 +73,25 @@
       "resetSplitName": "The Marrow",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "The Marrow",
-      "clipLink": null
+      "distanceSplitName": "The Marrow"
     },
     {
       "attempt": 9,
       "date": "2026-06-20T15:03:40.8509027+08:00",
       "hits": 5,
       "progress": 0.54761904,
-      "resetSplitName": null,
       "pb": false,
       "distance": true,
-      "distanceSplitName": "The Mist",
-      "clipLink": null
+      "distanceSplitName": "The Mist"
     },
     {
       "attempt": 10,
       "date": "2026-06-30T15:39:27.3432598+08:00",
       "hits": 6,
       "progress": 0.7380952,
-      "resetSplitName": null,
       "pb": false,
       "distance": true,
-      "distanceSplitName": "Clawline",
-      "clipLink": null
+      "distanceSplitName": "Clawline"
     },
     {
       "attempt": 11,
@@ -118,8 +101,7 @@
       "resetSplitName": "Bell Beast",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Bell Beast",
-      "clipLink": null
+      "distanceSplitName": "Bell Beast"
     },
     {
       "attempt": 12,
@@ -129,8 +111,7 @@
       "resetSplitName": "The Marrow",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Moss Mother",
-      "clipLink": null
+      "distanceSplitName": "Moss Mother"
     },
     {
       "attempt": 13,
@@ -140,41 +121,34 @@
       "resetSplitName": "Moss Mother",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Moss Mother",
-      "clipLink": null
+      "distanceSplitName": "Moss Mother"
     },
     {
       "attempt": 14,
       "date": "2026-07-03T13:54:31.7656199+08:00",
       "hits": 3,
       "progress": 0.36585367,
-      "resetSplitName": null,
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Pollip Pouch",
-      "clipLink": null
+      "distanceSplitName": "Pollip Pouch"
     },
     {
       "attempt": 15,
       "date": "2026-07-11T16:54:54.1476176+08:00",
       "hits": 1,
       "progress": 0.6097561,
-      "resetSplitName": null,
       "pb": true,
       "distance": false,
-      "distanceSplitName": "To Cogwork Dancers",
-      "clipLink": null
+      "distanceSplitName": "To Cogwork Dancers"
     },
     {
       "attempt": 16,
       "date": "2026-07-12T14:54:14.8642238+08:00",
       "hits": 4,
       "progress": 0.902439,
-      "resetSplitName": null,
       "pb": false,
       "distance": true,
-      "distanceSplitName": "The Forum/Conductor's Melody",
-      "clipLink": null
+      "distanceSplitName": "The Forum/Conductor's Melody"
     },
     {
       "attempt": 17,
@@ -184,8 +158,7 @@
       "resetSplitName": "Flea (Far Fields)",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Flea (Far Fields)",
-      "clipLink": null
+      "distanceSplitName": "Flea (Far Fields)"
     },
     {
       "attempt": 18,
@@ -195,8 +168,7 @@
       "resetSplitName": "Moss Mother",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Moss Mother",
-      "clipLink": null
+      "distanceSplitName": "Moss Mother"
     },
     {
       "attempt": 19,
@@ -206,8 +178,7 @@
       "resetSplitName": "The Marrow",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "The Marrow",
-      "clipLink": null
+      "distanceSplitName": "The Marrow"
     },
     {
       "attempt": 20,
@@ -217,8 +188,7 @@
       "resetSplitName": "Swift Step",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Swift Step",
-      "clipLink": null
+      "distanceSplitName": "Swift Step"
     },
     {
       "attempt": 21,
@@ -228,8 +198,7 @@
       "resetSplitName": "Moss Mother",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Moss Mother",
-      "clipLink": null
+      "distanceSplitName": "Moss Mother"
     },
     {
       "attempt": 22,
@@ -239,8 +208,7 @@
       "resetSplitName": "Forge Daughter Arena",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Forge Daughter Arena",
-      "clipLink": null
+      "distanceSplitName": "Forge Daughter Arena"
     },
     {
       "attempt": 23,
@@ -250,8 +218,7 @@
       "resetSplitName": "Moss Mother",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Moss Mother",
-      "clipLink": null
+      "distanceSplitName": "Moss Mother"
     },
     {
       "attempt": 24,
@@ -261,19 +228,16 @@
       "resetSplitName": "Forge Daughter Arena",
       "pb": false,
       "distance": false,
-      "distanceSplitName": "Forge Daughter Arena",
-      "clipLink": null
+      "distanceSplitName": "Forge Daughter Arena"
     },
     {
       "attempt": 25,
       "date": "2026-08-10T23:46:07.5786682+08:00",
       "hits": 2,
       "progress": 0.902439,
-      "resetSplitName": null,
       "pb": false,
       "distance": false,
-      "distanceSplitName": "The Forum/Conductor's Melody",
-      "clipLink": null
+      "distanceSplitName": "The Forum/Conductor's Melody"
     }
   ]
 }

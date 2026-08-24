@@ -5,33 +5,27 @@
       "date": "2025-10-07T21:27:01.0098366+08:00",
       "hits": 16,
       "progress": 0.21875,
-      "resetSplitName": null,
       "pb": true,
       "distance": true,
-      "distanceSplitName": "Basin Ore",
-      "clipLink": null
+      "distanceSplitName": "Basin Ore"
     },
     {
       "attempt": 2,
       "date": "2025-10-10T19:55:50.2665616+08:00",
       "hits": 7,
       "progress": 0.28125,
-      "resetSplitName": null,
       "pb": true,
       "distance": true,
-      "distanceSplitName": "Soul Master",
-      "clipLink": null
+      "distanceSplitName": "Soul Master"
     },
     {
       "attempt": 3,
       "date": "2026-02-21T23:18:14.594455+08:00",
       "hits": 12,
       "progress": 0.375,
-      "resetSplitName": null,
       "pb": false,
       "distance": true,
-      "distanceSplitName": "Descending Dark",
-      "clipLink": null
+      "distanceSplitName": "Descending Dark"
     }
   ]
 }
