@@ -209,6 +209,15 @@
       "points": 31
     },
     {
+      "userName": "TeppiTumbles",
+      "rank": 2,
+      "tie": false,
+      "firsts": 2,
+      "seconds": 2,
+      "checkIns": 8,
+      "points": 24
+    },
+    {
       "userName": "thatrandomclonetrooper",
       "rank": 21,
       "tie": true,
@@ -225,15 +234,6 @@
       "seconds": 0,
       "checkIns": 1,
       "points": 1
-    },
-    {
-      "userName": "TeppiTumbles",
-      "rank": 2,
-      "tie": false,
-      "firsts": 2,
-      "seconds": 2,
-      "checkIns": 8,
-      "points": 24
     },
     {
       "userName": "Vomiit",
