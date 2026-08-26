@@ -1,6 +1,7 @@
 {
   "splits": [
     {
+      "sectionName": "hollow-knight",
       "name": "False Knight",
       "resets": 0,
       "successRate": 1.0,
@@ -12,6 +13,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Vengeful Spirit",
       "resets": 0,
       "successRate": 1.0,
@@ -23,6 +25,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Hornet Protector",
       "resets": 0,
       "successRate": 1.0,
@@ -34,6 +37,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Gruz Mother",
       "resets": 0,
       "successRate": 1.0,
@@ -45,6 +49,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Mantis Claw",
       "resets": 0,
       "successRate": 1.0,
@@ -56,6 +61,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Mantis Lords",
       "resets": 0,
       "successRate": 1.0,
@@ -67,6 +73,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Tram Pass",
       "resets": 0,
       "successRate": 1.0,
@@ -78,6 +85,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Basin Ore",
       "resets": 0,
       "successRate": 0.6666667,
@@ -89,6 +97,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Channelled Nail",
       "resets": 0,
       "successRate": 0.6666667,
@@ -100,6 +109,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Soul Master",
       "resets": 0,
       "successRate": 0.33333334,
@@ -111,6 +121,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Crystal Heart",
       "resets": 0,
       "successRate": 1.0,
@@ -122,6 +133,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Soul Warrior",
       "resets": 0,
       "successRate": 0.6666667,
@@ -133,6 +145,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Descending Dark",
       "resets": 0,
       "successRate": 0.6666667,
@@ -144,6 +157,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Dream Nail",
       "resets": 0,
       "successRate": 1.0,
@@ -155,6 +169,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Broken Vessel",
       "resets": 0,
       "successRate": 0.6666667,
@@ -166,6 +181,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Lost Kin",
       "resets": 0,
       "successRate": 0.6666667,
@@ -177,6 +193,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Hornet Sentinel",
       "resets": 0,
       "successRate": 1.0,
@@ -188,6 +205,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Shade Cloak",
       "resets": 0,
       "successRate": 0.6666667,
@@ -199,6 +217,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Sharp Shadow",
       "resets": 0,
       "successRate": 0.6666667,
@@ -210,6 +229,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Deepnest",
       "resets": 0,
       "successRate": 1.0,
@@ -221,6 +241,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "The Hive",
       "resets": 0,
       "successRate": 0.6666667,
@@ -232,6 +253,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Hive Knight/Vespa",
       "resets": 0,
       "successRate": 0.6666667,
@@ -243,6 +265,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Gravedigger",
       "resets": 0,
       "successRate": 1.0,
@@ -254,6 +277,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Gorb",
       "resets": 0,
       "successRate": 0.6666667,
@@ -265,6 +289,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Blue Child Joni",
       "resets": 0,
       "successRate": 0.33333334,
@@ -276,6 +301,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Spirit's Glade",
       "resets": 0,
       "successRate": 0.0,
@@ -287,6 +313,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Uumuu",
       "resets": 0,
       "successRate": 1.0,
@@ -298,6 +325,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Caelif & Fera Orthop",
       "resets": 0,
       "successRate": 1.0,
@@ -309,6 +337,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Traitor Lord/Cloth",
       "resets": 0,
       "successRate": 0.0,
@@ -320,6 +349,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Marissa & Poggy Thorax",
       "resets": 0,
       "successRate": 1.0,
@@ -331,6 +361,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Watcher Knights",
       "resets": 0,
       "successRate": 0.6666667,
@@ -342,6 +373,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "The Hollow Knight",
       "resets": 0,
       "successRate": 1.0,

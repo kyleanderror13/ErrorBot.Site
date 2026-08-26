@@ -1,6 +1,7 @@
 {
   "splits": [
     {
+      "sectionName": "hollow-knight-silksong",
       "name": "Moss Mother",
       "resets": 4,
       "successRate": 0.8,
@@ -12,6 +13,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight-silksong",
       "name": "The Marrow",
       "resets": 3,
       "successRate": 0.9047619,
@@ -23,6 +25,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight-silksong",
       "name": "Silk Spear",
       "resets": 0,
       "successRate": 1.0,
@@ -34,6 +37,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight-silksong",
       "name": "Bell Beast",
       "resets": 1,
       "successRate": 0.9444444,
@@ -45,6 +49,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight-silksong",
       "name": "Swift Step",
       "resets": 1,
       "successRate": 0.9411765,
@@ -56,6 +61,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight-silksong",
       "name": "Forge Daughter Arena",
       "resets": 2,
       "successRate": 0.78571427,
@@ -67,6 +73,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight-silksong",
       "name": "Lace (Deep Docks)",
       "resets": 0,
       "successRate": 1.0,
@@ -78,6 +85,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight-silksong",
       "name": "Drifter's Cloak",
       "resets": 1,
       "successRate": 0.9230769,
@@ -89,6 +97,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight-silksong",
       "name": "Fourth Chorus",
       "resets": 0,
       "successRate": 0.9166667,
@@ -100,6 +109,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight-silksong",
       "name": "Moorwing",
       "resets": 0,
       "successRate": "NaN",
@@ -111,6 +121,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight-silksong",
       "name": "Shellwood/Cling Grip",
       "resets": 0,
       "successRate": 1.0,
@@ -122,6 +133,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight-silksong",
       "name": "Pollip Pouch",
       "resets": 0,
       "successRate": 0.72727275,
@@ -133,6 +145,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight-silksong",
       "name": "Widow/Needolin",
       "resets": 0,
       "successRate": 0.8181818,
@@ -144,6 +157,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight-silksong",
       "name": "Sharpened Needle",
       "resets": 0,
       "successRate": 1.0,
@@ -155,6 +169,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight-silksong",
       "name": "Shell Satchel",
       "resets": 0,
       "successRate": 1.0,
@@ -166,6 +181,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight-silksong",
       "name": "Evolved Hunter Crest",
       "resets": 0,
       "successRate": 1.0,
@@ -177,6 +193,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight-silksong",
       "name": "Greymoor",
       "resets": 0,
       "successRate": 1.0,
@@ -188,6 +205,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight-silksong",
       "name": "Sinner's Road",
       "resets": 0,
       "successRate": 0.8181818,
@@ -199,6 +217,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight-silksong",
       "name": "The Mist",
       "resets": 0,
       "successRate": 0.6363636,
@@ -210,6 +229,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight-silksong",
       "name": "Phantom",
       "resets": 0,
       "successRate": 1.0,
@@ -221,6 +241,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight-silksong",
       "name": "To Cogwork Dancers",
       "resets": 0,
       "successRate": 0.90909094,
@@ -232,6 +253,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight-silksong",
       "name": "Cogwork Dancers",
       "resets": 0,
       "successRate": 0.90909094,
@@ -243,6 +265,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight-silksong",
       "name": "Whispering Vaults Arena",
       "resets": 0,
       "successRate": 0.8181818,
@@ -254,6 +277,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight-silksong",
       "name": "Pale Oil",
       "resets": 0,
       "successRate": 1.0,
@@ -265,6 +289,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight-silksong",
       "name": "Shining Needle",
       "resets": 0,
       "successRate": 1.0,
@@ -276,6 +301,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight-silksong",
       "name": "Trobbio",
       "resets": 0,
       "successRate": 0.54545456,
@@ -287,6 +313,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight-silksong",
       "name": "Clawline",
       "resets": 0,
       "successRate": 0.90909094,
@@ -298,6 +325,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight-silksong",
       "name": "Clawline Arena",
       "resets": 0,
       "successRate": 0.8181818,
@@ -309,6 +337,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight-silksong",
       "name": "Vaultkeeper's Melody",
       "resets": 0,
       "successRate": 1.0,
@@ -320,6 +349,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight-silksong",
       "name": "Twisted Bud",
       "resets": 0,
       "successRate": 0.72727275,
@@ -331,6 +361,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight-silksong",
       "name": "Cogwork Core/Architect's Melody",
       "resets": 0,
       "successRate": 0.8181818,
@@ -342,6 +373,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight-silksong",
       "name": "High Halls",
       "resets": 0,
       "successRate": 0.90909094,
@@ -353,6 +385,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight-silksong",
       "name": "The Forum/Conductor's Melody",
       "resets": 0,
       "successRate": 0.45454547,
@@ -364,6 +397,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight-silksong",
       "name": "Lace (The Cradle)",
       "resets": 0,
       "successRate": 1.0,
@@ -375,6 +409,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight-silksong",
       "name": "Rite of Rebirth",
       "resets": 0,
       "successRate": 0.8181818,
@@ -386,6 +421,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight-silksong",
       "name": "Grand Mother Silk",
       "resets": 0,
       "successRate": 0.36363637,
@@ -397,6 +433,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight-silksong",
       "name": "Sacred Cylinder",
       "resets": 0,
       "successRate": 0.85714287,
@@ -408,6 +445,7 @@
       "disabled": true
     },
     {
+      "sectionName": "hollow-knight-silksong",
       "name": "Flea (Swift Step)",
       "resets": 0,
       "successRate": 1.0,
@@ -419,6 +457,7 @@
       "disabled": true
     },
     {
+      "sectionName": "hollow-knight-silksong",
       "name": "Flea (Deep Docks Bellway)",
       "resets": 0,
       "successRate": 1.0,
@@ -430,6 +469,7 @@
       "disabled": true
     },
     {
+      "sectionName": "hollow-knight-silksong",
       "name": "Flea (Far Fields)",
       "resets": 1,
       "successRate": 0.9230769,
@@ -441,6 +481,7 @@
       "disabled": true
     },
     {
+      "sectionName": "hollow-knight-silksong",
       "name": "Flea (Hunter's March)",
       "resets": 0,
       "successRate": 0.9166667,
@@ -452,6 +493,7 @@
       "disabled": true
     },
     {
+      "sectionName": "hollow-knight-silksong",
       "name": "Flea (The Marrow)",
       "resets": 0,
       "successRate": 1.0,
@@ -463,6 +505,7 @@
       "disabled": true
     },
     {
+      "sectionName": "hollow-knight-silksong",
       "name": "The Lost Fleas",
       "resets": 1,
       "successRate": 0.9166667,

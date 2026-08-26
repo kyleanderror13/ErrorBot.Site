@@ -1,6 +1,7 @@
 {
   "splits": [
     {
+      "sectionName": "hollow-knight",
       "name": "Trial of the Warrior",
       "resets": 0,
       "successRate": 0.0,
@@ -12,6 +13,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Trial of the Conqueror",
       "resets": 0,
       "successRate": 0.0,
@@ -23,6 +25,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Trial of the Fool",
       "resets": 0,
       "successRate": 0.0,

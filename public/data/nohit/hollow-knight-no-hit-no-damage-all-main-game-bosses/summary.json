@@ -1,6 +1,7 @@
 {
   "splits": [
     {
+      "sectionName": "hollow-knight",
       "name": "False Knight",
       "resets": 0,
       "successRate": 1.0,
@@ -12,6 +13,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Vengeful Spirit",
       "resets": 0,
       "successRate": 1.0,
@@ -23,6 +25,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Vengefly King",
       "resets": 0,
       "successRate": 1.0,
@@ -34,6 +37,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Hornet Protector (QTB)",
       "resets": 0,
       "successRate": 1.0,
@@ -45,6 +49,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Gruz Mother",
       "resets": 0,
       "successRate": 1.0,
@@ -56,6 +61,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Mantis Claw",
       "resets": 0,
       "successRate": 0.0,
@@ -67,6 +73,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Mantis Lords",
       "resets": 0,
       "successRate": 1.0,
@@ -78,6 +85,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Soul Master",
       "resets": 0,
       "successRate": 1.0,
@@ -89,6 +97,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Crystal Heart (QTB)",
       "resets": 0,
       "successRate": 0.0,
@@ -100,6 +109,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Dream Nail",
       "resets": 0,
       "successRate": 1.0,
@@ -111,6 +121,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Charm Notches (5 + 10)",
       "resets": 0,
       "successRate": 1.0,
@@ -122,6 +133,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Soul Warrior",
       "resets": 0,
       "successRate": 1.0,
@@ -133,6 +145,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Vessel Fragment (Crossroads)",
       "resets": 0,
       "successRate": 1.0,
@@ -144,6 +157,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Gorgeous Husk/Lemm (QTB)",
       "resets": 0,
       "successRate": 1.0,
@@ -155,6 +169,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Vessel Fragments (Sly)",
       "resets": 0,
       "successRate": 1.0,
@@ -166,6 +181,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Descending Dark (QTB)",
       "resets": 0,
       "successRate": 1.0,
@@ -177,6 +193,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Brooding Mawlek (QTB)",
       "resets": 0,
       "successRate": 0.0,
@@ -188,6 +205,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Pale Ore (Ancient Basin)",
       "resets": 0,
       "successRate": 1.0,
@@ -199,6 +217,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Broken Vessel",
       "resets": 0,
       "successRate": 1.0,
@@ -210,6 +229,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Lost Kin (QTB)",
       "resets": 0,
       "successRate": 1.0,
@@ -221,6 +241,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Soul Tyrant (QTB)",
       "resets": 0,
       "successRate": 0.0,
@@ -232,6 +253,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Cyclone Slash",
       "resets": 0,
       "successRate": 1.0,
@@ -243,6 +265,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Gorb",
       "resets": 0,
       "successRate": 1.0,
@@ -254,6 +277,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Vessel Fragment (Stag Nest) (QTB)",
       "resets": 0,
       "successRate": 1.0,
@@ -265,6 +289,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Xero",
       "resets": 0,
       "successRate": 1.0,
@@ -276,6 +301,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Dreamgate",
       "resets": 0,
       "successRate": 1.0,
@@ -287,6 +313,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Dung Defender (DGO)",
       "resets": 0,
       "successRate": 0.0,
@@ -298,6 +325,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Isma's Tear (QTB)",
       "resets": 0,
       "successRate": 1.0,
@@ -309,6 +337,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Hornet Sentinel (DGO)",
       "resets": 0,
       "successRate": 1.0,
@@ -320,6 +349,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Love Tower (shortcut)",
       "resets": 0,
       "successRate": 1.0,
@@ -331,6 +361,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Great Slash (DGO)",
       "resets": 0,
       "successRate": 1.0,
@@ -342,6 +373,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "No Eyes (DGO)",
       "resets": 0,
       "successRate": 1.0,
@@ -353,6 +385,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Massive Moss Charger",
       "resets": 0,
       "successRate": 0.0,
@@ -364,6 +397,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Vessel Fragment (Greenpath) (DGO)",
       "resets": 0,
       "successRate": 1.0,
@@ -375,6 +409,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Howling Wraiths (QTB)",
       "resets": 0,
       "successRate": 0.0,
@@ -386,6 +421,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Abyss Shriek",
       "resets": 0,
       "successRate": 1.0,
@@ -397,6 +433,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Shade Cloak (DGO)",
       "resets": 0,
       "successRate": 1.0,
@@ -408,6 +445,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Charm Notch (Jelly Room)",
       "resets": 0,
       "successRate": 1.0,
@@ -419,6 +457,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Leg Eater Charms",
       "resets": 0,
       "successRate": 1.0,
@@ -430,6 +469,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Elder Hu (DGO)",
       "resets": 0,
       "successRate": 1.0,
@@ -441,6 +481,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Uumuu (DGO)",
       "resets": 0,
       "successRate": 0.0,
@@ -452,6 +493,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Flukemarm",
       "resets": 0,
       "successRate": 0.0,
@@ -463,6 +505,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Failed Champion",
       "resets": 0,
       "successRate": 1.0,
@@ -474,6 +517,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Markoth",
       "resets": 0,
       "successRate": 1.0,
@@ -485,6 +529,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Dash Slash",
       "resets": 0,
       "successRate": 1.0,
@@ -496,6 +541,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Crystal Guardian",
       "resets": 0,
       "successRate": 0.0,
@@ -507,6 +553,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Enraged Guardian (QTB)",
       "resets": 0,
       "successRate": 0.0,
@@ -518,6 +565,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Charm Notch (18)",
       "resets": 0,
       "successRate": 1.0,
@@ -529,6 +577,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Love Key",
       "resets": 0,
       "successRate": 1.0,
@@ -540,6 +589,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Marmu",
       "resets": 0,
       "successRate": 0.0,
@@ -551,6 +601,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Traitor Lord (DGO)",
       "resets": 0,
       "successRate": 0.0,
@@ -562,6 +613,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Nosk (QTB)",
       "resets": 0,
       "successRate": 0.0,
@@ -573,6 +625,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Save Zote",
       "resets": 0,
       "successRate": 0.0,
@@ -584,6 +637,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Galien",
       "resets": 0,
       "successRate": 1.0,
@@ -595,6 +649,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Herrah the Beast",
       "resets": 0,
       "successRate": 0.0,
@@ -606,6 +661,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Awoken Dream Nail",
       "resets": 0,
       "successRate": 1.0,
@@ -617,6 +673,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "White Palace",
       "resets": 0,
       "successRate": 0.0,
@@ -628,6 +685,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Void Heart (QTB)",
       "resets": 0,
       "successRate": 1.0,
@@ -639,6 +697,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Coiled Nail (QTB)",
       "resets": 0,
       "successRate": 1.0,
@@ -650,6 +709,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Watcher Knights (DGO)",
       "resets": 0,
       "successRate": 1.0,
@@ -661,6 +721,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "The Collector",
       "resets": 0,
       "successRate": 1.0,
@@ -672,6 +733,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Trial of the Warrior/Zote the Mighty",
       "resets": 0,
       "successRate": 0.0,
@@ -683,6 +745,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Trial of the Conqueror/Oblobbles",
       "resets": 0,
       "successRate": 0.0,
@@ -694,6 +757,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Trial of the Fool/God Tamer (DGO)",
       "resets": 0,
       "successRate": 0.0,
@@ -705,6 +769,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "The Hollow Knight",
       "resets": 0,
       "successRate": 1.0,
@@ -716,6 +781,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "The Radiance",
       "resets": 0,
       "successRate": 0.0,

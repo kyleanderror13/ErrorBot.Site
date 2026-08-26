@@ -1,6 +1,7 @@
 {
   "splits": [
     {
+      "sectionName": "hollow-knight",
       "name": "False Knight",
       "resets": 0,
       "successRate": 1.0,
@@ -12,6 +13,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Hornet Protector/Mothwing Cloak",
       "resets": 1,
       "successRate": 0.9285714,
@@ -23,6 +25,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Gruz Mother",
       "resets": 0,
       "successRate": 1.0,
@@ -34,6 +37,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Mantis Claw",
       "resets": 0,
       "successRate": 1.0,
@@ -45,6 +49,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "City of Tears (entrance)",
       "resets": 0,
       "successRate": 1.0,
@@ -56,6 +61,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Soul Sanctum",
       "resets": 0,
       "successRate": 1.0,
@@ -67,6 +73,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Soul Master/Desolate Dive",
       "resets": 1,
       "successRate": 0.9230769,
@@ -78,6 +85,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "City of Tears (exit)",
       "resets": 1,
       "successRate": 0.9166667,
@@ -89,6 +97,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Crystal Heart",
       "resets": 0,
       "successRate": 1.0,
@@ -100,6 +109,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Dream Nail",
       "resets": 0,
       "successRate": 1.0,
@@ -111,6 +121,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Soul Warrior/Shade Soul",
       "resets": 2,
       "successRate": 0.72727275,
@@ -122,6 +133,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Descending Dark",
       "resets": 1,
       "successRate": 0.8888889,
@@ -133,6 +145,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Broken Vessel/Monarch Wings",
       "resets": 1,
       "successRate": 0.875,
@@ -144,6 +157,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Lost Kin",
       "resets": 0,
       "successRate": 0.6666667,
@@ -155,6 +169,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Soul Tyrant",
       "resets": 0,
       "successRate": 1.0,
@@ -166,6 +181,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Gorb",
       "resets": 0,
       "successRate": 1.0,
@@ -177,6 +193,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Xero",
       "resets": 0,
       "successRate": 1.0,
@@ -188,6 +205,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Dreamgate",
       "resets": 0,
       "successRate": 1.0,
@@ -199,6 +217,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Hornet Sentinel/King's Brand",
       "resets": 1,
       "successRate": 0.71428573,
@@ -210,6 +229,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Shade Cloak",
       "resets": 0,
       "successRate": 1.0,
@@ -221,6 +241,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Uumuu/Monomon",
       "resets": 0,
       "successRate": 1.0,
@@ -232,6 +253,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "No Eyes",
       "resets": 0,
       "successRate": 0.8333333,
@@ -243,6 +265,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Howling Wraiths",
       "resets": 0,
       "successRate": 1.0,
@@ -254,6 +277,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Abyss Shriek",
       "resets": 0,
       "successRate": 1.0,
@@ -265,6 +289,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Failed Champion",
       "resets": 0,
       "successRate": 0.8333333,
@@ -276,6 +301,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Markoth",
       "resets": 0,
       "successRate": 1.0,
@@ -287,6 +313,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Queen's Gardens",
       "resets": 0,
       "successRate": 0.6666667,
@@ -298,6 +325,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Traitor Lord",
       "resets": 0,
       "successRate": 1.0,
@@ -309,6 +337,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Galien",
       "resets": 0,
       "successRate": 1.0,
@@ -320,6 +349,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Deepnest/Herrah",
       "resets": 0,
       "successRate": 1.0,
@@ -331,6 +361,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Spire Bench/Channeled Nail",
       "resets": 0,
       "successRate": 1.0,
@@ -342,6 +373,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Watcher Knights/Lurien",
       "resets": 0,
       "successRate": 1.0,
@@ -353,6 +385,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "White Palace",
       "resets": 0,
       "successRate": 0.5,
@@ -364,6 +397,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Void Heart",
       "resets": 0,
       "successRate": 1.0,
@@ -375,6 +409,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "The Hollow Knight",
       "resets": 0,
       "successRate": 0.8333333,
@@ -386,6 +421,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Dung Defender",
       "resets": 0,
       "successRate": 1.0,
@@ -397,6 +433,7 @@
       "disabled": true
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Isma's Tear",
       "resets": 0,
       "successRate": 1.0,

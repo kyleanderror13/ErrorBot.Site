@@ -1,6 +1,7 @@
 {
   "splits": [
     {
+      "sectionName": "hollow-knight",
       "name": "Vengefly King",
       "resets": 0,
       "successRate": 1.0,
@@ -12,6 +13,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Gruz Mother",
       "resets": 8,
       "successRate": 0.7948718,
@@ -23,6 +25,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "False Knight",
       "resets": 0,
       "successRate": 1.0,
@@ -34,6 +37,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Massive Moss Charger",
       "resets": 0,
       "successRate": 1.0,
@@ -45,6 +49,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Hornet (Protector)",
       "resets": 0,
       "successRate": 1.0,
@@ -56,6 +61,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Gorb",
       "resets": 2,
       "successRate": 0.87096775,
@@ -67,6 +73,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Dung Defender",
       "resets": 3,
       "successRate": 0.8965517,
@@ -78,6 +85,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Soul Warrior",
       "resets": 1,
       "successRate": 0.9230769,
@@ -89,6 +97,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Brooding Mawlek",
       "resets": 0,
       "successRate": 0.8,
@@ -100,6 +109,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Oro & Mato",
       "resets": 1,
       "successRate": 0.72,
@@ -111,6 +121,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Xero",
       "resets": 1,
       "successRate": 0.7083333,
@@ -122,6 +133,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Crystal Guardian",
       "resets": 0,
       "successRate": 0.9130435,
@@ -133,6 +145,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Soul Master",
       "resets": 0,
       "successRate": 0.8695652,
@@ -144,6 +157,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Oblobbles",
       "resets": 0,
       "successRate": 0.5217391,
@@ -155,6 +169,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Sisters of Battle",
       "resets": 0,
       "successRate": 0.6956522,
@@ -166,6 +181,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Marmu",
       "resets": 0,
       "successRate": 0.4347826,
@@ -177,6 +193,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Flukemarm",
       "resets": 1,
       "successRate": 0.8695652,
@@ -188,6 +205,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Broken Vessel",
       "resets": 0,
       "successRate": 0.95454544,
@@ -199,6 +217,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Galien",
       "resets": 0,
       "successRate": 0.59090906,
@@ -210,6 +229,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Paintmaster Sheo",
       "resets": 0,
       "successRate": 0.90909094,
@@ -221,6 +241,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Hive Knight",
       "resets": 1,
       "successRate": 0.5,
@@ -232,6 +253,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Elder Hu",
       "resets": 0,
       "successRate": 0.8095238,
@@ -243,6 +265,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "The Collector",
       "resets": 0,
       "successRate": 0.95238096,
@@ -254,6 +277,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "God Tamer",
       "resets": 0,
       "successRate": 0.5714286,
@@ -265,6 +289,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Troupe Master Grimm",
       "resets": 0,
       "successRate": 0.8095238,
@@ -276,6 +301,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Watcher Knights",
       "resets": 0,
       "successRate": 0.9047619,
@@ -287,6 +313,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Uumuu",
       "resets": 0,
       "successRate": 0.61904764,
@@ -298,6 +325,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Winged Nosk",
       "resets": 0,
       "successRate": 0.6666667,
@@ -309,6 +337,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Great Nailsage Sly",
       "resets": 0,
       "successRate": 0.6666667,
@@ -320,6 +349,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Hornet (Sentinel)",
       "resets": 1,
       "successRate": 0.8095238,
@@ -331,6 +361,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Enraged Guardian",
       "resets": 0,
       "successRate": 0.9,
@@ -342,6 +373,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Lost Kin",
       "resets": 0,
       "successRate": 0.85,
@@ -353,6 +385,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "No Eyes",
       "resets": 0,
       "successRate": 0.65,
@@ -364,6 +397,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Traitor Lord",
       "resets": 0,
       "successRate": 0.85,
@@ -375,6 +409,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "White Defender",
       "resets": 0,
       "successRate": 0.5,
@@ -386,6 +421,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Soul Tyrant",
       "resets": 0,
       "successRate": 0.75,
@@ -397,6 +433,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Markoth",
       "resets": 0,
       "successRate": 0.25,
@@ -408,6 +445,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Grey Prince Zote",
       "resets": 0,
       "successRate": 0.15,
@@ -419,6 +457,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Failed Champion",
       "resets": 1,
       "successRate": 0.65,
@@ -430,6 +469,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Nightmare King Grimm",
       "resets": 1,
       "successRate": 0.42105263,
@@ -441,6 +481,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Pure Vessel",
       "resets": 1,
       "successRate": 0.3888889,
@@ -452,6 +493,7 @@
       "disabled": false
     },
     {
+      "sectionName": "hollow-knight",
       "name": "Absolute Radiance",
       "resets": 1,
       "successRate": 0.05882353,
