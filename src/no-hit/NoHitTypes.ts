@@ -9,6 +9,7 @@ export interface NoHitCatalogRun {
   status: 'Active' | 'Completed' | 'Paused' | 'NotStarted';
   attempts: number;
   hitPB? : number;
+  sectionCount: number;
   distancePB?: number;
   distancePBSectionIndex?: number;
   distancePBSectionName?: string;

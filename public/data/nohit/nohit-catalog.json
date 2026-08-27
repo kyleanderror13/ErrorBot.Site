@@ -6,6 +6,7 @@
       "category": "No Hit Any%",
       "status": "Completed",
       "attempts": 0,
+      "sectionCount": 1,
       "runLink": "https://www.youtube.com/watch?v=lWkV7oV6rYI"
     },
     {
@@ -15,6 +16,7 @@
       "status": "Paused",
       "attempts": 12,
       "hitPB": 9,
+      "sectionCount": 1,
       "distancePB": 0.08695652,
       "distancePBSectionIndex": 0,
       "distancePBSectionName": "dark-souls-remastered",
@@ -26,6 +28,7 @@
       "category": "No Hit Any%",
       "status": "Completed",
       "attempts": 0,
+      "sectionCount": 1,
       "runLink": "https://www.youtube.com/watch?v=THNwoJx2XkU"
     },
     {
@@ -34,6 +37,7 @@
       "category": "No Hit No Damage Any%",
       "status": "Completed",
       "attempts": 0,
+      "sectionCount": 1,
       "runLink": "https://www.youtube.com/watch?v=sVUtU3omaMQ"
     },
     {
@@ -43,6 +47,7 @@
       "status": "Paused",
       "attempts": 1,
       "hitPB": 50,
+      "sectionCount": 1,
       "distancePB": 0.07575758,
       "distancePBSectionIndex": 0,
       "distancePBSectionName": "hollow-knight",
@@ -54,6 +59,7 @@
       "category": "No Hit No Damage All Skills",
       "status": "Completed",
       "attempts": 0,
+      "sectionCount": 1,
       "runLink": "https://www.youtube.com/watch?v=p8VbL8-LUIs"
     },
     {
@@ -62,6 +68,7 @@
       "category": "No Hit No Damage Any%",
       "status": "Completed",
       "attempts": 0,
+      "sectionCount": 1,
       "runLink": "https://www.youtube.com/watch?v=4aFB6x7XQ_M"
     },
     {
@@ -71,6 +78,7 @@
       "status": "Paused",
       "attempts": 2,
       "hitPB": 10,
+      "sectionCount": 1,
       "distancePB": 0.0,
       "distancePBSectionIndex": 0,
       "distancePBSectionName": "hollow-knight",
@@ -83,6 +91,7 @@
       "status": "Paused",
       "attempts": 3,
       "hitPB": 7,
+      "sectionCount": 1,
       "distancePB": 0.375,
       "distancePBSectionIndex": 0,
       "distancePBSectionName": "hollow-knight",
@@ -95,6 +104,7 @@
       "status": "Paused",
       "attempts": 97,
       "hitPB": 10,
+      "sectionCount": 1,
       "distancePB": 0.6666667,
       "distancePBSectionIndex": 0,
       "distancePBSectionName": "hollow-knight",
@@ -107,6 +117,7 @@
       "status": "Paused",
       "attempts": 14,
       "hitPB": 1,
+      "sectionCount": 1,
       "distancePB": 0.9189189,
       "distancePBSectionIndex": 0,
       "distancePBSectionName": "hollow-knight",
@@ -119,6 +130,7 @@
       "status": "Completed",
       "attempts": 207,
       "hitPB": 0,
+      "sectionCount": 1,
       "distancePB": 1.0,
       "runLink": "https://www.youtube.com/watch?v=E1ZdOd5aGFQ"
     },
@@ -129,6 +141,7 @@
       "status": "Completed",
       "attempts": 156,
       "hitPB": 0,
+      "sectionCount": 1,
       "distancePB": 1.0,
       "runLink": "https://www.youtube.com/watch?v=1mFB1vXzLZY"
     },
@@ -139,6 +152,7 @@
       "status": "Active",
       "attempts": 25,
       "hitPB": 1,
+      "sectionCount": 1,
       "distancePB": 0.902439,
       "distancePBSectionIndex": 0,
       "distancePBSectionName": "hollow-knight-silksong",
