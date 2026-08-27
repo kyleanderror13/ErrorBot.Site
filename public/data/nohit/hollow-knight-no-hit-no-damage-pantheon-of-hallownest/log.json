@@ -7,6 +7,8 @@
       "progress": 0.21428572,
       "pb": true,
       "distance": true,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Oro & Mato"
     },
     {
@@ -16,6 +18,8 @@
       "progress": 0.21428572,
       "pb": true,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Oro & Mato"
     },
     {
@@ -25,6 +29,8 @@
       "progress": 0.35714287,
       "pb": false,
       "distance": true,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Marmu"
     },
     {
@@ -34,6 +40,8 @@
       "progress": 0.21428572,
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Oro & Mato"
     },
     {
@@ -44,6 +52,8 @@
       "resetSplitName": "Oro & Mato",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Brooding Mawlek"
     },
     {
@@ -53,6 +63,8 @@
       "progress": 0.33333334,
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Sisters of Battle"
     },
     {
@@ -63,6 +75,8 @@
       "resetSplitName": "Hive Knight",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Oblobbles"
     },
     {
@@ -72,6 +86,8 @@
       "progress": 0.33333334,
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Sisters of Battle"
     },
     {
@@ -82,6 +98,8 @@
       "resetSplitName": "Gruz Mother",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Gruz Mother"
     },
     {
@@ -92,6 +110,8 @@
       "resetSplitName": "Soul Warrior",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Soul Warrior"
     },
     {
@@ -101,6 +121,8 @@
       "progress": 0.1904762,
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Brooding Mawlek"
     },
     {
@@ -110,6 +132,8 @@
       "progress": 0.30952382,
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Oblobbles"
     },
     {
@@ -120,6 +144,8 @@
       "resetSplitName": "Xero",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Xero"
     },
     {
@@ -130,6 +156,8 @@
       "resetSplitName": "Dung Defender",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Dung Defender"
     },
     {
@@ -139,6 +167,8 @@
       "progress": 0.21428572,
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Oro & Mato"
     },
     {
@@ -149,6 +179,8 @@
       "resetSplitName": "Flukemarm",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Oblobbles"
     },
     {
@@ -159,6 +191,8 @@
       "resetSplitName": "Gruz Mother",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Gruz Mother"
     },
     {
@@ -169,6 +203,8 @@
       "resetSplitName": "Gruz Mother",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Gruz Mother"
     },
     {
@@ -179,6 +215,8 @@
       "resetSplitName": "Pure Vessel",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Xero"
     },
     {
@@ -188,6 +226,8 @@
       "progress": 0.6666667,
       "pb": false,
       "distance": true,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Great Nailsage Sly"
     },
     {
@@ -197,6 +237,8 @@
       "progress": 0.1904762,
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Brooding Mawlek"
     },
     {
@@ -206,6 +248,8 @@
       "progress": 0.1904762,
       "pb": true,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Brooding Mawlek"
     },
     {
@@ -216,6 +260,8 @@
       "resetSplitName": "Failed Champion",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Xero"
     },
     {
@@ -225,6 +271,8 @@
       "progress": 0.11904762,
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Gorb"
     },
     {
@@ -234,6 +282,8 @@
       "progress": 0.33333334,
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Sisters of Battle"
     },
     {
@@ -243,6 +293,8 @@
       "progress": 0.35714287,
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Marmu"
     },
     {
@@ -253,6 +305,8 @@
       "resetSplitName": "Gruz Mother",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Gruz Mother"
     },
     {
@@ -263,6 +317,8 @@
       "resetSplitName": "Dung Defender",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Gorb"
     },
     {
@@ -272,6 +328,8 @@
       "progress": 0.2857143,
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Soul Master"
     },
     {
@@ -282,6 +340,8 @@
       "resetSplitName": "Gruz Mother",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Gruz Mother"
     },
     {
@@ -291,6 +351,8 @@
       "progress": 0.16666667,
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Soul Warrior"
     },
     {
@@ -301,6 +363,8 @@
       "resetSplitName": "Gorb",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Gorb"
     },
     {
@@ -311,6 +375,8 @@
       "resetSplitName": "Gruz Mother",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Gruz Mother"
     },
     {
@@ -321,6 +387,8 @@
       "resetSplitName": "Gorb",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Gorb"
     },
     {
@@ -331,6 +399,8 @@
       "resetSplitName": "Gruz Mother",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Gruz Mother"
     },
     {
@@ -341,6 +411,8 @@
       "resetSplitName": "Dung Defender",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Dung Defender"
     },
     {
@@ -351,6 +423,8 @@
       "resetSplitName": "Nightmare King Grimm",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Xero"
     },
     {
@@ -361,6 +435,8 @@
       "resetSplitName": "Gruz Mother",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Gruz Mother"
     },
     {
@@ -371,6 +447,8 @@
       "resetSplitName": "Hornet (Sentinel)",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Oro & Mato"
     }
   ]

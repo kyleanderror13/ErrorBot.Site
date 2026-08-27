@@ -7,6 +7,8 @@
       "progress": 0.39534885,
       "pb": true,
       "distance": true,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
       "distanceSplitName": "Widow/Needolin"
     },
     {
@@ -16,6 +18,8 @@
       "progress": 0.3809524,
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
       "distanceSplitName": "Widow/Needolin"
     },
     {
@@ -25,6 +29,8 @@
       "progress": 0.47619048,
       "pb": true,
       "distance": true,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
       "distanceSplitName": "Forge Daughter Arena"
     },
     {
@@ -35,6 +41,8 @@
       "resetSplitName": "Drifter's Cloak",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
       "distanceSplitName": "Drifter's Cloak"
     },
     {
@@ -44,6 +52,8 @@
       "progress": 0.26190478,
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
       "distanceSplitName": "Flea (Hunter's March)"
     },
     {
@@ -54,6 +64,8 @@
       "resetSplitName": "The Lost Fleas",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
       "distanceSplitName": "Fourth Chorus"
     },
     {
@@ -63,6 +75,8 @@
       "progress": 0.35714287,
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
       "distanceSplitName": "Pollip Pouch"
     },
     {
@@ -73,6 +87,8 @@
       "resetSplitName": "The Marrow",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
       "distanceSplitName": "The Marrow"
     },
     {
@@ -82,6 +98,8 @@
       "progress": 0.54761904,
       "pb": false,
       "distance": true,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
       "distanceSplitName": "The Mist"
     },
     {
@@ -91,6 +109,8 @@
       "progress": 0.7380952,
       "pb": false,
       "distance": true,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
       "distanceSplitName": "Clawline"
     },
     {
@@ -101,6 +121,8 @@
       "resetSplitName": "Bell Beast",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
       "distanceSplitName": "Bell Beast"
     },
     {
@@ -111,6 +133,8 @@
       "resetSplitName": "The Marrow",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
       "distanceSplitName": "Moss Mother"
     },
     {
@@ -121,6 +145,8 @@
       "resetSplitName": "Moss Mother",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
       "distanceSplitName": "Moss Mother"
     },
     {
@@ -130,6 +156,8 @@
       "progress": 0.36585367,
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
       "distanceSplitName": "Pollip Pouch"
     },
     {
@@ -139,6 +167,8 @@
       "progress": 0.6097561,
       "pb": true,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
       "distanceSplitName": "To Cogwork Dancers"
     },
     {
@@ -148,6 +178,8 @@
       "progress": 0.902439,
       "pb": false,
       "distance": true,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
       "distanceSplitName": "The Forum/Conductor's Melody"
     },
     {
@@ -158,6 +190,8 @@
       "resetSplitName": "Flea (Far Fields)",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
       "distanceSplitName": "Flea (Far Fields)"
     },
     {
@@ -168,6 +202,8 @@
       "resetSplitName": "Moss Mother",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
       "distanceSplitName": "Moss Mother"
     },
     {
@@ -178,6 +214,8 @@
       "resetSplitName": "The Marrow",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
       "distanceSplitName": "The Marrow"
     },
     {
@@ -188,6 +226,8 @@
       "resetSplitName": "Swift Step",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
       "distanceSplitName": "Swift Step"
     },
     {
@@ -198,6 +238,8 @@
       "resetSplitName": "Moss Mother",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
       "distanceSplitName": "Moss Mother"
     },
     {
@@ -208,6 +250,8 @@
       "resetSplitName": "Forge Daughter Arena",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
       "distanceSplitName": "Forge Daughter Arena"
     },
     {
@@ -218,6 +262,8 @@
       "resetSplitName": "Moss Mother",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
       "distanceSplitName": "Moss Mother"
     },
     {
@@ -228,6 +274,8 @@
       "resetSplitName": "Forge Daughter Arena",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
       "distanceSplitName": "Forge Daughter Arena"
     },
     {
@@ -237,6 +285,8 @@
       "progress": 0.902439,
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
       "distanceSplitName": "The Forum/Conductor's Melody"
     }
   ]

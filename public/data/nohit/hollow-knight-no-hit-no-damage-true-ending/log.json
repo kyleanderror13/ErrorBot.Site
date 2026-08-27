@@ -8,6 +8,8 @@
       "resetSplitName": "Gruz Mother",
       "pb": false,
       "distance": true,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Gruz Mother"
     },
     {
@@ -18,6 +20,8 @@
       "resetSplitName": "Soul Warrior/Shade Soul",
       "pb": false,
       "distance": true,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Soul Warrior/Shade Soul"
     },
     {
@@ -28,6 +32,8 @@
       "resetSplitName": "Howling Wraiths",
       "pb": false,
       "distance": true,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Uumuu/Monomon"
     },
     {
@@ -38,6 +44,8 @@
       "resetSplitName": "Hornet Protector/Mothwing Cloak",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Hornet Protector/Mothwing Cloak"
     },
     {
@@ -47,6 +55,8 @@
       "progress": 0.475,
       "pb": true,
       "distance": true,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Howling Wraiths"
     },
     {
@@ -57,6 +67,8 @@
       "resetSplitName": "Mantis Lords",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Mantis Lords"
     },
     {
@@ -66,6 +78,8 @@
       "progress": 0.375,
       "pb": true,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Isma's Tear"
     },
     {
@@ -76,6 +90,8 @@
       "resetSplitName": "City of Tears (entrance)",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "City of Tears (entrance)"
     },
     {
@@ -85,6 +101,8 @@
       "progress": 0.8,
       "pb": true,
       "distance": true,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Soul Tyrant"
     },
     {
@@ -94,6 +112,8 @@
       "progress": 0.8,
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Soul Tyrant"
     },
     {
@@ -103,6 +123,8 @@
       "progress": 0.4,
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Hornet Sentinel/King's Brand"
     },
     {
@@ -113,6 +135,8 @@
       "resetSplitName": "Mantis Lords",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Mantis Lords"
     },
     {
@@ -123,6 +147,8 @@
       "resetSplitName": "Gruz Mother",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Gruz Mother"
     },
     {
@@ -133,6 +159,8 @@
       "resetSplitName": "Hornet Protector/Mothwing Cloak",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Hornet Protector/Mothwing Cloak"
     },
     {
@@ -143,6 +171,8 @@
       "resetSplitName": "Crystal Heart",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Crystal Heart"
     },
     {
@@ -152,6 +182,8 @@
       "progress": 0.8,
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Soul Tyrant"
     },
     {
@@ -161,6 +193,8 @@
       "progress": 0.55,
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Lost Kin"
     },
     {
@@ -171,6 +205,8 @@
       "resetSplitName": "City of Tears (entrance)",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "City of Tears (entrance)"
     },
     {
@@ -181,6 +217,8 @@
       "resetSplitName": "Hornet Sentinel/King's Brand",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Hornet Sentinel/King's Brand"
     },
     {
@@ -191,6 +229,8 @@
       "resetSplitName": "Gruz Mother",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Gruz Mother"
     },
     {
@@ -201,6 +241,8 @@
       "resetSplitName": "Lost Kin",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Lost Kin"
     },
     {
@@ -211,6 +253,8 @@
       "resetSplitName": "Soul Master/Desolate Dive",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Soul Master/Desolate Dive"
     },
     {
@@ -221,6 +265,8 @@
       "resetSplitName": "Broken Vessel/Monarch Wings",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Broken Vessel/Monarch Wings"
     },
     {
@@ -231,6 +277,8 @@
       "resetSplitName": "Gorb",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Soul Warrior/Shade Soul"
     },
     {
@@ -241,6 +289,8 @@
       "resetSplitName": "Gorb",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Soul Warrior/Shade Soul"
     },
     {
@@ -251,6 +301,8 @@
       "resetSplitName": "Soul Warrior/Shade Soul",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Soul Warrior/Shade Soul"
     },
     {
@@ -261,6 +313,8 @@
       "resetSplitName": "Soul Master/Desolate Dive",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Soul Master/Desolate Dive"
     },
     {
@@ -270,6 +324,8 @@
       "progress": 0.5263158,
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Shade Cloak"
     },
     {
@@ -280,6 +336,8 @@
       "resetSplitName": "City of Tears (entrance)",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "City of Tears (entrance)"
     },
     {
@@ -290,6 +348,8 @@
       "resetSplitName": "Isma's Tear",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Isma's Tear"
     },
     {
@@ -300,6 +360,8 @@
       "resetSplitName": "Uumuu/Monomon",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Uumuu/Monomon"
     },
     {
@@ -310,6 +372,8 @@
       "resetSplitName": "Hornet Protector/Mothwing Cloak",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Hornet Protector/Mothwing Cloak"
     },
     {
@@ -319,6 +383,8 @@
       "progress": 0.68421054,
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Failed Champion"
     },
     {
@@ -329,6 +395,8 @@
       "resetSplitName": "Soul Warrior/Shade Soul",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Soul Warrior/Shade Soul"
     },
     {
@@ -339,6 +407,8 @@
       "resetSplitName": "Soul Master/Desolate Dive",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Soul Master/Desolate Dive"
     },
     {
@@ -349,6 +419,8 @@
       "resetSplitName": "False Knight",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "False Knight"
     },
     {
@@ -359,6 +431,8 @@
       "resetSplitName": "Broken Vessel/Monarch Wings",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Broken Vessel/Monarch Wings"
     },
     {
@@ -369,6 +443,8 @@
       "resetSplitName": "Isma's Tear",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Isma's Tear"
     },
     {
@@ -379,6 +455,8 @@
       "resetSplitName": "City of Tears (exit)",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "City of Tears (exit)"
     },
     {
@@ -389,6 +467,8 @@
       "resetSplitName": "Mantis Claw",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Mantis Claw"
     },
     {
@@ -399,6 +479,8 @@
       "resetSplitName": "City of Tears (exit)",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "City of Tears (exit)"
     },
     {
@@ -408,6 +490,8 @@
       "progress": 0.84210527,
       "pb": false,
       "distance": true,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Queen's Gardens"
     },
     {
@@ -418,6 +502,8 @@
       "resetSplitName": "Soul Warrior/Shade Soul",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Soul Warrior/Shade Soul"
     },
     {
@@ -428,6 +514,8 @@
       "resetSplitName": "Broken Vessel/Monarch Wings",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Broken Vessel/Monarch Wings"
     },
     {
@@ -438,6 +526,8 @@
       "resetSplitName": "False Knight",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "False Knight"
     },
     {
@@ -448,6 +538,8 @@
       "resetSplitName": "Hornet Sentinel/King's Brand",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Hornet Sentinel/King's Brand"
     },
     {
@@ -458,6 +550,8 @@
       "resetSplitName": "Hornet Protector/Mothwing Cloak",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Hornet Protector/Mothwing Cloak"
     },
     {
@@ -468,6 +562,8 @@
       "resetSplitName": "City of Tears (entrance)",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "City of Tears (entrance)"
     },
     {
@@ -478,6 +574,8 @@
       "resetSplitName": "False Knight",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "False Knight"
     },
     {
@@ -488,6 +586,8 @@
       "resetSplitName": "Soul Warrior/Shade Soul",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Soul Warrior/Shade Soul"
     },
     {
@@ -498,6 +598,8 @@
       "resetSplitName": "False Knight",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "False Knight"
     },
     {
@@ -508,6 +610,8 @@
       "resetSplitName": "City of Tears (entrance)",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "City of Tears (entrance)"
     },
     {
@@ -517,6 +621,8 @@
       "progress": 0.84210527,
       "pb": true,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Queen's Gardens"
     },
     {
@@ -527,6 +633,8 @@
       "resetSplitName": "Soul Warrior/Shade Soul",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Soul Warrior/Shade Soul"
     },
     {
@@ -537,6 +645,8 @@
       "resetSplitName": "Soul Warrior/Shade Soul",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Soul Warrior/Shade Soul"
     },
     {
@@ -547,6 +657,8 @@
       "resetSplitName": "Broken Vessel/Monarch Wings",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Broken Vessel/Monarch Wings"
     },
     {
@@ -557,6 +669,8 @@
       "resetSplitName": "False Knight",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "False Knight"
     },
     {
@@ -566,6 +680,8 @@
       "progress": 0.7368421,
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Galien"
     },
     {
@@ -575,6 +691,8 @@
       "progress": 0.7368421,
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Galien"
     },
     {
@@ -585,6 +703,8 @@
       "resetSplitName": "Mantis Claw",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Mantis Claw"
     },
     {
@@ -595,6 +715,8 @@
       "resetSplitName": "Crystal Heart",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Crystal Heart"
     },
     {
@@ -605,6 +727,8 @@
       "resetSplitName": "Isma's Tear",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Isma's Tear"
     },
     {
@@ -615,6 +739,8 @@
       "resetSplitName": "Uumuu/Monomon",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Uumuu/Monomon"
     },
     {
@@ -625,6 +751,8 @@
       "resetSplitName": "Lost Kin",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Lost Kin"
     },
     {
@@ -635,6 +763,8 @@
       "resetSplitName": "Hornet Protector/Mothwing Cloak",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Hornet Protector/Mothwing Cloak"
     },
     {
@@ -645,6 +775,8 @@
       "resetSplitName": "Lost Kin",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Lost Kin"
     },
     {
@@ -655,6 +787,8 @@
       "resetSplitName": "City of Tears (entrance)",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "City of Tears (entrance)"
     },
     {
@@ -665,6 +799,8 @@
       "resetSplitName": "Hornet Protector/Mothwing Cloak",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Hornet Protector/Mothwing Cloak"
     },
     {
@@ -675,6 +811,8 @@
       "resetSplitName": "City of Tears (exit)",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "City of Tears (exit)"
     },
     {
@@ -685,6 +823,8 @@
       "resetSplitName": "City of Tears (entrance)",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "City of Tears (entrance)"
     },
     {
@@ -695,6 +835,8 @@
       "resetSplitName": "City of Tears (entrance)",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "City of Tears (entrance)"
     },
     {
@@ -705,6 +847,8 @@
       "resetSplitName": "Hornet Protector/Mothwing Cloak",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Hornet Protector/Mothwing Cloak"
     },
     {
@@ -715,6 +859,8 @@
       "resetSplitName": "Lost Kin",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Lost Kin"
     },
     {
@@ -725,6 +871,8 @@
       "resetSplitName": "Hornet Protector/Mothwing Cloak",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Hornet Protector/Mothwing Cloak"
     },
     {
@@ -734,6 +882,8 @@
       "progress": 0.57894737,
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Soul Tyrant"
     },
     {
@@ -744,6 +894,8 @@
       "resetSplitName": "Soul Warrior/Shade Soul",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Soul Warrior/Shade Soul"
     },
     {
@@ -754,6 +906,8 @@
       "resetSplitName": "Descending Dark",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Descending Dark"
     },
     {
@@ -764,6 +918,8 @@
       "resetSplitName": "Soul Warrior/Shade Soul",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Soul Warrior/Shade Soul"
     },
     {
@@ -773,6 +929,8 @@
       "progress": 0.57894737,
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Soul Tyrant"
     },
     {
@@ -783,6 +941,8 @@
       "resetSplitName": "Hornet Protector/Mothwing Cloak",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Hornet Protector/Mothwing Cloak"
     },
     {
@@ -793,6 +953,8 @@
       "resetSplitName": "Descending Dark",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Descending Dark"
     },
     {
@@ -803,6 +965,8 @@
       "resetSplitName": "City of Tears (entrance)",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "City of Tears (entrance)"
     },
     {
@@ -813,6 +977,8 @@
       "resetSplitName": "Broken Vessel/Monarch Wings",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Broken Vessel/Monarch Wings"
     },
     {
@@ -823,6 +989,8 @@
       "resetSplitName": "Hornet Protector/Mothwing Cloak",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Hornet Protector/Mothwing Cloak"
     },
     {
@@ -833,6 +1001,8 @@
       "resetSplitName": "Descending Dark",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Descending Dark"
     },
     {
@@ -843,6 +1013,8 @@
       "resetSplitName": "City of Tears (exit)",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "City of Tears (exit)"
     },
     {
@@ -853,6 +1025,8 @@
       "resetSplitName": "Gruz Mother",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Gruz Mother"
     },
     {
@@ -863,6 +1037,8 @@
       "resetSplitName": "False Knight",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "False Knight"
     },
     {
@@ -872,6 +1048,8 @@
       "progress": 0.55263156,
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Lost Kin"
     },
     {
@@ -882,6 +1060,8 @@
       "resetSplitName": "False Knight",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "False Knight"
     },
     {
@@ -892,6 +1072,8 @@
       "resetSplitName": "Soul Tyrant",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Soul Tyrant"
     },
     {
@@ -902,6 +1084,8 @@
       "resetSplitName": "Soul Master/Desolate Dive",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Soul Master/Desolate Dive"
     },
     {
@@ -911,6 +1095,8 @@
       "progress": 0.8947368,
       "pb": false,
       "distance": true,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "White Palace"
     },
     {
@@ -921,6 +1107,8 @@
       "resetSplitName": "Broken Vessel/Monarch Wings",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Broken Vessel/Monarch Wings"
     },
     {
@@ -931,6 +1119,8 @@
       "resetSplitName": "City of Tears (entrance)",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "City of Tears (entrance)"
     },
     {
@@ -941,6 +1131,8 @@
       "resetSplitName": "Hell Room",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Hell Room"
     },
     {
@@ -951,6 +1143,8 @@
       "resetSplitName": "Dung Defender",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Lost Kin"
     },
     {
@@ -961,6 +1155,8 @@
       "resetSplitName": "False Knight",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "False Knight"
     },
     {
@@ -971,6 +1167,8 @@
       "resetSplitName": "Soul Warrior/Shade Soul",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Soul Warrior/Shade Soul"
     },
     {
@@ -981,6 +1179,8 @@
       "resetSplitName": "Hornet Protector/Mothwing Cloak",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Hornet Protector/Mothwing Cloak"
     },
     {
@@ -991,6 +1191,8 @@
       "resetSplitName": "Mantis Claw",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Mantis Claw"
     },
     {
@@ -1001,6 +1203,8 @@
       "resetSplitName": "Soul Master/Desolate Dive",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Soul Master/Desolate Dive"
     },
     {
@@ -1011,6 +1215,8 @@
       "resetSplitName": "City of Tears (entrance)",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "City of Tears (entrance)"
     },
     {
@@ -1021,6 +1227,8 @@
       "resetSplitName": "Gorb",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Soul Warrior/Shade Soul"
     },
     {
@@ -1031,6 +1239,8 @@
       "resetSplitName": "Mantis Claw",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Mantis Claw"
     },
     {
@@ -1041,6 +1251,8 @@
       "resetSplitName": "Broken Vessel/Monarch Wings",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Broken Vessel/Monarch Wings"
     },
     {
@@ -1051,6 +1263,8 @@
       "resetSplitName": "Broken Vessel/Monarch Wings",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Broken Vessel/Monarch Wings"
     },
     {
@@ -1061,6 +1275,8 @@
       "resetSplitName": "False Knight",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "False Knight"
     },
     {
@@ -1070,6 +1286,8 @@
       "progress": 0.34285715,
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Lost Kin"
     },
     {
@@ -1080,6 +1298,8 @@
       "resetSplitName": "Soul Tyrant",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Soul Tyrant"
     },
     {
@@ -1090,6 +1310,8 @@
       "resetSplitName": "Broken Vessel/Monarch Wings",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Broken Vessel/Monarch Wings"
     },
     {
@@ -1100,6 +1322,8 @@
       "resetSplitName": "False Knight",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "False Knight"
     },
     {
@@ -1110,6 +1334,8 @@
       "resetSplitName": "Hornet Protector/Mothwing Cloak",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Hornet Protector/Mothwing Cloak"
     },
     {
@@ -1120,6 +1346,8 @@
       "resetSplitName": "Hornet Protector/Mothwing Cloak",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Hornet Protector/Mothwing Cloak"
     },
     {
@@ -1129,6 +1357,8 @@
       "progress": 0.54285717,
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Uumuu/Monomon"
     },
     {
@@ -1139,6 +1369,8 @@
       "resetSplitName": "Dream Nail",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Dream Nail"
     },
     {
@@ -1148,6 +1380,8 @@
       "progress": 0.34285715,
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Lost Kin"
     },
     {
@@ -1158,6 +1392,8 @@
       "resetSplitName": "Soul Master/Desolate Dive",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Soul Master/Desolate Dive"
     },
     {
@@ -1168,6 +1404,8 @@
       "resetSplitName": "City of Tears (entrance)",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "City of Tears (entrance)"
     },
     {
@@ -1178,6 +1416,8 @@
       "resetSplitName": "Markoth",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Broken Vessel/Monarch Wings"
     },
     {
@@ -1187,6 +1427,8 @@
       "progress": 0.71428573,
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Queen's Gardens"
     },
     {
@@ -1197,6 +1439,8 @@
       "resetSplitName": "Gorb",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Soul Tyrant"
     },
     {
@@ -1206,6 +1450,8 @@
       "progress": 0.4857143,
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Hornet Sentinel/King's Brand"
     },
     {
@@ -1216,6 +1462,8 @@
       "resetSplitName": "Soul Tyrant",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Lost Kin"
     },
     {
@@ -1226,6 +1474,8 @@
       "resetSplitName": "Hornet Protector/Mothwing Cloak",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Hornet Protector/Mothwing Cloak"
     },
     {
@@ -1236,6 +1486,8 @@
       "resetSplitName": "False Knight",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "False Knight"
     },
     {
@@ -1246,6 +1498,8 @@
       "resetSplitName": "City of Tears (exit)",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "City of Tears (exit)"
     },
     {
@@ -1256,6 +1510,8 @@
       "resetSplitName": "Mantis Claw",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Mantis Claw"
     },
     {
@@ -1265,6 +1521,8 @@
       "progress": 0.9714286,
       "pb": false,
       "distance": true,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "The Radiance"
     },
     {
@@ -1275,6 +1533,8 @@
       "resetSplitName": "Broken Vessel/Monarch Wings",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Broken Vessel/Monarch Wings"
     },
     {
@@ -1285,6 +1545,8 @@
       "resetSplitName": "City of Tears (entrance)",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "City of Tears (entrance)"
     },
     {
@@ -1295,6 +1557,8 @@
       "resetSplitName": "City of Tears (entrance)",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "City of Tears (entrance)"
     },
     {
@@ -1305,6 +1569,8 @@
       "resetSplitName": "False Knight",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "False Knight"
     },
     {
@@ -1315,6 +1581,8 @@
       "resetSplitName": "Lost Kin",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Lost Kin"
     },
     {
@@ -1325,6 +1593,8 @@
       "resetSplitName": "Hornet Protector/Mothwing Cloak",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Hornet Protector/Mothwing Cloak"
     },
     {
@@ -1335,6 +1605,8 @@
       "resetSplitName": "Gruz Mother",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Gruz Mother"
     },
     {
@@ -1345,6 +1617,8 @@
       "resetSplitName": "City of Tears (entrance)",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "City of Tears (entrance)"
     },
     {
@@ -1355,6 +1629,8 @@
       "resetSplitName": "City of Tears (entrance)",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "City of Tears (entrance)"
     },
     {
@@ -1365,6 +1641,8 @@
       "resetSplitName": "Gruz Mother",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Gruz Mother"
     },
     {
@@ -1375,6 +1653,8 @@
       "resetSplitName": "Broken Vessel/Monarch Wings",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Broken Vessel/Monarch Wings"
     },
     {
@@ -1385,6 +1665,8 @@
       "resetSplitName": "False Knight",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "False Knight"
     },
     {
@@ -1395,6 +1677,8 @@
       "resetSplitName": "False Knight",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "False Knight"
     },
     {
@@ -1405,6 +1689,8 @@
       "resetSplitName": "Lost Kin",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Soul Warrior/Shade Soul"
     },
     {
@@ -1415,6 +1701,8 @@
       "resetSplitName": "Hornet Protector/Mothwing Cloak",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Hornet Protector/Mothwing Cloak"
     },
     {
@@ -1425,6 +1713,8 @@
       "resetSplitName": "Lost Kin",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Lost Kin"
     },
     {
@@ -1435,6 +1725,8 @@
       "resetSplitName": "False Knight",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "False Knight"
     },
     {
@@ -1445,6 +1737,8 @@
       "resetSplitName": "False Knight",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "False Knight"
     },
     {
@@ -1454,6 +1748,8 @@
       "progress": 0.74285716,
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Traitor Lord"
     },
     {
@@ -1463,6 +1759,8 @@
       "progress": 0.7714286,
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Galien"
     },
     {
@@ -1473,6 +1771,8 @@
       "resetSplitName": "Soul Tyrant",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Soul Tyrant"
     },
     {
@@ -1483,6 +1783,8 @@
       "resetSplitName": "Soul Master/Desolate Dive",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Soul Master/Desolate Dive"
     },
     {
@@ -1492,6 +1794,8 @@
       "progress": 0.8857143,
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "White Palace"
     },
     {
@@ -1502,6 +1806,8 @@
       "resetSplitName": "Gruz Mother",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Gruz Mother"
     },
     {
@@ -1511,6 +1817,8 @@
       "progress": 0.71428573,
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Queen's Gardens"
     },
     {
@@ -1520,6 +1828,8 @@
       "progress": 0.94285715,
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "The Hollow Knight"
     },
     {
@@ -1530,6 +1840,8 @@
       "resetSplitName": "False Knight",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "False Knight"
     },
     {
@@ -1540,6 +1852,8 @@
       "resetSplitName": "Hornet Protector/Mothwing Cloak",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Hornet Protector/Mothwing Cloak"
     },
     {
@@ -1550,6 +1864,8 @@
       "resetSplitName": "Gorb",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Descending Dark"
     },
     {
@@ -1560,6 +1876,8 @@
       "resetSplitName": "City of Tears (entrance)",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "City of Tears (entrance)"
     },
     {

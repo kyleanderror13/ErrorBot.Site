@@ -7,6 +7,8 @@
       "progress": 0.21875,
       "pb": true,
       "distance": true,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Basin Ore"
     },
     {
@@ -16,6 +18,8 @@
       "progress": 0.28125,
       "pb": true,
       "distance": true,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Soul Master"
     },
     {
@@ -25,6 +29,8 @@
       "progress": 0.375,
       "pb": false,
       "distance": true,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Descending Dark"
     }
   ]

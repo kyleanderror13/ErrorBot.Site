@@ -16,6 +16,8 @@
       "attempts": 12,
       "hitPB": 9,
       "distancePB": 0.08695652,
+      "distancePBSectionIndex": 0,
+      "distancePBSectionName": "dark-souls-remastered",
       "distancePBSplitName": "Chaos Witch Quelaag"
     },
     {
@@ -42,6 +44,8 @@
       "attempts": 1,
       "hitPB": 50,
       "distancePB": 0.07575758,
+      "distancePBSectionIndex": 0,
+      "distancePBSectionName": "hollow-knight",
       "distancePBSplitName": "Mantis Claw"
     },
     {
@@ -68,6 +72,8 @@
       "attempts": 2,
       "hitPB": 10,
       "distancePB": 0.0,
+      "distancePBSectionIndex": 0,
+      "distancePBSectionName": "hollow-knight",
       "distancePBSplitName": "Trial of the Warrior"
     },
     {
@@ -78,6 +84,8 @@
       "attempts": 3,
       "hitPB": 7,
       "distancePB": 0.375,
+      "distancePBSectionIndex": 0,
+      "distancePBSectionName": "hollow-knight",
       "distancePBSplitName": "Descending Dark"
     },
     {
@@ -88,6 +96,8 @@
       "attempts": 97,
       "hitPB": 10,
       "distancePB": 0.6666667,
+      "distancePBSectionIndex": 0,
+      "distancePBSectionName": "hollow-knight",
       "distancePBSplitName": "Great Nailsage Sly"
     },
     {
@@ -98,6 +108,8 @@
       "attempts": 14,
       "hitPB": 1,
       "distancePB": 0.9189189,
+      "distancePBSectionIndex": 0,
+      "distancePBSectionName": "hollow-knight",
       "distancePBSplitName": "White Palace"
     },
     {
@@ -128,6 +140,8 @@
       "attempts": 25,
       "hitPB": 1,
       "distancePB": 0.902439,
+      "distancePBSectionIndex": 0,
+      "distancePBSectionName": "hollow-knight-silksong",
       "distancePBSplitName": "The Forum/Conductor's Melody"
     }
   ]

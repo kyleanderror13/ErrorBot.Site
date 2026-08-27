@@ -10,6 +10,8 @@ export interface NoHitCatalogRun {
   attempts: number;
   hitPB? : number;
   distancePB?: number;
+  distancePBSectionIndex?: number;
+  distancePBSectionName?: string;
   distancePBSplitName?: string;
   distancePBClipLink?: string;
   coverImage?: string;
@@ -40,9 +42,11 @@ export interface NoHitLogRun {
   attempt: number;
   date: Date; // date of the run
   hits: number;
-  progress: number; // percentage of run completed
+  progress: number; // percentage of full run completed
   resetSplitName?: string;
   pb: boolean;
-  distance: boolean;
+  distance: boolean; // was this run a distance PB?
+  distanceSectionIndex?: number;
+  distanceSectionName?: string;
   distanceSplitName?: string;
 }

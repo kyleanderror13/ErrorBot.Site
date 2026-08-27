@@ -7,6 +7,8 @@
       "progress": 0.08695652,
       "pb": true,
       "distance": true,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "dark-souls-remastered",
       "distanceSplitName": "Chaos Witch Quelaag"
     }
   ]

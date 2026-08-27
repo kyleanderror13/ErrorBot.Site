@@ -7,6 +7,8 @@
       "progress": 0.0,
       "pb": true,
       "distance": true,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Trial of the Warrior"
     },
     {
@@ -16,6 +18,8 @@
       "progress": 0.0,
       "pb": true,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Trial of the Warrior"
     }
   ]

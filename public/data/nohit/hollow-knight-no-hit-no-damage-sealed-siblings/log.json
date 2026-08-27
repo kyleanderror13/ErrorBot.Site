@@ -7,6 +7,8 @@
       "progress": 0.4864865,
       "pb": true,
       "distance": true,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Hornet Sentinel/King's Brand"
     },
     {
@@ -16,6 +18,8 @@
       "progress": 0.27027026,
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Soul Warrior/Shade Soul"
     },
     {
@@ -26,6 +30,8 @@
       "resetSplitName": "Descending Dark",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Descending Dark"
     },
     {
@@ -35,6 +41,8 @@
       "progress": 0.9189189,
       "pb": true,
       "distance": true,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "White Palace"
     },
     {
@@ -45,6 +53,8 @@
       "resetSplitName": "Hornet Sentinel/King's Brand",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Hornet Sentinel/King's Brand"
     },
     {
@@ -55,6 +65,8 @@
       "resetSplitName": "Hornet Protector/Mothwing Cloak",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Hornet Protector/Mothwing Cloak"
     },
     {
@@ -65,6 +77,8 @@
       "resetSplitName": "City of Tears (exit)",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "City of Tears (exit)"
     },
     {
@@ -75,6 +89,8 @@
       "resetSplitName": "Soul Warrior/Shade Soul",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Soul Warrior/Shade Soul"
     },
     {
@@ -85,6 +101,8 @@
       "resetSplitName": "Soul Master/Desolate Dive",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Soul Master/Desolate Dive"
     },
     {
@@ -94,6 +112,8 @@
       "progress": 0.7297297,
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "No Eyes"
     },
     {
@@ -104,6 +124,8 @@
       "resetSplitName": "Soul Warrior/Shade Soul",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Soul Warrior/Shade Soul"
     },
     {
@@ -114,6 +136,8 @@
       "resetSplitName": "Broken Vessel/Monarch Wings",
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Broken Vessel/Monarch Wings"
     },
     {
@@ -123,6 +147,8 @@
       "progress": 0.74285716,
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Queen's Gardens"
     },
     {
@@ -132,6 +158,8 @@
       "progress": 0.6857143,
       "pb": false,
       "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Failed Champion"
     }
   ]
