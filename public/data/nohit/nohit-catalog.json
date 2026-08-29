@@ -41,6 +41,20 @@
       "runLink": "https://www.youtube.com/watch?v=sVUtU3omaMQ"
     },
     {
+      "id": "hollow-knight-duology-no-hit-no-damage-any",
+      "game": "Hollow Knight Duology",
+      "category": "No Hit No Damage Any%",
+      "status": "Active",
+      "attempts": 1,
+      "hitPB": 13,
+      "sectionCount": 2,
+      "distancePB": 0.13157895,
+      "distancePBSectionIndex": 0,
+      "distancePBSectionName": "hollow-knight",
+      "distancePBSplitName": "Tram Pass",
+      "distancePBClipLink": "https://www.twitch.tv/kyleanderror13/clip/HeadstrongDelightfulBeefUWot-wW8v_dlZzps1uC8B"
+    },
+    {
       "id": "hollow-knight-no-hit-no-damage-all-main-game-bosses",
       "game": "Hollow Knight",
       "category": "No Hit No Damage All Main Game Bosses",
