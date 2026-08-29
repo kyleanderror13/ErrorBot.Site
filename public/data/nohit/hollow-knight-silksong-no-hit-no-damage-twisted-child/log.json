@@ -288,6 +288,29 @@
       "distanceSectionIndex": 0,
       "distanceSectionName": "hollow-knight-silksong",
       "distanceSplitName": "The Forum/Conductor's Melody"
+    },
+    {
+      "attempt": 26,
+      "date": "2026-08-27T21:10:44.5751112+08:00",
+      "hits": 1,
+      "progress": 0.0,
+      "resetSplitName": "Moss Mother",
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
+      "distanceSplitName": "Moss Mother"
+    },
+    {
+      "attempt": 27,
+      "date": "2026-08-27T23:20:07.6770574+08:00",
+      "hits": 8,
+      "progress": 0.5,
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
+      "distanceSplitName": "The Mist"
     }
   ]
 }

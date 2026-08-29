@@ -21,7 +21,7 @@
     },
     {
       "userName": "7majorx7",
-      "rank": 60,
+      "rank": 61,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
@@ -30,8 +30,8 @@
     },
     {
       "userName": "adeeduhs",
-      "rank": 13,
-      "tie": true,
+      "rank": 14,
+      "tie": false,
       "firsts": 0,
       "seconds": 0,
       "checkIns": 32,
@@ -39,7 +39,7 @@
     },
     {
       "userName": "Ageless_RPG",
-      "rank": 31,
+      "rank": 32,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
@@ -79,8 +79,8 @@
       "tie": false,
       "firsts": 25,
       "seconds": 11,
-      "checkIns": 53,
-      "points": 211
+      "checkIns": 54,
+      "points": 212
     },
     {
       "userName": "b1gbadw0lf",
@@ -156,7 +156,7 @@
     },
     {
       "userName": "chiconaui",
-      "rank": 31,
+      "rank": 32,
       "tie": true,
       "firsts": 0,
       "seconds": 2,
@@ -166,11 +166,11 @@
     {
       "userName": "clairetown",
       "rank": 31,
-      "tie": true,
+      "tie": false,
       "firsts": 0,
       "seconds": 1,
-      "checkIns": 5,
-      "points": 8
+      "checkIns": 6,
+      "points": 9
     },
     {
       "userName": "Coldhockeyboy",
@@ -201,7 +201,7 @@
     },
     {
       "userName": "Dbagggy",
-      "rank": 60,
+      "rank": 61,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
@@ -291,7 +291,7 @@
     },
     {
       "userName": "firebro89",
-      "rank": 60,
+      "rank": 61,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
@@ -349,8 +349,8 @@
       "tie": false,
       "firsts": 35,
       "seconds": 36,
-      "checkIns": 120,
-      "points": 403
+      "checkIns": 121,
+      "points": 404
     },
     {
       "userName": "ghitaoo",
@@ -390,12 +390,12 @@
     },
     {
       "userName": "grimy_sacks",
-      "rank": 60,
+      "rank": 52,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
-      "checkIns": 2,
-      "points": 2
+      "checkIns": 3,
+      "points": 3
     },
     {
       "userName": "hfdfa",
@@ -426,7 +426,7 @@
     },
     {
       "userName": "itsprettynotbad",
-      "rank": 60,
+      "rank": 61,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
@@ -475,12 +475,12 @@
       "tie": false,
       "firsts": 35,
       "seconds": 47,
-      "checkIns": 127,
-      "points": 443
+      "checkIns": 128,
+      "points": 444
     },
     {
       "userName": "karathegamer08",
-      "rank": 60,
+      "rank": 61,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
@@ -489,7 +489,7 @@
     },
     {
       "userName": "kratsel",
-      "rank": 60,
+      "rank": 61,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
@@ -543,7 +543,7 @@
     },
     {
       "userName": "Madss__42",
-      "rank": 31,
+      "rank": 32,
       "tie": true,
       "firsts": 0,
       "seconds": 1,
@@ -570,7 +570,7 @@
     },
     {
       "userName": "MesianVelari",
-      "rank": 60,
+      "rank": 61,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
@@ -598,11 +598,11 @@
     {
       "userName": "mysterydip",
       "rank": 13,
-      "tie": true,
+      "tie": false,
       "firsts": 2,
-      "seconds": 2,
+      "seconds": 3,
       "checkIns": 16,
-      "points": 32
+      "points": 35
     },
     {
       "userName": "Navi_33623",
@@ -725,10 +725,10 @@
       "userName": "shrimplet23",
       "rank": 9,
       "tie": false,
-      "firsts": 21,
+      "firsts": 22,
       "seconds": 6,
       "checkIns": 8,
-      "points": 131
+      "points": 136
     },
     {
       "userName": "siffysif__",
@@ -822,7 +822,7 @@
     },
     {
       "userName": "twiggyVi",
-      "rank": 31,
+      "rank": 32,
       "tie": true,
       "firsts": 1,
       "seconds": 1,
@@ -867,7 +867,7 @@
     },
     {
       "userName": "YOURBLENISISMINE",
-      "rank": 60,
+      "rank": 61,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
@@ -876,7 +876,7 @@
     },
     {
       "userName": "Zivonyx",
-      "rank": 31,
+      "rank": 32,
       "tie": true,
       "firsts": 0,
       "seconds": 1,
