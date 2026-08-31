@@ -43,16 +43,15 @@
     {
       "id": "hollow-knight-duology-no-hit-no-damage-any",
       "game": "Hollow Knight Duology",
-      "category": "No Hit No Damage Any%",
+      "category": "No Hit No Damage Duology",
       "status": "Active",
-      "attempts": 1,
-      "hitPB": 13,
+      "attempts": 2,
+      "hitPB": 4,
       "sectionCount": 2,
-      "distancePB": 0.13157895,
+      "distancePB": 0.18421052,
       "distancePBSectionIndex": 0,
       "distancePBSectionName": "hollow-knight",
-      "distancePBSplitName": "Tram Pass",
-      "distancePBClipLink": "https://www.twitch.tv/kyleanderror13/clip/HeadstrongDelightfulBeefUWot-wW8v_dlZzps1uC8B"
+      "distancePBSplitName": "Gorgeous Husk"
     },
     {
       "id": "hollow-knight-no-hit-no-damage-all-main-game-bosses",
@@ -164,7 +163,7 @@
       "game": "Hollow Knight: Silksong",
       "category": "No Hit No Damage Twisted Child",
       "status": "Active",
-      "attempts": 27,
+      "attempts": 28,
       "hitPB": 1,
       "sectionCount": 1,
       "distancePB": 0.902439,

@@ -311,6 +311,17 @@
       "distanceSectionIndex": 0,
       "distanceSectionName": "hollow-knight-silksong",
       "distanceSplitName": "The Mist"
+    },
+    {
+      "attempt": 28,
+      "date": "2026-08-30T00:23:35.214812+08:00",
+      "hits": 3,
+      "progress": 0.8888889,
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
+      "distanceSplitName": "The Forum/Conductor's Melody"
     }
   ]
 }
