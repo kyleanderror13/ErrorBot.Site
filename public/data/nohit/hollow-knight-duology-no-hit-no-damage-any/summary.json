@@ -8,8 +8,8 @@
       "recentSuccessRate": 1.0,
       "averageHits": 0.0,
       "totalHits": 0,
-      "successAttempts": 2,
-      "totalAttempts": 2,
+      "successAttempts": 3,
+      "totalAttempts": 3,
       "disabled": false
     },
     {
@@ -20,8 +20,8 @@
       "recentSuccessRate": 1.0,
       "averageHits": 0.0,
       "totalHits": 0,
-      "successAttempts": 2,
-      "totalAttempts": 2,
+      "successAttempts": 3,
+      "totalAttempts": 3,
       "disabled": false
     },
     {
@@ -32,8 +32,8 @@
       "recentSuccessRate": 1.0,
       "averageHits": 0.0,
       "totalHits": 0,
-      "successAttempts": 2,
-      "totalAttempts": 2,
+      "successAttempts": 3,
+      "totalAttempts": 3,
       "disabled": false
     },
     {
@@ -44,8 +44,8 @@
       "recentSuccessRate": 1.0,
       "averageHits": 0.0,
       "totalHits": 0,
-      "successAttempts": 2,
-      "totalAttempts": 2,
+      "successAttempts": 3,
+      "totalAttempts": 3,
       "disabled": false
     },
     {
@@ -56,20 +56,20 @@
       "recentSuccessRate": 1.0,
       "averageHits": 0.0,
       "totalHits": 0,
-      "successAttempts": 2,
-      "totalAttempts": 2,
+      "successAttempts": 3,
+      "totalAttempts": 3,
       "disabled": false
     },
     {
       "sectionName": "hollow-knight",
       "name": "Tram Pass",
       "resets": 0,
-      "successRate": 0.5,
-      "recentSuccessRate": 0.5,
-      "averageHits": 1.0,
+      "successRate": 0.6666667,
+      "recentSuccessRate": 0.6666667,
+      "averageHits": 0.6666667,
       "totalHits": 2,
-      "successAttempts": 1,
-      "totalAttempts": 2,
+      "successAttempts": 2,
+      "totalAttempts": 3,
       "disabled": false
     },
     {
@@ -80,20 +80,20 @@
       "recentSuccessRate": 1.0,
       "averageHits": 0.0,
       "totalHits": 0,
-      "successAttempts": 2,
-      "totalAttempts": 2,
+      "successAttempts": 3,
+      "totalAttempts": 3,
       "disabled": false
     },
     {
       "sectionName": "hollow-knight",
       "name": "Gorgeous Husk",
       "resets": 0,
-      "successRate": 0.5,
-      "recentSuccessRate": 0.5,
-      "averageHits": 0.5,
+      "successRate": 0.6666667,
+      "recentSuccessRate": 0.6666667,
+      "averageHits": 0.33333334,
       "totalHits": 1,
-      "successAttempts": 1,
-      "totalAttempts": 2,
+      "successAttempts": 2,
+      "totalAttempts": 3,
       "disabled": false
     },
     {
@@ -104,20 +104,20 @@
       "recentSuccessRate": 1.0,
       "averageHits": 0.0,
       "totalHits": 0,
-      "successAttempts": 2,
-      "totalAttempts": 2,
+      "successAttempts": 3,
+      "totalAttempts": 3,
       "disabled": false
     },
     {
       "sectionName": "hollow-knight",
       "name": "Desolate Dive",
       "resets": 0,
-      "successRate": 0.5,
-      "recentSuccessRate": 0.5,
-      "averageHits": 0.5,
+      "successRate": 0.6666667,
+      "recentSuccessRate": 0.6666667,
+      "averageHits": 0.33333334,
       "totalHits": 1,
-      "successAttempts": 1,
-      "totalAttempts": 2,
+      "successAttempts": 2,
+      "totalAttempts": 3,
       "disabled": false
     },
     {
@@ -128,8 +128,8 @@
       "recentSuccessRate": 1.0,
       "averageHits": 0.0,
       "totalHits": 0,
-      "successAttempts": 2,
-      "totalAttempts": 2,
+      "successAttempts": 3,
+      "totalAttempts": 3,
       "disabled": false
     },
     {
@@ -140,8 +140,8 @@
       "recentSuccessRate": 1.0,
       "averageHits": 0.0,
       "totalHits": 0,
-      "successAttempts": 2,
-      "totalAttempts": 2,
+      "successAttempts": 3,
+      "totalAttempts": 3,
       "disabled": false
     },
     {
@@ -152,8 +152,8 @@
       "recentSuccessRate": 1.0,
       "averageHits": 0.0,
       "totalHits": 0,
-      "successAttempts": 2,
-      "totalAttempts": 2,
+      "successAttempts": 3,
+      "totalAttempts": 3,
       "disabled": false
     },
     {
@@ -164,68 +164,68 @@
       "recentSuccessRate": 1.0,
       "averageHits": 0.0,
       "totalHits": 0,
-      "successAttempts": 2,
-      "totalAttempts": 2,
+      "successAttempts": 3,
+      "totalAttempts": 3,
       "disabled": false
     },
     {
       "sectionName": "hollow-knight",
       "name": "Dung Defender",
       "resets": 0,
-      "successRate": 0.0,
-      "recentSuccessRate": 0.0,
-      "averageHits": 1.0,
+      "successRate": 0.33333334,
+      "recentSuccessRate": 0.33333334,
+      "averageHits": 0.6666667,
       "totalHits": 2,
-      "successAttempts": 0,
-      "totalAttempts": 2,
+      "successAttempts": 1,
+      "totalAttempts": 3,
       "disabled": false
     },
     {
       "sectionName": "hollow-knight",
       "name": "Isma's Tear",
       "resets": 0,
-      "successRate": 1.0,
-      "recentSuccessRate": 1.0,
-      "averageHits": 0.0,
-      "totalHits": 0,
+      "successRate": 0.6666667,
+      "recentSuccessRate": 0.6666667,
+      "averageHits": 0.33333334,
+      "totalHits": 1,
       "successAttempts": 2,
-      "totalAttempts": 2,
+      "totalAttempts": 3,
       "disabled": false
     },
     {
       "sectionName": "hollow-knight",
       "name": "Uumuu",
       "resets": 0,
-      "successRate": 0.5,
-      "recentSuccessRate": 0.5,
-      "averageHits": 0.5,
-      "totalHits": 1,
+      "successRate": 0.33333334,
+      "recentSuccessRate": 0.33333334,
+      "averageHits": 0.6666667,
+      "totalHits": 2,
       "successAttempts": 1,
-      "totalAttempts": 2,
+      "totalAttempts": 3,
       "disabled": false
     },
     {
       "sectionName": "hollow-knight",
       "name": "Herrah the Beast",
       "resets": 0,
-      "successRate": 0.5,
-      "recentSuccessRate": 0.5,
-      "averageHits": 0.5,
+      "successRate": 0.6666667,
+      "recentSuccessRate": 0.6666667,
+      "averageHits": 0.33333334,
       "totalHits": 1,
-      "successAttempts": 1,
-      "totalAttempts": 2,
+      "successAttempts": 2,
+      "totalAttempts": 3,
       "disabled": false
     },
     {
       "sectionName": "hollow-knight",
       "name": "The Hollow Knight",
       "resets": 0,
-      "successRate": 0.5,
-      "recentSuccessRate": 0.5,
-      "averageHits": 0.5,
+      "successRate": 0.6666667,
+      "recentSuccessRate": 0.6666667,
+      "averageHits": 0.33333334,
       "totalHits": 1,
-      "successAttempts": 1,
-      "totalAttempts": 2,
+      "successAttempts": 2,
+      "totalAttempts": 3,
       "disabled": false
     },
     {
@@ -236,8 +236,8 @@
       "recentSuccessRate": 1.0,
       "averageHits": 0.0,
       "totalHits": 0,
-      "successAttempts": 2,
-      "totalAttempts": 2,
+      "successAttempts": 3,
+      "totalAttempts": 3,
       "disabled": false
     },
     {
@@ -248,8 +248,8 @@
       "recentSuccessRate": 1.0,
       "averageHits": 0.0,
       "totalHits": 0,
-      "successAttempts": 2,
-      "totalAttempts": 2,
+      "successAttempts": 3,
+      "totalAttempts": 3,
       "disabled": false
     },
     {
@@ -260,8 +260,8 @@
       "recentSuccessRate": 1.0,
       "averageHits": 0.0,
       "totalHits": 0,
-      "successAttempts": 2,
-      "totalAttempts": 2,
+      "successAttempts": 3,
+      "totalAttempts": 3,
       "disabled": false
     },
     {
@@ -272,8 +272,8 @@
       "recentSuccessRate": 1.0,
       "averageHits": 0.0,
       "totalHits": 0,
-      "successAttempts": 2,
-      "totalAttempts": 2,
+      "successAttempts": 3,
+      "totalAttempts": 3,
       "disabled": false
     },
     {
@@ -284,8 +284,8 @@
       "recentSuccessRate": 1.0,
       "averageHits": 0.0,
       "totalHits": 0,
-      "successAttempts": 2,
-      "totalAttempts": 2,
+      "successAttempts": 3,
+      "totalAttempts": 3,
       "disabled": false
     },
     {
@@ -296,8 +296,8 @@
       "recentSuccessRate": 1.0,
       "averageHits": 0.0,
       "totalHits": 0,
-      "successAttempts": 2,
-      "totalAttempts": 2,
+      "successAttempts": 3,
+      "totalAttempts": 3,
       "disabled": false
     },
     {
@@ -308,8 +308,8 @@
       "recentSuccessRate": 1.0,
       "averageHits": 0.0,
       "totalHits": 0,
-      "successAttempts": 2,
-      "totalAttempts": 2,
+      "successAttempts": 3,
+      "totalAttempts": 3,
       "disabled": false
     },
     {
@@ -320,8 +320,8 @@
       "recentSuccessRate": 1.0,
       "averageHits": 0.0,
       "totalHits": 0,
-      "successAttempts": 2,
-      "totalAttempts": 2,
+      "successAttempts": 3,
+      "totalAttempts": 3,
       "disabled": false
     },
     {
@@ -332,8 +332,8 @@
       "recentSuccessRate": 1.0,
       "averageHits": 0.0,
       "totalHits": 0,
-      "successAttempts": 2,
-      "totalAttempts": 2,
+      "successAttempts": 3,
+      "totalAttempts": 3,
       "disabled": false
     },
     {
@@ -344,8 +344,8 @@
       "recentSuccessRate": 1.0,
       "averageHits": 0.0,
       "totalHits": 0,
-      "successAttempts": 2,
-      "totalAttempts": 2,
+      "successAttempts": 3,
+      "totalAttempts": 3,
       "disabled": false
     },
     {
@@ -356,8 +356,8 @@
       "recentSuccessRate": 1.0,
       "averageHits": 0.0,
       "totalHits": 0,
-      "successAttempts": 2,
-      "totalAttempts": 2,
+      "successAttempts": 3,
+      "totalAttempts": 3,
       "disabled": false
     },
     {
@@ -368,8 +368,8 @@
       "recentSuccessRate": 1.0,
       "averageHits": 0.0,
       "totalHits": 0,
-      "successAttempts": 2,
-      "totalAttempts": 2,
+      "successAttempts": 3,
+      "totalAttempts": 3,
       "disabled": false
     },
     {
@@ -380,8 +380,8 @@
       "recentSuccessRate": 1.0,
       "averageHits": 0.0,
       "totalHits": 0,
-      "successAttempts": 2,
-      "totalAttempts": 2,
+      "successAttempts": 3,
+      "totalAttempts": 3,
       "disabled": false
     },
     {
@@ -392,8 +392,8 @@
       "recentSuccessRate": 1.0,
       "averageHits": 0.0,
       "totalHits": 0,
-      "successAttempts": 2,
-      "totalAttempts": 2,
+      "successAttempts": 3,
+      "totalAttempts": 3,
       "disabled": false
     },
     {
@@ -404,8 +404,8 @@
       "recentSuccessRate": 1.0,
       "averageHits": 0.0,
       "totalHits": 0,
-      "successAttempts": 2,
-      "totalAttempts": 2,
+      "successAttempts": 3,
+      "totalAttempts": 3,
       "disabled": false
     },
     {
@@ -416,20 +416,20 @@
       "recentSuccessRate": 1.0,
       "averageHits": 0.0,
       "totalHits": 0,
-      "successAttempts": 2,
-      "totalAttempts": 2,
+      "successAttempts": 3,
+      "totalAttempts": 3,
       "disabled": false
     },
     {
       "sectionName": "hollow-knight-silksong",
       "name": "The Mist",
       "resets": 0,
-      "successRate": 1.0,
-      "recentSuccessRate": 1.0,
-      "averageHits": 0.0,
-      "totalHits": 0,
+      "successRate": 0.6666667,
+      "recentSuccessRate": 0.6666667,
+      "averageHits": 0.33333334,
+      "totalHits": 1,
       "successAttempts": 2,
-      "totalAttempts": 2,
+      "totalAttempts": 3,
       "disabled": false
     },
     {
@@ -439,9 +439,9 @@
       "successRate": 0.0,
       "recentSuccessRate": 0.0,
       "averageHits": 1.0,
-      "totalHits": 2,
+      "totalHits": 3,
       "successAttempts": 0,
-      "totalAttempts": 2,
+      "totalAttempts": 3,
       "disabled": false
     },
     {
@@ -452,20 +452,20 @@
       "recentSuccessRate": 1.0,
       "averageHits": 0.0,
       "totalHits": 0,
-      "successAttempts": 2,
-      "totalAttempts": 2,
+      "successAttempts": 3,
+      "totalAttempts": 3,
       "disabled": false
     },
     {
       "sectionName": "hollow-knight-silksong",
       "name": "Whispering Vaults Arena",
       "resets": 0,
-      "successRate": 0.5,
-      "recentSuccessRate": 0.5,
-      "averageHits": 0.5,
+      "successRate": 0.6666667,
+      "recentSuccessRate": 0.6666667,
+      "averageHits": 0.33333334,
       "totalHits": 1,
-      "successAttempts": 1,
-      "totalAttempts": 2,
+      "successAttempts": 2,
+      "totalAttempts": 3,
       "disabled": false
     },
     {
@@ -476,20 +476,20 @@
       "recentSuccessRate": 1.0,
       "averageHits": 0.0,
       "totalHits": 0,
-      "successAttempts": 2,
-      "totalAttempts": 2,
+      "successAttempts": 3,
+      "totalAttempts": 3,
       "disabled": false
     },
     {
       "sectionName": "hollow-knight-silksong",
       "name": "Trobbio",
       "resets": 0,
-      "successRate": 1.0,
-      "recentSuccessRate": 1.0,
-      "averageHits": 0.0,
-      "totalHits": 0,
+      "successRate": 0.6666667,
+      "recentSuccessRate": 0.6666667,
+      "averageHits": 0.33333334,
+      "totalHits": 1,
       "successAttempts": 2,
-      "totalAttempts": 2,
+      "totalAttempts": 3,
       "disabled": false
     },
     {
@@ -500,8 +500,8 @@
       "recentSuccessRate": 1.0,
       "averageHits": 0.0,
       "totalHits": 0,
-      "successAttempts": 2,
-      "totalAttempts": 2,
+      "successAttempts": 3,
+      "totalAttempts": 3,
       "disabled": false
     },
     {
@@ -512,8 +512,8 @@
       "recentSuccessRate": 1.0,
       "averageHits": 0.0,
       "totalHits": 0,
-      "successAttempts": 2,
-      "totalAttempts": 2,
+      "successAttempts": 3,
+      "totalAttempts": 3,
       "disabled": false
     },
     {
@@ -524,32 +524,32 @@
       "recentSuccessRate": 1.0,
       "averageHits": 0.0,
       "totalHits": 0,
-      "successAttempts": 2,
-      "totalAttempts": 2,
+      "successAttempts": 3,
+      "totalAttempts": 3,
       "disabled": false
     },
     {
       "sectionName": "hollow-knight-silksong",
       "name": "Cogwork Core/Architect's Melody",
       "resets": 0,
-      "successRate": 0.5,
-      "recentSuccessRate": 0.5,
-      "averageHits": 1.0,
+      "successRate": 0.6666667,
+      "recentSuccessRate": 0.6666667,
+      "averageHits": 0.6666667,
       "totalHits": 2,
-      "successAttempts": 1,
-      "totalAttempts": 2,
+      "successAttempts": 2,
+      "totalAttempts": 3,
       "disabled": false
     },
     {
       "sectionName": "hollow-knight-silksong",
       "name": "High Halls",
       "resets": 0,
-      "successRate": 0.5,
-      "recentSuccessRate": 0.5,
-      "averageHits": 0.5,
+      "successRate": 0.6666667,
+      "recentSuccessRate": 0.6666667,
+      "averageHits": 0.33333334,
       "totalHits": 1,
-      "successAttempts": 1,
-      "totalAttempts": 2,
+      "successAttempts": 2,
+      "totalAttempts": 3,
       "disabled": false
     },
     {
@@ -560,20 +560,20 @@
       "recentSuccessRate": 1.0,
       "averageHits": 0.0,
       "totalHits": 0,
-      "successAttempts": 2,
-      "totalAttempts": 2,
+      "successAttempts": 3,
+      "totalAttempts": 3,
       "disabled": false
     },
     {
       "sectionName": "hollow-knight-silksong",
       "name": "Lace (The Cradle)",
       "resets": 0,
-      "successRate": 0.5,
-      "recentSuccessRate": 0.5,
-      "averageHits": 1.0,
-      "totalHits": 2,
+      "successRate": 0.33333334,
+      "recentSuccessRate": 0.33333334,
+      "averageHits": 1.3333334,
+      "totalHits": 4,
       "successAttempts": 1,
-      "totalAttempts": 2,
+      "totalAttempts": 3,
       "disabled": false
     },
     {
@@ -584,8 +584,8 @@
       "recentSuccessRate": 1.0,
       "averageHits": 0.0,
       "totalHits": 0,
-      "successAttempts": 2,
-      "totalAttempts": 2,
+      "successAttempts": 3,
+      "totalAttempts": 3,
       "disabled": false
     }
   ]
