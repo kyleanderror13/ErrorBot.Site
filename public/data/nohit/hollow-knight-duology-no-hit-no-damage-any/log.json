@@ -34,6 +34,17 @@
       "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Isma's Tear",
       "clipLink": "https://www.twitch.tv/kyleanderror13/clip/OpenRoughSnakeDAESuppy-mdBGINsYgKKjxUfp"
+    },
+    {
+      "attempt": 4,
+      "date": "2026-09-06T23:59:32.2067368+08:00",
+      "hits": 6,
+      "progress": 0.13157895,
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
+      "distanceSplitName": "Tram Pass"
     }
   ]
 }

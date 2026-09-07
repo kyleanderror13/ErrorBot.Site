@@ -322,6 +322,88 @@
       "distanceSectionIndex": 0,
       "distanceSectionName": "hollow-knight-silksong",
       "distanceSplitName": "The Forum/Conductor's Melody"
+    },
+    {
+      "attempt": 29,
+      "date": "2026-09-03T22:30:18.0102613+08:00",
+      "hits": 3,
+      "progress": 0.083333336,
+      "resetSplitName": "Bell Beast",
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
+      "distanceSplitName": "Bell Beast"
+    },
+    {
+      "attempt": 30,
+      "date": "2026-09-04T00:19:36.7176364+08:00",
+      "hits": 10,
+      "progress": 0.2777778,
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
+      "distanceSplitName": "Shellwood/Cling Grip"
+    },
+    {
+      "attempt": 31,
+      "date": "2026-09-04T16:17:19.704648+08:00",
+      "hits": 1,
+      "progress": 0.2777778,
+      "resetSplitName": "Shellwood/Cling Grip",
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
+      "distanceSplitName": "Shellwood/Cling Grip"
+    },
+    {
+      "attempt": 32,
+      "date": "2026-09-04T20:18:54.269617+08:00",
+      "hits": 1,
+      "progress": 0.11111111,
+      "resetSplitName": "Swift Step",
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
+      "distanceSplitName": "Swift Step"
+    },
+    {
+      "attempt": 33,
+      "date": "2026-09-04T20:30:32.1743367+08:00",
+      "hits": 1,
+      "progress": 0.11111111,
+      "resetSplitName": "Swift Step",
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
+      "distanceSplitName": "Swift Step"
+    },
+    {
+      "attempt": 34,
+      "date": "2026-09-05T15:37:59.1657248+08:00",
+      "hits": 4,
+      "progress": 0.30555555,
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
+      "distanceSplitName": "Pollip Pouch"
+    },
+    {
+      "attempt": 35,
+      "date": "2026-09-05T19:38:42.6025226+08:00",
+      "hits": 1,
+      "progress": 0.11111111,
+      "resetSplitName": "Swift Step",
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
+      "distanceSplitName": "Swift Step"
     }
   ]
 }
