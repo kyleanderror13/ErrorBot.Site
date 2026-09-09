@@ -45,6 +45,42 @@
       "distanceSectionIndex": 0,
       "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Tram Pass"
+    },
+    {
+      "attempt": 5,
+      "date": "2026-09-08T20:40:40.1155864+08:00",
+      "hits": 1,
+      "progress": 0.13157895,
+      "resetSplitName": "Tram Pass",
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
+      "distanceSplitName": "Tram Pass"
+    },
+    {
+      "attempt": 6,
+      "date": "2026-09-08T21:21:18.7020146+08:00",
+      "hits": 2,
+      "progress": 0.13157895,
+      "resetSplitName": "Tram Pass",
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
+      "distanceSplitName": "Tram Pass"
+    },
+    {
+      "attempt": 7,
+      "date": "2026-09-08T23:18:43.7065032+08:00",
+      "hits": 1,
+      "progress": 0.47368422,
+      "resetSplitName": "Moss Mother",
+      "pb": false,
+      "distance": true,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
+      "distanceSplitName": "The Hollow Knight"
     }
   ]
 }

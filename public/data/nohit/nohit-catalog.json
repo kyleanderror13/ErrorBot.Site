@@ -45,14 +45,13 @@
       "game": "Hollow Knight Duology",
       "category": "No Hit No Damage Duology",
       "status": "Active",
-      "attempts": 4,
+      "attempts": 7,
       "hitPB": 4,
       "sectionCount": 2,
-      "distancePB": 0.39473686,
+      "distancePB": 0.47368422,
       "distancePBSectionIndex": 0,
       "distancePBSectionName": "hollow-knight",
-      "distancePBSplitName": "Isma's Tear",
-      "distancePBClipLink": "https://www.twitch.tv/kyleanderror13/clip/OpenRoughSnakeDAESuppy-mdBGINsYgKKjxUfp"
+      "distancePBSplitName": "The Hollow Knight"
     },
     {
       "id": "hollow-knight-no-hit-no-damage-all-main-game-bosses",
