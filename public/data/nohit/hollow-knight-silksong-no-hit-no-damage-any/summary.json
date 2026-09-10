@@ -212,8 +212,8 @@
       "recentSuccessRate": 1.0,
       "averageHits": 0.0,
       "totalHits": 0,
-      "successAttempts": 74,
-      "totalAttempts": 74,
+      "successAttempts": 73,
+      "totalAttempts": 73,
       "disabled": false
     },
     {
@@ -352,12 +352,12 @@
       "sectionName": "hollow-knight-silksong",
       "name": "Pale Oil",
       "resets": 1,
-      "successRate": 0.94827586,
+      "successRate": 0.94736844,
       "recentSuccessRate": 1.0,
-      "averageHits": 0.05172414,
+      "averageHits": 0.05263158,
       "totalHits": 3,
-      "successAttempts": 55,
-      "totalAttempts": 58,
+      "successAttempts": 54,
+      "totalAttempts": 57,
       "disabled": false
     },
     {

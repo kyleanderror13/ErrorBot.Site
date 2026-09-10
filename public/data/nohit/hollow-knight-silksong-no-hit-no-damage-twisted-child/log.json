@@ -404,6 +404,18 @@
       "distanceSectionIndex": 0,
       "distanceSectionName": "hollow-knight-silksong",
       "distanceSplitName": "Swift Step"
+    },
+    {
+      "attempt": 36,
+      "date": "2026-09-09T16:56:58.3121689+08:00",
+      "hits": 1,
+      "progress": 0.5,
+      "resetSplitName": "The Mist",
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
+      "distanceSplitName": "The Mist"
     }
   ]
 }

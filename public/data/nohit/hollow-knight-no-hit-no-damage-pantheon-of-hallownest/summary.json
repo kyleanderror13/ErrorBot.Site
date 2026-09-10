@@ -460,12 +460,12 @@
       "sectionName": "hollow-knight",
       "name": "Failed Champion",
       "resets": 1,
-      "successRate": 0.65,
+      "successRate": 0.6315789,
       "recentSuccessRate": 0.6,
-      "averageHits": 0.45,
+      "averageHits": 0.47368422,
       "totalHits": 9,
-      "successAttempts": 13,
-      "totalAttempts": 20,
+      "successAttempts": 12,
+      "totalAttempts": 19,
       "disabled": false
     },
     {
