@@ -416,6 +416,18 @@
       "distanceSectionIndex": 0,
       "distanceSectionName": "hollow-knight-silksong",
       "distanceSplitName": "The Mist"
+    },
+    {
+      "attempt": 37,
+      "date": "2026-09-12T22:37:24.7734263+08:00",
+      "hits": 2,
+      "progress": 0.19444445,
+      "resetSplitName": "Drifter's Cloak",
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
+      "distanceSplitName": "Drifter's Cloak"
     }
   ]
 }

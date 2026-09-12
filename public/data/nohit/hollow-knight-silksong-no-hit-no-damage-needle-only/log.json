@@ -1,0 +1,27 @@
+{
+  "runs": [
+    {
+      "attempt": 1,
+      "date": "2026-09-10T21:52:30.3545069+08:00",
+      "hits": 1,
+      "progress": 0.0,
+      "resetSplitName": "Moss Mother",
+      "pb": false,
+      "distance": true,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
+      "distanceSplitName": "Moss Mother"
+    },
+    {
+      "attempt": 2,
+      "date": "2026-09-10T23:45:36.6892589+08:00",
+      "hits": 13,
+      "progress": 0.13636364,
+      "pb": true,
+      "distance": true,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
+      "distanceSplitName": "Lace (Deep Docks)"
+    }
+  ]
+}

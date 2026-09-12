@@ -81,6 +81,54 @@
       "distanceSectionIndex": 0,
       "distanceSectionName": "hollow-knight",
       "distanceSplitName": "The Hollow Knight"
+    },
+    {
+      "attempt": 8,
+      "date": "2026-09-10T19:49:18.650272+08:00",
+      "hits": 1,
+      "progress": 0.06666667,
+      "resetSplitName": "Forge Daughter Arena",
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
+      "distanceSplitName": "Forge Daughter Arena"
+    },
+    {
+      "attempt": 9,
+      "date": "2026-09-10T20:01:30.4651517+08:00",
+      "hits": 1,
+      "progress": 0.05,
+      "resetSplitName": "Swift Step",
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
+      "distanceSplitName": "Swift Step"
+    },
+    {
+      "attempt": 10,
+      "date": "2026-09-10T20:40:18.9766981+08:00",
+      "hits": 2,
+      "progress": 0.13333334,
+      "resetSplitName": "Cling Grip",
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
+      "distanceSplitName": "Moorwing"
+    },
+    {
+      "attempt": 11,
+      "date": "2026-09-10T21:48:49.2439571+08:00",
+      "hits": 2,
+      "progress": 0.2631579,
+      "resetSplitName": "Crystal Heart",
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
+      "distanceSplitName": "Crystal Heart"
     }
   ]
 }
