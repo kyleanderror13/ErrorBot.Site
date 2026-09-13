@@ -129,6 +129,66 @@
       "distanceSectionIndex": 0,
       "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Crystal Heart"
+    },
+    {
+      "attempt": 12,
+      "date": "2026-09-13T20:09:53.8240186+08:00",
+      "hits": 1,
+      "progress": 0.02631579,
+      "resetSplitName": "Hornet Protector",
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
+      "distanceSplitName": "Hornet Protector"
+    },
+    {
+      "attempt": 13,
+      "date": "2026-09-13T20:20:10.8822226+08:00",
+      "hits": 1,
+      "progress": 0.02631579,
+      "resetSplitName": "Hornet Protector",
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
+      "distanceSplitName": "Hornet Protector"
+    },
+    {
+      "attempt": 14,
+      "date": "2026-09-13T20:26:53.4626735+08:00",
+      "hits": 1,
+      "progress": 0.0,
+      "resetSplitName": "False Knight",
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
+      "distanceSplitName": "False Knight"
+    },
+    {
+      "attempt": 15,
+      "date": "2026-09-13T21:09:55.8951707+08:00",
+      "hits": 3,
+      "progress": 0.15789473,
+      "resetSplitName": "Gorgeous Husk",
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
+      "distanceSplitName": "Basin Pale Ore"
+    },
+    {
+      "attempt": 16,
+      "date": "2026-09-13T21:42:40.9499563+08:00",
+      "hits": 1,
+      "progress": 0.13333334,
+      "resetSplitName": "Cling Grip",
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
+      "distanceSplitName": "Moorwing"
     }
   ]
 }
