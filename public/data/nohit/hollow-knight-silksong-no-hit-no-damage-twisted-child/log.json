@@ -428,6 +428,29 @@
       "distanceSectionIndex": 0,
       "distanceSectionName": "hollow-knight-silksong",
       "distanceSplitName": "Drifter's Cloak"
+    },
+    {
+      "attempt": 38,
+      "date": "2026-09-14T16:13:46.3645636+08:00",
+      "hits": 2,
+      "progress": 0.7222222,
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
+      "distanceSplitName": "Clawline"
+    },
+    {
+      "attempt": 39,
+      "date": "2026-09-14T20:21:31.9236639+08:00",
+      "hits": 2,
+      "progress": 0.25,
+      "resetSplitName": "Moorwing",
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
+      "distanceSplitName": "Moorwing"
     }
   ]
 }

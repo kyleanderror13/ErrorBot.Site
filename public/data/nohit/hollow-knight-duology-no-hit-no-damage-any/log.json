@@ -189,6 +189,18 @@
       "distanceSectionIndex": 0,
       "distanceSectionName": "hollow-knight-silksong",
       "distanceSplitName": "Moorwing"
+    },
+    {
+      "attempt": 17,
+      "date": "2026-09-16T00:53:06.3063262+08:00",
+      "hits": 2,
+      "progress": 0.95,
+      "pb": true,
+      "distance": true,
+      "distanceSectionIndex": 1,
+      "distanceSectionName": "hollow-knight-silksong",
+      "distanceSplitName": "The Forum/Conductor's Melody",
+      "clipLink": "https://www.twitch.tv/kyleanderror13/clip/SarcasticVibrantDelicataLeeroyJenkins-8dRJJIL5ZVgilzRy"
     }
   ]
 }
