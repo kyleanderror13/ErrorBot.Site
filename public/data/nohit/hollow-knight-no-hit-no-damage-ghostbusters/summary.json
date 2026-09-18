@@ -14,18 +14,6 @@
     },
     {
       "sectionName": "hollow-knight",
-      "name": "Vengeful Spirit",
-      "resets": 0,
-      "successRate": 1.0,
-      "recentSuccessRate": 1.0,
-      "averageHits": 0.0,
-      "totalHits": 0,
-      "successAttempts": 3,
-      "totalAttempts": 3,
-      "disabled": false
-    },
-    {
-      "sectionName": "hollow-knight",
       "name": "Hornet Protector",
       "resets": 0,
       "successRate": 1.0,
@@ -383,6 +371,18 @@
       "successAttempts": 3,
       "totalAttempts": 3,
       "disabled": false
+    },
+    {
+      "sectionName": "hollow-knight",
+      "name": "Vengeful Spirit",
+      "resets": 0,
+      "successRate": 1.0,
+      "recentSuccessRate": 1.0,
+      "averageHits": 0.0,
+      "totalHits": 0,
+      "successAttempts": 3,
+      "totalAttempts": 3,
+      "disabled": true
     }
   ]
 }

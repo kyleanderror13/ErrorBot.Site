@@ -451,6 +451,30 @@
       "distanceSectionIndex": 0,
       "distanceSectionName": "hollow-knight-silksong",
       "distanceSplitName": "Moorwing"
+    },
+    {
+      "attempt": 40,
+      "date": "2026-09-17T14:49:11.6310592+08:00",
+      "hits": 1,
+      "progress": 0.11111111,
+      "resetSplitName": "Swift Step",
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
+      "distanceSplitName": "Swift Step"
+    },
+    {
+      "attempt": 41,
+      "date": "2026-09-18T15:56:56.0155351+08:00",
+      "hits": 1,
+      "progress": 0.5,
+      "resetSplitName": "The Mist",
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
+      "distanceSplitName": "The Mist"
     }
   ]
 }
