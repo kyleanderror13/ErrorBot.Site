@@ -292,6 +292,58 @@
       "distanceSectionName": "hollow-knight-silksong",
       "distanceSplitName": "Cogwork Dancers",
       "clipLink": "https://www.twitch.tv/kyleanderror13/clip/FuriousConsiderateShrimpAMPEnergyCherry-vVDDqk_w_7RdgNDY"
+    },
+    {
+      "attempt": 25,
+      "date": "2026-09-20T20:40:30.7958041+08:00",
+      "hits": 1,
+      "progress": 0.25,
+      "resetSplitName": "Sinner's Road",
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
+      "distanceSplitName": "Sinner's Road",
+      "clipLink": "https://www.twitch.tv/kyleanderror13/clip/GracefulBoringHorseBCWarrior-_K9tNvp1_qLVCg5q"
+    },
+    {
+      "attempt": 26,
+      "date": "2026-09-20T20:54:46.0784929+08:00",
+      "hits": 1,
+      "progress": 0.05,
+      "resetSplitName": "Swift Step",
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
+      "distanceSplitName": "Swift Step",
+      "clipLink": "https://www.twitch.tv/kyleanderror13/clip/RespectfulTolerantBaconRiPepperonis-4OBAVMeee07ekJeA"
+    },
+    {
+      "attempt": 27,
+      "date": "2026-09-20T21:02:19.8647163+08:00",
+      "hits": 1,
+      "progress": 0.033333335,
+      "resetSplitName": "Bell Beast",
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
+      "distanceSplitName": "Bell Beast",
+      "clipLink": "https://www.twitch.tv/kyleanderror13/clip/SpoopySilkyHawkArsonNoSexy-q7QomybdG7D6SNeK"
+    },
+    {
+      "attempt": 28,
+      "date": "2026-09-20T23:01:15.8114058+08:00",
+      "hits": 4,
+      "progress": 0.45,
+      "resetSplitName": "False Knight",
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
+      "distanceSplitName": "The Forum/Conductor's Melody",
+      "clipLink": "https://www.twitch.tv/kyleanderror13/clip/BrightPopularGrassFUNgineer-ufW_uFUmu-xrJo1s"
     }
   ]
 }
