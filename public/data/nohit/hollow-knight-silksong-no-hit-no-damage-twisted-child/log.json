@@ -475,6 +475,40 @@
       "distanceSectionIndex": 0,
       "distanceSectionName": "hollow-knight-silksong",
       "distanceSplitName": "The Mist"
+    },
+    {
+      "attempt": 42,
+      "date": "2026-09-23T15:25:54.7029223+08:00",
+      "hits": 1,
+      "progress": 0.2777778,
+      "resetSplitName": "Shellwood/Cling Grip",
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
+      "distanceSplitName": "Shellwood/Cling Grip"
+    },
+    {
+      "attempt": 43,
+      "date": "2026-09-23T22:22:33.5990958+08:00",
+      "hits": 4,
+      "progress": 0.5,
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
+      "distanceSplitName": "The Mist"
+    },
+    {
+      "attempt": 44,
+      "date": "2026-09-24T14:57:24.4341797+08:00",
+      "hits": 5,
+      "progress": 0.6111111,
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
+      "distanceSplitName": "Whispering Vaults Arena"
     }
   ]
 }
