@@ -509,6 +509,31 @@
       "distanceSectionIndex": 0,
       "distanceSectionName": "hollow-knight-silksong",
       "distanceSplitName": "Whispering Vaults Arena"
+    },
+    {
+      "attempt": 45,
+      "date": "2026-09-26T20:59:45.1478704+08:00",
+      "hits": 1,
+      "progress": 0.0,
+      "resetSplitName": "Moss Mother",
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
+      "distanceSplitName": "Moss Mother",
+      "clipLink": "https://www.twitch.tv/kyleanderror13/clip/SincereTangibleDragonflyDansGame-wEFJKRNmJidh93E1"
+    },
+    {
+      "attempt": 46,
+      "date": "2026-09-26T23:07:18.3985966+08:00",
+      "hits": 10,
+      "progress": 0.1388889,
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
+      "distanceSplitName": "Forge Daughter Arena",
+      "clipLink": "https://www.twitch.tv/kyleanderror13/clip/TenaciousRelentlessPotatoPanicVis-fh9xI-n8ZPtQ9wWP"
     }
   ]
 }
