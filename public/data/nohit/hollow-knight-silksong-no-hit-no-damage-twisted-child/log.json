@@ -585,6 +585,147 @@
       "distanceSectionName": "hollow-knight-silksong",
       "distanceSplitName": "Shellwood/Cling Grip",
       "clipLink": "https://www.twitch.tv/kyleanderror13/clip/TransparentGorgeousVultureMrDestructoid-bPpzl2q0UW26sPwi"
+    },
+    {
+      "attempt": 51,
+      "date": "2026-09-30T11:12:05.8151968+08:00",
+      "hits": 1,
+      "progress": 0.11111111,
+      "resetSplitName": "Swift Step",
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
+      "distanceSplitName": "Swift Step"
+    },
+    {
+      "attempt": 52,
+      "date": "2026-09-30T13:51:15.3467881+08:00",
+      "hits": 1,
+      "progress": 0.25,
+      "resetSplitName": "Shellwood/Cling Grip",
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
+      "distanceSplitName": "Moorwing"
+    },
+    {
+      "attempt": 53,
+      "date": "2026-09-30T16:16:26.893025+08:00",
+      "hits": 1,
+      "progress": 0.11111111,
+      "resetSplitName": "Swift Step",
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
+      "distanceSplitName": "Swift Step"
+    },
+    {
+      "attempt": 54,
+      "date": "2026-09-30T16:21:10.3169958+08:00",
+      "hits": 1,
+      "progress": 0.027777778,
+      "resetSplitName": "The Marrow",
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
+      "distanceSplitName": "The Marrow"
+    },
+    {
+      "attempt": 55,
+      "date": "2026-09-30T16:23:38.8237065+08:00",
+      "hits": 1,
+      "progress": 0.0,
+      "resetSplitName": "Moss Mother",
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
+      "distanceSplitName": "Moss Mother"
+    },
+    {
+      "attempt": 56,
+      "date": "2026-09-30T16:37:53.1082797+08:00",
+      "hits": 1,
+      "progress": 0.11111111,
+      "resetSplitName": "Swift Step",
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
+      "distanceSplitName": "Swift Step"
+    },
+    {
+      "attempt": 57,
+      "date": "2026-09-30T21:36:38.7952304+08:00",
+      "hits": 1,
+      "progress": 0.027777778,
+      "resetSplitName": "The Marrow",
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
+      "distanceSplitName": "The Marrow"
+    },
+    {
+      "attempt": 58,
+      "date": "2026-09-30T22:16:42.7477756+08:00",
+      "hits": 1,
+      "progress": 0.33333334,
+      "resetSplitName": "Widow/Needolin",
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
+      "distanceSplitName": "Widow/Needolin"
+    },
+    {
+      "attempt": 59,
+      "date": "2026-10-01T10:57:16.8600756+08:00",
+      "hits": 1,
+      "progress": 0.33333334,
+      "resetSplitName": "Widow/Needolin",
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
+      "distanceSplitName": "Widow/Needolin"
+    },
+    {
+      "attempt": 60,
+      "date": "2026-10-02T06:48:45.2623226+08:00",
+      "hits": 1,
+      "progress": 0.083333336,
+      "resetSplitName": "Bell Beast",
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
+      "distanceSplitName": "Bell Beast",
+      "clipLink": "https://www.twitch.tv/kyleanderror13/clip/CoyRoundWhaleCoolStoryBob-Ft8ma092LeFBiSwj"
+    },
+    {
+      "attempt": 61,
+      "date": "2026-10-02T09:06:20.2135273+08:00",
+      "hits": 3,
+      "progress": 0.4722222,
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
+      "distanceSplitName": "Sinner's Road",
+      "clipLink": "https://www.twitch.tv/kyleanderror13/clip/DiligentDaintyWrenchPupper-9UxydhzSwEuAshfK"
+    },
+    {
+      "attempt": 62,
+      "date": "2026-10-02T11:26:52.8951195+08:00",
+      "hits": 0,
+      "progress": 1.0,
+      "pb": true,
+      "distance": true
     }
   ]
 }

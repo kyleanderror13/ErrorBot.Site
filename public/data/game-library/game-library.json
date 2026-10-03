@@ -566,6 +566,11 @@
       "completed": "not-started"
     },
     {
+      "title": "Big Walk",
+      "platform": "Steam",
+      "completed": "not-started"
+    },
+    {
       "title": "Binding of Isaac, The",
       "platform": "Steam",
       "completed": "not-started"
@@ -1039,6 +1044,11 @@
       "title": "Contrast",
       "platform": "Steam",
       "completed": "completed-any"
+    },
+    {
+      "title": "CONTROL Resonant",
+      "platform": "Steam",
+      "completed": "in-progress"
     },
     {
       "title": "Control Ultimate Edition",
@@ -2634,6 +2644,11 @@
       "title": "If On A Winter's Night, Four Travelers",
       "platform": "Steam",
       "completed": "completed-any"
+    },
+    {
+      "title": "Immortal Planet",
+      "platform": "Steam",
+      "completed": "not-started"
     },
     {
       "title": "IMMORTALITY",
@@ -4863,7 +4878,7 @@
     {
       "title": "Sisyphus Is a Bug",
       "platform": "Steam",
-      "completed": "not-started"
+      "completed": "in-progress"
     },
     {
       "title": "Size Matters",
@@ -5486,9 +5501,14 @@
       "completed": "not-started"
     },
     {
-      "title": "The Message from Deep Space",
+      "title": "The Apothecary of Trubiz",
       "platform": "Steam",
       "completed": "not-started"
+    },
+    {
+      "title": "The Message from Deep Space",
+      "platform": "Steam",
+      "completed": "in-progress"
     },
     {
       "title": "There Came an Echo",

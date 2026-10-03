@@ -176,14 +176,11 @@
       "id": "hollow-knight-silksong-no-hit-no-damage-twisted-child",
       "game": "Hollow Knight: Silksong",
       "category": "No Hit No Damage Twisted Child",
-      "status": "Active",
-      "attempts": 50,
-      "hitPB": 1,
+      "status": "Completed",
+      "attempts": 62,
+      "hitPB": 0,
       "sectionCount": 1,
-      "distancePB": 0.902439,
-      "distancePBSectionIndex": 0,
-      "distancePBSectionName": "hollow-knight-silksong",
-      "distancePBSplitName": "The Forum/Conductor's Melody"
+      "distancePB": 1.0
     }
   ]
 }
