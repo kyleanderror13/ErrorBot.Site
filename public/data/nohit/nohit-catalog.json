@@ -164,13 +164,14 @@
       "game": "Hollow Knight: Silksong",
       "category": "No Hit No Damage Needle Only",
       "status": "Active",
-      "attempts": 4,
-      "hitPB": 13,
+      "attempts": 7,
+      "hitPB": 5,
       "sectionCount": 1,
-      "distancePB": 0.13636364,
+      "distancePB": 0.77272725,
       "distancePBSectionIndex": 0,
       "distancePBSectionName": "hollow-knight-silksong",
-      "distancePBSplitName": "Lace (Deep Docks)"
+      "distancePBSplitName": "Vaultkeeper's Melody",
+      "distancePBClipLink": "https://www.twitch.tv/kyleanderror13/clip/TawdrySuccessfulBorkBrainSlug-N7PW6PLa8fq5KrRo"
     },
     {
       "id": "hollow-knight-silksong-no-hit-no-damage-twisted-child",

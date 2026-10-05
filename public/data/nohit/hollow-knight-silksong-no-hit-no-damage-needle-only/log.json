@@ -45,6 +45,42 @@
       "distanceSectionIndex": 0,
       "distanceSectionName": "hollow-knight-silksong",
       "distanceSplitName": "Swift Step"
+    },
+    {
+      "attempt": 5,
+      "date": "2026-10-04T22:49:26.8598972+08:00",
+      "hits": 10,
+      "progress": 0.36363637,
+      "pb": true,
+      "distance": true,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
+      "distanceSplitName": "Widow"
+    },
+    {
+      "attempt": 6,
+      "date": "2026-10-05T06:22:52.5962564+08:00",
+      "hits": 1,
+      "progress": 0.045454547,
+      "resetSplitName": "Bell Beast",
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
+      "distanceSplitName": "Bell Beast",
+      "clipLink": "https://www.twitch.tv/kyleanderror13/clip/BrightAnnoyingKaleNononoCat-MeGZo_w7pKSig-EU"
+    },
+    {
+      "attempt": 7,
+      "date": "2026-10-05T08:22:02.2074599+08:00",
+      "hits": 5,
+      "progress": 0.77272725,
+      "pb": true,
+      "distance": true,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
+      "distanceSplitName": "Vaultkeeper's Melody",
+      "clipLink": "https://www.twitch.tv/kyleanderror13/clip/TawdrySuccessfulBorkBrainSlug-N7PW6PLa8fq5KrRo"
     }
   ]
 }
