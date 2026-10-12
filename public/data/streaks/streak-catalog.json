@@ -7,8 +7,8 @@
     },
     {
       "userName": "clairetown",
-      "streak": 20,
-      "rank": 6
+      "streak": 25,
+      "rank": 5
     },
     {
       "userName": "DarthChurros",
@@ -18,7 +18,7 @@
     {
       "userName": "FierceAxolotl",
       "streak": 7,
-      "rank": 12
+      "rank": 13
     },
     {
       "userName": "hfdfa",
@@ -28,12 +28,12 @@
     {
       "userName": "itz_barna",
       "streak": 7,
-      "rank": 12
+      "rank": 13
     },
     {
       "userName": "jombala7la7",
       "streak": 3,
-      "rank": 15
+      "rank": 16
     },
     {
       "userName": "Kaeon",
@@ -48,7 +48,7 @@
     {
       "userName": "mipsdachonkycat",
       "streak": 3,
-      "rank": 15
+      "rank": 16
     },
     {
       "userName": "nitrosovibrio",
@@ -58,7 +58,17 @@
     {
       "userName": "OnionDucky",
       "streak": 3,
-      "rank": 15
+      "rank": 16
+    },
+    {
+      "userName": "phant0m_x12",
+      "streak": 10,
+      "rank": 8
+    },
+    {
+      "userName": "RadiantEm",
+      "streak": 3,
+      "rank": 16
     },
     {
       "userName": "ScarlettLizard",
@@ -68,7 +78,7 @@
     {
       "userName": "shrimplet23",
       "streak": 20,
-      "rank": 6
+      "rank": 7
     },
     {
       "userName": "TeppiTumbles",
@@ -83,7 +93,7 @@
     {
       "userName": "Vomiit",
       "streak": 5,
-      "rank": 14
+      "rank": 15
     }
   ]
 }

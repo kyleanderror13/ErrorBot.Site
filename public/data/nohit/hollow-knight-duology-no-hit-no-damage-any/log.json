@@ -344,6 +344,45 @@
       "distanceSectionName": "hollow-knight-silksong",
       "distanceSplitName": "The Forum/Conductor's Melody",
       "clipLink": "https://www.twitch.tv/kyleanderror13/clip/BrightPopularGrassFUNgineer-ufW_uFUmu-xrJo1s"
+    },
+    {
+      "attempt": 29,
+      "date": "2026-10-12T07:57:14.8962158+08:00",
+      "hits": 5,
+      "progress": 0.18421052,
+      "resetSplitName": "Moss Mother",
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
+      "distanceSplitName": "Gorgeous Husk",
+      "clipLink": "https://www.twitch.tv/kyleanderror13/clip/FunBoldRadishTBTacoLeft-wdrjMHKB9LIhlwtc"
+    },
+    {
+      "attempt": 30,
+      "date": "2026-10-12T08:20:33.7305931+08:00",
+      "hits": 2,
+      "progress": 0.06666667,
+      "resetSplitName": "Forge Daughter Arena",
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
+      "distanceSplitName": "Forge Daughter Arena",
+      "clipLink": "https://www.twitch.tv/kyleanderror13/clip/ReliableIcySrirachaPeteZaroll-0okCZI8n63XuOmQo"
+    },
+    {
+      "attempt": 31,
+      "date": "2026-10-12T10:28:39.128693+08:00",
+      "hits": 2,
+      "progress": 0.45,
+      "resetSplitName": "False Knight",
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
+      "distanceSplitName": "The Forum/Conductor's Melody",
+      "clipLink": "https://www.twitch.tv/kyleanderror13/clip/FriendlyIntelligentChinchillaVoteNay-XpvpctNIkRPOzfot"
     }
   ]
 }
