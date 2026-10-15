@@ -102,8 +102,8 @@
       "id": "hollow-knight-no-hit-no-damage-ghostbusters",
       "game": "Hollow Knight",
       "category": "No Hit No Damage Ghostbusters",
-      "status": "Paused",
-      "attempts": 3,
+      "status": "Active",
+      "attempts": 4,
       "hitPB": 7,
       "sectionCount": 1,
       "distancePB": 0.375,
@@ -181,7 +181,8 @@
       "attempts": 62,
       "hitPB": 0,
       "sectionCount": 1,
-      "distancePB": 1.0
+      "distancePB": 1.0,
+      "runLink": "https://youtu.be/CRWGYRQqVK0"
     }
   ]
 }

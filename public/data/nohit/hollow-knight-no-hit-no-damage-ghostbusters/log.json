@@ -32,6 +32,17 @@
       "distanceSectionIndex": 0,
       "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Descending Dark"
+    },
+    {
+      "attempt": 4,
+      "date": "2026-10-13T16:47:01.5387707+08:00",
+      "hits": 22,
+      "progress": 0.09677419,
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
+      "distanceSplitName": "Mantis Claw"
     }
   ]
 }
