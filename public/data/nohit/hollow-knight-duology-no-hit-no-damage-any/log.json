@@ -383,6 +383,31 @@
       "distanceSectionName": "hollow-knight-silksong",
       "distanceSplitName": "The Forum/Conductor's Melody",
       "clipLink": "https://www.twitch.tv/kyleanderror13/clip/FriendlyIntelligentChinchillaVoteNay-XpvpctNIkRPOzfot"
+    },
+    {
+      "attempt": 32,
+      "date": "2026-10-16T07:19:17.6738042+08:00",
+      "hits": 2,
+      "progress": 0.15,
+      "resetSplitName": "The Mist",
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
+      "distanceSplitName": "Cling Grip",
+      "clipLink": "https://www.twitch.tv/kyleanderror13/clip/CrunchyMoralStrawberryWholeWheat-vXCNz5wkaPAb9txR"
+    },
+    {
+      "attempt": 33,
+      "date": "2026-10-16T11:52:00.2466072+08:00",
+      "hits": 3,
+      "progress": 0.95,
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 1,
+      "distanceSectionName": "hollow-knight-silksong",
+      "distanceSplitName": "The Forum/Conductor's Melody",
+      "clipLink": "https://www.twitch.tv/kyleanderror13/clip/CogentSpunkySagePeteZarollTie-09QP__kqtUjlW2Wf"
     }
   ]
 }

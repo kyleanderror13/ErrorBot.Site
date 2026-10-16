@@ -3,7 +3,7 @@
   "users": [
     {
       "userName": "3l3tist",
-      "rank": 74,
+      "rank": 77,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
@@ -43,12 +43,12 @@
       "tie": false,
       "firsts": 0,
       "seconds": 0,
-      "checkIns": 16,
-      "points": 16
+      "checkIns": 17,
+      "points": 17
     },
     {
       "userName": "AkiChanVTuber",
-      "rank": 74,
+      "rank": 77,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
@@ -66,7 +66,7 @@
     },
     {
       "userName": "aperson7777777",
-      "rank": 32,
+      "rank": 33,
       "tie": true,
       "firsts": 1,
       "seconds": 1,
@@ -84,7 +84,7 @@
     },
     {
       "userName": "AstralAxiomTTV",
-      "rank": 74,
+      "rank": 77,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
@@ -93,7 +93,7 @@
     },
     {
       "userName": "b1gbadw0lf",
-      "rank": 74,
+      "rank": 77,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
@@ -111,7 +111,7 @@
     },
     {
       "userName": "Biostats",
-      "rank": 43,
+      "rank": 45,
       "tie": true,
       "firsts": 1,
       "seconds": 0,
@@ -129,7 +129,7 @@
     },
     {
       "userName": "bradsgamedev",
-      "rank": 74,
+      "rank": 77,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
@@ -138,7 +138,7 @@
     },
     {
       "userName": "cboi_9245",
-      "rank": 74,
+      "rank": 77,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
@@ -147,7 +147,7 @@
     },
     {
       "userName": "cerbercollectus",
-      "rank": 74,
+      "rank": 77,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
@@ -183,17 +183,17 @@
     },
     {
       "userName": "clairetown",
-      "rank": 17,
-      "tie": true,
-      "firsts": 1,
+      "rank": 16,
+      "tie": false,
+      "firsts": 2,
       "seconds": 1,
       "checkIns": 16,
-      "points": 24
+      "points": 29
     },
     {
       "userName": "Coldhockeyboy",
-      "rank": 21,
-      "tie": true,
+      "rank": 22,
+      "tie": false,
       "firsts": 1,
       "seconds": 0,
       "checkIns": 15,
@@ -201,7 +201,7 @@
     },
     {
       "userName": "cyron_dnd",
-      "rank": 74,
+      "rank": 77,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
@@ -210,12 +210,12 @@
     },
     {
       "userName": "DarthChurros",
-      "rank": 20,
-      "tie": false,
+      "rank": 19,
+      "tie": true,
       "firsts": 0,
       "seconds": 3,
-      "checkIns": 12,
-      "points": 21
+      "checkIns": 13,
+      "points": 22
     },
     {
       "userName": "Dbagggy",
@@ -237,7 +237,7 @@
     },
     {
       "userName": "Dethlss",
-      "rank": 32,
+      "rank": 33,
       "tie": true,
       "firsts": 0,
       "seconds": 1,
@@ -247,7 +247,7 @@
     {
       "userName": "DhufishHunter",
       "rank": 19,
-      "tie": false,
+      "tie": true,
       "firsts": 2,
       "seconds": 4,
       "checkIns": 0,
@@ -255,7 +255,7 @@
     },
     {
       "userName": "Directing_Titan",
-      "rank": 74,
+      "rank": 77,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
@@ -282,7 +282,7 @@
     },
     {
       "userName": "drakothalt82",
-      "rank": 74,
+      "rank": 77,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
@@ -291,7 +291,7 @@
     },
     {
       "userName": "DumpsterDonuts",
-      "rank": 74,
+      "rank": 77,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
@@ -300,7 +300,7 @@
     },
     {
       "userName": "FierceAxolotl",
-      "rank": 26,
+      "rank": 27,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
@@ -336,7 +336,7 @@
     },
     {
       "userName": "froggybooh",
-      "rank": 74,
+      "rank": 77,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
@@ -345,7 +345,7 @@
     },
     {
       "userName": "Gary_Asher",
-      "rank": 32,
+      "rank": 33,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
@@ -354,12 +354,12 @@
     },
     {
       "userName": "gayp0tatoman",
-      "rank": 74,
+      "rank": 63,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
-      "checkIns": 1,
-      "points": 1
+      "checkIns": 2,
+      "points": 2
     },
     {
       "userName": "georgebonkers",
@@ -376,8 +376,8 @@
       "tie": false,
       "firsts": 35,
       "seconds": 37,
-      "checkIns": 132,
-      "points": 418
+      "checkIns": 133,
+      "points": 419
     },
     {
       "userName": "ghitaoo",
@@ -417,16 +417,16 @@
     },
     {
       "userName": "grimy_sacks",
-      "rank": 26,
+      "rank": 25,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
-      "checkIns": 14,
-      "points": 14
+      "checkIns": 15,
+      "points": 15
     },
     {
       "userName": "heyheyladyjj",
-      "rank": 74,
+      "rank": 77,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
@@ -444,7 +444,7 @@
     },
     {
       "userName": "HollowedDoob",
-      "rank": 74,
+      "rank": 77,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
@@ -453,7 +453,7 @@
     },
     {
       "userName": "Hollowtoria",
-      "rank": 74,
+      "rank": 77,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
@@ -462,7 +462,7 @@
     },
     {
       "userName": "insert0cool0name",
-      "rank": 74,
+      "rank": 77,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
@@ -489,7 +489,7 @@
     },
     {
       "userName": "Jan_Chess_",
-      "rank": 41,
+      "rank": 42,
       "tie": true,
       "firsts": 1,
       "seconds": 0,
@@ -499,7 +499,7 @@
     {
       "userName": "JCD101314",
       "rank": 31,
-      "tie": false,
+      "tie": true,
       "firsts": 1,
       "seconds": 1,
       "checkIns": 4,
@@ -508,20 +508,20 @@
     {
       "userName": "JCD101315",
       "rank": 21,
-      "tie": true,
+      "tie": false,
       "firsts": 3,
       "seconds": 1,
-      "checkIns": 2,
-      "points": 20
+      "checkIns": 3,
+      "points": 21
     },
     {
       "userName": "Kaeon",
       "rank": 1,
       "tie": false,
       "firsts": 38,
-      "seconds": 47,
+      "seconds": 48,
       "checkIns": 134,
-      "points": 465
+      "points": 468
     },
     {
       "userName": "karathegamer08",
@@ -561,7 +561,7 @@
     },
     {
       "userName": "LizzieO6",
-      "rank": 74,
+      "rank": 77,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
@@ -570,7 +570,7 @@
     },
     {
       "userName": "LorenzShrek12",
-      "rank": 74,
+      "rank": 77,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
@@ -579,7 +579,7 @@
     },
     {
       "userName": "LotusVeil",
-      "rank": 74,
+      "rank": 77,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
@@ -588,7 +588,7 @@
     },
     {
       "userName": "Madss__42",
-      "rank": 32,
+      "rank": 33,
       "tie": true,
       "firsts": 0,
       "seconds": 1,
@@ -597,12 +597,12 @@
     },
     {
       "userName": "mastapeet",
-      "rank": 43,
+      "rank": 42,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
-      "checkIns": 6,
-      "points": 6
+      "checkIns": 7,
+      "points": 7
     },
     {
       "userName": "melomayhem",
@@ -624,7 +624,7 @@
     },
     {
       "userName": "mipsdachonkycat",
-      "rank": 16,
+      "rank": 17,
       "tie": false,
       "firsts": 0,
       "seconds": 2,
@@ -633,7 +633,7 @@
     },
     {
       "userName": "MrBoboMountainRooster",
-      "rank": 74,
+      "rank": 77,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
@@ -642,7 +642,7 @@
     },
     {
       "userName": "mystery_dip",
-      "rank": 43,
+      "rank": 45,
       "tie": true,
       "firsts": 0,
       "seconds": 2,
@@ -660,8 +660,8 @@
     },
     {
       "userName": "Navi_33623",
-      "rank": 17,
-      "tie": true,
+      "rank": 18,
+      "tie": false,
       "firsts": 2,
       "seconds": 1,
       "checkIns": 11,
@@ -673,8 +673,8 @@
       "tie": false,
       "firsts": 9,
       "seconds": 8,
-      "checkIns": 104,
-      "points": 173
+      "checkIns": 105,
+      "points": 174
     },
     {
       "userName": "nmie",
@@ -687,7 +687,7 @@
     },
     {
       "userName": "notonlyaghost",
-      "rank": 26,
+      "rank": 27,
       "tie": true,
       "firsts": 0,
       "seconds": 1,
@@ -696,25 +696,25 @@
     },
     {
       "userName": "OnionDucky",
-      "rank": 41,
+      "rank": 38,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
-      "checkIns": 7,
-      "points": 7
+      "checkIns": 8,
+      "points": 8
     },
     {
       "userName": "phant0m_x12",
-      "rank": 32,
+      "rank": 31,
       "tie": true,
       "firsts": 0,
       "seconds": 1,
-      "checkIns": 8,
-      "points": 11
+      "checkIns": 9,
+      "points": 12
     },
     {
       "userName": "PostVita",
-      "rank": 74,
+      "rank": 77,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
@@ -723,16 +723,16 @@
     },
     {
       "userName": "RadiantEm",
-      "rank": 74,
+      "rank": 63,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
-      "checkIns": 1,
-      "points": 1
+      "checkIns": 2,
+      "points": 2
     },
     {
       "userName": "ralseihakari",
-      "rank": 74,
+      "rank": 77,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
@@ -759,7 +759,7 @@
     },
     {
       "userName": "sarunniuxx",
-      "rank": 74,
+      "rank": 77,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
@@ -768,7 +768,7 @@
     },
     {
       "userName": "savagebeastfly2",
-      "rank": 74,
+      "rank": 77,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
@@ -777,16 +777,16 @@
     },
     {
       "userName": "ScarlettLizard",
-      "rank": 43,
+      "rank": 42,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
-      "checkIns": 6,
-      "points": 6
+      "checkIns": 7,
+      "points": 7
     },
     {
       "userName": "Shaka6331",
-      "rank": 74,
+      "rank": 77,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
@@ -813,7 +813,7 @@
     },
     {
       "userName": "siffysif__",
-      "rank": 74,
+      "rank": 77,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
@@ -831,7 +831,7 @@
     },
     {
       "userName": "slaurent22",
-      "rank": 74,
+      "rank": 77,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
@@ -841,7 +841,7 @@
     {
       "userName": "snowy1876",
       "rank": 25,
-      "tie": false,
+      "tie": true,
       "firsts": 2,
       "seconds": 1,
       "checkIns": 2,
@@ -857,8 +857,17 @@
       "points": 2
     },
     {
+      "userName": "stackwin",
+      "rank": 77,
+      "tie": true,
+      "firsts": 0,
+      "seconds": 0,
+      "checkIns": 1,
+      "points": 1
+    },
+    {
       "userName": "Stargazer619",
-      "rank": 74,
+      "rank": 77,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
@@ -867,7 +876,7 @@
     },
     {
       "userName": "StinkyStilkin",
-      "rank": 74,
+      "rank": 77,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
@@ -876,7 +885,7 @@
     },
     {
       "userName": "SuperNyan5",
-      "rank": 74,
+      "rank": 77,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
@@ -885,7 +894,7 @@
     },
     {
       "userName": "teogamerzzz",
-      "rank": 74,
+      "rank": 77,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
@@ -912,16 +921,16 @@
     },
     {
       "userName": "The_Pillow_",
-      "rank": 74,
+      "rank": 63,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
-      "checkIns": 1,
-      "points": 1
+      "checkIns": 2,
+      "points": 2
     },
     {
       "userName": "TheSilksong1sreal",
-      "rank": 74,
+      "rank": 77,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
@@ -948,7 +957,7 @@
     },
     {
       "userName": "VioletExplores",
-      "rank": 74,
+      "rank": 77,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
@@ -957,7 +966,7 @@
     },
     {
       "userName": "Vomiit",
-      "rank": 74,
+      "rank": 77,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
@@ -975,7 +984,7 @@
     },
     {
       "userName": "YouKai572",
-      "rank": 74,
+      "rank": 77,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
@@ -1002,7 +1011,7 @@
     },
     {
       "userName": "zorizaurus",
-      "rank": 74,
+      "rank": 77,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
