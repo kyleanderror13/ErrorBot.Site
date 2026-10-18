@@ -408,6 +408,44 @@
       "distanceSectionName": "hollow-knight-silksong",
       "distanceSplitName": "The Forum/Conductor's Melody",
       "clipLink": "https://www.twitch.tv/kyleanderror13/clip/CogentSpunkySagePeteZarollTie-09QP__kqtUjlW2Wf"
+    },
+    {
+      "attempt": 34,
+      "date": "2026-10-18T07:16:45.3531949+08:00",
+      "hits": 3,
+      "progress": 0.13157895,
+      "resetSplitName": "Tram Pass",
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
+      "distanceSplitName": "Tram Pass",
+      "clipLink": "https://www.twitch.tv/kyleanderror13/clip/DarkOriginalAmazon4Head-iYMe1CIyNjmJjCkv"
+    },
+    {
+      "attempt": 35,
+      "date": "2026-10-18T09:58:21.9989119+08:00",
+      "hits": 1,
+      "progress": 0.033333335,
+      "resetSplitName": "Bell Beast",
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
+      "distanceSplitName": "Bell Beast"
+    },
+    {
+      "attempt": 36,
+      "date": "2026-10-18T11:48:01.0656803+08:00",
+      "hits": 2,
+      "progress": 0.28333333,
+      "resetSplitName": "False Knight",
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
+      "distanceSplitName": "Phantom",
+      "clipLink": "https://www.twitch.tv/kyleanderror13/clip/GrossOutstandingWalrusYee-cv__EvGfgI8N54vC"
     }
   ]
 }
