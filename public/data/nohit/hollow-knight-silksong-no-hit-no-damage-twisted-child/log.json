@@ -726,6 +726,31 @@
       "progress": 1.0,
       "pb": true,
       "distance": true
+    },
+    {
+      "attempt": 63,
+      "date": "2026-10-19T07:46:59.4937045+08:00",
+      "hits": 6,
+      "progress": 0.11111111,
+      "resetSplitName": "Grand Mother Silk",
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
+      "distanceSplitName": "Swift Step",
+      "clipLink": "https://www.twitch.tv/kyleanderror13/clip/AmazonianBigEaglePJSalt-tfOLnBgRaWEsjPEz"
+    },
+    {
+      "attempt": 64,
+      "date": "2026-10-19T10:08:59.4356936+08:00",
+      "hits": 3,
+      "progress": 0.6944444,
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
+      "distanceSplitName": "Trobbio",
+      "clipLink": "https://www.twitch.tv/kyleanderror13/clip/ConcernedHeadstrongGaurAMPTropPunch-wZawJRnn65CZFSJb"
     }
   ]
 }

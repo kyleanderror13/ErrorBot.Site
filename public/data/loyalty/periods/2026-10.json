@@ -12,12 +12,12 @@
     },
     {
       "userName": "Ageless_RPG",
-      "rank": 9,
+      "rank": 8,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
-      "checkIns": 4,
-      "points": 4
+      "checkIns": 5,
+      "points": 5
     },
     {
       "userName": "Artimage84",
@@ -48,39 +48,39 @@
     },
     {
       "userName": "DarthChurros",
-      "rank": 5,
+      "rank": 6,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
-      "checkIns": 5,
-      "points": 5
+      "checkIns": 6,
+      "points": 6
     },
     {
       "userName": "gayp0tatoman",
-      "rank": 4,
-      "tie": false,
+      "rank": 2,
+      "tie": true,
       "firsts": 1,
-      "seconds": 0,
+      "seconds": 1,
       "checkIns": 2,
-      "points": 7
+      "points": 10
     },
     {
       "userName": "getyourgloveson",
-      "rank": 5,
+      "rank": 6,
+      "tie": true,
+      "firsts": 0,
+      "seconds": 0,
+      "checkIns": 6,
+      "points": 6
+    },
+    {
+      "userName": "grimy_sacks",
+      "rank": 8,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
       "checkIns": 5,
       "points": 5
-    },
-    {
-      "userName": "grimy_sacks",
-      "rank": 9,
-      "tie": true,
-      "firsts": 0,
-      "seconds": 0,
-      "checkIns": 4,
-      "points": 4
     },
     {
       "userName": "heyheyladyjj",
@@ -93,7 +93,7 @@
     },
     {
       "userName": "hfdfa",
-      "rank": 15,
+      "rank": 18,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
@@ -120,7 +120,7 @@
     },
     {
       "userName": "Kaeon",
-      "rank": 2,
+      "rank": 4,
       "tie": true,
       "firsts": 1,
       "seconds": 1,
@@ -129,7 +129,7 @@
     },
     {
       "userName": "LifeNeedsWineToLive",
-      "rank": 5,
+      "rank": 8,
       "tie": true,
       "firsts": 1,
       "seconds": 0,
@@ -147,7 +147,7 @@
     },
     {
       "userName": "mastapeet",
-      "rank": 15,
+      "rank": 18,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
@@ -156,7 +156,7 @@
     },
     {
       "userName": "nitrosovibrio",
-      "rank": 5,
+      "rank": 8,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
@@ -165,12 +165,12 @@
     },
     {
       "userName": "OnionDucky",
-      "rank": 14,
-      "tie": false,
+      "rank": 13,
+      "tie": true,
       "firsts": 0,
       "seconds": 0,
-      "checkIns": 3,
-      "points": 3
+      "checkIns": 4,
+      "points": 4
     },
     {
       "userName": "phant0m_x12",
@@ -178,8 +178,8 @@
       "tie": true,
       "firsts": 0,
       "seconds": 2,
-      "checkIns": 3,
-      "points": 9
+      "checkIns": 4,
+      "points": 10
     },
     {
       "userName": "RadiantEm",
@@ -187,8 +187,8 @@
       "tie": true,
       "firsts": 0,
       "seconds": 0,
-      "checkIns": 2,
-      "points": 2
+      "checkIns": 3,
+      "points": 3
     },
     {
       "userName": "ralseihakari",
@@ -201,16 +201,16 @@
     },
     {
       "userName": "ScarlettLizard",
-      "rank": 9,
+      "rank": 8,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
-      "checkIns": 4,
-      "points": 4
+      "checkIns": 5,
+      "points": 5
     },
     {
       "userName": "shrimplet23",
-      "rank": 9,
+      "rank": 13,
       "tie": true,
       "firsts": 0,
       "seconds": 1,
@@ -228,7 +228,7 @@
     },
     {
       "userName": "stackwin",
-      "rank": 15,
+      "rank": 18,
       "tie": true,
       "firsts": 0,
       "seconds": 0,
@@ -237,12 +237,12 @@
     },
     {
       "userName": "TeppiTumbles",
-      "rank": 9,
+      "rank": 4,
       "tie": true,
-      "firsts": 0,
+      "firsts": 1,
       "seconds": 1,
       "checkIns": 1,
-      "points": 4
+      "points": 9
     },
     {
       "userName": "The_Pillow_",
@@ -250,8 +250,8 @@
       "tie": true,
       "firsts": 0,
       "seconds": 0,
-      "checkIns": 2,
-      "points": 2
+      "checkIns": 3,
+      "points": 3
     },
     {
       "userName": "TrustedJustus",
@@ -259,8 +259,8 @@
       "tie": true,
       "firsts": 0,
       "seconds": 0,
-      "checkIns": 2,
-      "points": 2
+      "checkIns": 3,
+      "points": 3
     }
   ]
 }
