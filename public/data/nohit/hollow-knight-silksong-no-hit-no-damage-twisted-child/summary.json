@@ -423,7 +423,7 @@
     {
       "sectionName": "hollow-knight-silksong",
       "name": "Grand Mother Silk",
-      "resets": 1,
+      "resets": 0,
       "successRate": 0.45833334,
       "recentSuccessRate": 0.6,
       "averageHits": 0.7083333,
