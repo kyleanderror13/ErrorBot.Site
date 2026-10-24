@@ -151,6 +151,11 @@
       "completed": "not-started"
     },
     {
+      "title": "Agent A: A Puzzle in Disguise",
+      "platform": "Epic",
+      "completed": "not-started"
+    },
+    {
       "title": "Alan Wake",
       "platform": "Steam",
       "completed": "completed-any"

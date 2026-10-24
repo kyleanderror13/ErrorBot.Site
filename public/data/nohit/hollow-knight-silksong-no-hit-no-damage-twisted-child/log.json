@@ -750,6 +750,62 @@
       "distanceSectionName": "hollow-knight-silksong",
       "distanceSplitName": "Trobbio",
       "clipLink": "https://www.twitch.tv/kyleanderror13/clip/ConcernedHeadstrongGaurAMPTropPunch-wZawJRnn65CZFSJb"
+    },
+    {
+      "attempt": 65,
+      "date": "2026-10-19T18:21:35.7788151+08:00",
+      "hits": 6,
+      "progress": 0.5277778,
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
+      "distanceSplitName": "Phantom"
+    },
+    {
+      "attempt": 66,
+      "date": "2026-10-23T07:58:08.0444467+08:00",
+      "hits": 6,
+      "progress": 0.33333334,
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
+      "distanceSplitName": "Widow/Needolin"
+    },
+    {
+      "attempt": 67,
+      "date": "2026-10-23T10:15:57.9933802+08:00",
+      "hits": 7,
+      "progress": 0.5,
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
+      "distanceSplitName": "The Mist",
+      "clipLink": "https://www.twitch.tv/kyleanderror13/clip/MuddyFaintCaribouKappa-5np4OLTv1cRUc2yi"
+    },
+    {
+      "attempt": 68,
+      "date": "2026-10-24T08:40:27.0222851+08:00",
+      "hits": 6,
+      "progress": 0.11111111,
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
+      "distanceSplitName": "Swift Step"
+    },
+    {
+      "attempt": 69,
+      "date": "2026-10-24T10:37:50.0020385+08:00",
+      "hits": 3,
+      "progress": 0.083333336,
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
+      "distanceSplitName": "Bell Beast"
     }
   ]
 }
