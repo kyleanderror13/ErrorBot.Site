@@ -806,6 +806,17 @@
       "distanceSectionIndex": 0,
       "distanceSectionName": "hollow-knight-silksong",
       "distanceSplitName": "Bell Beast"
+    },
+    {
+      "attempt": 70,
+      "date": "2026-10-24T21:38:14.5413275+08:00",
+      "hits": 5,
+      "progress": 0.5277778,
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
+      "distanceSplitName": "Phantom"
     }
   ]
 }
