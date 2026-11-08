@@ -44,15 +44,11 @@
       "id": "hollow-knight-duology-no-hit-no-damage-any",
       "game": "Hollow Knight Duology",
       "category": "No Hit No Damage Any%",
-      "status": "Active",
-      "attempts": 53,
-      "hitPB": 1,
+      "status": "Completed",
+      "attempts": 58,
+      "hitPB": 0,
       "sectionCount": 2,
-      "distancePB": 0.95,
-      "distancePBSectionIndex": 1,
-      "distancePBSectionName": "hollow-knight-silksong",
-      "distancePBSplitName": "The Forum/Conductor's Melody",
-      "distancePBClipLink": "https://www.twitch.tv/kyleanderror13/clip/SarcasticVibrantDelicataLeeroyJenkins-8dRJJIL5ZVgilzRy"
+      "distancePB": 2.0
     },
     {
       "id": "hollow-knight-no-hit-no-damage-all-main-game-bosses",

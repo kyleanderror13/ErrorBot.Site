@@ -666,6 +666,66 @@
       "distanceSectionName": "hollow-knight-silksong",
       "distanceSplitName": "The Forum/Conductor's Melody",
       "clipLink": "https://www.twitch.tv/kyleanderror13/clip/SmilingInexpensiveLasagnaSoBayed-eIvhQUfb7Qg_vCpv"
+    },
+    {
+      "attempt": 54,
+      "date": "2026-11-08T06:49:48.9876805+08:00",
+      "hits": 1,
+      "progress": 0.55,
+      "resetSplitName": "Swift Step",
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 1,
+      "distanceSectionName": "hollow-knight-silksong",
+      "distanceSplitName": "Swift Step",
+      "clipLink": "https://www.twitch.tv/kyleanderror13/clip/BillowingSassySalmonStrawBeary-UlyMdgCxJzcQkK4b"
+    },
+    {
+      "attempt": 55,
+      "date": "2026-11-08T07:26:44.6059805+08:00",
+      "hits": 1,
+      "progress": 0.16666667,
+      "resetSplitName": "Widow",
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
+      "distanceSplitName": "Widow",
+      "clipLink": "https://www.twitch.tv/kyleanderror13/clip/TransparentRelievedPresidentDxCat-kayKdpoGWooMpVbg"
+    },
+    {
+      "attempt": 56,
+      "date": "2026-11-08T07:49:54.8803625+08:00",
+      "hits": 1,
+      "progress": 0.05,
+      "resetSplitName": "Swift Step",
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
+      "distanceSplitName": "Swift Step",
+      "clipLink": "https://www.twitch.tv/kyleanderror13/clip/PolishedChillyMomMoreCowbell-4EeK9Yr8N4e4XmSe"
+    },
+    {
+      "attempt": 57,
+      "date": "2026-11-08T07:51:45.2838386+08:00",
+      "hits": 1,
+      "progress": 0.0,
+      "resetSplitName": "Moss Mother",
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
+      "distanceSplitName": "Moss Mother",
+      "clipLink": "https://www.twitch.tv/kyleanderror13/clip/AltruisticUnusualAniseTheTarFu-s05I5LpqFjY1V8Lh"
+    },
+    {
+      "attempt": 58,
+      "date": "2026-11-08T12:35:07.6893724+08:00",
+      "hits": 0,
+      "progress": 2.0,
+      "pb": true,
+      "distance": true
     }
   ]
 }
