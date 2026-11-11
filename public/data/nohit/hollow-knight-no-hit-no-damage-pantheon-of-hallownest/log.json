@@ -450,6 +450,17 @@
       "distanceSectionIndex": 0,
       "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Oro & Mato"
+    },
+    {
+      "attempt": 98,
+      "date": "2026-11-11T21:53:27.2455583+08:00",
+      "hits": 20,
+      "progress": 0.2380952,
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
+      "distanceSplitName": "Xero"
     }
   ]
 }
