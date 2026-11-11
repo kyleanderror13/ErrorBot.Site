@@ -13,6 +13,12 @@ const routes: RouteRecordRaw[] = [
     meta: { title: 'No Hit', icon: 'pi-shield' }
   },
   {
+    path: '/commands',
+    name: 'Commands',
+    component: () => import('@/commands/CommandPage.vue'),
+    meta: { title: 'Commands', icon: 'pi-code' }
+  },
+  {
     path: '/loyalty',
     name: 'Loyalty',
     component: () => import('@/loyalty/LoyaltyPage.vue'),

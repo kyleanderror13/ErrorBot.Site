@@ -1,0 +1,40 @@
+{
+  "runs": [
+    {
+      "attempt": 1,
+      "date": "2026-10-30T23:05:43.8991253+08:00",
+      "hits": 8,
+      "progress": 0.3888889,
+      "pb": true,
+      "distance": true,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
+      "distanceSplitName": "Widow"
+    },
+    {
+      "attempt": 2,
+      "date": "2026-11-02T07:41:02.0740906+08:00",
+      "hits": 1,
+      "progress": 0,
+      "resetSplitName": "Moss Mother",
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
+      "distanceSplitName": "Moss Mother",
+      "clipLink": "https://www.twitch.tv/kyleanderror13/clip/DirtyElatedDunlinRickroll-jTot0je6N-qseG9H"
+    },
+    {
+      "attempt": 3,
+      "date": "2026-11-02T09:49:51.4272165+08:00",
+      "hits": 3,
+      "progress": 0.4444444,
+      "pb": true,
+      "distance": true,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
+      "distanceSplitName": "Barbed Bracelet",
+      "clipLink": "https://www.twitch.tv/kyleanderror13/clip/SingleLachrymoseShingleSquadGoals-hNIGVBJ0R4QKha5D"
+    }
+  ]
+}

@@ -1,0 +1,215 @@
+{
+  "records": [
+    {
+      "name": "ask",
+      "description": "Ask the Magic 8-ball a question!"
+    },
+    {
+      "name": "betterttv",
+      "description": "Information about the BetterTTV browser extension."
+    },
+    {
+      "name": "commands",
+      "description": "Information about the available chat commands."
+    },
+    {
+      "name": "dashboard",
+      "description": "Link for the accompanying stream dashboard (including no hit, loyalty, streak, and command data)."
+    },
+    {
+      "name": "ddark",
+      "description": "Descending dark copypasta."
+    },
+    {
+      "name": "dgc-pod",
+      "description": "Information about the Dev Game Club podcast."
+    },
+    {
+      "name": "discord",
+      "description": "Invite link to join the error log Discord server."
+    },
+    {
+      "name": "followage",
+      "description": "How long you have been following the Twitch channel."
+    },
+    {
+      "name": "fortune",
+      "description": "Retrieve a random fortune cookie message."
+    },
+    {
+      "name": "cw",
+      "description": "Content warning for the current game (if relevant)."
+    },
+    {
+      "name": "game",
+      "description": "Details about the current game."
+    },
+    {
+      "name": "game-library",
+      "description": "Link to my game library."
+    },
+    {
+      "name": "g&g",
+      "description": "Information about the Geeks & Grounds game club."
+    },
+    {
+      "name": "glhfpledge",
+      "description": "Information about the GLHF Pledge."
+    },
+    {
+      "name": "hk-charms",
+      "description": "Generate a random Hollow Knight charm build."
+    },
+    {
+      "name": "ss-crest",
+      "description": "Generate a random Hollow Knight: Silksong crest and silk skill/tool build."
+    },
+    {
+      "name": "lurk",
+      "description": "Indicate you are going to lurk for a while."
+    },
+    {
+      "name": "noway",
+      "description": "Increment Kyle's 'no way' counter, for when they say 'no way!' after getting hit."
+    },
+    {
+      "name": "pepe",
+      "description": "Information about why pepe and related emotes are banned from chat."
+    },
+    {
+      "name": "pronouns",
+      "description": "Information about how to set up your pronouns on Twitch so they appear in chat."
+    },
+    {
+      "name": "team-hitless",
+      "description": "Information about Team Hitless."
+    },
+    {
+      "name": "tuck [user]",
+      "description": "Tuck someone in for comfy sleep times."
+    },
+    {
+      "name": "youtube",
+      "description": "Link for Kyle's YouTube channel."
+    },
+    {
+      "name": "zote",
+      "description": "Retrieve a random Zote precept."
+    },
+    {
+      "name": "hits",
+      "description": "Information about hits for the current run and which splits they occurred in.",
+      "availability": "Only available during no hit run attempts and practice."
+    },
+    {
+      "name": "pb",
+      "description": "Information about the personal best for the current run, including total hit PB, distance PB, and which splits the PB hits occurred in.",
+      "availability": "Only available during no hit run attempts and practice."
+    },
+    {
+      "name": "run",
+      "description": "Information about the category and requirements of the current no hit run.",
+      "availability": "Only available during no hit run attempts and practice."
+    },
+    {
+      "name": "lasthit",
+      "description": "Link to a clip for the last hit that occurred.",
+      "availability": "Only available during no hit run attempts and practice."
+    },
+    {
+      "name": "set-name",
+      "description": "Sets Kyle's 'name' that appears above their camera/avatar.",
+      "availability": "Only available for VIPs and moderators."
+    },
+    {
+      "name": "quote",
+      "description": "Retrieve a random quote from the quote list."
+    },
+    {
+      "name": "quote [text]",
+      "description": "Add a new quote to the quote list."
+    },
+    {
+      "name": "loyalty-top",
+      "description": "Show the all-time loyalty point leaderboard."
+    },
+    {
+      "name": "loyalty-month",
+      "description": "Show the loyalty point leaderboard for the current month."
+    },
+    {
+      "name": "loyalty-query",
+      "description": "Query your personal loyalty point summary (both for the current month and all-time)."
+    },
+    {
+      "name": "loyalty-query [user]",
+      "description": "Query the loyalty point summary for a specific user (both for the current month and all-time)."
+    },
+    {
+      "name": "careful",
+      "description": "Play Andre the Blacksmith saying 'Prithee, be careful' from Dark Souls.",
+      "availability": "Periodically unavailable when audio is muted."
+    },
+    {
+      "name": "hello",
+      "description": "Play the 'Hello' carving sound from Dark Souls.",
+      "availability": "Periodically unavailable when audio is muted."
+    },
+    {
+      "name": "hole",
+      "description": "Play Gabriel Knight saying 'Christ! That's a big fucking hole' from The Beast Within: A Gabriel Knight Mystery.",
+      "availability": "Periodically unavailable when audio is muted."
+    },
+    {
+      "name": "idk",
+      "description": "Play the cemetery groundskeeper saying 'I don't know what you're talking about' from Gabriel Knight: Sins of the Fathers.",
+      "availability": "Periodically unavailable when audio is muted."
+    },
+    {
+      "name": "kqdeath",
+      "description": "Play the death melody from King's Quest: Quest for the Crown.",
+      "availability": "Periodically unavailable when audio is muted."
+    },
+    {
+      "name": "kqwarning",
+      "description": "Play the warning melody from King's Quest: Quest for the Crown.",
+      "availability": "Periodically unavailable when audio is muted."
+    },
+    {
+      "name": "lemm",
+      "description": "Play a random vocalisation of Lemm from Hollow Knight",
+      "availability": "Periodically unavailable when audio is muted."
+    },
+    {
+      "name": "practice",
+      "description": "Play an excerpt from Allen Iverson's famous 'practice' rant.",
+      "availability": "Periodically unavailable when audio is muted."
+    },
+    {
+      "name": "thought",
+      "description": "Play Grace Nakimura saying 'I had a thought while I was in the dungeon' from The Beast Within: A Gabriel Knight Mystery.",
+      "availability": "Periodically unavailable when audio is muted."
+    },
+    {
+      "name": "verygood",
+      "description": "Play the 'Very good!' carving sound from Dark Souls.",
+      "availability": "Periodically unavailable when audio is muted."
+    },
+    {
+      "name": "playlist",
+      "description": "Spotify link for the stream playlist."
+    },
+    {
+      "name": "song",
+      "description": "Details about the currently playing song."
+    },
+    {
+      "name": "tryday",
+      "description": "Information about Try Day Friday."
+    },
+    {
+      "name": "tryday-votes",
+      "description": "Lists the current recorded votes for games for the next Try Day Friday."
+    }
+  ]
+}

@@ -10,6 +10,6 @@ The site is built with Vue/PrimeVue using TypeScript.
 
 ## Guide
 
-Use 'npm run dev' from the terminal to run the dev server. Connect to the dev server at http://localhost:5173/. The site will hot-reloaded when it detects code changes to the source.
+Use 'npm run dev' from the terminal to run the dev server. Connect to the dev server at http://localhost:5173/. The site will hot-reload when it detects code changes to the source.
 
 Find PrimeVue icon lists here: https://primevue.org/icons/#list.

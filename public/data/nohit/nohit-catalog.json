@@ -171,6 +171,20 @@
       "distancePBClipLink": "https://www.twitch.tv/kyleanderror13/clip/TawdrySuccessfulBorkBrainSlug-N7PW6PLa8fq5KrRo"
     },
     {
+      "id": "hollow-knight-silksong-no-hit-no-damage-stackwin",
+      "game": "Hollow Knight: Silksong",
+      "category": "No Hit No Damage @stackwin%",
+      "status": "Active",
+      "attempts": 3,
+      "hitPB": 3,
+      "sectionCount": 1,
+      "distancePB": 0.44444445,
+      "distancePBSectionIndex": 0,
+      "distancePBSectionName": "hollow-knight-silksong",
+      "distancePBSplitName": "Barbed Bracelet",
+      "distancePBClipLink": "https://www.twitch.tv/kyleanderror13/clip/SingleLachrymoseShingleSquadGoals-hNIGVBJ0R4QKha5D"
+    },
+    {
       "id": "hollow-knight-silksong-no-hit-no-damage-twisted-child",
       "game": "Hollow Knight: Silksong",
       "category": "No Hit No Damage Twisted Child",

@@ -125,7 +125,6 @@ function onNavClick() {
   background: var(--brand-bg);
 }
 
-/* ── Backdrop ──────────────────────────────────────────────── */
 .sidebar-backdrop {
   position: fixed;
   inset: 0;
@@ -144,7 +143,6 @@ function onNavClick() {
   opacity: 0;
 }
 
-/* ── Sidebar ───────────────────────────────────────────────── */
 .sidebar {
   width: 240px;
   min-width: 240px;
@@ -245,7 +243,6 @@ function onNavClick() {
   color: var(--brand-text);
 }
 
-/* ── Nav ───────────────────────────────────────────────────── */
 .sidebar-nav {
   flex: 1;
   display: flex;
@@ -305,7 +302,6 @@ function onNavClick() {
   border-radius: 0 2px 2px 0;
 }
 
-/* ── Footer ────────────────────────────────────────────────── */
 .sidebar-footer {
   padding: 12px 16px;
   border-top: 1px solid var(--brand-border);
@@ -321,7 +317,6 @@ function onNavClick() {
   opacity: 0.5;
 }
 
-/* ── Sidebar slide animation ───────────────────────────────── */
 .sidebar-slide-enter-active,
 .sidebar-slide-leave-active {
   transition: transform 0.28s cubic-bezier(0.4, 0, 0.2, 1);
@@ -332,7 +327,6 @@ function onNavClick() {
   transform: translateX(-100%);
 }
 
-/* ── Mobile top bar ────────────────────────────────────────── */
 .mobile-topbar {
   display: flex;
   align-items: center;
@@ -403,7 +397,6 @@ function onNavClick() {
   letter-spacing: 0.06em;
 }
 
-/* ── Main content ──────────────────────────────────────────── */
 .main-content {
   flex: 1;
   height: 100vh;
@@ -413,7 +406,6 @@ function onNavClick() {
   min-width: 0;
 }
 
-/* ── Page transition ───────────────────────────────────────── */
 .page-enter-active,
 .page-leave-active {
   transition: opacity 0.18s ease, transform 0.18s ease;
