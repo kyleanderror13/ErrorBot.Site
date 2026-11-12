@@ -461,6 +461,17 @@
       "distanceSectionIndex": 0,
       "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Xero"
+    },
+    {
+      "attempt": 99,
+      "date": "2026-11-12T22:28:17.5730957+08:00",
+      "hits": 28,
+      "progress": 0.1666667,
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
+      "distanceSplitName": "Soul Warrior"
     }
   ]
 }
