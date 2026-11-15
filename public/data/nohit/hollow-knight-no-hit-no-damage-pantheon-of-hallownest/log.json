@@ -636,6 +636,122 @@
       "distanceSectionIndex": 0,
       "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Oro & Mato"
+    },
+    {
+      "attempt": 114,
+      "date": "2026-11-15T07:25:22.5572989+08:00",
+      "hits": 32,
+      "progress": 0.1904762,
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
+      "distanceSplitName": "Brooding Mawlek",
+      "clipLink": "https://www.twitch.tv/kyleanderror13/clip/SpookyMoralChinchillaFreakinStinkin-UMpI9fkwWtzViIFs"
+    },
+    {
+      "attempt": 115,
+      "date": "2026-11-15T07:26:27.1117525+08:00",
+      "hits": 1,
+      "progress": 0.04761905,
+      "resetSplitName": "False Knight",
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
+      "distanceSplitName": "False Knight"
+    },
+    {
+      "attempt": 116,
+      "date": "2026-11-15T07:35:46.3990863+08:00",
+      "hits": 3,
+      "progress": 0.2142857,
+      "resetSplitName": "Crystal Guardian",
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
+      "distanceSplitName": "Oro & Mato"
+    },
+    {
+      "attempt": 117,
+      "date": "2026-11-15T08:23:47.0602552+08:00",
+      "hits": 28,
+      "progress": 0.1666667,
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
+      "distanceSplitName": "Soul Warrior"
+    },
+    {
+      "attempt": 118,
+      "date": "2026-11-15T08:28:17.7990606+08:00",
+      "hits": 1,
+      "progress": 0.02380952,
+      "resetSplitName": "Gruz Mother",
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
+      "distanceSplitName": "Gruz Mother"
+    },
+    {
+      "attempt": 119,
+      "date": "2026-11-15T09:20:53.8061315+08:00",
+      "hits": 22,
+      "progress": 0.1666667,
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
+      "distanceSplitName": "Soul Warrior"
+    },
+    {
+      "attempt": 120,
+      "date": "2026-11-15T09:23:38.942594+08:00",
+      "hits": 1,
+      "progress": 0,
+      "resetSplitName": "Vengefly King",
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
+      "distanceSplitName": "Vengefly King"
+    },
+    {
+      "attempt": 121,
+      "date": "2026-11-15T09:27:20.9422633+08:00",
+      "hits": 1,
+      "progress": 0.1190476,
+      "resetSplitName": "Gorb",
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
+      "distanceSplitName": "Gorb"
+    },
+    {
+      "attempt": 122,
+      "date": "2026-11-15T10:21:49.8463534+08:00",
+      "hits": 15,
+      "progress": 0.1666667,
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
+      "distanceSplitName": "Soul Warrior"
+    },
+    {
+      "attempt": 123,
+      "date": "2026-11-15T11:10:11.4819301+08:00",
+      "hits": 19,
+      "progress": 0.1666667,
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
+      "distanceSplitName": "Soul Warrior"
     }
   ]
 }
