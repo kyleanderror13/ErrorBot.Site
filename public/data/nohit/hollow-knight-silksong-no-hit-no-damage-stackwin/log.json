@@ -35,6 +35,81 @@
       "distanceSectionName": "hollow-knight-silksong",
       "distanceSplitName": "Barbed Bracelet",
       "clipLink": "https://www.twitch.tv/kyleanderror13/clip/SingleLachrymoseShingleSquadGoals-hNIGVBJ0R4QKha5D"
+    },
+    {
+      "attempt": 4,
+      "date": "2026-11-19T19:42:53.0293426+08:00",
+      "hits": 1,
+      "progress": 0,
+      "resetSplitName": "Moss Mother",
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
+      "distanceSplitName": "Moss Mother"
+    },
+    {
+      "attempt": 5,
+      "date": "2026-11-19T19:54:44.1911616+08:00",
+      "hits": 3,
+      "progress": 0.05555556,
+      "resetSplitName": "Bell Beast",
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
+      "distanceSplitName": "Bell Beast"
+    },
+    {
+      "attempt": 6,
+      "date": "2026-11-20T06:45:36.0119054+08:00",
+      "hits": 1,
+      "progress": 0.05555556,
+      "resetSplitName": "Bell Beast",
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
+      "distanceSplitName": "Bell Beast",
+      "clipLink": "https://www.twitch.tv/kyleanderror13/clip/BitterGloriousGnatDancingBaby-x7VC38x63TjlvA0v"
+    },
+    {
+      "attempt": 7,
+      "date": "2026-11-20T09:05:25.984419+08:00",
+      "hits": 6,
+      "progress": 0.5,
+      "pb": false,
+      "distance": true,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
+      "distanceSplitName": "Last Judge",
+      "clipLink": "https://www.twitch.tv/kyleanderror13/clip/DependableConfidentGalagoMoreCowbell-4uFtPLxhwzRnR96C"
+    },
+    {
+      "attempt": 8,
+      "date": "2026-11-20T09:36:18.5141335+08:00",
+      "hits": 2,
+      "progress": 0.1666667,
+      "resetSplitName": "Lace (Deep Docks)",
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
+      "distanceSplitName": "Lace (Deep Docks)",
+      "clipLink": "https://www.twitch.tv/kyleanderror13/clip/FuriousSparklyPartridgeStoneLightning-T_PdFXyFYLZhMWun"
+    },
+    {
+      "attempt": 9,
+      "date": "2026-11-20T09:49:14.0680027+08:00",
+      "hits": 1,
+      "progress": 0.1111111,
+      "resetSplitName": "Swift Step",
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
+      "distanceSplitName": "Swift Step",
+      "clipLink": "https://www.twitch.tv/kyleanderror13/clip/ObeseDeadButterOSfrog-l2R0M8KEHm7X3q3J"
     }
   ]
 }

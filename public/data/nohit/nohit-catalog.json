@@ -113,7 +113,7 @@
       "game": "Hollow Knight",
       "category": "No Hit No Damage Pantheon of Hallownest",
       "status": "Active",
-      "attempts": 125,
+      "attempts": 126,
       "hitPB": 10,
       "sectionCount": 1,
       "distancePB": 0.6666667,
@@ -175,14 +175,14 @@
       "game": "Hollow Knight: Silksong",
       "category": "No Hit No Damage @stackwin%",
       "status": "Active",
-      "attempts": 3,
+      "attempts": 9,
       "hitPB": 3,
       "sectionCount": 1,
-      "distancePB": 0.44444445,
+      "distancePB": 0.5,
       "distancePBSectionIndex": 0,
       "distancePBSectionName": "hollow-knight-silksong",
-      "distancePBSplitName": "Barbed Bracelet",
-      "distancePBClipLink": "https://www.twitch.tv/kyleanderror13/clip/SingleLachrymoseShingleSquadGoals-hNIGVBJ0R4QKha5D"
+      "distancePBSplitName": "Last Judge",
+      "distancePBClipLink": "https://www.twitch.tv/kyleanderror13/clip/DependableConfidentGalagoMoreCowbell-4uFtPLxhwzRnR96C"
     },
     {
       "id": "hollow-knight-silksong-no-hit-no-damage-twisted-child",
