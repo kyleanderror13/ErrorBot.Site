@@ -110,6 +110,57 @@
       "distanceSectionName": "hollow-knight-silksong",
       "distanceSplitName": "Swift Step",
       "clipLink": "https://www.twitch.tv/kyleanderror13/clip/ObeseDeadButterOSfrog-l2R0M8KEHm7X3q3J"
+    },
+    {
+      "attempt": 10,
+      "date": "2026-11-25T06:23:05.9425243+08:00",
+      "hits": 1,
+      "progress": 0,
+      "resetSplitName": "Moss Mother",
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
+      "distanceSplitName": "Moss Mother",
+      "clipLink": "https://www.twitch.tv/kyleanderror13/clip/CoyInterestingSangGivePLZ-fMTwc08P4oxRlGPD"
+    },
+    {
+      "attempt": 11,
+      "date": "2026-11-25T06:43:20.398542+08:00",
+      "hits": 1,
+      "progress": 0.1666667,
+      "resetSplitName": "Lace (Deep Docks)",
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
+      "distanceSplitName": "Lace (Deep Docks)",
+      "clipLink": "https://www.twitch.tv/kyleanderror13/clip/NurturingCrepuscularBatImGlitch-JvPGHzys2mCMHDwS"
+    },
+    {
+      "attempt": 12,
+      "date": "2026-11-25T06:47:12.5319206+08:00",
+      "hits": 1,
+      "progress": 0,
+      "resetSplitName": "Moss Mother",
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
+      "distanceSplitName": "Moss Mother",
+      "clipLink": "https://www.twitch.tv/kyleanderror13/clip/GeniusEnchantingEelThunBeast-ey0InWLkx7Qd-nOP"
+    },
+    {
+      "attempt": 13,
+      "date": "2026-11-25T09:07:42.9406466+08:00",
+      "hits": 3,
+      "progress": 0.5555556,
+      "pb": false,
+      "distance": true,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight-silksong",
+      "distanceSplitName": "Cogwork Dancers",
+      "clipLink": "https://www.twitch.tv/kyleanderror13/clip/PerfectFurtivePorcupineTBTacoLeft-c2BBX-PtcTZmhuBF"
     }
   ]
 }
