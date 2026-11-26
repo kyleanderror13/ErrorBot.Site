@@ -901,6 +901,76 @@
       "distanceSectionName": "hollow-knight",
       "distanceSplitName": "Oblobbles",
       "clipLink": "https://www.twitch.tv/kyleanderror13/clip/WimpyEncouragingYamOMGScoots-XFg2VuCqKRVnAoLY"
+    },
+    {
+      "attempt": 136,
+      "date": "2026-11-25T17:00:28.3125108+08:00",
+      "hits": 24,
+      "progress": 0.1904762,
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
+      "distanceSplitName": "Brooding Mawlek"
+    },
+    {
+      "attempt": 137,
+      "date": "2026-11-25T19:29:30.8144307+08:00",
+      "hits": 1,
+      "progress": 0.1190476,
+      "resetSplitName": "Gorb",
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
+      "distanceSplitName": "Gorb"
+    },
+    {
+      "attempt": 138,
+      "date": "2026-11-25T19:31:28.7477434+08:00",
+      "hits": 1,
+      "progress": 0.04761905,
+      "resetSplitName": "False Knight",
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
+      "distanceSplitName": "False Knight"
+    },
+    {
+      "attempt": 139,
+      "date": "2026-11-25T19:32:09.3953709+08:00",
+      "hits": 1,
+      "progress": 0,
+      "resetSplitName": "Vengefly King",
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
+      "distanceSplitName": "Vengefly King"
+    },
+    {
+      "attempt": 140,
+      "date": "2026-11-25T20:16:18.6766313+08:00",
+      "hits": 18,
+      "progress": 0.2142857,
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
+      "distanceSplitName": "Oro & Mato"
+    },
+    {
+      "attempt": 141,
+      "date": "2026-11-26T12:15:19.7675563+08:00",
+      "hits": 13,
+      "progress": 0.1904762,
+      "resetSplitName": "Absolute Radiance",
+      "pb": false,
+      "distance": false,
+      "distanceSectionIndex": 0,
+      "distanceSectionName": "hollow-knight",
+      "distanceSplitName": "Brooding Mawlek"
     }
   ]
 }
