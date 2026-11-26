@@ -495,7 +495,7 @@
     {
       "sectionName": "hollow-knight",
       "name": "Absolute Radiance",
-      "resets": 1,
+      "resets": 0,
       "successRate": 0.05555556,
       "recentSuccessRate": 0,
       "averageHits": 5.111111,
